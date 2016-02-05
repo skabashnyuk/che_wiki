@@ -6,7 +6,7 @@ Proposed repositories structure
 4. che-lib 
   - swagger  https://github.com/codenvy/che-swagger
   - che-websocket-terminal https://github.com/codenvy/che-websocket-terminal
-  - websocket https://github.com/codenvy/che-websocket-terminal
+  - websocket https://github.com/codenvy/websocket
   - pty https://github.com/codenvy/pty
 5. che
   - core https://github.com/codenvy/che-core
