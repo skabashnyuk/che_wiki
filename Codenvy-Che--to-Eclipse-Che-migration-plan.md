@@ -14,3 +14,9 @@ Proposed repositories structure
   - dashboard https://github.com/codenvy/che-dashboard
   - tutorials https://github.com/codenvy/che-tutorials
   - assembly https://github.com/codenvy/che
+
+TODO
+* Approve source CQ https://dev.eclipse.org/ipzilla/show_bug.cgi?id=9458
+* Prepare https://github.com/eclipse?utf8=%E2%9C%93&query=che repositories for migration
+* Organize migration from https://github.com/codenvy/che to https://github.com/eclipse/che
+* Prepare changes in docs, tutorials and videos.
