@@ -12,7 +12,6 @@ Proposed repositories structure
   - core https://github.com/codenvy/che-core
   - plugins https://github.com/codenvy/che-plugins
   - dashboard https://github.com/codenvy/che-dashboard
-  - tutorials https://github.com/codenvy/che-tutorials
   - assembly https://github.com/codenvy/che
 
 TODO
