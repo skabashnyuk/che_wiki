@@ -1,5 +1,5 @@
 # Current and future releases
-## 0.4.0
+## 4.0.0
 
 _Primary Goals_
 > * Implementation of a workspace server which provide developer workspaces composed of projects and environments. Environments are composed of machines powered by Docker. Workspaces configuration are persisted and portable.
@@ -46,25 +46,19 @@ _Primary Goals_
 * Set of samples projects
 
 
-## 0.4.1
+## 4.1.0
 
 _Primary Goals_
 > * Better stability
 
-**Others**
-* Refactoring workspace environment model
-* API to copy files between machines
-* Display name of currently used branch in editor
 
-##0.4.2
-
+## 4.2.0
 _Primary Goals_
 > * Better stability
+> * SVN plug-in
 > * Maven plug-in
 > * New Java features
-> * Strutural refactoring
-> * Workspace portability improvements
-> * Advanced Consoles panel
+> * UX improvements on dashboard
 
 **Maven plug-in**
 * Resolving modules for multi-modules projects
@@ -73,6 +67,20 @@ _Primary Goals_
 * Improve classpath building for Maven multi-module projects
 * Ability to display effective POM
 * Resolve imports with quick fix feature
+
+**Others**
+* Refactoring workspace environment model and project type
+* API to copy files between machines
+* Display name of currently used branch in editor
+
+##4.3.0
+
+_Primary Goals_
+> * Better stability
+> * New Java features
+> * Strutural refactoring
+> * Workspace portability improvements
+> * Advanced Consoles panel
 
 **Structural refactoring**
 * Plug-ins to be splitted into two jars: one for the client, one for the server
