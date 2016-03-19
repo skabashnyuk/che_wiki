@@ -1,4 +1,3 @@
-# Current and future releases
 ## 4.0.0
 
 _Primary Goals_
