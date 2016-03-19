@@ -49,16 +49,8 @@ _Primary Goals_
 ## 4.1.0
 
 _Primary Goals_
-> * Better stability
-
-
-## 4.2.0
-_Primary Goals_
-> * Better stability
-> * SVN plug-in
-> * Maven plug-in
-> * New Java features
-> * UX improvements on dashboard
+> * Provide a new maven plug-in that has an internal model of the entire maven configuration structure. This enables advanced capabilities around classpath construction and global POM definitions.
+> * Remote device connectivity with executing commands on remote targets connected by SSH.
 
 **Maven plug-in**
 * Resolving modules for multi-modules projects
@@ -68,22 +60,27 @@ _Primary Goals_
 * Ability to display effective POM
 * Resolve imports with quick fix feature
 
+
+## 4.2.0
+_Primary Goals_
+> * Subversion plug-in
+> * New Java features
+> * UX improvements on dashboard
+
 **Others**
 * Refactoring workspace environment model and project type
 * API to copy files between machines
 * Display name of currently used branch in editor
 
 ##4.3.0
-
 _Primary Goals_
-> * Better stability
 > * New Java features
 > * Strutural refactoring
 > * Workspace portability improvements
 > * Advanced Consoles panel
 
 **Structural refactoring**
-* Plug-ins to be splitted into two jars: one for the client, one for the server
+* Plug-ins to be split into two jars: one for the client, one for the server
 * Split API between Che Workspace Master APIs, Che Workspace Agent APIs
 
 **New Java features**
@@ -110,7 +107,3 @@ _Primary Goals_
 * Support packages for Che to help the user to be properly setup
 * Associate commands with stacks
 * Shell syntax highlighting
-
-
-
-# Past releases
