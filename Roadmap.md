@@ -1,3 +1,5 @@
+For past releases, see the [Changelog](https://github.com/eclipse/che/blob/master/CHANGELOG.md).
+
 ## 4.0.0
 
 _Primary Goals_
