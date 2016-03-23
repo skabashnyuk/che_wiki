@@ -1,4 +1,4 @@
-Here are the notes of product meeting March 22th, 2016.
+Here are the notes of product meeting March 22nd, 2016.
 
 ######TOPICS DISCUSSED:
 
