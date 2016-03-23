@@ -12,7 +12,7 @@ Here are the notes of product meeting March 22nd, 2016.
 - Document how to document the test issue that may be needed for certain business cases (Brad, Roman, Gennady)
 
 
-#######IMPORTANT POINTS ON TOPICS DISCUSSED:
+######IMPORTANT POINTS ON TOPICS DISCUSSED:
 
 **1. Status on 4.0**
 
