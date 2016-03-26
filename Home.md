@@ -1,4 +1,5 @@
 [Roadmap](https://github.com/eclipse/che/wiki/Roadmap)  
 [Roadmap Meeting Schedule](https://github.com/eclipse/che/wiki/Roadmap-Meeting-Schedule)  
+[Minutes: March 01, 2016](https://github.com/eclipse/che/wiki/Meeting-Minutes-03.01.2016)  
 [Minutes: March 15, 2016](https://github.com/eclipse/che/wiki/Meeting-Minutes---03.15.2016)  
 [Minutes: March 22, 2016](https://github.com/eclipse/che/wiki/Meeting-Minutes-03.22.2016)
