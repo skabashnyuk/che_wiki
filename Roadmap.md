@@ -51,60 +51,34 @@ _Primary Goals_
 
 _Primary Goals_
 > * Provide a new maven plug-in that has an internal model of the entire maven configuration structure. This enables advanced capabilities around classpath construction and global POM definitions.
-> * Remote device connectivity with executing commands on remote targets connected by SSH.
+> * Remote machines with command execution on remote targets.
+> * C/C++ Plugin, templates, and all-in-one stack
+> * Add debugger support for gdbserver, which adds over 15 languages including Go, C/C++
 
 **Maven plug-in**
 * Resolving modules for multi-modules projects
 * resolve dependencies and available source jars
 * Custom Maven command
 * Improve classpath building for Maven multi-module projects
-* Ability to display effective POM
+* Display effective POM
 * Resolve imports with quick fix feature
 
+**Remote machines**
+* New SSH machine type
+* Add "Edit targets..." concept to machine drop down
+* Display multiple machines in processes panel
+* Execute commands on remote machines with output streaming
 
 ## 4.2.0
 _Primary Goals_
 > * Subversion plug-in
 > * New Java features
 > * UX improvements on dashboard
-
-**Others**
-* Refactoring workspace environment model and project type
-* API to copy files between machines
-* Display name of currently used branch in editor
+> * Plugin resource center + development tutorials
 
 ##4.3.0
 _Primary Goals_
-> * New Java features
-> * Strutural refactoring
-> * Workspace portability improvements
-> * Advanced Consoles panel
-
-**Structural refactoring**
-* Plug-ins to be split into two jars: one for the client, one for the server
-* Split API between Che Workspace Master APIs, Che Workspace Agent APIs
-
-**New Java features**
-* Add type hierarchy view for Java
-* Ability to setup format settings for Java code
-
-**Workspace portability improvements**
-* Workspace export with image snapshot
-* Management of workspace snapshot in dashboard
-* Workspace clone
-* Save environment snapshot
-* Ability to copy a workspace on cloud
-* Restore workspace in latest state
-
-**Advanced Consoles panel**
-* Option to wrap-lines in outputs
-* Syntax coloration in outputs
-* Improved scrolling experience
-* Ability to open a console in another browser tab
-* Option to re-run a command
-
-**Others**
-* Improve SSH experience
-* Support packages for Che to help the user to be properly setup
-* Associate commands with stacks
-* Shell syntax highlighting
+> * Workspace portability
+> * Bring Codenvy's permission + security APIs into Che
+> * Bring Codenvy's factory APIs into Che
+> * Console panel improvements for usability
