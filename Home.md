@@ -5,5 +5,5 @@
 [Minutes: March 01, 2016](https://github.com/eclipse/che/wiki/Meeting-Minutes-03.01.2016)  
 [Minutes: March 15, 2016](https://github.com/eclipse/che/wiki/Meeting-Minutes---03.15.2016)  
 [Minutes: March 22, 2016](https://github.com/eclipse/che/wiki/Meeting-Minutes-03.22.2016)  
-[Minutes: March 29, 2016](https://github.com/eclipse/che/wiki/Meeting-Minutes---03.29.2016)
+[Minutes: March 29, 2016](https://github.com/eclipse/che/wiki/Meeting-Minutes---03.29.2016)  
 [Minutes: April 5, 2016](https://github.com/eclipse/che/wiki/Meeting-Minutes-04.05.2016)
