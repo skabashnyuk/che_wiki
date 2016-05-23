@@ -23,15 +23,17 @@ We are missing an important part related to the handling of the permission with 
 Similarly, permissions are going to be applied to the workspace's runtime. This was planned for a second time but appear as very important piece for 4.3
 A separate call will be planned on this topic to decide which action to take. We'll study the impact and the fatest path to get those items done.
 
-- Openshift plug-in not able to build
+- Openshift plug-in not able to build  
 We will have a specific assembly for Openshift
 
-https://jira.codenvycorp.com/browse/CODENVY-491:
+- SVN Plug-in  
+Work completed
 
+- Maven / Java plug-ins  
+Work completed, still fixing some bugs and regressions.
 
-When can we release:
-- beginning on next week - next tuesday would be ideal
-
+- Support of HTTPS  
+Fix bug on accessing the javadoc.
 
 **2. Discuss 4.4 and getting codenvy.com updated with 4.x**
 
