@@ -33,7 +33,7 @@ Target for 4.3.0 is still June 15th.
 - Add documentation about the new factory format introduced with 4.3.0
 - Formatting and Styling for plug-ins resource center
 
-**3. Discuss issue management tools
+**3. Discuss issue management tools**
 - Having discussed about how to handle issues between GitHub and our private JIRA.
 - Main problem is to not expose to the community the complete tracking tools used for the open source project.
 - We have been granted a opensource licence for JIRA.
