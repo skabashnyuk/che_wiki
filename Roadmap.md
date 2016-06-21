@@ -55,37 +55,23 @@ _Primary Goals_
 > * C/C++ Plugin, templates, and all-in-one stack
 > * Add debugger support for gdbserver, which adds over 15 languages including Go, C/C++
 
-**Maven plug-in**
-* Resolving modules for multi-modules projects
-* resolve dependencies and available source jars
-* Custom Maven command
-* Improve classpath building for Maven multi-module projects
-* Display effective POM
-* Resolve imports with quick fix feature
-
-**Remote machines**
-* New SSH machine type
-* Add "Edit targets..." concept to machine drop down
-* Display multiple machines in processes panel
-* Execute commands on remote machines with output streaming
-
 ## 4.2.0
 _Primary Goals_
-* New runtime stacks, templates, and commands for C, C++, Python and Android
-* GDB debugger for C, C++, Python and many other languages
-* Remote development of devices over SSH
-* Workspace auto-snapshot flows
-* New Vagrant-based installer
+> * New runtime stacks, templates, and commands for C, C++, Python and Android
+> * GDB debugger for C, C++, Python and many other languages
+> * Remote development of devices over SSH
+> * Workspace auto-snapshot flows
+> * New Vagrant-based installer
 
 ##4.3.0
 _Primary Goals_
-* New Maven Plug-in, Classpath Configuration and Java Project Type
-* SVN Plug-in
-* UX Improvements: Nofifications, Debugger, Dashboard and Consoles
-* Editor Personalization
-* Optimized Local Workspace Snapshots
-* Improved Vagrant Installer
-* Generic Debugger API
+> * New Maven Plug-in, Classpath Configuration and Java Project Type
+> * SVN Plug-in
+> * UX Improvements: Nofifications, Debugger, Dashboard and Consoles
+> * Editor Personalization
+> * Optimized Local Workspace Snapshots
+> * Improved Vagrant Installer
+> * Generic Debugger API
 
 ##4.4.0
 _Primary Goals_
