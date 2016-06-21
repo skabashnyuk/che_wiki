@@ -71,14 +71,30 @@ _Primary Goals_
 
 ## 4.2.0
 _Primary Goals_
-> * Subversion plug-in
-> * New Java features
-> * UX improvements on dashboard
-> * Plugin resource center + development tutorials
+* New runtime stacks, templates, and commands for C, C++, Python and Android
+* GDB debugger for C, C++, Python and many other languages
+* Remote development of devices over SSH
+* Workspace auto-snapshot flows
+* New Vagrant-based installer
 
 ##4.3.0
 _Primary Goals_
-> * Workspace portability
-> * Bring Codenvy's permission + security APIs into Che
-> * Bring Codenvy's factory APIs into Che
-> * Console panel improvements for usability
+* New Maven Plug-in, Classpath Configuration and Java Project Type
+* SVN Plug-in
+* UX Improvements: Nofifications, Debugger, Dashboard and Consoles
+* Editor Personalization
+* Optimized Local Workspace Snapshots
+* Improved Vagrant Installer
+* Generic Debugger API
+
+##4.4.0
+_Primary Goals_
+> * Ability to connect and use private Docker registry
+> * New left navigation bar for Dashboard and IDE
+
+##4.5.0
+_Primary Goals_
+> * Ability to add / remove / update stacks + templates from within Dashboard
+> * Ability for user to change RAM for workspace within Dashboard
+> * Usability cleanup of the tables in Dashboard 
+> * (maybe) simple UI improvements to the IDE to soften some of the colors and reduce the black lines
