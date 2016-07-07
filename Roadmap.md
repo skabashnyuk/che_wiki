@@ -1,4 +1,6 @@
-For past releases, see the [Changelog](https://github.com/eclipse/che/blob/master/CHANGELOG.md).
+TODO: Move these items into the Iteration plans.
+TODO: Add in known 3-9 month roadmap objectives.
+TODO: Map all roadmap items to appropriate epic in issue management.
 
 ## 4.0.0
 
