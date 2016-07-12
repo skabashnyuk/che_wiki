@@ -2,7 +2,7 @@ This roadmap acts as a 6-9 month forward-looking expectation of what we are work
 
 ## Users: Simplify the Getting Started Experience
 Eclipse Che should install anywhere and be easy to install. It should also be possible for you to get a project-typed workspace with a custom set of commands in a natural, minimal sequence. Eclipse Che should become context-aware and auto-generate workspaces with type and code information based upon the contents of directory or repository.
-- [ ] Make docker the default execution for Che. #1683
+- [ ] Make docker the default execution for Che. [#1683](#1683)
 - [ ] "Code in Che" from any git repository
 - [ ] Simplify dashboard navigation to eliminate unnecessary clicks
 - [ ] Move dashboard navigation to list & form layouts
