@@ -18,7 +18,7 @@ Eclipse Che should be easy to customize. Che has many customization points inclu
 - [ ] Localhost machines, to create workspaces without Docker on the host
 - [ ] Simpler Che-in-Che scenarios (build is great, but need to run with GWT super dev mode)
 
-## Enterprises: Make Che Production Grade
+## Enterprises: Expand Che Execution Scenarios
 Che needs to run in a variety of environments and support large-scale workspace consumption in an elastic way. There needs to be a clear, prescriptive set of controls for admins who adminster Che systems. We will enable multi-node elasticity in Che, and we will defer multi-user, multi-tenant, and organizational implementations to commercial vendors building more advanced versions of Che.
 - [ ] Allow off-the-shelf docker images to work within Che
 - [ ] Start a new workspace with a Docker compose definition
