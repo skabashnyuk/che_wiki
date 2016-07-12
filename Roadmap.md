@@ -6,10 +6,9 @@ Eclipse Che should install anywhere and be easy to install. It should also be po
 - [ ] "Code in Che" from any git repository
 - [ ] Simplify dashboard navigation to eliminate unnecessary clicks
 - [ ] Move dashboard navigation to list & form layouts
-- [ ] Productize support for programming language servers
 - [ ] Support `/namespace/workspace` URL access
 - [ ] Make it possible to add / remove servers without customizing a Dockerfile
-- [ ] Dynamic file watchers with events to auto-update IDEs when workspace files are edited out-of-band
+- [ ] Dynamic file watchers with events to auto-update IDEs when workspace files are edited out of band
 - [ ] Provide image project type to simplify edit, build, debug of images
 
 ## Customizers: Make Customizations More Approachable
