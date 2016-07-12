@@ -2,12 +2,13 @@ This roadmap acts as a 6-9 month forward-looking expectation of what we are work
 
 ## Users: Simplify the Getting Started Experience
 Eclipse Che should install anywhere and be easy to install. It should also be possible for you to get a project-typed workspace with a custom set of commands in a natural, minimal sequence. Eclipse Che should become context-aware and auto-generate workspaces with type and code information based upon the contents of directory or repository.
-- [ ] Make docker the default execution for Che. [#1683](#1683)
+- [ ] Make docker the default execution for Che. [#1683](http://github.com/eclipse/che/pulls/1683)
 - [ ] "Code in Che" from any git repository
 - [ ] Simplify dashboard navigation to eliminate unnecessary clicks
 - [ ] Move dashboard navigation to list & form layouts
 - [ ] Support `/namespace/workspace` URL access
 
-## Users: 
+## Customizers: Make Customizations More Approachable
+Eclipse Che should be easy to customize. Che has many customization points including stacks, templates, extensions, plugins, assemblies, and commands. Where possible, we should make these customizations happen within Che's dashboard or as a project type within the IDE. For assembly-related items, such as custom stacks, Che should be self-updating and dynamic for the addition and removal of items. For extension-related items, such as the IDE, Che should have a simple way to get started developing plug-ins with incremental builds and, if necessary, super dev modes. The project must also evolve its interfaces to support community projects to create value-added layers within Che such as ecore, EMF, GMF, and multi-cursor editing.
 
 - [ ] Add, edit, and delete templates and stacks from the dashboard
