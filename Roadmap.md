@@ -1,88 +1,13 @@
-TODO: Move these items into the Iteration plans.
-TODO: Add in known 3-9 month roadmap objectives.
-TODO: Map all roadmap items to appropriate epic in issue management.
+This roadmap acts as a 6-9 month forward-looking expectation of what we are working to incorporate into Eclipse Che. This roadmap is thematic tied to our three core audiences: a) users (developers), b) customizers (ISVs), and c) deployers (enterprises / teams). We schedule release milestones on a functionality basis with 2-3 milestones scheduled in advance. The length of a milestone is unknown, but we attempt to keep it less than a month and sometimes as short as 2 weeks. We map the epics implemented from the roadmap into each milestone. The epics and features that roll into a milestone are determined by pull request readiness of the feature at the time a milestone begins. In other words, we only place into a milestone features that are code complete and waiting for master-integration and testing.
 
-## 4.0.0
+## Users: Simplify the Getting Started Experience
+Eclipse Che should install anywhere and be easy to install. It should also be possible for you to get a project-typed workspace with a custom set of commands in a natural, minimal sequence. Eclipse Che should become context-aware and auto-generate workspaces with type and code information based upon the contents of directory or repository.
+- [ ] Make docker the default execution for Che. #1683
+- [ ] "Code in Che" from any git repository
+- [ ] Simplify dashboard navigation to eliminate unnecessary clicks
+- [ ] Move dashboard navigation to list & form layouts
+- [ ] Support `/namespace/workspace` URL access
 
-_Primary Goals_
-> * Implementation of a workspace server which provide developer workspaces composed of projects and environments. Environments are composed of machines powered by Docker. Workspaces configuration are persisted and portable.
+## Users: 
 
-> * New cloud IDE with advanced Java Features and new UI/UX.
-
-> * New user dashboard to manage user's workspaces.
-
-**New Workspace Server**
-* Environments with Docker-based machine
-* Projects injection
-* Workspace lifecycle management
-* RESTful access
-* SSH/Terminal access
-* Portability with shared access
-* Commands injection support
-
-**Cloud IDE**
-* Use Orion as text editor
-* Remote Java Debugger
-* Devops perspective
-* New console and terminal panel
-* Full text search
-* Git diff viewer
-
-**Java Features**
-* Java 8 support
-* Use JDT for Java projects
-* Refactoring: class, packages, attributes, methods
-* Navigation: class structure, jump to definition
-* Multi-module support
-* Move classes, packages
-* Quick fixes
-* Code completion
-* Quick documentation
-
-**Dashboard**
-* Manage workspaces
-* Manage projects
-* Guided flow to create projects and workspaces
-
-**Others**
-* Set of ready-to-use stacks
-* Set of samples projects
-
-
-## 4.1.0
-
-_Primary Goals_
-> * Provide a new maven plug-in that has an internal model of the entire maven configuration structure. This enables advanced capabilities around classpath construction and global POM definitions.
-> * Remote machines with command execution on remote targets.
-> * C/C++ Plugin, templates, and all-in-one stack
-> * Add debugger support for gdbserver, which adds over 15 languages including Go, C/C++
-
-## 4.2.0
-_Primary Goals_
-> * New runtime stacks, templates, and commands for C, C++, Python and Android
-> * GDB debugger for C, C++, Python and many other languages
-> * Remote development of devices over SSH
-> * Workspace auto-snapshot flows
-> * New Vagrant-based installer
-
-##4.3.0
-_Primary Goals_
-> * New Maven Plug-in, Classpath Configuration and Java Project Type
-> * SVN Plug-in
-> * UX Improvements: Nofifications, Debugger, Dashboard and Consoles
-> * Editor Personalization
-> * Optimized Local Workspace Snapshots
-> * Improved Vagrant Installer
-> * Generic Debugger API
-
-##4.4.0
-_Primary Goals_
-> * Ability to connect and use private Docker registry
-> * New left navigation bar for Dashboard and IDE
-
-##4.5.0
-_Primary Goals_
-> * Ability to add / remove / update stacks + templates from within Dashboard
-> * Ability for user to change RAM for workspace within Dashboard
-> * Usability cleanup of the tables in Dashboard 
-> * (maybe) simple UI improvements to the IDE to soften some of the colors and reduce the black lines
+- [ ] Add, edit, and delete templates and stacks from the dashboard
