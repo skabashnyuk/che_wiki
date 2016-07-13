@@ -14,12 +14,28 @@ The work done in a milestone is captured in the milestone plan (see [Milestone P
 Within any given time period we work on two milestones: the immediate upcoming milestone and the one that follows it.
 
 We handle planning for Eclipse Che in two ways:
-1. For the immediate upcoming milestone, we will only accept features who have a pending pull request which has been tested and ready for merge. This will allow the entirety of the iteration to be dedicated to hardening the system and resolving any infrastructure or regressions that appear. Che maintainers may optionally accept pull requests that are initiated during a milestone if they are deemed to have a low risk to destabilizing the code base for the release.
+*  For the immediate upcoming milestone, we will only accept features who have a pending pull request which has been tested and ready for merge. This will allow the entirety of the iteration to be dedicated to hardening the system and resolving any infrastructure or regressions that appear. Che maintainers may optionally accept pull requests that are initiated during a milestone if they are deemed to have a low risk to destabilizing the code base for the release.
 
-2. For the milestone after the upcoming milestone, we prioritize features to implement and bugs to fix to be worked on during the current milestone so that it can have a set of pending pull requests ready when the following milestone starts. 
+* For the milestone after the upcoming milestone, we prioritize features to implement and bugs to fix to be worked on during the current milestone so that it can have a set of pending pull requests ready when the following milestone starts. 
 
 One week before the start of a milestone, we hold a pre-planning meeting where we define the milestone plans for milestone X and X+1. Bugs and features that are targeted for each milestone are assigned to the milestone for the iteration.
 
 TODO: Document how we include bugs, features into a milestone.
 TODO: Add any specific tags used in the tracking
 TODO: Provide "definition of done" check list
+TODO: Provide location for pre-planning meeting
+
+# Triage
+Bugs and features will be assigned a milestone and within a milestone they will be assigned a priority. The priority dictates the order in which issues should be addressed. A critical bug (something that we think is critical for the milestone) is to be addressed before the other bugs.
+
+To find out when a bug fix will be available in an update, please check the milestone that is assigned to the issue.
+
+# Weekly
+Each week we will manage work items, cross off completed features and triaging bugs. At the end of the milestone we strike for 0 bugs and 0 issues assigned to the milestone. Some bugs and features will then either be postponed to later milestones, moved to the back of the backlog, or a choice will be taken to delay making the release until all issues are resolved.
+
+# Release Readiness
+Since the upcoming milestone generally does not have net new features and is primarily concerned with stabilization, we focus our testing on the test plans provided in the milestone plans. We then will fix the critical bugs for that milestone.  During this cycle, we make builds available nightly using our Docker image `codenvy/che:nightly` or by downloading a [nightly ZIP build](https://install.codenvycorp.com/che/).
+
+When all of the critical bugs have been resolved, we tag the release and produce a final stable build. Before we publish the stable release, we manually execute the smoke test on all supported platforms.
+
+TODO: Roman to document the smoke test execution plan.
