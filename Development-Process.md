@@ -20,15 +20,17 @@ We handle planning for Eclipse Che in two ways:
 
 One week before the start of a milestone, we hold a pre-planning meeting where we define the milestone plans for milestone X and X+1. Bugs and features that are targeted for each milestone are assigned to the milestone for the iteration.
 
-TODO: Document how we include bugs, features into a milestone.
-TODO: Add any specific tags used in the tracking
-TODO: Provide "definition of done" check list
-TODO: Provide location for pre-planning meeting
+TODO: Document how we include bugs, features into a milestone.  
+TODO: Add any specific tags used in the tracking.   
+TODO: Provide "definition of done" check list.   
+TODO: Provide location for pre-planning meeting.  
 
 # Triage
 Bugs and features will be assigned a milestone and within a milestone they will be assigned a priority. The priority dictates the order in which issues should be addressed. A critical bug (something that we think is critical for the milestone) is to be addressed before the other bugs.
 
 To find out when a bug fix will be available in an update, please check the milestone that is assigned to the issue.
+
+TODO: Provide a best practices page around issue tracking
 
 # Weekly
 Each week we will manage work items, cross off completed features and triaging bugs. At the end of the milestone we strike for 0 bugs and 0 issues assigned to the milestone. Some bugs and features will then either be postponed to later milestones, moved to the back of the backlog, or a choice will be taken to delay making the release until all issues are resolved.
