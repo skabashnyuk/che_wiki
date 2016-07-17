@@ -1,15 +1,5 @@
 The best way to understand how a project works or to debug an issue is to get the source, built it, and run it locally. We document the best practices for developing improvements to the product. Eclipse Che has three major subsystems: the Che server, the agents running within a workspace, and the user dashboard (a JavaScript app). The workflow for each can be slightly different.
 
-### Incremental Build
-### Errors and Warnings
-### Validate Your Changes
-### Debugging
-### Unit Testing
-### Linting
-### Branching
-### Pull Requests
-### Etiquette
-
 ## Build and Run From Source
 ### Dependencies
 * Docker 1.8+
@@ -69,7 +59,6 @@ To build the core:
 cd che/core
 
 # Windows: maven-patch-plugin does not work, so skip tests when building:
-# See: https://maven.apache.org/plugins/maven-patch-plugin/faq.html#Why_doesnt_this_work_on_Windows
 mvn -DskipTests=true -Dfindbugs.skip=true -Dskip-validate-sources clean install
 ```
 
@@ -107,43 +96,52 @@ docker run -it --rm --name build-che
 # For Windows, replace $PWD with Che source code directory.
 ```
 
-### Repositories
-These repositories are for the core project hosted at `http://github.com/eclipse`.
+## Incremental Build
+## Errors and Warnings
+## Validate Your Changes
+## Debugging
+## Unit Testing
+## Linting
+## Branching
+## Pull Requests
+## Etiquette
+
+### Modules
+Our repository is broken in a variety of independently buildable submodules.
 ```
 /che
-/che/assembly                                             # Generates binary assemblies of Che
-/che/assembly/assembly-main                               # Final packaging phase
-/che/assembly/assembly-ide-war                            # Creates the IDE.war from plug-ins & core
-/che/assembly/assembly-machine-war                        # Creates the agent WAR from plug-ins & core
-/che/assembly/assembly-machine-server                     # Creates the agent server that goes into ws
-/che/core                                                 # Libraries shared among server, agents, and plugins
-/che/dashboard                                            # AngularJS app for managing Che
-/che/plugins                                              # IDE & agent plug-ins
-/che/wsmaster                                             # Libraries used by the Che server
-/che/wsagent                                              # Libraries used by agents installed into workspaces
+/che/assembly                             # Generates binary assemblies of Che
+/che/assembly/assembly-main               # Final packaging phase
+/che/assembly/assembly-ide-war            # Creates the IDE.war from plug-ins & core
+/che/assembly/assembly-machine-war        # Creates the agent WAR from plug-ins & core
+/che/assembly/assembly-machine-server     # Creates the agent server that goes into ws
+/che/core                                 # Libraries shared among server, agents, and plugins
+/che/dashboard                            # JavaScript app user management
+/che/dockerfiles                          # Various images for building and running Che
+/che/plugins                              # IDE & agent plug-ins
+/che/wsmaster                             # Libraries used by the Che server
+/che/wsagent                              # Libraries used by agents installed into workspaces
+```
 
-/che-lib                                                  # Forked dependencies that require mods
-/che-lib/swagger
-/che-lib/terminal
-/che-lib/websocket
-/che-lib/pty
-/che-lib/che-tomcat8-slf4j-logback
-
-# /che and /che-lib depend upon /che-dependencies
-/che-dependencies                                          # Maven dependencies used by che
-/che-dev                                                   # Code style and license header
-
-# /che-dependencies and /che-dev depend upon /che-parent
-/che-parent                                                # Maven plugins and profiles
+### Repositories
+Some dependencies are managed in separate repositories as part of the `http://github.com/eclipse` organization. These dependencies are forks of other important projects.
+/che-lib                                  # Forked dependencies that require mods
+/che-lib/swagger                          # Embeded API configuration
+/che-lib/terminal                         # Our embedded Web terminal
+/che-lib/websocket                        # For comms between workspaces and browsers
+/che-lib/pty                              
+/che-lib/che-tomcat8-slf4j-logback        # For Che's runtime environment
+/che-dependencies                         # Maven dependencies used by che
+/che-dev                                  # Code style and license header
+/che-parent                               # Maven plugins and profiles
 ```
 
 ### Other Repositories
 These are external repositories that provide additional tools for Eclipse Che.
 ```
-http://github.com/codenvy/Dockerfiles                      # Defines the images referenced by stacks in Che
-http://github.com/codenvy/che-installer                    # Creates the Windows and JAR installer packages
-http://github.com/codenvy/che-tutorials                    # SDK examples and tutorials (needs updating)
-http://github.com/che-samples                              # GitHub organization with sample repos used in Che
-http://git.eclipse.org/c/www.eclipse.org/che.git           # The content for eclipse.org/che Web site
-http://github.com/codenvy/cli                              # Experimental CLI for managing Che workspaces on the CLI
+http://github.com/codenvy/Dockerfiles             # Defines the images referenced by stacks in Che
+http://github.com/codenvy/che-installer           # Windows and JAR installer packages
+http://github.com/codenvy/che-tutorials           # SDK examples and tutorials (needs updating)
+http://git.eclipse.org/c/www.eclipse.org/che.git  # eclipse.org/che Web site
+http://github.com/codenvy/cli                     # Experimental CLI
 ```
