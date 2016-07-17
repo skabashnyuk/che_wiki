@@ -110,21 +110,22 @@ docker run -it --rm --name build-che
 Our repository is broken in a variety of independently buildable submodules.
 ```
 /che
-/che/assembly                             # Generates binary assemblies of Che
-/che/assembly/assembly-main               # Final packaging phase
-/che/assembly/assembly-ide-war            # Creates the IDE.war from plug-ins & core
-/che/assembly/assembly-machine-war        # Creates the agent WAR from plug-ins & core
-/che/assembly/assembly-machine-server     # Creates the agent server that goes into ws
-/che/core                                 # Libraries shared among server, agents, and plugins
-/che/dashboard                            # JavaScript app user management
-/che/dockerfiles                          # Various images for building and running Che
-/che/plugins                              # IDE & agent plug-ins
-/che/wsmaster                             # Libraries used by the Che server
-/che/wsagent                              # Libraries used by agents installed into workspaces
+/che/assembly                          # Generates binary assemblies of Che
+/che/assembly/assembly-main            # Final packaging phase
+/che/assembly/assembly-ide-war         # Creates the IDE.war from plug-ins & core
+/che/assembly/assembly-machine-war     # Creates the agent WAR from plug-ins & core
+/che/assembly/assembly-machine-server  # Creates the agent server that goes into ws
+/che/core                              # Shared libraries for server, agents, and plugins
+/che/dashboard                         # JavaScript app user management
+/che/dockerfiles                       # Various images for building and running Che
+/che/plugins                           # IDE & agent plug-ins
+/che/wsmaster                          # Libraries used by the Che server
+/che/wsagent                           # Libraries used by agents installed into workspaces
 ```
 
 ### Repositories
 Some dependencies are managed in separate repositories as part of the `http://github.com/eclipse` organization. These dependencies are forks of other important projects.
+```
 /che-lib                                  # Forked dependencies that require mods
 /che-lib/swagger                          # Embeded API configuration
 /che-lib/terminal                         # Our embedded Web terminal
