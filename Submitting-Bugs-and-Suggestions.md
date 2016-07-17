@@ -23,4 +23,4 @@ The more information you can provide, the more likley someone will be successful
 
 Do not feel bad if we cannot reproduce the issue and ask for more information.
 
-Finally, this is [our issue tracking]() workflow that describes what happens once you submit an issue.
+Finally, this is [our issue tracking](https://github.com/eclipse/che/wiki/Issue-Tracking) workflow that describes what happens once you submit an issue.
