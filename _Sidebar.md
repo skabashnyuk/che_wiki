@@ -6,4 +6,4 @@
 * Release Process
 
 **Contributing**
-* [How to Contribute]()
+* [How to Contribute](https://github.com/eclipse/che/wiki/How-To-Contribute)
