@@ -120,7 +120,7 @@ Our repository is broken in a variety of independently buildable submodules.
 /che/dockerfiles                       # Various images for building and running Che
 /che/plugins                           # IDE & agent plug-ins
 /che/wsmaster                          # Libraries used by the Che server
-/che/wsagent                           # Libraries used by agents installed into workspaces
+/che/wsagent                           # Libraries used by workspace agents
 ```
 
 ### Repositories
@@ -140,9 +140,9 @@ Some dependencies are managed in separate repositories as part of the `http://gi
 ### Other Repositories
 These are external repositories that provide additional tools for Eclipse Che.
 ```
-http://github.com/codenvy/Dockerfiles             # Defines the images referenced by stacks in Che
-http://github.com/codenvy/che-installer           # Windows and JAR installer packages
-http://github.com/codenvy/che-tutorials           # SDK examples and tutorials (needs updating)
+http://github.com/codenvy/Dockerfiles             # Defines recipes used by stacks
+http://github.com/codenvy/che-installer           # Windows and JAR installers
+http://github.com/codenvy/che-tutorials           # SDK examples and tutorials
 http://git.eclipse.org/c/www.eclipse.org/che.git  # eclipse.org/che Web site
 http://github.com/codenvy/cli                     # Experimental CLI
 ```
