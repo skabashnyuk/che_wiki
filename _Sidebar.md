@@ -7,3 +7,4 @@
 
 **Contributing**
 * [How to Contribute](https://github.com/eclipse/che/wiki/How-To-Contribute)
+* [Contributor License Agreement](https://github.com/eclipse/che/wiki/Contributor-License-Agreement)
