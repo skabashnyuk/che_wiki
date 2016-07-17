@@ -10,5 +10,5 @@
 * [How to Contribute](https://github.com/eclipse/che/wiki/How-To-Contribute)
 * [Submitting Bugs and Suggestions](https://github.com/eclipse/che/wiki/Submitting-Bugs-and-Suggestions)
 * [Development Workflow](https://github.com/eclipse/che/wiki/Development-Workflow)
-* [Coding Guidelines]()
+* [Coding Guidelines](https://github.com/eclipse/che/wiki/Coding-Guidelines)
 * [Contributor License Agreement](https://github.com/eclipse/che/wiki/Contributor-License-Agreement)
