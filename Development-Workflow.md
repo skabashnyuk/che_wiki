@@ -1,0 +1,10 @@
+- Build and Run From Source
+- Incremental Build
+- Erros and Warnings
+- Validate Your Changes
+- Debugging
+- Unit Testing
+- Linting
+- Branching
+- Pull Requests
+- Etiquette
