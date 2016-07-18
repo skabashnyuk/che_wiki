@@ -40,11 +40,11 @@ We distribute Eclipse Che as a Docker image and this is the preferred way for us
 ```
 ```sh
 # TODO: Instructions on how to build Docker image from source
-docker build -t che-server dockerfiles/che-server/Dockerfile .
+docker build -t che-server -f dockerfiles/che-server/Dockerfile .
 
 # Now configure the che-launcher Docker image to use the Che image
 # TODO: Instruction on how to modify the Dockerfile with right che-server reference
-docker build -t che-launcher dockerfiles/che/Dockerfile .
+docker build -t che-launcher -f dockerfiles/che/Dockerfile .
 
 # Now run Che
 docker run --rm -v /var/run/docker.sock:/var/run/docker.sock che-launcher start 
@@ -87,7 +87,7 @@ docker run -it --rm --name build-che
            -w /home/user/che-build 
            codenvy/che-dev 
            mvn -DskipTests=true 
-               -Dfindbugs.skip=true 
+               -Dfindbugs.skip=true
                -Dgwt.compiler.localWorkers=2 -T 1C 
                -Dskip-validate-sources 
                clean install
@@ -96,12 +96,21 @@ docker run -it --rm --name build-che
 # For Windows, replace $PWD with Che source code directory.
 ```
 
-## Incremental Build
-## Errors and Warnings
 ## Validate Your Changes
+We have integrated findbugs into the maven build system to generate warnings during the build. If your code generates new warnings or errors from findbugs, you must eliminate those issues before submitting the pull request. You can skip these checks by passing `-Dfindbugs.skip=true` to the maven build.
+
+We have integrated [Error Prone](https://github.com/google/error-prone) to check the state of code when you execute a maven build. Error prone verification is required to pass for all code submissions.
+
+License checks for submitted files are done within a maven build. You can skip these license checks with `-Dskip-validate-sources` maven option.
+ 
 ## Debugging
+
 ## Unit Testing
+All functionality requires a unit test. Unit tests are executed as part of the build with `mvn clean install` for any module. When writing tests you can use JUnit or TestNG [with the Maven Surefire plugin](http://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html). If you want to run only unit tests on a module, execute `mvn clean test`.
+
 ## Linting
+
+
 ## Work Branches
 Even if you have push rights on the eclipse/che repository, you should create a personal fork and create feature branches where you need them. We try to name the feature branch to match the GitHub issue that is being worked on. This keeps the main repository clean and your personal workflow cruft out of sight.
 
