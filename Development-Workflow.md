@@ -104,12 +104,20 @@ We have integrated [Error Prone](https://github.com/google/error-prone) to check
 License checks for submitted files are done within a maven build. You can skip these license checks with `-Dskip-validate-sources` maven option.
  
 ## Debugging
+Che is a multi-node system with processes running within the browser, the Che server and within the workspace. The debugging tactics for each node is different. These tactics are covered in the [plugin development resource center](https://eclipse-che.readme.io/docs/setup-che-workspace).  
+
+## Logging
+We use SLF4J for logging within the IDE and Logback within server-side extensions.
+
+For client-side logging, we have an abstraction. Import `org.eclipse.che.ide.util.loging.Log` and then [register log messages](https://github.com/eclipse/che/blob/master/plugins/plugin-machine/che-plugin-machine-ext-client/src/main/java/org/eclipse/che/ide/extension/machine/client/perspective/terminal/TerminalPresenter.java#L136-136). 
+
+For server-side logging, add [Logback as a maven dependency](https://github.com/eclipse/che/blob/master/core/commons/che-core-commons-schedule/pom.xml#L48-L55) and then make [logging calls to your code](https://github.com/eclipse/che/blob/master/core/commons/che-core-commons-schedule/src/test/java/org/eclipse/che/commons/schedule/executor/CronExpressionTest.java#L159).
 
 ## Unit Testing
 All functionality requires a unit test. Unit tests are executed as part of the build with `mvn clean install` for any module. When writing tests you can use JUnit or TestNG [with the Maven Surefire plugin](http://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html). If you want to run only unit tests on a module, execute `mvn clean test`.
 
 ## Linting
-
+We do not apply linting rules.
 
 ## Work Branches
 Even if you have push rights on the eclipse/che repository, you should create a personal fork and create feature branches where you need them. We try to name the feature branch to match the GitHub issue that is being worked on. This keeps the main repository clean and your personal workflow cruft out of sight.
