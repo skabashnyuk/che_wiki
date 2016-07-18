@@ -107,7 +107,7 @@ License checks for submitted files are done within a maven build. You can skip t
 Che is a multi-node system with processes running within the browser, the Che server and within the workspace. The debugging tactics for each node is different. These tactics are covered in the [plugin development resource center](https://eclipse-che.readme.io/docs/setup-che-workspace).  
 
 ## Logging
-We use SLF4J for logging within the IDE and Logback within server-side extensions.
+We use SLF4J for logging within the IDE and [Logback](http://logback.qos.ch/manual/configuration.html) within server-side extensions.
 
 For client-side logging, import `org.eclipse.che.ide.util.loging.Log` and then [register log messages](https://github.com/eclipse/che/blob/master/plugins/plugin-machine/che-plugin-machine-ext-client/src/main/java/org/eclipse/che/ide/extension/machine/client/perspective/terminal/TerminalPresenter.java#L136-136). These messages are only logged on the client-side and can be viewed and filtered from the browser console.
 
