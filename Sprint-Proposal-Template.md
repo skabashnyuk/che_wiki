@@ -1,3 +1,5 @@
+**Note: include only your own team's link in your sprint plan**
+
 [Current sprint issues for IDE team](https://github.com/eclipse/che/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Asprint%2Fcurrent-sprint%20label%3Ateam%2Fide)
 
 [Current sprint issues for enterprise team](https://github.com/eclipse/che/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Asprint%2Fcurrent-sprint%20label%3Ateam%2Fenterprise)
