@@ -122,7 +122,7 @@ All functionality requires a unit test. Unit tests are executed as part of the b
 We do not apply linting rules.
 
 ## Work Branches
-Even if you have push rights on the eclipse/che repository, you should create a personal fork and create feature branches where you need them. We try to name the feature branch to match the GitHub issue that is being worked on. This keeps the main repository clean and your personal workflow cruft out of sight.
+All branches in the Che repository need to be named after the matching issue number in GitHub. Please try to avoid pretty-named branches. When your pull request is merged to master, the developer that created the branch is responsible for removing the branch. We perform a branch review after each milestone.
 
 ## Pull Requests
 Before we can accept a pull request from you, you'll need to sign a [Contributor License Agreement (CLA)](https://github.com/eclipse/che/wiki/Contributor-License-Agreement). It is an automated process and you only need to do it once.
