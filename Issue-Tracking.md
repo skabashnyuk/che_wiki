@@ -76,6 +76,7 @@ Team Leads should keep their unprocessed backlog as small as possible at all tim
 | kind/bug | Outline of a bug - must adhere to the bug report template. If a bug is identified during a question investigation a new issue can be created for the bug and the question closed. Cannot overlap with “question”, “enhancement”, “epic”, “task” or “docs”.
 | kind/task | Internal things, technical debt, and to-do tasks to be performed. Cannot overlap with “question”, “enhancement”, “bug”, “epic” or “docs”.
 | kind/docs | A work item tied to documentation.  Cannot overlap with “question”, “enhancement”, “bug”, “epic” or “task”.
+| kind/planning | A work item outlining a part of our planning process - for example milestone overview issues is labelled with this.
 ### Bug Severities
 | Label        | Description
 | ------------ |-------------
