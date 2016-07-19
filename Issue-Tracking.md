@@ -37,7 +37,7 @@ This page describes how we track issues in the `eclipse/che` repository.
 TODO @bmicklea
 
 ## Issue Triage
-New issues are processed and assigned a label for follow-up by the Triage owner. A new Issue Triage owner is assigned each week (there will be a rotating schedule and if the person is in development they will be exempted from development tasks for that week - instead their primary role will be working as a support engineer).
+New issues are processed and assigned a label for follow-up by the Triage owner, the Triage owner should try and keep the number of unlabelled issues to a minimum at all times while responsibly labelling each issue. A new Issue Triage owner is assigned each week (there will be a rotating schedule and if the person is in development they will be exempted from development tasks for that week - instead their primary role will be working as a support engineer).
 
 The Issue Triage query contains 
 - all open issues or pull requests that...
@@ -45,12 +45,13 @@ The Issue Triage query contains
 - and have no one assigned...
 - and aren’t labeled with a team/... label.
 
-For each issue in the list, the Triage owner processes it depending on its type:
+For each issue in the list, the Triage owner will analyze the issue and discuss it as necessary with other members of the team then assign a label to it as follows:
+- Solveable issues > Triage owner should solve and close them.
 - Invalid issues > close them and explain the reason.
 - General questions > label them with “kind/question”.
 - Docs issues > label with “kind/docs”.
-- Enhancement requests > label them with “kind/enhancement” and add assign to one of the team leads.
-- Technical tasks and to-dos > label them with “kind/task” and add to one of the team leads (the team owner can remove the team label if they don’t plan on working on the enhancement at that time).
+- Enhancement requests > label them with “kind/enhancement” and assign to one of the team lead or product owner.
+- Technical tasks and to-dos > label them with “kind/task” and assign to one of the team lead or product owner.
 - Blocker bugs > add a comment mentioning the team lead you feel should know and/or @riuvshin.
 
 Technical issues assigned to a team lead that do not have a status/... label are considered unprocessed (you can find unprocessed issues queries in the common queries section of this page). To complete them the Team Lead (or optionally Triage owner) must:
@@ -104,12 +105,12 @@ Duplicate bugs are closed with a comment `duplicates #issue`. Please try to refe
 ### Team Assignments
 | Label        | Description
 | ------------ |-------------
-| team/ide | Issue to be taken by the IDE team.
-| team/enterprise | Issue to be taken by the enterprise features team.
-| team/plugin | Issue to be taken by the plugin development team.
-| team/production | Issue to be taken by the production readiness team.
-| team/platform | Issue to be taken by the platform team.
-| team/pm | Issue to be taken by the product management team.
+| area/ide | Issue to be taken by the IDE team.
+| area/enterprise | Issue to be taken by the enterprise features team.
+| area/plugin | Issue to be taken by the plugin development team.
+| area/production | Issue to be taken by the production readiness team.
+| area/platform | Issue to be taken by the platform team.
+| area/pm | Issue to be taken by the product management team.
 
 ## Consistent Milestones
 To enable planning across repositories, we require that all related Che repositories, such as `eclipse/che-parent` define identical milestones.
