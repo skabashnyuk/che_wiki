@@ -48,6 +48,7 @@ The Issue Triage query contains
 For each issue in the list, the Triage owner will analyze the issue and discuss it as necessary with other members of the team then assign a label to it as follows:
 - Solveable issues > Triage owner should solve and close them.
 - Invalid issues > close them and explain the reason.
+- Duplicate issues > close them and add a comment: "Duplicates {issue link}."
 - General questions > label them with “kind/question”.
 - Docs issues > label with “kind/docs”.
 - Enhancement requests > label them with “kind/enhancement” and assign to one of the team lead or product owner.
