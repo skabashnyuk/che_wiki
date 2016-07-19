@@ -27,5 +27,4 @@ Che needs to run in a variety of environments and support large-scale workspace 
 - [ ] Switch between different runtime environments in a single workspace
 - [ ] Dynamic injection of workspace agents
 - [ ] Environment SPI, to allow platform providers like OpenShift to create plugins to manage workspace containers
-- [ ] Elastic, multi-node Che
 - [ ] Che with a reverse proxy to minimize port exposure (workspace URLs will be embedded) 
