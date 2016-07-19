@@ -103,12 +103,12 @@ Team Leads should keep their unprocessed backlog as small as possible at all tim
 ### Team Assignments
 | Label        | Description
 | ------------ |-------------
-| area/ide | Issue to be taken by the IDE team.
-| area/enterprise | Issue to be taken by the enterprise features team.
-| area/plugin | Issue to be taken by the plugin development team.
-| area/production | Issue to be taken by the production readiness team.
-| area/platform | Issue to be taken by the platform team.
-| area/pm | Issue to be taken by the product management team.
+| team/ide | Issue to be taken by the IDE team.
+| team/enterprise | Issue to be taken by the enterprise features team.
+| team/plugin | Issue to be taken by the plugin development team.
+| team/production | Issue to be taken by the production readiness team.
+| team/platform | Issue to be taken by the platform team.
+| team/pm | Issue to be taken by the product management team.
 
 ## Consistent Milestones
 To enable planning across repositories, we require that all related Che repositories, such as `eclipse/che-parent` define identical milestones.
