@@ -14,20 +14,29 @@
 
 
 ### Issues tied to objectives
-- [ ] Issue title: issue link
-- [ ] Issue title: issue link
+- [ ] Issue title: issue link - Estimate: 
+- [ ] Issue title: issue link - Estimate: 
 
 ### Issues not tied to objectives
-- [ ] Issue title: issue link
+- [ ] Issue title: issue link - Estimate: 
   - Justification (mandatory)
-- [ ] Issue title: issue link
+- [ ] Issue title: issue link - Estimate: 
   - Justification (mandatory)
 
 ### Issues tied to technical debt and bugs
-- [ ] Issue title: issue link
-- [ ] Issue title: issue link
+- [ ] Issue title: issue link - Estimate: 
+- [ ] Issue title: issue link - Estimate: 
 
 ### Merge-ready PRs
-- [ ] Issue title: issue link
-- [ ] Issue title: issue link
+- [ ] Issue title: issue link - Estimate: 
+- [ ] Issue title: issue link - Estimate: 
 
+## Sprint Analysis
+#### Metrics
+| | Planned | Result
+|---|---:|---:|
+| **Budget** | 36 | 36
+| **Velocity** | 26 | 20
+| **Focus Factor** | 0.7 | 0.6
+
+#### Retrospective Comments
