@@ -66,9 +66,6 @@ Team Leads should keep their unprocessed backlog as small as possible at all tim
 
 ## Filing Bugs
 
-## Duplicates
-Duplicate bugs are closed with a comment `duplicates #issue`. Please try to reference an earlier issue unless a later issue is more appropriate (has more context, better scenarios, repro steps, etc.).
-
 ## Issue Labels
 ### Issue Types
 | Label        | Description
