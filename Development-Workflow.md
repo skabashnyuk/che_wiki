@@ -6,9 +6,9 @@ The best way to understand how a project works or to debug an issue is to get th
 * Maven 3.3.1+
 * Oracle Java 1.8 -- compilation with openjdk is not yet supported
 
-To build the Che core, you will need the maven-patch-plugin. Windows does not support this plugin, and we give instructions on how to skip this plugin when building.
+To build the Che core, you will need the maven-patch-plugin. Windows [does not support this plugin](http://maven.apache.org/plugins/maven-patch-plugin/faq.html#Why_doesnt_this_work_on_Windows), and we give instructions on how to skip this plugin when building. You can also optionally modify your build to [download the patch tool](http://gnuwin32.sourceforge.net/packages/patch.htm) and then add the patch tool to your `PATH`.
 
-To build the user dashboard submodule, you will need npm, bower, and gulp.
+To build the user dashboard submodule, you will need npm, bower, gulp, and python. 
 
 ### Clone
 ```sh
