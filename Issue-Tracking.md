@@ -37,7 +37,7 @@ This page describes how we track issues in the `eclipse/che` repository.
 TODO @bmicklea
 
 ## Issue Triage
-New issues are processed and assigned a label for follow-up by the Triage owner. A new Issue Triage owner is assigned each week.
+New issues are processed and assigned a label for follow-up by the Triage owner. A new Issue Triage owner is assigned each week (there will be a rotating schedule and if the person is in development they will be exempted from development tasks for that week - instead their primary role will be working as a support engineer).
 
 The Issue Triage query contains 
 - all open issues or pull requests that...
