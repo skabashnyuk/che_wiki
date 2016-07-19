@@ -49,11 +49,11 @@ For each issue in the list, the Triage owner processes it depending on its type:
 - Invalid issues > close them and explain the reason.
 - General questions > label them with “kind/question”.
 - Docs issues > label with “kind/docs”.
-- Enhancement requests > label them with “kind/enhancement” and add a team/... label (the team owner can remove the team label if they don’t plan on working on the enhancement at that time).
-- Technical tasks and to-dos > label them with “kind/task” and add a team/... label (the team owner can remove the team label if they don’t plan on working on the enhancement at that time).
+- Enhancement requests > label them with “kind/enhancement” and add assign to one of the team leads.
+- Technical tasks and to-dos > label them with “kind/task” and add to one of the team leads (the team owner can remove the team label if they don’t plan on working on the enhancement at that time).
 - Blocker bugs > add a comment mentioning the team lead you feel should know and/or @riuvshin.
 
-Technical issues assigned to a team (via the team/... labels) that do not have a status/... label are considered unprocessed (you can find unprocessed issues queries in the common queries section of this page). To complete them the Team Lead (or optionally Triage owner) must:
+Technical issues assigned to a team lead that do not have a status/... label are considered unprocessed (you can find unprocessed issues queries in the common queries section of this page). To complete them the Team Lead (or optionally Triage owner) must:
 - Assign it the appropriate status/ label and optionally add sprint/current-sprint label and add it to the milestone.
 - Edit the title to improve it (if needed).
 - Follow-up with the author (if needed). 
