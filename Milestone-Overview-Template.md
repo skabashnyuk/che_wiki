@@ -5,10 +5,11 @@ For more information about our development process please see our [development p
 
 ## Schedule
 This release will be an Eclipse-signed and marketed release  (...or...This release will be an unsigned development release available on GitHub only).
-- Code complete milestone: target August 3
-- GitHub release complete (QA verified) milestone: target August 5
-- Eclipse signed release complete (IP verified) milestone: target August 8
-- Release shipped milestone: target August 9
+**Target Release Dates**
+- August 3: Code complete milestone
+- August 5: GitHub release complete (QA verified) milestone
+- August 8: Eclipse signed release complete (IP verified) milestone
+- August 9: Release shipped milestone
 
 ### Schedule Detail
 #### Code complete milestone
