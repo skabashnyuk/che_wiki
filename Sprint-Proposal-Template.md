@@ -14,11 +14,11 @@
 
 
 ### Issues tied to objectives
-- [ ] Issue title: issue link - Estimate: 
-- [ ] Issue title: issue link - Estimate: 
+- [ ] CHE Issue title: issue link - Estimate: 
+- [ ] CODENVY Issue title: issue link - Estimate: 
 
 ### Issues not tied to objectives
-- [ ] Issue title: issue link - Estimate: 
+- [ ] ARTIK Issue title: issue link - Estimate: 
   - Justification (mandatory)
 - [ ] Issue title: issue link - Estimate: 
   - Justification (mandatory)
