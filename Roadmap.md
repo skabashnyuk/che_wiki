@@ -12,6 +12,7 @@ Eclipse Che should install anywhere and be easy to install. It should also be po
 - [ ] Split view for editor [#1837](https://github.com/eclipse/che/issues/1837)
 - [ ] Make it possible to add / remove servers without customizing a Dockerfile
 - [ ] Provide image project type to simplify edit, build, debug of images
+- [ ] Ability to preview HTML files [#1883](https://github.com/eclipse/che/issues/1883)
 
 ## Customizers: Make Customizations More Approachable
 Eclipse Che should be easy to customize. Che has many customization points including stacks, templates, extensions, plugins, assemblies, and commands. Where possible, we should make these customizations happen within Che's dashboard or as a project type within the IDE. For assembly-related items, such as custom stacks, Che should be self-updating and dynamic for the addition and removal of items. For extension-related items, such as the IDE, Che should have a simple way to get started developing plug-ins with incremental builds and, if necessary, super dev modes. The project must also evolve its interfaces to support community projects to create value-added layers within Che such as ecore, EMF, GMF, and multi-cursor editing.
