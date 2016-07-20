@@ -8,7 +8,7 @@ Eclipse Che should install anywhere and be easy to install. It should also be po
 - [ ] Simplify dashboard navigation to eliminate unnecessary clicks [#1743](https://github.com/eclipse/che/issues/1743) 
 - [ ] Move dashboard navigation to list layout [#1762](https://github.com/eclipse/che/issues/1762)
 - [ ] Move workspace editing to form layout [#1767](https://github.com/eclipse/che/issues/1767)
-- [ ] Support `/namespace/workspace` URL access
+- [ ] Support `/namespace/workspace` URL access [#1572](https://github.com/eclipse/che/pull/1572)
 - [ ] Split view for editor [#1837](https://github.com/eclipse/che/issues/1837)
 - [ ] Make it possible to add / remove servers without customizing a Dockerfile
 - [ ] Provide image project type to simplify edit, build, debug of images
