@@ -19,7 +19,7 @@ Eclipse Che should be easy to customize. Che has many customization points inclu
 - [ ] Add, edit, and delete templates and stacks from the dashboard
 - [ ] Localhost machines, to create workspaces without Docker on the host
 - [ ] Simpler Che-in-Che scenarios (build is great, but need to run with GWT super dev mode)
-- [ ] Provide docker images for building Che to reduce configuration
+- [x] Provide docker images for building Che to reduce configuration [See wiki](https://github.com/eclipse/che/wiki/Development-Workflow#build-che-using-docker)
 - [ ] Dynamic file watchers with events to auto-update IDEs when workspace files are edited out of band [#1824](https://github.com/eclipse/che/issues/1824)
 - [ ] JPA data access implementation to store information with in-memory databases [#1790](https://github.com/eclipse/che/issues/1790)
 
