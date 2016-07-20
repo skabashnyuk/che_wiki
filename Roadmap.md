@@ -30,4 +30,4 @@ Che needs to run in a variety of environments and support large-scale workspace 
 - [ ] Start a new workspace with a Docker compose definition
 - [ ] Switch between different runtime environments in a single workspace
 - [ ] Environment SPI, to allow platform providers like OpenShift to create plugins to manage workspace runtimes [#1829](https://github.com/eclipse/che/issues/1829)
-- [ ] Che with a reverse proxy to minimize port exposure (workspace URLs will be embedded) 
+- [ ] Che with a reverse proxy to minimize port exposure (workspace URLs will be embedded) [#1560](https://github.com/eclipse/che/issues/1560)
