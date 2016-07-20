@@ -25,8 +25,8 @@ Eclipse Che should be easy to customize. Che has many customization points inclu
 
 ## Enterprises: Expand Che Execution Scenarios
 Che needs to run in a variety of environments and support large-scale workspace consumption in an elastic way. There needs to be a clear, prescriptive set of controls for admins who adminster Che systems. We will enable multi-node elasticity in Che, and we will defer multi-user, multi-tenant, and organizational implementations to commercial vendors building more advanced versions of Che.
-- [ ] Allow off-the-shelf docker images to work within Che
-- [ ] Dynamic injection of workspace agents
+- [ ] Allow off-the-shelf docker images to work within Che [#1823](https://github.com/eclipse/che/issues/1823)
+- [ ] Dynamic injection of workspace agents [#1823](https://github.com/eclipse/che/issues/1823)
 - [ ] Start a new workspace with a Docker compose definition
 - [ ] Switch between different runtime environments in a single workspace
 - [ ] Environment SPI, to allow platform providers like OpenShift to create plugins to manage workspace runtimes [#1829](https://github.com/eclipse/che/issues/1829)
