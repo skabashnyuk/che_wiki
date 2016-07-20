@@ -2,14 +2,15 @@ This roadmap acts as a 6-9 month forward-looking expectation of what we are work
 
 ## Users: Simplify the Getting Started Experience
 Eclipse Che should install anywhere and be easy to install. It should also be possible for you to get a project-typed workspace with a custom set of commands in a natural, minimal sequence. Eclipse Che should become context-aware and auto-generate workspaces with type and code information based upon the contents of directory or repository.
-- [ ] Make docker the default execution for Che. [#1683](http://github.com/eclipse/che/pulls/1683)
+- [ ] Make docker the default execution for Che. [#1683](https://github.com/eclipse/che/pull/1683)
+- [ ] Add support for the Codenvy / Red Hat / Microsoft language server protocol [#1287](https://github.com/eclipse/che/issues/1287)
 - [ ] "Code in Che" from any git repository
 - [ ] Simplify dashboard navigation to eliminate unnecessary clicks [#1743](https://github.com/eclipse/che/issues/1743) 
 - [ ] Move dashboard navigation to list layout [#1762](https://github.com/eclipse/che/issues/1762)
 - [ ] Move workspace editing to form layout [#1767](https://github.com/eclipse/che/issues/1767)
 - [ ] Support `/namespace/workspace` URL access
+- [ ] Split view for editor [#1837](https://github.com/eclipse/che/issues/1837)
 - [ ] Make it possible to add / remove servers without customizing a Dockerfile
-- [ ] Dynamic file watchers with events to auto-update IDEs when workspace files are edited out of band
 - [ ] Provide image project type to simplify edit, build, debug of images
 
 ## Customizers: Make Customizations More Approachable
@@ -19,12 +20,14 @@ Eclipse Che should be easy to customize. Che has many customization points inclu
 - [ ] Localhost machines, to create workspaces without Docker on the host
 - [ ] Simpler Che-in-Che scenarios (build is great, but need to run with GWT super dev mode)
 - [ ] Provide docker images for building Che to reduce configuration
+- [ ] Dynamic file watchers with events to auto-update IDEs when workspace files are edited out of band [#1824](https://github.com/eclipse/che/issues/1824)
+- [ ] JPA data access implementation to store information with in-memory databases [#1790](https://github.com/eclipse/che/issues/1790)
 
 ## Enterprises: Expand Che Execution Scenarios
 Che needs to run in a variety of environments and support large-scale workspace consumption in an elastic way. There needs to be a clear, prescriptive set of controls for admins who adminster Che systems. We will enable multi-node elasticity in Che, and we will defer multi-user, multi-tenant, and organizational implementations to commercial vendors building more advanced versions of Che.
 - [ ] Allow off-the-shelf docker images to work within Che
+- [ ] Dynamic injection of workspace agents
 - [ ] Start a new workspace with a Docker compose definition
 - [ ] Switch between different runtime environments in a single workspace
-- [ ] Dynamic injection of workspace agents
-- [ ] Environment SPI, to allow platform providers like OpenShift to create plugins to manage workspace containers
+- [ ] Environment SPI, to allow platform providers like OpenShift to create plugins to manage workspace runtimes [#1829](https://github.com/eclipse/che/issues/1829)
 - [ ] Che with a reverse proxy to minimize port exposure (workspace URLs will be embedded) 
