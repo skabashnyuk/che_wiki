@@ -1,5 +1,6 @@
 ## Milestone Overview
 - 
+- NOTE: This release makes changes to the following APIs:
 
 For more information about our development process please see our [development process] (https://github.com/eclipse/che/wiki/Development-Process) page.
 
@@ -58,4 +59,4 @@ The following issues are targeted for inclusion in the milestone. As issues are 
 - [ ] 
 
 ## Migration Considerations
-(insert here any expectations around migration due to significant changes).
+(insert here any expectations around migration due to significant changes - this would include a list of any API changes).
