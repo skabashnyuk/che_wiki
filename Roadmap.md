@@ -4,7 +4,7 @@ This roadmap acts as a 6-9 month forward-looking expectation of what we are work
 Eclipse Che should install anywhere and be easy to install. It should also be possible for you to get a project-typed workspace with a custom set of commands in a natural, minimal sequence. Eclipse Che should become context-aware and auto-generate workspaces with type and code information based upon the contents of directory or repository.
 - [ ] Make docker the default execution for Che. [#1683](https://github.com/eclipse/che/pull/1683)
 - [ ] Add support for the Codenvy / Red Hat / Microsoft language server protocol [#1287](https://github.com/eclipse/che/issues/1287)
-- [ ] "Code in Che" from any git repository
+- [ ] "Code in Che" from any git repository [#1895](https://github.com/eclipse/che/issues/1895)
 - [ ] Simplify dashboard navigation to eliminate unnecessary clicks [#1743](https://github.com/eclipse/che/issues/1743) 
 - [ ] Move dashboard navigation to list layout [#1762](https://github.com/eclipse/che/issues/1762)
 - [ ] Move workspace editing to form layout [#1767](https://github.com/eclipse/che/issues/1767)
