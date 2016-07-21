@@ -23,6 +23,7 @@ Eclipse Che should be easy to customize. Che has many customization points inclu
 - [x] Provide docker images for building Che to reduce configuration [See wiki](https://github.com/eclipse/che/wiki/Development-Workflow#build-che-using-docker)
 - [ ] Dynamic file watchers with events to auto-update IDEs when workspace files are edited out of band [#1824](https://github.com/eclipse/che/issues/1824)
 - [ ] JPA data access implementation to store information with in-memory databases [#1790](https://github.com/eclipse/che/issues/1790)
+- [ ] Make it easier for third party tools to integrate Che [#1894](https://github.com/eclipse/che/issues/1894)
 
 ## Enterprises: Expand Che Execution Scenarios
 Che needs to run in a variety of environments and support large-scale workspace consumption in an elastic way. There needs to be a clear, prescriptive set of controls for admins who adminster Che systems. We will enable multi-node elasticity in Che, and we will defer multi-user, multi-tenant, and organizational implementations to commercial vendors building more advanced versions of Che.
