@@ -6,32 +6,6 @@ This page describes how we track issues in the `eclipse/che` repository.
 
 [Questions for Support](https://github.com/eclipse/che/labels/kind%2Fquestion)
 
-[Unprocessed Issues for Docs](https://github.com/eclipse/che/labels/kind%2Fdocs)
-
-[Unprocessed Issues for IDE Team](https://github.com/eclipse/che/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Ateam%2Fide%20-label%3Astatus%2Finfo-needed%20-label%3Astatus%2Fanalyzing%20-label%3Astatus%2Fopen-for-dev%20-label%3Astatus%2Fin-progress%20-label%3Astatus%2Fcode-review%20-label%3Astatus%2Fpending-merge%20-label%3Astatus%2Fblocked%20-label%3Astatus%2Fwork-in-progress%20-label%3Astatus%2Fmerge-ready%20-label%3Asprint%2Fcurrent-sprint%20-label%3Asprint%2Fnext-sprint)
-
-[Unprocessed Issues for Enterprise Team](https://github.com/eclipse/che/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Ateam%2Fenterprise%20-label%3Astatus%2Finfo-needed%20-label%3Astatus%2Fanalyzing%20-label%3Astatus%2Fopen-for-dev%20-label%3Astatus%2Fin-progress%20-label%3Astatus%2Fcode-review%20-label%3Astatus%2Fpending-merge%20-label%3Astatus%2Fblocked%20-label%3Astatus%2Fwork-in-progress%20-label%3Astatus%2Fmerge-ready%20-label%3Asprint%2Fcurrent-sprint%20-label%3Asprint%2Fnext-sprint)
-
-[Unprocessed Issues for Plugin Team](https://github.com/eclipse/che/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Ateam%2Fplugin%20-label%3Astatus%2Finfo-needed%20-label%3Astatus%2Fanalyzing%20-label%3Astatus%2Fopen-for-dev%20-label%3Astatus%2Fin-progress%20-label%3Astatus%2Fcode-review%20-label%3Astatus%2Fpending-merge%20-label%3Astatus%2Fblocked%20-label%3Astatus%2Fwork-in-progress%20-label%3Astatus%2Fmerge-ready%20-label%3Asprint%2Fcurrent-sprint%20-label%3Asprint%2Fnext-sprint)
-
-[Unprocessed Issues for Production Team](https://github.com/eclipse/che/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Ateam%2Fproduction%20-label%3Astatus%2Finfo-needed%20-label%3Astatus%2Fanalyzing%20-label%3Astatus%2Fopen-for-dev%20-label%3Astatus%2Fin-progress%20-label%3Astatus%2Fcode-review%20-label%3Astatus%2Fpending-merge%20-label%3Astatus%2Fblocked%20-label%3Astatus%2Fwork-in-progress%20-label%3Astatus%2Fmerge-ready%20-label%3Asprint%2Fcurrent-sprint%20-label%3Asprint%2Fnext-sprint)
-
-[Unprocessed Issues for Platform Team](https://github.com/eclipse/che/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Ateam%2Fplatform%20-label%3Astatus%2Finfo-needed%20-label%3Astatus%2Fanalyzing%20-label%3Astatus%2Fopen-for-dev%20-label%3Astatus%2Fin-progress%20-label%3Astatus%2Fcode-review%20-label%3Astatus%2Fpending-merge%20-label%3Astatus%2Fblocked%20-label%3Astatus%2Fwork-in-progress%20-label%3Astatus%2Fmerge-ready%20-label%3Asprint%2Fcurrent-sprint%20-label%3Asprint%2Fnext-sprint)
-
-[Unprocessed Issues for PM Team](https://github.com/eclipse/che/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Ateam%2Fpm%20-label%3Astatus%2Finfo-needed%20-label%3Astatus%2Fanalyzing%20-label%3Astatus%2Fopen-for-dev%20-label%3Astatus%2Fin-progress%20-label%3Astatus%2Fcode-review%20-label%3Astatus%2Fpending-merge%20-label%3Astatus%2Fblocked%20-label%3Astatus%2Fwork-in-progress%20-label%3Astatus%2Fmerge-ready%20-label%3Asprint%2Fcurrent-sprint%20-label%3Asprint%2Fnext-sprint)
-
-### Sprint Status Queries
-[All Issues in Current Sprint](https://github.com/eclipse/che/issues?utf8=%E2%9C%93&q=label%3Asprint%2Fcurrent-sprint)
-
-[Open in Current Sprint](https://github.com/eclipse/che/labels/sprint%2Fcurrent-sprint)
-
-[Blocker & Blocked for Current Sprint](https://github.com/eclipse/che/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Aseverity%2Fblocker%20label%3Astatus%2Fblocked%20label%3Asprint%2Fcurrent-sprint)
-
-[Not Yet Started for Current Sprint](https://github.com/eclipse/che/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Asprint%2Fcurrent-sprint%20-label%3Astatus%2Fopen-for-dev%20-label%3Astatus%2Fin-progress%20-label%3Astatus%2Fcode-review%20-label%3Astatus%2Fpending-merge%20-label%3Astatus%2Fblocked%20-label%3Astatus%2Fwork-in-progress%20-label%3Astatus%2Fmerge-ready)
-
-[In Development for Current Sprint](https://github.com/eclipse/che/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Asprint%2Fcurrent-sprint%20-label%3Astatus%2Finfo-needed%20-label%3Astatus%2Fanalyzing%20-label%3Astatus%2Fopen-for-dev%20-label%3Astatus%2Fpending-merge%20-label%3Astatus%2Fblocked%20-label%3Astatus%2Fwork-in-progress)
-
-[Pending Merge for Current Sprint](https://github.com/eclipse/che/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Asprint%2Fcurrent-sprint%20-label%3Astatus%2Finfo-needed%20-label%3Astatus%2Fanalyzing%20-label%3Astatus%2Fopen-for-dev%20-label%3Astatus%2Fin-progress%20-label%3Astatus%2Fcode-review%20-label%3Astatus%2Fblocked%20-label%3Astatus%2Fwork-in-progress)
 
 ### Milestone Status Queries
 TODO @bmicklea
@@ -46,14 +20,14 @@ The Issue Triage query contains
 - and aren’t labeled with a team/... label.
 
 For each issue in the list, the Triage owner will analyze the issue and discuss it as necessary with other members of the team then assign a label to it as follows:
-- Solveable issues > Triage owner should solve and close them.
+- Answerable issues > Triage owner should solve and close them.
 - Invalid issues > close them and explain the reason.
 - Duplicate issues > close them and add a comment: "Duplicates {issue link}."
 - General questions > label them with “kind/question”.
 - Docs issues > label with “kind/docs”.
-- Enhancement requests > label them with “kind/enhancement” and assign to one of the team lead or product owner.
-- Technical tasks and to-dos > label them with “kind/task” and assign to one of the team lead or product owner.
-- Blocker bugs > add a comment mentioning the team lead you feel should know and/or @riuvshin.
+- Enhancement requests > label them with “kind/enhancement” and assign to one of the team lead or product owners.
+- Technical tasks and to-dos > label them with “kind/task” and assign to one of the team lead or product owners.
+- Bugs > label with "kind/bug" and assign to one of the team lead or product owners. Note that the label "severity/blocker" should only be used for bugs assigned to a milestone and only by project committers.
 
 Technical issues assigned to a team lead that do not have a status/... label are considered unprocessed (you can find unprocessed issues queries in the common queries section of this page). To complete them the Team Lead (or optionally Triage owner) must:
 - Assign it the appropriate status/ label and optionally add sprint/current-sprint label and add it to the milestone.
@@ -61,8 +35,6 @@ Technical issues assigned to a team lead that do not have a status/... label are
 - Follow-up with the author (if needed). 
 
 Team Leads should keep their unprocessed backlog as small as possible at all times and try to move issues as quickly as possible to "status/open-for-dev".
-
-## Sprint Management
 
 ## Filing Bugs
 
@@ -80,7 +52,7 @@ Team Leads should keep their unprocessed backlog as small as possible at all tim
 ### Bug Severities
 | Label        | Description
 | ------------ |-------------
-| severity/blocker | Causes outage or prevents a fundamental feature from operating against its specification.  Must be resolved immediately. Bugs that are not blockers do not need a severity.
+| severity/blocker | Causes outage or prevents a fundamental feature from operating against its specification.  Must be resolved immediately. Bugs can only be labelled blocker if they are assigned to a milestone. Bugs that are not blockers do not need a severity.
 ### Dev Open Issue Status
 | Label        | Description
 | ------------ |-------------
@@ -113,7 +85,5 @@ Team Leads should keep their unprocessed backlog as small as possible at all tim
 
 ## Consistent Milestones
 To enable planning across repositories, we require that all related Che repositories, such as `eclipse/che-parent` define identical milestones.
-
-## Sprint Planning
 
 
