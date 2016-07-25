@@ -33,21 +33,25 @@ bin/che.bat
 Che will be available at ```localhost:8080```.
 
 ### Build and Run - Docker
-We distribute Eclipse Che as a Docker image and this is the preferred way for users to install and run Che. You can use our Che images that run your local Che binaries, or you can create a new Docker image that contains your binaries.
+We distribute Eclipse Che as a Docker image and this is the preferred way for users to install and run Che. You can use our Che launcher container [to run your local Che binaries](https://eclipse-che.readme.io/docs/usage-docker-launcher#use-local-che-binaries), or you can create a new Docker image that contains your binaries.
 
 ```sh
-# TODO: Link to page on how to mount local binaries to image
+# If your local assembly is located at /home/assembly:
+docker run -v /var/run/docker.sock:/var/run/docker.sock \
+           -e CHE_LOCAL_BINARY=/home/assembly \           
+           codenvy/che-launcher:nightly start
 ```
 ```sh
-# TODO: Instructions on how to build Docker image from source
+# Build the Che server Docker image from the root of our source:
 docker build -t che-server -f dockerfiles/che-server/Dockerfile .
+docker tag <imageid> codenvy/che-server:<choose-a-version>
 
 # Now configure the che-launcher Docker image to use the Che image
-# TODO: Instruction on how to modify the Dockerfile with right che-server reference
 docker build -t che-launcher -f dockerfiles/che/Dockerfile .
+docker tag <imageid> codenvy/che-launcher:<match-version-of-server>
 
 # Now run Che
-docker run --rm -v /var/run/docker.sock:/var/run/docker.sock che-launcher start 
+docker run --rm -v /var/run/docker.sock:/var/run/docker.sock codenvy/che-launcher:<version> start 
 ```
 
 ### Build Submodules
