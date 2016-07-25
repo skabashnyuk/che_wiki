@@ -27,7 +27,7 @@ For each issue in the list, the Triage owner will analyze the issue and discuss 
 - Docs issues > label with “kind/docs”.
 - Enhancement requests > label them with “kind/enhancement” and assign to one of the team lead or product owners.
 - Technical tasks and to-dos > label them with “kind/task” and assign to one of the team lead or product owners.
-- Bugs > label with "kind/bug" and assign to one of the team lead or product owners. Note that the label "severity/blocker" should only be used for bugs assigned to a milestone and only by project committers.
+- Bugs > label with "kind/bug" and assign to one of the team lead or product owners. Ensure that bugs adhere to the bug template. Note that the label "severity/blocker" should only be used for bugs assigned to a milestone and only by project committers.
 
 Technical issues assigned to a team lead that do not have a status/... label are considered unprocessed (you can find unprocessed issues queries in the common queries section of this page). To complete them the Team Lead (or optionally Triage owner) must:
 - Assign it the appropriate status/ label and optionally add sprint/current-sprint label and add it to the milestone.
@@ -35,8 +35,6 @@ Technical issues assigned to a team lead that do not have a status/... label are
 - Follow-up with the author (if needed). 
 
 Team Leads should keep their unprocessed backlog as small as possible at all times and try to move issues as quickly as possible to "status/open-for-dev".
-
-## Filing Bugs
 
 ## Issue Labels
 ### Issue Types
