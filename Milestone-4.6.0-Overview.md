@@ -79,18 +79,15 @@ The following issues are targeted for inclusion in the milestone. As issues are 
 - [x] Launcher: fixed Path problems, splitted in 3 files and added tests: https://github.com/eclipse/che/pull/1914
 - [x] Fix the ENV about configuration folder to set when using docker image: https://github.com/eclipse/che/pull/1896
 - [x] Downgrade docker installed in Che image: https://github.com/eclipse/che/pull/1833
-- [ ] Docker Launcher - wrong hostname output when running in a VM: https://github.com/eclipse/che/issues/1925
 - [x] Restoring a project state after stopping a workspace does not work: https://github.com/eclipse/che/issues/1919
 - [x] Unexpected errors in the browser console after restarting a workspace: https://github.com/eclipse/che/issues/1902
-- [ ] Path in the 'Parent' field presents incorrectly on the 'Project Configuration' window: https://github.com/eclipse/che/issues/1868
+https://github.com/eclipse/che/issues/1868
 - [x] Opened files list in the editor area does not work properly: https://github.com/eclipse/che/issues/1850
 - [x] Change value of "java.output.folder" attribute: https://github.com/eclipse/che/issues/1843
 - [x] After closing the Project wizard widget by ESC select path form still opened: https://github.com/eclipse/che/issues/1825
 - [x] Delete multi-module projects in some case holding failure: https://github.com/eclipse/che/issues/1819
-- [ ] Ws-agent has stopped in some case: https://github.com/eclipse/che/issues/1817
 - [x] Tree of 'changes to be performed' in the refactoring 'Rename' window does not work correctly: https://github.com/eclipse/che/issues/1786
 - [x] Preview URL may be lost after refreshing page: https://github.com/eclipse/che/issues/1785
-- [ ] Websockets are unable to comunicate with the wsagent when the server and the browser run on different networks: https://github.com/eclipse/che/issues/1644
 - [x] Remove closed file from the editor's popup list: https://github.com/eclipse/che/pull/1867
 - [x] Synchronize project instead of parent directory: https://github.com/eclipse/che/pull/1954
 - [x] Che docker launcher incorrectly stops Che server - doesn't respect shut down process. #1949
@@ -98,3 +95,8 @@ The following issues are targeted for inclusion in the milestone. As issues are 
 - [x] Not able to run Che as a Docker Container on OSX: https://github.com/eclipse/che/issues/1976
 - [x] If use the dashboard for import project from zip archive, the root folder of the archive don't skip: https://github.com/eclipse/che/issues/1852
 - [x] Che ignores user response when asks whether it should restore workspace or not: https://github.com/eclipse/che/issues/1849
+- [ ] Docker Launcher - wrong hostname output when running in a VM: https://github.com/eclipse/che/issues/1925
+- [ ] Path in the 'Parent' field presents incorrectly on the 'Project Configuration' window: 
+- [ ] Ws-agent has stopped in some case: https://github.com/eclipse/che/issues/1817
+- [ ] Websockets are unable to comunicate with the wsagent when the server and the browser run on different networks: https://github.com/eclipse/che/issues/1644
+
