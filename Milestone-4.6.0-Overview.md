@@ -1,5 +1,5 @@
 ## Milestone Overview
-- [x] New docker image launcher for Che [#1683]
+- [x] New docker image launcher for Che #1683
 - [x] New lighter image for Che based upon alpine [#1682]
 
 For more information about our development process please see our [development process] (https://github.com/eclipse/che/wiki/Development-Process) page.
