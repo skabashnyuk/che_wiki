@@ -4,7 +4,7 @@
 * [Weekly Planning Meetings](https://github.com/eclipse/che/wiki/Weekly-Planning-Meetings)  
 * [Development Process](https://github.com/eclipse/che/wiki/Development-Process)
 * [Issue Tracking](https://github.com/eclipse/che/wiki/Issue-Tracking)
-* Release Process
+* [Latest Milestone Overview](https://github.com/eclipse/che/wiki/Milestone-4.6.0-Overview)
 
 **Contributing**
 * [How to Contribute](https://github.com/eclipse/che/wiki/How-To-Contribute)
