@@ -1,4 +1,10 @@
-For past releases, see the [Changelog](https://github.com/eclipse/che/blob/master/CHANGELOG.md).
+For past milestones, see the [Changelog](https://github.com/eclipse/che/blob/master/CHANGELOG.md).
+
+##4.6.0
+_Primary Goals_
+> * New docker image launcher for Che [#1683]
+> * New lighter image for Che based upon alpine [#1682]
+> Full milestone details: https://github.com/eclipse/che/issues/1870
 
 ##4.5.0
 _Primary Goals_
