@@ -15,7 +15,11 @@ If you do not haven't done already, please clone the Che repository
 ```sh
 git clone https://github.com/eclipse/che.git
 ```
-If you want to develop an extension for Che, we recommend to checkout the latest tagged and stable version.
+If you want to develop an extension for Che, we recommend to checkout the latest tagged and stable version after cloning, e.g.:
+```sh
+git checkout tags/4.6.0
+```
+
 
 ### Build and Run - Tomcat
 In its purest form, Che runs as a Tomcat server.
