@@ -8,7 +8,7 @@ This page describes how we track issues in the `eclipse/che` repository.
 
 
 ### Milestone Status Queries
-TODO @bmicklea
+The set of queries for a milestone is listed in the milestone details which can be found on the [milestone plans](https://github.com/eclipse/che/wiki/Milestone-Plans) page.
 
 ## Issue Labels
 The Eclipse Che project relies heavily on [issue labels](https://github.com/eclipse/che/wiki/Labels) to communicate status and responsibility. Labels are defined in a separate doc.
