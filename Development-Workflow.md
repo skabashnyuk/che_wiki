@@ -86,10 +86,9 @@ mvn clean install
 ```
 
 ### Build Che Using Docker
-If you want to avoid setting up the dependencies to build Che and its submodules, we provide a Docker image that has the dependencies necessary to build Che. You can mount Che source code from your host to the container and then compile the code within the container. Note - Docker I/O performance varies, and container compilation may be slower than native.
-
+If you want to avoid setting up the dependencies to build Che and its submodules, we provide a Docker image that has the dependencies necessary to build Che. You can mount Che source code from your host to the container and then compile the code within the container. 
 ```sh
-# For Mac + Linux:
+# For Mac + Linux - replace $PWD with the root path to build:
 docker run -it --rm --name build-che 
            -v "$HOME/.m2:/home/user/.m2" 
            -v "$PWD":/home/user/che-build 
