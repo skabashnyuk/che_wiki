@@ -2,17 +2,17 @@ For past milestones, see the [Changelog](https://github.com/eclipse/che/blob/mas
 
 ##4.7.0
 _Primary Goals_
-> * Che CLI with profiles to quickly run multiple Che configurations https://github.com/eclipse/che/issues/2116
+> * Che CLI with profiles to quickly run multiple Che configurations
 > * API for VFS with file system watcher
-> * Che stack and template https://github.com/eclipse/che/issues/2116
-> * New command macros https://github.com/eclipse/che/issues/953
-> * Configuration for using Docker and Docker Compose inside Che workspaces https://github.com/eclipse/che/issues/2116
+> * Che stack and template 
+> * New command macros 
+> * Configuration for using Docker and Docker Compose inside Che workspaces 
 > * Full milestone details: https://github.com/eclipse/che/issues/2029
 
 ##4.6.0
 _Primary Goals_
-> * New docker image launcher for Che [#1683]
-> * New lighter image for Che based upon alpine [#1682]
+> * New docker image launcher for Che
+> * New lighter image for Che based upon alpine
 > * Full milestone details: https://github.com/eclipse/che/issues/1870
 
 ##4.5.0
