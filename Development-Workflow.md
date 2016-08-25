@@ -163,7 +163,6 @@ Our repository is broken in a variety of independently buildable submodules.
 /che/assembly/assembly-machine-server  # Creates the agent server that goes into ws
 /che/core                              # Shared libraries for server, agents, and plugins
 /che/dashboard                         # JavaScript app user management
-/che/dockerfiles                       # Various images for building and running Che
 /che/plugins                           # IDE & agent plug-ins
 /che/wsmaster                          # Libraries used by the Che server
 /che/wsagent                           # Libraries used by workspace agents
@@ -172,6 +171,7 @@ Our repository is broken in a variety of independently buildable submodules.
 ### Repositories
 Some dependencies are managed in separate repositories as part of the `http://github.com/eclipse` organization. These dependencies are forks of other important projects.
 ```
+/che-dockerfiles                          # Dockerfiles for our stacks (dozens!) and utilities like launcher
 /che-lib                                  # Forked dependencies that require mods
 /che-lib/swagger                          # Embeded API configuration
 /che-lib/terminal                         # Our embedded Web terminal
@@ -186,9 +186,7 @@ Some dependencies are managed in separate repositories as part of the `http://gi
 ### Other Repositories
 These are external repositories that provide additional tools for Eclipse Che.
 ```
-http://github.com/codenvy/Dockerfiles             # Defines recipes used by stacks
 http://github.com/codenvy/che-installer           # Windows and JAR installers
 http://github.com/codenvy/che-tutorials           # SDK examples and tutorials
 http://git.eclipse.org/c/www.eclipse.org/che.git  # eclipse.org/che Web site
-http://github.com/codenvy/cli                     # Experimental CLI
 ```
