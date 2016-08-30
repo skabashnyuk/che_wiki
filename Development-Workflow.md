@@ -86,6 +86,7 @@ To build the user dashboard:
 cd che/dashboard
 mvn clean install
 ```
+Note: On windows with Docker Toolbox there are issues with symlinks
 
 ### Build Che Using Docker
 If you want to avoid setting up the dependencies to build Che and its submodules, we provide a Docker image that has the dependencies necessary to build Che. You can mount Che source code from your host to the container and then compile the code within the container. 
