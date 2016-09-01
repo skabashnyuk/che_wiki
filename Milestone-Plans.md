@@ -1,14 +1,20 @@
 For past milestones, see the [Changelog](https://github.com/eclipse/che/blob/master/CHANGELOG.md).
 
+##4.8.0
+_Milestone Details:_ https://github.com/eclipse/che/issues/2267
+
+_Primary Goals_
+> * Gitlab integration
+> * Che launcher profiles to simplify managing multiple Che configurations on the same machine
+> * New workspace model and VFS API
+
 ##4.7.0
 _Milestone Details:_ https://github.com/eclipse/che/issues/2029
 
 _Primary Goals_
+> * Configuration for using Docker and Docker Compose inside Che workspaces
 > * Che CLI with profiles to quickly run multiple Che configurations
-> * API for VFS with file system watcher
-> * Che stack and template 
 > * New command macros 
-> * Configuration for using Docker and Docker Compose inside Che workspaces 
 
 ##4.6.0
 _Milestone Details:_ https://github.com/eclipse/che/issues/1870
