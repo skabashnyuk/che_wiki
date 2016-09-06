@@ -1,14 +1,25 @@
 For past milestones, see the [Changelog](https://github.com/eclipse/che/blob/master/CHANGELOG.md).
 
+##5.0.0-M2
+_Milestone Details:_ https://github.com/eclipse/che/issues/2359
+
+_Note:_ This is a pre-GA milestone in the new 5.0 stream. There are model changes in Che 5 that make the milestone builds incompatible with the workspaces of 4.x - see the Milestone Details for more information.
+
+_Primary Goals_
+> * New file system watcher / VFS
+> * Eclipse Orion 12 editor upgrade
+
+
 ##5.0.0-M1
 _Milestone Details:_ https://github.com/eclipse/che/issues/2267
 
-_Note:_ This is the first milestone in the 5.0 version. There are model changes in 5.0 that make the milestone builds of 5.0 incompatible with the workspaces of 4.x. As a result it will not be possible to migrate 4.x workspace to 5.0 until GA version is released.
+_Note:_ This is a pre-GA milestone in the new 5.0 stream. There are model changes in Che 5 that make the milestone builds incompatible with the workspaces of 4.x - see the Milestone Details for more information.
 
 _Primary Goals_
+> * Multi-machine workspaces with YAML syntax
+> * Workspace agents to allow any Docker image to work in Che without additional syntax
 > * Gitlab integration
 > * Che launcher profiles to simplify managing multiple Che configurations on the same machine
-> * New workspace model and VFS API
 
 ##4.7.1
 _Milestone Details:_ https://github.com/eclipse/che/issues/2354
