@@ -1,5 +1,7 @@
 For past milestones, see the [Changelog](https://github.com/eclipse/che/blob/master/CHANGELOG.md).
 
+As part of our 6-9 month roadmap, we are restructuring the underlying workspace model to support workspaces with multiple machines, dynamically deployed agents to make base images lighter, virtual file system so editors and IDEs can be notified of changes made by other clients, a new Chefile capability which provides a Vagrant-style workflow for Che workspaces, and consolidated support for an underlying database model.  As part of this exercise, we will provide these capabilities into a single 5.0 release targeted for later 2015. We have now started on the milestone train for 5.0 and will continue with various ship-quality milestones until we are satisfied with the usability and can provide migration paths for 4.x workspaces.
+
 ##5.0.0-M2
 _Milestone Details:_ https://github.com/eclipse/che/issues/2359
 
