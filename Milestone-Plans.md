@@ -8,6 +8,13 @@ _Primary Goals_
 > * Che launcher profiles to simplify managing multiple Che configurations on the same machine
 > * New workspace model and VFS API
 
+##4.7.1
+_Milestone Details:_ https://github.com/eclipse/che/issues/2354
+
+_Primary Goals_
+> * Add Bitnami Express 4.13.4 stack and blank project for use with express-generator #2301
+> * Bug fixes
+
 ##4.7.0
 _Milestone Details:_ https://github.com/eclipse/che/issues/2029
 
