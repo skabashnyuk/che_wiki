@@ -25,6 +25,12 @@ _Primary Goals_
 > * Gitlab integration
 > * Che launcher profiles to simplify managing multiple Che configurations on the same machine
 
+##4.7.2
+_Milestone Details:_ https://github.com/eclipse/che/issues/2401
+
+_Primary Goals_
+> * Bug fixes
+
 ##4.7.1
 _Milestone Details:_ https://github.com/eclipse/che/issues/2354
 
