@@ -22,8 +22,8 @@ If you want to develop an extension for Che, we recommend to checkout the latest
 git checkout tags/4.6.0
 ```
 
-### Build and Run - Native
-In its purest form, Che runs as a Tomcat server.
+### Build and Run - Tomcat
+In its purest form, Che runs as a Tomcat server. You can build Che to create an assembly that has an embedded Tomcat server. You can run this without launching Docker.
 
 ```sh
 cd che/assembly
@@ -36,7 +36,7 @@ cd che/assembly/assembly-main/target/eclipse-che-<version>/eclipse-che-<version>
 bin/che.sh
 bin/che.bat
 ```
-Che will be available at ```localhost:8080```.
+Che will be available at ```localhost:8080```. You can also optionally use the Che Docker launcher as your client and set the `CHE_LOCAL_BINARY` to point to the location of your assembly. The Docker container will volume mount the compiled binary from your system for its run.
 
 # You can build Che and all submodules in the root directory.
 # Each submodule has its own installation requirements - and may fail if your system is missing pieces.
@@ -46,6 +46,14 @@ mvn clean install
 # You can skip a submodule.
 # Skip building the dashboard:
 mvn -pl '!dashboard' clean install
+
+# There is additional software that you need to run unit tests and license checks.
+# Skip these checks to speed up builds further:
+mvn -DskipTests=true 
+    -Dfindbugs.skip=true
+    -Dgwt.compiler.localWorkers=2 -T 1C 
+    -Dskip-validate-sources 
+     clean install
 
 ### Build and Run - Docker
 We distribute Eclipse Che as a Docker image and this is the preferred way for users to install and run Che. You can use our Che launcher container [to run your local Che binaries](https://eclipse-che.readme.io/v4.7/docs/usage-docker#local-eclipse-che-binaries), or you can create a new Docker image that contains your binaries.
