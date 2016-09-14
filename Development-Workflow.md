@@ -22,8 +22,7 @@ If you want to develop an extension for Che, we recommend to checkout the latest
 git checkout tags/4.6.0
 ```
 
-
-### Build and Run - Tomcat
+### Build and Run - Native
 In its purest form, Che runs as a Tomcat server.
 
 ```sh
@@ -38,6 +37,15 @@ bin/che.sh
 bin/che.bat
 ```
 Che will be available at ```localhost:8080```.
+
+# You can build Che and all submodules in the root directory.
+# Each submodule has its own installation requirements - and may fail if your system is missing pieces.
+cd che/
+mvn clean install
+
+# You can skip a submodule.
+# Skip building the dashboard:
+mvn -pl '!dashboard' clean install
 
 ### Build and Run - Docker
 We distribute Eclipse Che as a Docker image and this is the preferred way for users to install and run Che. You can use our Che launcher container [to run your local Che binaries](https://eclipse-che.readme.io/v4.7/docs/usage-docker#local-eclipse-che-binaries), or you can create a new Docker image that contains your binaries.
