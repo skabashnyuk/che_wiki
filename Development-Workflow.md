@@ -40,20 +40,19 @@ Che will be available at ```localhost:8080```. You can also optionally use the C
 
 ```sh
 # You can build Che and all submodules in the root directory.
-# Each submodule has its own installation requirements - and may fail if your system is missing pieces.
 cd che/
 mvn clean install
 
-# You can skip a submodule.
-# Skip building the dashboard:
+# Each submodule may require additional software to build properly.
+# You can skip a submodule to avoid installing additional software.
+# For example, to skip building the dashboard:
 mvn -pl '!dashboard' clean install
 
 # There is additional software that you need to run unit tests and license checks.
 # Skip these checks to speed up builds further:
-mvn -DskipTests=true 
-    -Dfindbugs.skip=true
-    -Dgwt.compiler.localWorkers=2 -T 1C 
-    -Dskip-validate-sources 
+mvn -DskipTests=true \
+    -Dfindbugs.skip=true \
+    -Dskip-validate-sources \
      clean install
 ```
 
@@ -65,8 +64,7 @@ We distribute Eclipse Che as a Docker image and this is the preferred way for us
 docker run -v /var/run/docker.sock:/var/run/docker.sock \
            -e CHE_LOCAL_BINARY=/home/assembly \           
            codenvy/che-launcher:nightly start
-```
-```sh
+
 # Build the Che server Docker image from the root of our source:
 docker build -t che-server -f dockerfiles/che-server/Dockerfile .
 docker tag <imageid> codenvy/che-server:<choose-a-version>
