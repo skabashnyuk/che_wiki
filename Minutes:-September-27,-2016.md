@@ -16,11 +16,13 @@
 
 ####2. 
 
-####3.  
+####3. Remove che-in-che stack for saas + onprem  
+Added to M4 release.
 
 ####4. NPM issues? #2608
-Moved to next sprint.Will be fixed next-sprint by workaround. 
+Moved to next sprint. Will be fixed next-sprint by workaround and possibly #1944 . 
 
-####5.  
+####5. Any LS bugs remaining? #2614
+No blockers. Adding to M5 for Codenvy.
 
 ​Epic on intelligent commands. Related to #1944
