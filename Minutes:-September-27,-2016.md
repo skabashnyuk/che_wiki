@@ -12,9 +12,10 @@
 ##IMPORTANT POINTS ON TOPICS DISCUSSED:
 
 ####​1. 5.0.0-M4 status 
+Will be done ASAP. Most likely in the next couple of days.
 
+####2. 5.0.0-M5 status  
 
-####2. 
 
 ####3. Remove che-in-che stack for saas + onprem  
 Added to M4 release.
@@ -28,6 +29,11 @@ No blockers. Adding to M5 for Codenvy.
 ####6.
 
 ####7.Port routing.
-Codenvy uses 444 because Che uses 443. Investigating to see if Codenvy and Che can both use 443 at the same time.
+Codenvy uses 444 because Che uses 443. Investigating:
+1. See if Codenvy and Che can both use 443 at the same time.  
+2. Looking at using only one port for all traffic by putting HAProxy in front of Nginx for port 443/444.   
+3. Replace HAProxy with Nginx or vice versa.  
+4. Remove ephemeral ports.  
+
 
 ​Epic on intelligent commands. Related to #1944
