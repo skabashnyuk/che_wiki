@@ -4,14 +4,42 @@ As part of our 6-9 month roadmap, we are restructuring the underlying workspace 
 
 As part of this exercise, we will provide these capabilities into a single 5.0 release targeted for later 2016. We have now started on the milestone train for 5.0 and will continue with various ship-quality milestones until we are satisfied with the usability and can provide migration paths for 4.x workspaces.
 
-##5.0.0-M2
+##5.0.0-M5
 _Milestone Details:_ https://github.com/eclipse/che/issues/2359
 
 _Note:_ This is a pre-GA milestone in the new 5.0 stream. There are model changes in Che 5 that make the milestone builds incompatible with the workspaces of 4.x - see the Milestone Details for more information.
 
 _Primary Goals_
-> * New file system watcher / VFS
-> * Eclipse Orion 12 editor upgrade
+> * Bug fixes and cleanup
+
+##5.0.0-M4
+_Milestone Details:_ https://github.com/eclipse/che/issues/2615
+
+_Note:_ This is a pre-GA milestone in the new 5.0 stream. There are model changes in Che 5 that make the milestone builds incompatible with the workspaces of 4.x - see the Milestone Details for more information.
+
+_Primary Goals_
+> * Bug fixes
+
+##5.0.0-M3
+_Milestone Details:_ https://github.com/eclipse/che/issues/2641
+
+_Note:_ This is a pre-GA milestone in the new 5.0 stream. There are model changes in Che 5 that make the milestone builds incompatible with the workspaces of 4.x - see the Milestone Details for more information.
+
+_Primary Goals_
+> * New stack editor in the user dashboard
+> * Expanded workspace configuration in the dashboard
+> * Smoothing and simplifying of the user interface
+> * Support for the Codenvy/Microsoft/RedHat language server protocol standard
+> * Upgrade to Orion 12
+> * Consolidated database
+
+##5.0.0-M2
+_Milestone Details:_ https://github.com/eclipse/che/issues/2640
+
+_Note:_ This is a pre-GA milestone in the new 5.0 stream. There are model changes in Che 5 that make the milestone builds incompatible with the workspaces of 4.x - see the Milestone Details for more information.
+
+_Primary Goals_
+> * Bug fixes
 
 
 ##5.0.0-M1
