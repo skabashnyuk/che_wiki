@@ -54,6 +54,16 @@ mvn -DskipTests=true \
     -Dfindbugs.skip=true \
     -Dskip-validate-sources \
      clean install
+
+# For the fastest incremental build, also skip dependency analysis, source validation and license checks.
+mvn -DskipTests=true \
+    -Dfindbugs.skip=true \
+    -Dskip-validate-sources \
+    -Dmdep.analyze.skip=true \
+    -Dlicense.skip=true \
+    -Dgwt.compiler.localWorkers=2 -T 1C \
+     clean install
+
 ```
 
 ### Build and Run - Docker
