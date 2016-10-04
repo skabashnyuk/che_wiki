@@ -195,7 +195,7 @@ Our repository is broken in a variety of independently buildable submodules.
 ### Repositories
 Some dependencies are managed in separate repositories as part of the `http://github.com/eclipse` organization. These dependencies are forks of other important projects.
 ```
-/che-dockerfiles                          # Dockerfiles for our stacks (dozens!) and utilities like launcher
+/che-dockerfiles                          # Recipes for stacks and launch utilities
 /che-lib                                  # Forked dependencies that require mods
 /che-lib/swagger                          # Embeded API configuration
 /che-lib/terminal                         # Our embedded Web terminal
