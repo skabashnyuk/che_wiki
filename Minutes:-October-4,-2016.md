@@ -2,8 +2,8 @@
 
 ​1. 5.0.0-M5 status  
 2. 5.0.0-M6 status  
-3. OpenShift Plugin Status
-4. Intelligent Commands. 
+3. OpenShift Plugin Status  
+4. Intelligent Commands 
 
 
 ##IMPORTANT POINTS ON TOPICS DISCUSSED:
