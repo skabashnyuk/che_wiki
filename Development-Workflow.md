@@ -49,7 +49,7 @@ mvn clean install
 mvn -pl '!dashboard' clean install
 
 # There is additional software that you need to run unit tests and license checks.
-# Skip these checks to speed up builds further:
+# Skip these checks to speed builds further and avoid failures from uninstalled unit test software:
 mvn -DskipTests=true \
     -Dfindbugs.skip=true \
     -Dskip-validate-sources \
@@ -117,6 +117,8 @@ docker run -it --rm --name build-che
                -Dfindbugs.skip=true
                -Dgwt.compiler.localWorkers=2 -T 1C 
                -Dskip-validate-sources 
+               -Dmdep.analyze.skip=true 
+               -Dlicense.skip=true
                clean install
                
 # For Windows, replace $HOME with maven repo directory.
