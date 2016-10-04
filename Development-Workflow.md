@@ -77,7 +77,8 @@ docker build -t che-launcher -f dockerfiles/che/Dockerfile .
 docker tag <imageid> codenvy/che-launcher:<match-version-of-server>
 
 # Now run Che
-docker run --rm -v /var/run/docker.sock:/var/run/docker.sock codenvy/che-launcher:<version> start 
+docker run --rm -v /var/run/docker.sock:/var/run/docker.sock \
+       codenvy/che-launcher:<version> start 
 ```
 Community member Ilya Buzuik has published [an article](https://github.com/ibuziuk/docs/blob/master/che_remote_debugging.adoc) on how to setup remote debugging of a Che assembly.
 
