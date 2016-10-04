@@ -49,13 +49,7 @@ mvn clean install
 mvn -pl '!dashboard' clean install
 
 # There is additional software that you need to run unit tests and license checks.
-# Skip these checks to speed builds further and avoid failures from uninstalled unit test software:
-mvn -DskipTests=true \
-    -Dfindbugs.skip=true \
-    -Dskip-validate-sources \
-     clean install
-
-# For the fastest incremental build, also skip dependency analysis, source validation and license checks.
+# Build faster by skipping unit tests and other enforcement features:
 mvn -DskipTests=true \
     -Dfindbugs.skip=true \
     -Dskip-validate-sources \
@@ -63,11 +57,10 @@ mvn -DskipTests=true \
     -Dlicense.skip=true \
     -Dgwt.compiler.localWorkers=2 -T 1C \
      clean install
-
 ```
 
 ### Build and Run - Docker
-We distribute Eclipse Che as a Docker image and this is the preferred way for users to install and run Che. You can use our Che launcher container [to run your local Che binaries](https://eclipse-che.readme.io/v4.7/docs/usage-docker#local-eclipse-che-binaries), or you can create a new Docker image that contains your binaries.
+We distribute Eclipse Che as a Docker image and this is the preferred way for users to install and run Che. You can use our Che launcher [to run your local Che binaries](https://eclipse-che.readme.io/docs/usage-docker#local-eclipse-che-binaries), or you can create a new Docker image that contains your binaries.
 
 ```sh
 # If your local assembly is located at /home/assembly:
@@ -86,6 +79,7 @@ docker tag <imageid> codenvy/che-launcher:<match-version-of-server>
 # Now run Che
 docker run --rm -v /var/run/docker.sock:/var/run/docker.sock codenvy/che-launcher:<version> start 
 ```
+Community member Ilya Buzuik has published [an article](https://github.com/ibuziuk/docs/blob/master/che_remote_debugging.adoc) on how to setup remote debugging of a Che assembly.
 
 ### Build Submodules
 Building `/assembly` pulls already-built libraries for `/core`, `/plugins`, and `/dashboard` from our Nexus repository. You can build these submodules individually.
