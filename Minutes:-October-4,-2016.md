@@ -2,35 +2,22 @@
 
 ​1. 5.0.0-M5 status  
 2. 5.0.0-M6 status  
-3. OpenShift plugin has some servicesthat are not created. We are unsure who system(Che or RH) is not functioning properly. We are currently working with RH to get OpenShift plugin working. 
-4. Intelligent commands. Can the server run commands? Need to send context to server for execution. Moving command into pallete. Discussing how configuration will work.
+3. OpenShift Plugin Status
+4. Intelligent Commands. 
 
 
 ##IMPORTANT POINTS ON TOPICS DISCUSSED:
 
 ####​1. 5.0.0-M5 status 
-Hotfix release for 5.0.0-M5. Should be completed by tomorrow pending github issue [687]. Most likely in the next couple of days.
+Hotfix release for 5.0.0-M4. Should be completed by tomorrow pending github issue [#687](https://github.com/codenvy/codenvy/issues/687).
 
 ####2. 5.0.0-M6 status  
-Will be done before the end of this spring. Dependent on LDAP integration. Issues not done when LDAP is completed will be pushed to 5.0.0-M6.
+Hotfix release for 5.0.0-M5. Planned to be completed by next week.
 
-####3. Remove che-in-che stack for saas + onprem  
-Added to M5 release.
+####3. OpenShift Plugin Status
+Has some services that are not created. We are unsure who system(Che or RH) is not functioning properly. We are currently working with RH to get OpenShift plugin working. 
 
-####4. NPM issues? #2608
-Moved to next sprint. Will be fixed next-sprint by workaround and possibly #1944 . 
+####4. Intelligent Commands.
+Can the server run the intelligent commands in workspace machines as apposed to running directly from workspace machine. This would help with intelligent command portability to other workspaces. To do this it is proposed that context from the workspace be sent to server for execution.
 
-####5. Any LS bugs remaining? #2614
-No blockers. Adding to M5 for Codenvy.
-
-####6.Change docs version from 5.0.0-M3 to just 5.0.0 
-This will happen.
-
-####7.Port routing.
-Codenvy uses 444 because Che uses 443. Investigating:
-1. See if Codenvy and Che can both use 443 at the same time.  
-2. Looking at using only one port for all traffic by putting HAProxy in front of Nginx for port 443/444.   
-3. Replace HAProxy with Nginx or vice versa.  
-4. Remove ephemeral ports.  
-
-A meeting has been setup to discuss this idea further.
+Move commands into palette.
