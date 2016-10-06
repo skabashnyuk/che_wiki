@@ -4,7 +4,7 @@ The best way to understand how a project works or to debug an issue is to get th
 ### Dependencies
 * Docker 1.8+
 * Maven 3.3.1+
-* Oracle Java 1.8 -- compilation with openjdk is not yet supported
+* Oracle or OpenJDK Java 1.8
 
 The M2_HOME and M2 variables should be set correctly.
 
