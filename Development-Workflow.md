@@ -57,6 +57,9 @@ mvn -DskipTests=true \
     -Dlicense.skip=true \
     -Dgwt.compiler.localWorkers=2 -T 1C \
      clean install
+
+# We also have a maven "fast" profile that provides the same flags:
+mvn clean install -Pfast
 ```
 
 ### Build and Run - Docker
