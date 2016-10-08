@@ -12,7 +12,7 @@ _Note:_ This is a pre-GA milestone in the new 5.0 stream. There are model change
 _Primary Goals_
 > * Bug fixes
 
-##5.0.0-M5 (Complete)
+##5.0.0-M5 (Latest)
 _Milestone Details:_ https://github.com/eclipse/che/issues/2359
 
 _Note:_ This is a pre-GA milestone in the new 5.0 stream. There are model changes in Che 5 that make the milestone builds incompatible with the workspaces of 4.x - see the Milestone Details for more information.
