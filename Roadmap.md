@@ -39,4 +39,4 @@ Che needs to run in a variety of environments and support large-scale workspace 
 - [ ] Environment SPI, to allow platform providers like OpenShift to create plugins to manage workspace runtimes [#1829](https://github.com/eclipse/che/issues/1829)
 - [ ] Che with a reverse proxy to minimize port exposure (workspace URLs will be embedded) [#1560](https://github.com/eclipse/che/issues/1560)
 - [ ] Migrate the 30 or so Docker images from Codenvy into the eclipse/ DockerHub organization[#2737](https://github.com/eclipse/che/issues/2737)
-- [] Create Che machine exec concept to solve issues with Docker exec [#1944](https://github.com/eclipse/che/issues/1944)
+- [ ] Create Che machine exec concept to solve issues with Docker exec [#1944](https://github.com/eclipse/che/issues/1944)
