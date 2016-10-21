@@ -133,6 +133,16 @@ docker run -it --rm --name build-che
 # For Windows, replace $PWD with Che source code directory.
 ```
 
+### Developers on Windows
+If you are a developer on Windows you'll not be able to do a complete build of Che by doing a `mvn clean install`. There are certain modules that require additional libraries and are OS specific. (dashboard and svn plugin)
+
+In this situation, we recommend to build Che sources using the "che-dev" Docker image. This image has the dependencies necessary to build Che. You'll mount Che source code from your host to the container and then compile the code within the container.
+
+You can refer to [this paragraph](https://github.com/eclipse/che/wiki/Development-Workflow#build-che-using-docker).
+
+Alternatively you can also skip building certain submodules by referring to the following [instructions](https://github.com/eclipse/che/wiki/Development-Workflow#build-and-run---tomcat).
+
+
 ## Validate Your Changes
 We have integrated findbugs into the maven build system to generate warnings during the build. If your code generates new warnings or errors from findbugs, you must eliminate those issues before submitting the pull request. You can skip these checks by passing `-Dfindbugs.skip=true` to the maven build.
 
