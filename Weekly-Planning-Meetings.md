@@ -1,5 +1,6 @@
 There is an Eclipse Che dev meeting each Tuesday, 7:00 AM PST. You can join the meeting (audio + video) with a [Google Hangout](https://hangouts.google.com/hangouts/_/codenvy.com/che-weekly-meeting).
 
+[Minutes: November, 2016](https://github.com/eclipse/che/wiki/Minutes:-November-1,-2016)  
 [Minutes: October 18, 2016](https://github.com/eclipse/che/wiki/Minutes:-October-18,-2016)  
 [Minutes: October 11, 2016](https://github.com/eclipse/che/wiki/Minutes:-October-11,-2016)  
 [Minutes: October 4, 2016](https://github.com/eclipse/che/wiki/Minutes:-October-4,-2016)  
