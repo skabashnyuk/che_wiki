@@ -7,13 +7,15 @@ There are many ways to contribute to an open source project. Many people start w
 * If it's known and you have additional information or logs that will help add those to the bug.
 * If it's not known [file the bug](https://github.com/eclipse/che/wiki/Submitting-Bugs-and-Suggestions). Please add all the requested information from the issue template...it helps speed resolution.
 
-#### Enhancements
+#### File Enhancements
 * Check if the enhancement [already exists](https://github.com/eclipse/che/labels/kind%2Fenhancement).
 * If it's known you can watch it or add additional helpful information.
 * If it's unknown, please [file the issue](https://github.com/eclipse/che/issues).
 
 #### Fix Bugs or Make Enhancements
 * Please [browse the repo](https://github.com/eclipse/che/issues?utf8=%E2%9C%93&q=is%3Aopen) for known bugs that can be resolved.
+* Before issuing a pull request you'll need to sign the [Eclipse Contributor License Agreement](https://github.com/eclipse/che/wiki/Contributor-License-Agreement)
+* Ensure your code meets the Eclipse Che [coding guidelines](https://github.com/eclipse/che/wiki/Coding-Guidelines)
 * Some areas we would love community help with:
   * Adding new stacks.
   * Adding new code samples for existing stacks.
