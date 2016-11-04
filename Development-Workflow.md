@@ -10,7 +10,15 @@ The M2_HOME and M2 variables should be set correctly.
 
 To build the Che core, you will need the maven-patch-plugin. Windows [does not support this plugin](http://maven.apache.org/plugins/maven-patch-plugin/faq.html#Why_doesnt_this_work_on_Windows), and we give instructions on how to skip this plugin when building. You can also optionally modify your build to [download the patch tool](http://gnuwin32.sourceforge.net/packages/patch.htm) and then add the patch tool to your `PATH`.
 
-To build the user dashboard submodule, you will need npm, bower, gulp, and python. 
+To build the user dashboard submodule, you will need npm, bower, gulp, and python.
+- Python `v2.7.x`(`v3.x.x`currently not supported)
+- Node.js `v4.x.x` (`v5.x.x` / `v6.x.x` are currently not supported)
+- npm
+- Bower
+- gulp
+- typings
+
+Learn more about how to [build the dashboard submodule here](https://github.com/eclipse/che/tree/master/dashboard).
 
 ### Clone
 If you do not haven't done already, please clone the Che repository
