@@ -22,7 +22,7 @@ Che-server image has been approved. We are waiting for Docker to approve a tempo
 We want PHP and Zend debugger will NOT be available on Che before Che Conference November 15. It still needs to be worked on and will not make it in time for Thursdays 11/10/2016 release date.  [https://github.com/eclipse/che/pull/2785](https://github.com/eclipse/che/pull/2785) and [https://github.com/eclipse/che/pull/2936](https://github.com/eclipse/che/pull/2936)
 
 #### 5. Che Conference
-CheConf scheduled to take place on Tuesday November 15. Over 1000 signups so far! See more at [https://eclipse.org/che/checonf/index.html](https://eclipse.org/che/checonf/index.html).
+CheConf scheduled to take place on Tuesday November 15. Over 1600 signups so far! See more at [https://eclipse.org/che/checonf/index.html](https://eclipse.org/che/checonf/index.html).
 
 
 
