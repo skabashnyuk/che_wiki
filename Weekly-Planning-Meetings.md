@@ -1,5 +1,6 @@
 There is an Eclipse Che dev meeting each Tuesday, 7:00 AM PST. You can be part of the meeting (mic + chat + video cam) with [Google Hangout](https://hangouts.google.com/call/saw6475c2rb3hhxyryobyrmytie).
 
+[Minutes: December 6, 2016](https://github.com/eclipse/che/wiki/Minutes:-December-6,-2016)  
 [Minutes: November 29, 2016](https://github.com/eclipse/che/wiki/Minutes:-November-29,-2016)  
 [Minutes: November 22, 2016](https://github.com/eclipse/che/wiki/Minutes:-November-22,-2016)  
 [Minutes: November 8, 2016](https://github.com/eclipse/che/wiki/Minutes:-November-8,-2016)  
