@@ -4,7 +4,7 @@ As part of our 6-9 month roadmap, we are restructuring the underlying workspace 
 
 As part of this exercise, we will provide these capabilities into a single 5.0 release targeted for later 2016. We have now started on the milestone train for 5.0 and will continue with various ship-quality milestones until we are satisfied with the usability and can provide migration paths for 4.x workspaces.
 
-##5.0.0-M8 (In-Progress)
+##5.0.0-M8 (Latest)
 _Milestone Details:_ https://github.com/eclipse/che/issues/3094
 
 _Note:_ This is a pre-GA milestone in the new 5.0 stream. There are model changes in Che 5 that make the milestone builds incompatible with the workspaces of 4.x - see the Milestone Details for more information.
@@ -16,7 +16,7 @@ _Primary Goals_
 > * Use OpenJDK in che-server
 > * Updated .NET Core Template
  
-##5.0.0-M7 (Latest)
+##5.0.0-M7 
 _Milestone Details:_ https://github.com/eclipse/che/issues/2935
 
 _Note:_ This is a pre-GA milestone in the new 5.0 stream. There are model changes in Che 5 that make the milestone builds incompatible with the workspaces of 4.x - see the Milestone Details for more information.
