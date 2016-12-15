@@ -179,6 +179,27 @@ We do not apply linting rules.
 ## Work Branches
 All branches in the Che repository need to be named after the matching issue number in GitHub. Please try to avoid pretty-named branches. When your pull request is merged to master, the developer that created the branch is responsible for removing the branch. We perform a branch review after each milestone.
 
+## Copyright
+As an Eclipse project, we follow Copyright guidelines offered at [Eclipse's site](https://eclipse.org/legal/eplfaq.php). You can add your company's name in the EPL header to link the Copyright to multiple companies. We use https://github.com/mycila/license-maven-plugin/ to ensure that all necessary files have an appropriate license header.
+Unfortunately it cannot currently handle multiple Copyright owners. See 
+https://github.com/mycila/license-maven-plugin/issues/119. As a workaround, we allow license check to be disabled for specific files. Add this extra configuration to the Maven's `pom.xml` as part of your pull request.
+
+```
+<build>
+  <plugins>
+    <plugin>
+      <groupId>com.mycila</groupId>
+      <artifactId>license-maven-plugin</artifactId>
+      <configuration>
+        <excludes>
+          <exclude>**/**/CronExpression*.java</exclude>
+        </excludes>
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
+```
+
 ## Pull Requests
 Before we can accept a pull request from you, you'll need to sign a [Contributor License Agreement (CLA)](https://github.com/eclipse/che/wiki/Contributor-License-Agreement). It is an automated process and you only need to do it once.
 
