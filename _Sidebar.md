@@ -6,9 +6,11 @@
 * [Issue Tracking](https://github.com/eclipse/che/wiki/Issue-Tracking)
 * [Development Process](https://github.com/eclipse/che/wiki/Development-Process)
 
+
 **Contributing**
 * [How to Contribute](https://github.com/eclipse/che/wiki/How-To-Contribute)
 * [Bugs and Suggestions](https://github.com/eclipse/che/wiki/Submitting-Bugs-and-Suggestions)
 * [Development Workflow](https://github.com/eclipse/che/wiki/Development-Workflow)
 * [Coding Guidelines](https://github.com/eclipse/che/wiki/Coding-Guidelines)
 * [Contributor License Agreement](https://github.com/eclipse/che/wiki/Contributor-License-Agreement)
+* [Dependency Repositories](https://github.com/eclipse/che/wiki/Dependency-Repositories)
