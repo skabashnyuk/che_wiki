@@ -13,4 +13,3 @@
 * [Development Workflow](https://github.com/eclipse/che/wiki/Development-Workflow)
 * [Coding Guidelines](https://github.com/eclipse/che/wiki/Coding-Guidelines)
 * [Contributor License Agreement](https://github.com/eclipse/che/wiki/Contributor-License-Agreement)
-* [Dependency Repositories](https://github.com/eclipse/che/wiki/Dependency-Repositories)
