@@ -255,4 +255,5 @@ These are external repositories that provide additional tools for Eclipse Che.
 http://github.com/codenvy/che-installer           # Windows and JAR installers
 http://github.com/codenvy/che-tutorials           # SDK examples and tutorials
 http://git.eclipse.org/c/www.eclipse.org/che.git  # eclipse.org/che Web site
+https://github.com/codenvy/che-docs               # Che's Documentation 
 ```
