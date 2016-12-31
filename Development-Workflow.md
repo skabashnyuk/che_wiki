@@ -179,6 +179,9 @@ We do not apply linting rules.
 ## Work Branches
 All branches in the Che repository need to be named after the matching issue number in GitHub. Please try to avoid pretty-named branches. When your pull request is merged to master, the developer that created the branch is responsible for removing the branch. We perform a branch review after each milestone.
 
+## Documentation
+Docs are maintained in a [separate repository](http://github.com/eclipse/che-docs). Docs are authored in Markdown and then we use Jekyll to transform it into static HTML. Docs are then hosted within the product and also available at www.eclipse.org/che/docs. When issuing a pull request for Che, you will be asked to verify if any docs need to be added in a cross-referenced PR for the docs repo.
+
 ## Copyright
 As an Eclipse project, we follow Copyright guidelines offered at [Eclipse's site](https://eclipse.org/legal/eplfaq.php). You can add your company's name in the EPL header to link the Copyright to multiple companies. We use https://github.com/mycila/license-maven-plugin/ to ensure that all necessary files have an appropriate license header.
 Unfortunately it cannot currently handle multiple Copyright owners. See 
@@ -205,7 +208,6 @@ Before we can accept a pull request from you, you'll need to sign a [Contributor
 
 To enable us to quickly review and accept your pull requests, always create one pull request per issue and link the issue in the pull request. Never merge multiple requests in one unless they have the same root cause. Be sure to follow our coding guidelines and keep code changes as small as possible. Pull requests should contain tests whenever possible.
 
-### 
 Check out the [full issues list](http://github.com/eclipse/che/issues) for a list of all potential areas for contributions. Note that just because an issue exists in the repository does not mean we will accept a contribution to the core editor for it. There are several reasons we may not accepts a pull request like:
 
 - Performance - One of Che's core values is to deliver a localhost-equivalent distributed workspace server. This means that workspaces must perform well in both real and perceived performance.
@@ -222,6 +224,7 @@ In order to keep the conversation clear and transparent, please limit discussion
 Our repository is broken in a variety of independently buildable submodules.
 ```
 /che
+/che/agents                            # Software deployed into workspaces
 /che/assembly                          # Generates binary assemblies of Che
 /che/assembly/assembly-main            # Final packaging phase
 /che/assembly/assembly-ide-war         # Creates the IDE.war from plug-ins & core
@@ -229,24 +232,21 @@ Our repository is broken in a variety of independently buildable submodules.
 /che/assembly/assembly-machine-server  # Creates the agent server that goes into ws
 /che/core                              # Shared libraries for server, agents, and plugins
 /che/dashboard                         # JavaScript app user management
-/che/plugins                           # IDE & agent plug-ins
-/che/wsmaster                          # Libraries used by the Che server
-/che/wsagent                           # Libraries used by workspace agents
+/che/dockerfiles                       # Docker images to run Che, CLI, & utilities
+/che/ide                               # The browser-based IDE
+/che/plugins                           # IDE & workspace agent plug-ins
+/che/samples                           # Code templates injected into new workspaces
 ```
 
 ### Repositories
-Some dependencies are managed in separate repositories as part of the `http://github.com/eclipse` organization. These dependencies are forks of other important projects.
+Some dependencies are managed in separate repositories as part of the `http://github.com/eclipse` organization. These dependencies are forks of other important projects, contain shared libraries that need to be managed on a different tagging lifecycle than Che, or have very large files within them (such as docs).
 ```
-/che-dockerfiles                          # Recipes for stacks and launch utilities
-/che-lib                                  # Forked dependencies that require mods
-/che-lib/swagger                          # Embeded API configuration
-/che-lib/terminal                         # Our embedded Web terminal
-/che-lib/websocket                        # For comms between workspaces and browsers
-/che-lib/pty                              
-/che-lib/che-tomcat8-slf4j-logback        # For Che's runtime environment
-/che-dependencies                         # Maven dependencies used by che
-/che-dev                                  # Code style and license header
-/che-parent                               # Maven plugins and profiles
+https://github.com/eclipse/che-dockerfiles
+https://github.com/eclipse/che-lib
+https://github.com/eclipse/che-dependencies
+https://github.com/eclipse/che-dev
+https://github.com/eclipse/che-parent
+https://github.com/codenvy/che-docs             
 ```
 
 ### Other Repositories
@@ -255,5 +255,4 @@ These are external repositories that provide additional tools for Eclipse Che.
 http://github.com/codenvy/che-installer           # Windows and JAR installers
 http://github.com/codenvy/che-tutorials           # SDK examples and tutorials
 http://git.eclipse.org/c/www.eclipse.org/che.git  # eclipse.org/che Web site
-https://github.com/codenvy/che-docs               # Che's Documentation 
 ```
