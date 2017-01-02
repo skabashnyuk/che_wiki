@@ -12,6 +12,10 @@ There are many ways to contribute to an open source project. Many people start w
 * If it's known you can watch it or add additional helpful information.
 * If it's unknown, please [file the issue](https://github.com/eclipse/che/issues).
 
+#### Documentation Enhancements  
+* Eclipse Che's documentation is maintained in a separate repository [https://github.com/codenvy/che-docs](https://github.com/codenvy/che-docs).
+* For additional information see documentation [README.md](https://github.com/codenvy/che-docs/blob/master/README.md).
+
 #### Fix Bugs or Make Enhancements
 * Please [browse the repo](https://github.com/eclipse/che/issues?utf8=%E2%9C%93&q=is%3Aopen) for known bugs that can be resolved.
 * Before issuing a pull request you'll need to sign the [Eclipse Contributor License Agreement](https://github.com/eclipse/che/wiki/Contributor-License-Agreement)
