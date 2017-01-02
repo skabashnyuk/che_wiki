@@ -14,7 +14,7 @@ There are many ways to contribute to an open source project. Many people start w
 
 #### Documentation Enhancements  
 * Eclipse Che's documentation is maintained in a separate repository [https://github.com/codenvy/che-docs](https://github.com/codenvy/che-docs).
-* For additional information see documentation [README.md](https://github.com/codenvy/che-docs/blob/master/README.md).
+* For additional information on how to contribute see documentation [README.md](https://github.com/codenvy/che-docs/blob/master/README.md).
 
 #### Fix Bugs or Make Enhancements
 * Please [browse the repo](https://github.com/eclipse/che/issues?utf8=%E2%9C%93&q=is%3Aopen) for known bugs that can be resolved.
