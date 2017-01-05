@@ -68,6 +68,11 @@ mvn -DskipTests=true \
     -Dgwt.compiler.localWorkers=2 -T 1C \
      clean install
 
+# If you have forked the repository, you can define maven flags permanently by
+# editing /.mvn/.jvm.config. Engineers with advanced multi-core machines usually
+# set it to:
+-Xms512m -Xmx4g -Djava.net.preferIPv4Stack=true -Dgwt.compiler.localWorkers=4
+
 # We also have a maven "fast" profile that provides the same flags:
 mvn clean install -Pfast
 ```
