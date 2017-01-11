@@ -17,6 +17,11 @@ The Eclipse Che project relies heavily on issue labels as a way to communicate s
 | severity/P1| Has a major impact to usage or development of the system. Issues / PRs with P1 status should be prioritized during sprint planning. Can be applied to all kinds of issues. Not all issues need a severity. If an enhancement or bug will take >1 sprint to address consider using the `roadmap/*` labels instead.
 | severity/P2| Has a minor but important impact to the usage or development of the system. Should be considered when planning sprints. Can be applied to all kinds of issues. Not all issues need a severity. If an enhancement or bug will take >1 sprint to address consider using the `roadmap/*` labels instead.
 ||
+| **Issue Level**| _________________________________________________________________________ |
+| level/beginner | A relatively easy issue that's well suited to being addressed by a pull request from the community.
+| level/intermediate | A more advanced issue that is open to a pull request from a community member with more experience in Che.
+| level/advanced | A challenging issue that is complicated and needs help from a community member with domain experience.
+||
 | **Dev Open Issue Status**| _________________________________________________________________________ |
 | status/info-needed | More information is needed before the issue can move into the “analyzing” state for engineering. Cannot overlap with “analyzing”, “open-for-dev”, “in-progress”, “code-review”, “pending-merge” or “blocked”.
 | status/analyzing | An issue has been proposed and it is currently being analyzed for effort and implementation approach. Cannot overlap with “info-needed”, “open-for-dev”, “in-progress”, “code-review” or “pending-merge” or “blocked”.
