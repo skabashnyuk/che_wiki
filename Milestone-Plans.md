@@ -21,7 +21,7 @@ _Note:_ This is a GA milestone in the new 5.0 stream. There are model changes in
 _Primary Goals_
 > * GA ready.
 
-##5.0.0-M9 (In-Progress)
+##5.0.0-M9
 _Milestone Details:_ https://github.com/eclipse/che/issues/3093
 
 _Note:_ This is a pre-GA milestone in the new 5.0 stream. There are model changes in Che 5 that make the milestone builds incompatible with the workspaces of 4.x - see the Milestone Details for more information.
