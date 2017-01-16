@@ -78,7 +78,7 @@ mvn clean install -Pfast
 ```
 
 ### Build and Run - Docker
-We distribute Eclipse Che as a Docker image and this is the preferred way for users to install and run Che. You can use our Che launcher [to run your local Che binaries](https://eclipse-che.readme.io/docs/usage-docker#local-eclipse-che-binaries), or you can create a new Docker image that contains your binaries.
+We distribute Eclipse Che as a Docker image and this is the preferred way for users to install and run Che. You can use our Che launcher [to run your local Che binaries](https://www.eclipse.org/che/docs/setup/docker/#use-local-che-assembly), or you can create a new Docker image that contains your binaries.
 
 ```sh
 # If your local assembly is located at /home/assembly:
@@ -166,7 +166,7 @@ We have integrated [Error Prone](https://github.com/google/error-prone) to check
 License checks for submitted files are done within a maven build. You can skip these license checks with `-Dskip-validate-sources` maven option.
  
 ## Debugging
-Che is a multi-node system with processes running within the browser, the Che server and within the workspace. The debugging tactics for each node is different. These tactics are covered in the [plugin development resource center](https://eclipse-che.readme.io/docs/setup-che-workspace).
+Che is a multi-node system with processes running within the browser, the Che server and within the workspace. The debugging tactics for each node is different. These tactics are covered in the [plugin development resource center](https://www.eclipse.org/che/docs/plugins/introduction/).
 
 ## Profiling
 The Che server and the primary workspace agent deployed within a workspace have JVM runtimes. We use JProfiler as the primary performance profiling utility for the JVMs that are running within each of these notes. Our servers are running within Docker containers for each of these nodes. JProfiler needs to be added, configured, and exposed within the Dockerfiles used to run Che or a workspace. JProfiler will need an additional port exposed and you will have to find the ephemeral port mapping of the container when it is running.
