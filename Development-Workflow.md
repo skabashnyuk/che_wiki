@@ -285,7 +285,7 @@ https://github.com/eclipse/che-lib
 https://github.com/eclipse/che-dependencies
 https://github.com/eclipse/che-dev
 https://github.com/eclipse/che-parent
-https://github.com/codenvy/che-docs             
+https://github.com/eclipse/che-docs             
 ```
 
 ### Other Repositories
