@@ -231,13 +231,27 @@ Before we can accept a pull request from you, you'll need to sign a [Contributor
 
 To enable us to quickly review and accept your pull requests, always create one pull request per issue and link the issue in the pull request. Never merge multiple requests in one unless they have the same root cause. Be sure to follow our coding guidelines and keep code changes as small as possible. Pull requests should contain tests whenever possible and documentation where appropriate.
 
-Before a pull request can be merged it must be labelled correctly as a `kind/bug` or `kind/enhancement`. Other labels are optional. When it is merged the committer who merges will add the appropriate milestone label so it can be tracked.
+We require that each PR has:
+- A descriptive title.
+- A link to the issue that initiated the PR.
+- Changelog: one line summary to be included in the Changelog.md during release. 
+- Docs: a link to a matching PR in http://github.com/eclipse/che-docs.
+- Release Notes: markdown summary (as little or as much!) that will be used for marketing when release notes are sent to users and pasted in the blog.
 
-Check out the [full issues list](http://github.com/eclipse/che/issues) for a list of all potential areas for contributions. Note that just because an issue exists in the repository does not mean we will accept a contribution to the core editor for it. There are several reasons we may not accepts a pull request like:
+Bug fix PRs may not require docs or release notes. All PRs must have either a `kind/enhancement`, `kind/docs`, or `kind/bugs` label.
 
-- Performance - One of Che's core values is to deliver a localhost-equivalent distributed workspace server. This means that workspaces must perform well in both real and perceived performance.
-- User experience - Since we want to deliver a minimalist IDE, the UX should feel small and simple to navigate. We want to avoid cluttering. Most changes to the UI need to be approved by the UX team.
-- Architectural - The team and/or feature owner needs to agree with any architectural impact a change may make. Things like new extension APIs must be discussed with and agreed upon by the feature owner.
+PR approvals require at least one other committer and a maintainer to authorize.  Current maintainers include Vitalii Parfonov, Gennady Azarenkov, Sergii Kabashnyuk, Viktor Kuzynetsov, Roman Iuvshin, Florent Benoit, and Tyler Jewell. PRs that include docs and release notes updates must also include a PM reviewer. PM reviewers include Brad Micklea, Stevan LeMeur, James Drummond, Eugene Ivantsov, or Tyler Jewell.
+
+If a PR is ready for review from developers or PMs a `status/code-review` label is set. Once all approvals have been granted the `status/code-review` label is removed and `status/pending-merge` is added - this indicates that code reviews are completed and maintainers are waiting for a merge window to appear. 
+
+Once an issue is in `status/pending-merge` and the maintainer is aware of the timeframe for merge, they may assign a milestone marker. Milestones are predictable and any PR merged will be taken into the next milestone. Every merged PR must have an assigned milestone.
+
+We really value pull requests and maintainers work to include open pull requests into every sprint. Unfortunately, we are not able to accept every pull request. There are several reasons we may not accepts a pull request:
+
+- Performance: One of Che's core values is to deliver a localhost-equivalent distributed workspace server. This means that workspaces must perform well in both real and perceived performance.
+- User experience: Since we want to deliver a minimalist IDE, the UX should feel small and simple to navigate. We want to avoid cluttering. Most changes to the UI need to be approved by the UX team.
+- Architectural: The team and/or feature owner needs to agree with any architectural impact a change may make. Things like new extension APIs must be discussed with and agreed upon by the feature owner.
+- Support: We receive >100 support requests each week, and it is a major commitment to supporting the needs of users ongoing. If a change to the product could introduce unknown complications around supportability, then we will be cautious until there is an abundance of documentation and awareness on the implications.
 
 To improve the chances to get a pull request merged you should select an issue that is labeled with a `level/*` label or `kind/bug` label. If the issue you want to work is not labeled with either of these, you can start a conversation with the issue owner asking how you can help.
 
