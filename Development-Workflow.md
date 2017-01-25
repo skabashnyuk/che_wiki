@@ -264,6 +264,14 @@ Our repository is broken in a variety of independently buildable submodules.
 ```
 /che
 /che/agents                            # Software deployed into workspaces
+/che/agents/exec                       # Software deployed into workspaces
+/che/agents/ls-csharp                  # C# intellisense agent
+/che/agents/ls-json                    # JSON intellisense agent
+/che/agents/ls-python                  # Python intellisense agent
+/che/agents/ls-php                     # Php intellisense agent
+/che/agents/ls-typescript              # TypeScript intellisense agent
+/che/agents/unison                     # Unison file synchronizer agent
+/che/agents/ssh                        # SSH server agent
 /che/assembly                          # Generates binary assemblies of Che
 /che/assembly/assembly-main            # Final packaging phase
 /che/assembly/assembly-ide-war         # Creates the IDE.war from plug-ins & core
