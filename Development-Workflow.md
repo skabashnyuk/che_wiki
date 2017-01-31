@@ -32,21 +32,21 @@ If you want to develop an extension for Che, we recommend to checkout the latest
 git checkout tags/4.6.0
 ```
 
-### Build and Run - Tomcat
-In its purest form, Che runs as a Tomcat server. You can build Che to create an assembly that has an embedded Tomcat server. You can run this without launching Docker.
+### Build and Run
+In its purest form, Che runs as a Tomcat server. You can build Che to create an assembly that has an embedded Tomcat server. 
 
 ```sh
-cd che/assembly
+cd assembly/assembly-main
 mvn clean install
 
 # A new assembly is placed in:
 cd che/assembly/assembly-main/target/eclipse-che-<version>/eclipse-che-<version>
-
-# Executable files are:
-bin/che.sh
-bin/che.bat
 ```
-Che will be available at ```localhost:8080```. You can also optionally use the Che Docker launcher as your client and set the `CHE_LOCAL_BINARY` to point to the location of your assembly. The Docker container will volume mount the compiled binary from your system for its run.
+
+You can then run this with the CLI:
+```sh
+docker run <DOCKER_OPTIONS> <path-to-repo>:/repo eclipse/che start
+```
 
 ```sh
 # You can build Che and all submodules in the root directory.
@@ -76,29 +76,6 @@ mvn -DskipTests=true \
 # We also have a maven "fast" profile that provides the same flags:
 mvn clean install -Pfast
 ```
-
-### Build and Run - Docker
-We distribute Eclipse Che as a Docker image and this is the preferred way for users to install and run Che. You can use our Che launcher [to run your local Che binaries](https://www.eclipse.org/che/docs/setup/docker/#use-local-che-assembly), or you can create a new Docker image that contains your binaries.
-
-```sh
-# If your local assembly is located at /home/assembly:
-docker run -v /var/run/docker.sock:/var/run/docker.sock \
-           -e CHE_LOCAL_BINARY=/home/assembly \           
-           codenvy/che-launcher:nightly start
-
-# Build the Che server Docker image from the root of our source:
-docker build -t che-server -f dockerfiles/che-server/Dockerfile .
-docker tag <imageid> codenvy/che-server:<choose-a-version>
-
-# Now configure the che-launcher Docker image to use the Che image
-docker build -t che-launcher -f dockerfiles/che/Dockerfile .
-docker tag <imageid> codenvy/che-launcher:<match-version-of-server>
-
-# Now run Che
-docker run --rm -v /var/run/docker.sock:/var/run/docker.sock \
-       codenvy/che-launcher:<version> start 
-```
-Community member Ilya Buzuik has published [an article](https://github.com/ibuziuk/docs/blob/master/che_remote_debugging.adoc) on how to setup remote debugging of a Che assembly.
 
 ### Build Submodules
 Building `/assembly` pulls already-built libraries for `/core`, `/plugins`, and `/dashboard` from our Nexus repository. You can build these submodules individually.
@@ -149,14 +126,9 @@ docker run -it --rm --name build-che
 ```
 
 ### Developers on Windows
-If you are a developer on Windows you'll not be able to do a complete build of Che by doing a `mvn clean install`. There are certain modules that require additional libraries and are OS specific. (dashboard and svn plugin)
+The dashboard and subversion plugins require OS-specific libraries to complete compilation. These modules will fail on Windows. You can use the `eclipse/che-dev` Docker image to compile the code which contains all of the dependencies. 
 
-In this situation, we recommend to build Che sources using the "che-dev" Docker image. This image has the dependencies necessary to build Che. You'll mount Che source code from your host to the container and then compile the code within the container.
-
-You can refer to [this paragraph](https://github.com/eclipse/che/wiki/Development-Workflow#build-che-using-docker).
-
-Alternatively you can also skip building certain submodules by referring to the following [instructions](https://github.com/eclipse/che/wiki/Development-Workflow#build-and-run---tomcat).
-
+Alternatively, you can skip building submodules by using `-pl '!dashboard'` with the maven command line.
 
 ## Validate Your Changes
 We have integrated findbugs into the maven build system to generate warnings during the build. If your code generates new warnings or errors from findbugs, you must eliminate those issues before submitting the pull request. You can skip these checks by passing `-Dfindbugs.skip=true` to the maven build.
