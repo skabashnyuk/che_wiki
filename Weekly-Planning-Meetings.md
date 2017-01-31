@@ -1,10 +1,10 @@
 There is an Eclipse Che dev meeting each Tuesday, 7:00 AM PST. You can be part of the meeting (mic + chat + video cam) with [Google Hangout](https://hangouts.google.com/call/saw6475c2rb3hhxyryobyrmytie).
 
 
-[Minutes: January 3, 2017](https://github.com/eclipse/che/wiki/Minutes:-January-31,-2017)  
-[Minutes: January 3, 2017](https://github.com/eclipse/che/wiki/Minutes:-January-24,-2017)  
-[Minutes: January 3, 2017](https://github.com/eclipse/che/wiki/Minutes:-January-17,-2017)  
-[Minutes: January 3, 2017](https://github.com/eclipse/che/wiki/Minutes:-January-10,-2017)  
+[Minutes: January 31, 2017](https://github.com/eclipse/che/wiki/Minutes:-January-31,-2017)  
+[Minutes: January 24, 2017](https://github.com/eclipse/che/wiki/Minutes:-January-24,-2017)  
+[Minutes: January 17, 2017](https://github.com/eclipse/che/wiki/Minutes:-January-17,-2017)  
+[Minutes: January 10, 2017](https://github.com/eclipse/che/wiki/Minutes:-January-10,-2017)  
 [Minutes: January 3, 2017](https://github.com/eclipse/che/wiki/Minutes:-January-3,-2017)  
 [Minutes: December 27, 2016](https://github.com/eclipse/che/wiki/Minutes:-December-27,-2016)  
 [Minutes: December 20, 2016](https://github.com/eclipse/che/wiki/Minutes:-December-20,-2016)  
