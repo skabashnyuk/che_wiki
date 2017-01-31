@@ -1,8 +1,8 @@
 ##TOPICS DISCUSSED:
  
-​1. 5.2.0 status 
-2. PR requirements
-3. Stability and Performance Issues
+​1. 5.2.0 status  
+2. PR requirements  
+3. Stability and Performance Issues  
 
 ##IMPORTANT POINTS ON TOPICS DISCUSSED:
 
