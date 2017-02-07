@@ -151,7 +151,9 @@ RUN wget -q http://download-aws.ej-technologies.com/jprofiler/jprofiler_linux_8_
   sudo tar -xzf /tmp/jprofiler_linux_8_1_2.tar.gz -C /usr/local &&\
   rm /tmp/jprofiler_linux_8_1_2.tar.gz
 
-ENV CATALINA_OPTS=" $CATALINA_OPTS -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false -agentpath:/usr/local/jprofiler8/bin/linux-x64/libjprofilerti.so=8849"
+ENV CATALINA_OPTS=" $CATALINA_OPTS -Dcom.sun.management.jmxremote.ssl=false \
+                   -Dcom.sun.management.jmxremote.authenticate=false \
+                   -agentpath:/usr/local/jprofiler8/bin/linux-x64/libjprofilerti.so=8849"
 
 EXPOSE 8849
 ```
@@ -170,6 +172,9 @@ All functionality requires a unit test. Unit tests are executed as part of the b
 
 ## Linting
 We do not apply linting rules.
+
+## Code Style
+We provide [code style formatters](https://github.com/eclipse/che-dev/tree/master/che-codestyle/src/main/resources) for other IDEs. If you develop Che within Che, we apply our own code style formatting automatically.
 
 ## Work Branches
 All branches in the Che repository need to be named after the matching issue number in GitHub. Please try to avoid pretty-named branches. When your pull request is merged to master, the developer that created the branch is responsible for removing the branch. We perform a branch review after each milestone.
@@ -199,16 +204,16 @@ https://github.com/mycila/license-maven-plugin/issues/119. As a workaround, we a
 ```
 
 ## Pull Requests
-Before we can accept a pull request from you, you'll need to sign a [Contributor License Agreement (CLA)](https://github.com/eclipse/che/wiki/Contributor-License-Agreement). It is an automated process and you only need to do it once.
+Before we can accept a pull request, you'll need to sign a [Contributor License Agreement (CLA)](https://github.com/eclipse/che/wiki/Contributor-License-Agreement). It is an automated, one-time process.
 
 To enable us to quickly review and accept your pull requests, always create one pull request per issue and link the issue in the pull request. Never merge multiple requests in one unless they have the same root cause. Be sure to follow our coding guidelines and keep code changes as small as possible. Pull requests should contain tests whenever possible and documentation where appropriate.
 
 We require that each PR has:
 - A descriptive title.
 - A link to the issue that initiated the PR.
-- Changelog: one line summary to be included in the Changelog.md during release. 
+- Changelog: one line summary in markdown for the release's Changelog. 
 - Docs: a link to a matching PR in http://github.com/eclipse/che-docs.
-- Release Notes: markdown summary (as little or as much!) that will be used for marketing when release notes are sent to users and pasted in the blog.
+- Release Notes: markdown summary (as little or as much!) included by marketing when release notes are sent to users.
 
 Bug fix PRs may not require docs or release notes. All PRs must have either a `kind/enhancement`, `kind/docs`, or `kind/bugs` label.
 
@@ -260,12 +265,13 @@ Our repository is broken in a variety of independently buildable submodules.
 ### Repositories
 Some dependencies are managed in separate repositories as part of the `http://github.com/eclipse` organization. These dependencies are forks of other important projects, contain shared libraries that need to be managed on a different tagging lifecycle than Che, or have very large files within them (such as docs).
 ```
-https://github.com/eclipse/che-dockerfiles
-https://github.com/eclipse/che-lib
+https://github.com/eclipse/che-archetypes
 https://github.com/eclipse/che-dependencies
 https://github.com/eclipse/che-dev
+https://github.com/eclipse/che-dockerfiles
+https://github.com/eclipse/che-docs
+https://github.com/eclipse/che-lib
 https://github.com/eclipse/che-parent
-https://github.com/eclipse/che-docs             
 ```
 
 ### Other Repositories
