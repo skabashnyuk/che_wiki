@@ -138,39 +138,33 @@ We have integrated [Error Prone](https://github.com/google/error-prone) to check
 License checks for submitted files are done within a maven build. You can skip these license checks with `-Dskip-validate-sources` maven option.
  
 ## Debugging
-Che is a multi-node system with processes running within the browser, the Che server and within the workspace. The debugging tactics for each node is different.
+Che is a multi-node system with processes running within the browser, the Che server and within the workspace. The debugging tactics for each are different.
 
-### Debugging Che server
+### Debugging Che Server
 
-To activate jpda suspend mode for debugging Che server initialization, in the `che.env`:
-
+The Che server runs on Tomcat. You can activate jpda suspend mode for debugging initialization by adding in the `che.env`:
 ```
 CHE_DEBUG_SUSPEND=true
 ```
 
 To change che debug port, in the `che.env`:
-
 ```
 CHE_DEBUG_PORT=8000
 ```
 
 Start Che in development mode which is activated by passing `--debug` to any command on the CLI.
 
-### Debugging workspace agent
-
-It is always run in jpda mode.
-To figure out the adderss to debug workspace agent go to 
+### Debugging Workspace Agent
+The workspace agent deployed by Che into your workspace is always using Tomcat, which starts with JPDA mode by default. You can identify the address and port of the debugger: 
 ```
 Dashboard -> Workspaces -> Runtime tab -> Servers
-```
 
-You are needed server with `wsagent.debug` reference:
-
-```
+# Find the server with the `wsagent.debug` reference
 wsagent.debug 4403 http	http://172.17.0.1:40037
 ```
 
 ### Debugging Che IDE extensions
+Che IDE extensions are authored with Google Web Toolkit (GWT) and then compiled into JavaScript. GWT has a concept called Super Dev Mode, which allows you to debug Java extensions within the browser, even though they are running as JavaScript.
 
 #### GWT Super Dev Mode for Eclipse
 
@@ -204,7 +198,6 @@ Setup Run Configuration. In `Run > Edit Configurations > GWT Configuration`, add
 * `Use Super Dev Mode`
 * `Dev Mode parameters`: `-noserver -noincremental -style PRETTY`
 * `VM options:` `-Xmx2048m`
-
 
 #### Launch Che with Super Dev Mode
 Run Che normally. You can use the CLI, the Che launcher, or Eclipse. Within your browser create a workspace and then identify the workspace name.  Open the workspace with the workspace name or ID that you captured, so this would be `http://<che-url>/che/<ws-name>`.
