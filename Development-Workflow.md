@@ -205,7 +205,7 @@ Setup Run Configuration. In `Run > Edit Configurations > GWT Configuration`, add
 
 
 #### Launch Che with Super Dev Mode
-Run Che normally. You can use the CLI, the Che launcher, or Eclipse. Within your browser create a workspace and then identify the workspace name.  Open the workspace with the workspace name or ID that you captured, so this would be http://<che-url>/che/<ws-name>`.
+Run Che normally. You can use the CLI, the Che launcher, or Eclipse. Within your browser create a workspace and then identify the workspace name.  Open the workspace with the workspace name or ID that you captured, so this would be `http://<che-url>/che/<ws-name>`.
 
 Click the `Dev Mode On` bookmark on your booksmark bar. A message will appear asking you to recompile the application.  Select the `_app` and compile it.
 
