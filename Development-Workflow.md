@@ -159,7 +159,11 @@ Start Che in development mode which is activated by passing `--debug` to any com
 ### Debugging workspace agent
 
 It is always run in jpda mode.
-To figure out the adderss to debug workspace agent go to `Dashboard -> Workspaces -> Runtime tab -> Servers`.
+To figure out the adderss to debug workspace agent go to 
+```
+Dashboard -> Workspaces -> Runtime tab -> Servers
+```
+
 You are needed server with `wsagent.debug` reference:
 
 ```
