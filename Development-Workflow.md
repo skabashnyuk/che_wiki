@@ -184,12 +184,8 @@ In Eclipse, go to `Window > Preferences > Google > Web Toolkit > SDKs > Add`. Yo
 In Eclipse, go to `Run > Run Configurations`, select `Java Application`, right click and select `New`.
 
 In the `Main` tab, add the project `assembly-ide-war` with main class as `com.google.gwt.dev.codeserver.CodeServer`.
-
-```shell  
--style PRETTY -noincremental -src target/generated-sources/gen
-```
-
-`JVM Options` : `-Xmx2048m`
+`Program arguments` : `-style PRETTY -noincremental -src target/generated-sources/gen`
+`VM Options` : `-Xmx2048m`
 
 In the `Classpath` tab, go to `User Entries > Add External Jars`. Add:
 1. `gwt-codeserver.jar` (in the directory where you unzipped GWT zip),
@@ -206,6 +202,13 @@ Setup Run Configuration. In `Run > Edit Configurations > GWT Configuration`, add
 * `Use Super Dev Mode`
 * `Dev Mode parameters`: `-noserver -noincremental -style PRETTY`
 * `VM options:` `-Xmx2048m`
+
+
+#### Launch Che with Super Dev Mode
+Run Che normally. You can use the CLI, the Che launcher, or Eclipse. Within your browser create a workspace and then identify the workspace name.  Open the workspace with the workspace name or ID that you captured, so this would be http://<che-url>/che/<ws-name>`.
+
+Click the `Dev Mode On` bookmark on your booksmark bar. A message will appear asking you to recompile the application.  Select the `_app` and compile it.
+
 
 ## Profiling
 The Che server and the primary workspace agent deployed within a workspace have JVM runtimes. We use JProfiler as the primary performance profiling utility for the JVMs that are running within each of these notes. Our servers are running within Docker containers for each of these nodes. JProfiler needs to be added, configured, and exposed within the Dockerfiles used to run Che or a workspace. JProfiler will need an additional port exposed and you will have to find the ephemeral port mapping of the container when it is running.
