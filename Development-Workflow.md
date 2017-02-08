@@ -172,7 +172,7 @@ wsagent.debug 4403 http	http://172.17.0.1:40037
 
 ### Debugging Che IDE extensions
 
-### GWT Super Dev Mode for Eclipse
+#### GWT Super Dev Mode for Eclipse
 
 [Download the GWT SDK 2.8.0 zip](http://www.gwtproject.org/versions.html) from Google's site. You will need to explode it and save in a directory on your compuer.
 
@@ -180,7 +180,7 @@ wsagent.debug 4403 http	http://172.17.0.1:40037
 
 In Eclipse, go to `Window > Preferences > Google > Web Toolkit > SDKs > Add`. You will need to specify the directory where GWT is installed. 
 
-#### Setup Run Configuration
+##### Setup Run Configuration
 In Eclipse, go to `Run > Run Configurations`, select `Java Application`, right click and select `New`.
 
 In the `Main` tab, add the project `assembly-ide-war` with main class as `com.google.gwt.dev.codeserver.CodeServer`.
