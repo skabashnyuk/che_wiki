@@ -184,10 +184,12 @@ In Eclipse, go to `Window > Preferences > Google > Web Toolkit > SDKs > Add`. Yo
 In Eclipse, go to `Run > Run Configurations`, select `Java Application`, right click and select `New`.
 
 In the `Main` tab, add the project `assembly-ide-war` with main class as `com.google.gwt.dev.codeserver.CodeServer`.
+
 `Program arguments` : `-style PRETTY -noincremental -src target/generated-sources/gen`
 `VM Options` : `-Xmx2048m`
 
 In the `Classpath` tab, go to `User Entries > Add External Jars`. Add:
+
 1. `gwt-codeserver.jar` (in the directory where you unzipped GWT zip),
 2. `gwt-dev.jar`, (also in the same directory)
 
