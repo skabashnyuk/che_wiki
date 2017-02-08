@@ -178,8 +178,8 @@ wsagent.debug 4403 http	http://172.17.0.1:40037
 JetBrains has a helpful page. There is [just a single step](https://www.jetbrains.com/help/idea/2016.2/enabling-gwt-support.html).
 
 Setup Run Configuration. In `Run > Edit Configurations > GWT Configuration`, add a new configuration:
-* Select `Use Super Dev Mode`
-* You must add `Dev Mode parameters`: `-noserver -noincremental -style PRETTY`
+* `Use Super Dev Mode`
+* `Dev Mode parameters`: `-noserver -noincremental -style PRETTY`
 * `VM options:` `-Xmx2048m`
 
 ## Profiling
