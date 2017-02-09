@@ -43,9 +43,12 @@ mvn clean install
 cd che/assembly/assembly-main/target/eclipse-che-<version>/eclipse-che-<version>
 ```
 
-You can then run this with the CLI:
+You can then run this with the CLI (complete reference can be found [here](https://www.eclipse.org/che/docs/setup/cli/index.html)):
 ```sh
-docker run <DOCKER_OPTIONS> <path-to-repo>:/repo eclipse/che start
+docker run <DOCKER_OPTIONS> -v <path-to-repo>:/repo \
+                            -v <local-path>:/data \
+                            -v /var/run/docker.sock:/var/run/docker.sock \
+                            eclipse/che start
 ```
 
 ```sh
