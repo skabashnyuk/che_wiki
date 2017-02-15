@@ -2,7 +2,51 @@ For past milestones, see the [Changelog](https://github.com/eclipse/che/blob/mas
 
 As part of our 6-9 month roadmap, we are restructuring the underlying workspace model to support workspaces with multiple machines, dynamically deployed agents to make base images lighter, virtual file system so editors and IDEs can be notified of changes made by other clients, a new Chefile capability which provides a Vagrant-style workflow for Che workspaces, and consolidated support for an underlying database model.
 
-##5.0.1 (latest)
+##5.2.0 (latest)
+_Milestone Details:_ https://github.com/eclipse/che/issues/3976
+
+_Primary Goals_
+
+- Docker Compose Support in Chefiles: Multi-machine workspaces automatically generated from your repo.
+- Multi-Che Support: Easily run multiple Che instances on the same host.
+- File-Context Git Actions: File context menu for common git actions.
+- PHP Composer: Support for the popular PHP scaffolding utility.
+- Updated PHP Tutorial: Try all the new PHP intellisense and debugging.
+- Memory & Disk Checks on Startup: Resource checks when starting Che.
+- Networking Checks on Startup: Checks browser to workspace and server to workspace connectivity to avoid common network issues.
+- Improved CLI Output: More detail has been added to the info command plus you can generate a diagnostic snapshot for problems.
+- CPU Limiting for Docker Builds: Docker builds can be CPU intensive so they now carry CPU limits to prevent starving other workspaces.
+- Restart a Failed Workspace: You can now easily restart workspaces that didn’t start correctly the first time.
+- Python Intellisense: Syntax highlighting and hover-over help docs.
+
+##5.1.0 
+_Milestone Details:_ https://github.com/eclipse/che/issues/3972
+
+_Note:_ Major release.
+
+_Primary Goals_
+> * Many new features provided.
+
+- New CLI: Offline installation, simple configuration, and data backup.
+- BitBucket Server Integrations: Connect to JIRA, Jenkins and automate pull requests with BitBucket repos.
+- Consolidate Databases: Because a single database is easier to manage.
+- Built-in Documentation: {your-codenvy-url}/docs to get help.
+- Docker Compose Runtimes: Dev workspaces with multiple containers.
+- Workspace Snapshots: Auto-image and auto-restore workspace state
+- Workspace Agents: Inject developer services into any workspaces.
+- Docker Exec Agent: Replaces docker exec with Golang REST server for executing commands.
+- Stack Editor: Create stacks with your runtime, or edit and test any of our 30+ default stacks.
+- Language Server Protocol: Add intellisense for any language.
+- New Debuggers: Added new Node.JS and Zend PHP debuggers.
+- SSH: Automatic key generation across all machines in a workspace.
+- Desktop Sync: Synchronize workspaces with your local IDE.
+- More Responsive: Filesystem watchers optimize file operations and browser updates.
+- Split & Resize: Terminals and editors can be split and sized to your exacting requirements.
+- PHP: Auto-complete, definitions, debugging and more.
+- Bitnami Stacks: Certified workspace stacks for popular languages and frameworks.
+- Chedir: Reproducible cloud workspaces from your local repo.
+
+##5.0.1 
 _Milestone Details:_ https://github.com/eclipse/che/issues?q=is%3Aissue+milestone%3A5.0.1+is%3Aclosed
 
 _Note:_ Hot bug fix release.
