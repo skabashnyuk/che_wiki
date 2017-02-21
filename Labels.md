@@ -4,13 +4,13 @@ The Eclipse Che project relies heavily on issue labels as a way to communicate s
 ### Issue Types
 | Label        | Description
 | ------------ |-------------
-| kind/question | Questions that haven’t been identified as being feature requests or bugs.  Cannot overlap with “enhancement”, “bug”, “epic”, “task” or “docs”.
-| kind/enhancement | A feature request - must adhere to the feature request template. Cannot overlap with “question”, “bug”, “epic”, “task” or “docs”.
-| kind/epic | A long-lived, PM-driven feature request. Must include a checklist of items that must be completed, which can reference enhancements or bugs.  Cannot overlap with “question”, “enhancement”, “bug”, “task” or “docs”.
-| kind/bug | Outline of a bug - must adhere to the bug report template. If a bug is identified during a question investigation a new issue can be created for the bug and the question closed. Cannot overlap with “question”, “enhancement”, “epic”, “task” or “docs”.
-| kind/task | Internal things, technical debt, and to-do tasks to be performed. Cannot overlap with “question”, “enhancement”, “bug”, “epic” or “docs”.
-| kind/docs | A work item tied to documentation.  Cannot overlap with “question”, “enhancement”, “bug”, “epic” or “task”.
-| kind/planning | A work item outlining a part of our planning process - for example milestone overview issues is labelled with this.
+| kind/question| Questions that haven't been identified as being feature requests or bugs.  Cannot overlap with "fixup", "enhancement", "bug", "epic", "task" or "docs".
+| kind/enhancement| A feature request - must adhere to the feature request template. Cannot overlap with "fixup", "question", "bug", "epic", "task" or "docs".
+| kind/epic| A long-lived, PM-driven feature request. Must include a checklist of items that must be completed, which can reference enhancements or bugs.  Cannot overlap with "fixup", "question", "enhancement", "bug", "task" or "docs".
+| kind/bug| Outline of a bug - must adhere to the bug report template. If a bug is identified during a question investigation a new issue can be created for the bug and the question closed. Cannot overlap with "fixup", "question", "enhancement", "epic", "task" or "docs".
+| kind/task| Internal things, technical debt, and to-do tasks to be performed. Cannot overlap with "fixup", "question", "enhancement", "bug", "epic" or "docs".
+| kind/docs| A work item tied to documentation.  Cannot overlap with "fixup", "question", "enhancement", "bug", "epic" or "task".
+| kind/fixup| Fixes for a feature that has not been publicly released yet. These are essentially bugs that users couldn't have experienced yet because they're associated with unreleased functionality. Cannot overlap with "docs", "question", "enhancement", "bug", "epic" or "task".
 ||
 | **Bug Severities**| _________________________________________________________________________ |
 | severity/blocker| Causes system to crash and be non-recoverable or prevents Codenvy developers from working on Codenvy code.  Must be resolved immediately. Can only be applied to `kind/bugs`.
