@@ -115,7 +115,7 @@ docker run -it --rm --name build-che
            -v "$HOME/.m2:/home/user/.m2" 
            -v "$PWD":/home/user/che-build 
            -w /home/user/che-build 
-           codenvy/che-dev 
+           eclipse/che-dev 
            mvn -DskipTests=true 
                -Dfindbugs.skip=true
                -Dgwt.compiler.localWorkers=2 -T 1C 
