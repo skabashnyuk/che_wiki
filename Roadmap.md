@@ -14,7 +14,7 @@ Eclipse Che should install anywhere and be easy to install. It should also be po
 - [ ] Make it possible to add / remove servers without customizing a Dockerfile
 - [ ] Provide image project type to simplify edit, build, debug of images
 - [x] Ability to preview HTML files [#1883](https://github.com/eclipse/che/issues/1883)
-- [ ] Add intelligent commands - executing against a context [#2681](https://github.com/eclipse/che/issues/2681)
+- [x] Add intelligent commands - executing against a context [#2681](https://github.com/eclipse/che/issues/2681)
 
 ## Customizers: Make Customizations More Approachable
 Eclipse Che should be easy to customize. Che has many customization points including stacks, templates, extensions, plugins, assemblies, and commands. Where possible, we should make these customizations happen within Che's dashboard or as a project type within the IDE. For assembly-related items, such as custom stacks, Che should be self-updating and dynamic for the addition and removal of items. For extension-related items, such as the IDE, Che should have a simple way to get started developing plug-ins with incremental builds and, if necessary, super dev modes. The project must also evolve its interfaces to support community projects to create value-added layers within Che such as ecore, EMF, GMF, and multi-cursor editing.
@@ -25,18 +25,18 @@ Eclipse Che should be easy to customize. Che has many customization points inclu
 - [x] Provide docker images for building Che to reduce configuration [See wiki](https://github.com/eclipse/che/wiki/Development-Workflow#build-che-using-docker)
 - [x] Dynamic file watchers with events to auto-update IDEs when workspace files are edited out of band [#1824](https://github.com/eclipse/che/issues/1824)
 - [x] JPA data access implementation to store information with in-memory databases [#1790](https://github.com/eclipse/che/issues/1790)
-- [ ] Make it easier for third party tools to integrate Che [#1894](https://github.com/eclipse/che/issues/1894)
+- [x] Make it easier for third party tools to integrate Che [#1894](https://github.com/eclipse/che/issues/1894)
 - [x] Refactor che-server and che-launcher containers to use single volume mount for data bindings [#2786](https://github.com/eclipse/che/pull/2786)
 - [x] Add initial support for Chedir, reproducible dev environments [#1895](https://github.com/eclipse/che/issues/1895)
-- [ ] Add support for Chefile interoperability with Factories, and automatic configuration of SSH keys [#2266](https://github.com/eclipse/che/issues/2266)
+- [x] Add support for Chefile interoperability with Factories, and automatic configuration of SSH keys [#2266](https://github.com/eclipse/che/issues/2266)
 
 ## Enterprises: Expand Che Execution Scenarios
 Che needs to run in a variety of environments and support large-scale workspace consumption in an elastic way. There needs to be a clear, prescriptive set of controls for admins who adminster Che systems. We will enable multi-node elasticity in Che, and we will defer multi-user, multi-tenant, and organizational implementations to commercial vendors building more advanced versions of Che.
 - [x] Allow off-the-shelf docker images to work within Che [#1823](https://github.com/eclipse/che/issues/1823)
 - [x] Dynamic injection of workspace agents [#1823](https://github.com/eclipse/che/issues/1823)
 - [x] Start a new workspace with a Docker compose definition - part of 5.0.0-M1 release
-- [ ] Switch between different runtime environments in a single workspace
+- [x] Switch between different runtime environments in a single workspace
 - [ ] Environment SPI, to allow platform providers like OpenShift to create plugins to manage workspace runtimes [#1829](https://github.com/eclipse/che/issues/1829)
 - [ ] Che with a reverse proxy to minimize port exposure (workspace URLs will be embedded) [#1560](https://github.com/eclipse/che/issues/1560)
-- [ ] Migrate the 30 or so Docker images from Codenvy into the eclipse/ DockerHub organization[#2737](https://github.com/eclipse/che/issues/2737)
-- [ ] Create Che machine exec concept to solve issues with Docker exec [#1944](https://github.com/eclipse/che/issues/1944)
+- [x] Migrate Docker images from Codenvy into the eclipse/ DockerHub organization[#2737](https://github.com/eclipse/che/issues/2737)
+- [x] Create Che machine exec concept to solve issues with Docker exec [#1944](https://github.com/eclipse/che/issues/1944)
