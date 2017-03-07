@@ -19,7 +19,7 @@ Looked at intelligent commands as a group. Provided some UI/UX feedback to devel
 ### Roadmap
 Tyler discussed roadmap and long term planning of 6-9 months priorities. 
 
-##### ​IDE:
+#### ​IDE:
 1. Performance of IDE as seen by the user
 2. Critical issues as documented by dev
 3. LSP advancements - phase II + file extensions?
@@ -27,7 +27,7 @@ Tyler discussed roadmap and long term planning of 6-9 months priorities.
 5. Archetype SDK (lifecycle of custom assemblies)
 6. JavaScript IDE client prototype (best effort)
 
-##### Enterprise:
+#### Enterprise:
 1. (codenvy) Invite by email for SaaS
 2. (codenvy) Teams (org mgmt + team ) for on-prem
 3. (che) UD re-design for ws create + details + crane
@@ -40,7 +40,7 @@ Also want to reduce output for agent boot
 9. (che) Consolidate chefiles + factory JSON 
 10. (codenvy) Workspace templates & notifications
 
-##### Infrastructure
+#### Infrastructure
 1. (both) QE automation
 2. (both) Custom images for each branch
 3. (codenvy) Codenvy infrastructure on Kube / OpenShift
