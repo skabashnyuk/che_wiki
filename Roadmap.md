@@ -1,6 +1,47 @@
-This roadmap acts as a 6-9 month forward-looking expectation of what we are working to incorporate into Eclipse Che. This roadmap is thematic tied to our three core audiences: a) users (developers), b) customizers (ISVs), and c) deployers (enterprises / teams). We schedule release milestones on a functionality basis with 2-3 milestones scheduled in advance. The length of a milestone is unknown, but we attempt to keep it less than a month and sometimes as short as 2 weeks. We map the epics implemented from the roadmap into each milestone. The epics and features that roll into a milestone are determined by pull request readiness of the feature at the time a milestone begins. In other words, we only place into a milestone features that are code complete and waiting for master-integration and testing.
+This roadmap is a 6-9 month forward-looking expectation of what we plan to include in Eclipse Che. 
 
-## Users: Simplify the Getting Started Experience
+This roadmap is thematically tied to three audiences: 
+a) users (developers) 
+b) ecosystem (ISVs) 
+c) admins (enterprises / teams) 
+
+Releases occur every two weeks. While working on a current release, we plan the following release. We thematically break the major functionality into epics that have sub-issues that can span many sprints, and sometimes across many releases. We do our best to incorporate all of feature into a single release, but it often requires that we break functionality across multiple release milestones.
+
+The epics and features that roll into a milestone are determined by pull request readiness of the feature at the time a milestone begins. In other words, we only place into a milestone features that are code complete and waiting for master-integration and testing.
+
+# Roadmap: March 2017
+## Users: Create a Professional Development Tool
+Eclipse Che should provide a development experience that rivals world-class tools such as the Eclipse IDE and JetBrains. Che should install anywhere. Workspaces should be configurable to work with any kind of language and have best-in-class support for the language server protocol along with packaging all known language servers. Workspaces should be support Docker Compose and enable multi-machine development. There should be an intelligent commands framework that simplifies authoring commands and executing them on differnet machine targets.
+
+-[] Performance of IDE as seen by the user [TBD]
+-[] Critical issues as documented by dev 
+-[] LSP advancements - phase II + file extensions [#2109](https://github.com/eclipse/che/issues/2109)
+-[] Debugger, debugger, debugger [#2611](https://github.com/eclipse/che/issues/2611)
+-[] JavaScript IDE client prototype
+-[] Airplane mode - live sync a workspace for offline usage
+
+## Enterprises: Cloud Dev for Teams on a Single Project
+When enterprises adopt Eclipse Che (or the Codenvy derivative), they break themselves into teams that work on projects collectively, but in workspaces that are private and independent. Enterprises are looking to secure workspaces, deploy them on new infrastructure, and make it easier for teams to collaborate on projects together while maintaining developer autonomy. Some of these issues are Codenvy or Red Hat OpenShift issues, but generate significant improvements to the underlying Che platform.
+
+-[] Teams (org mgmt + team ) for on-prem
+-[] UD re-design for ws create + details + crane along with reducing output of agent boot
+-[] System stack + template + factory + recipes mgmt
+-[] Traffic through a single port
+-[] Consolidate chefiles + factory JSON 
+-[] Che and Codenvy infrastructure deploy on Kube / OpenShift [#2847](https://github.com/eclipse/che/issues/2847)
+ 
+## Ecosystem: Make It Easy to Contribute to Che
+Eclipse Che should be easy to customize. Che has many customization points including stacks, templates, extensions, plugins, assemblies, and commands. Currently, these customization and extension points are located and customized in differnet ways. We are going to centralize and standarize these items to make a consistent model for how customizers can work with Che. Additionally, we will advance the infrastructure of Che and our DevOps infrastructure to make it possible to duplicate Che development environments for those that want to give back to the project.
+
+-[] Archetype SDK (lifecycle of custom assemblies) [#4257](https://github.com/eclipse/che/issues/4257) & [archetype](https://github.com/eclipse/che-archetypes/issues)
+-[] QE automation framework [TBD]
+-[] Custom images for each branch with auto-generation from CI [TBD]
+-[] Agent & Machine refactoring [#3971](https://github.com/eclipse/che/issues/3971) & [#3612](https://github.com/eclipse/che/issues/3612)
+-[] Che-in-Che development model with ability to source workspace recipe from git repo
+-[] Branding customizations & workflow
+
+# Roadmap: September 2016
+## Users: Create a Professional Development Tool
 Eclipse Che should install anywhere and be easy to install. It should also be possible for you to get a project-typed workspace with a custom set of commands in a natural, minimal sequence. Eclipse Che should become context-aware and auto-generate workspaces with type and code information based upon the contents of directory or repository.
 - [x] Make docker the default execution for Che. [#1683](https://github.com/eclipse/che/pull/1683)
 - [x] Add support for the Codenvy / Red Hat / Microsoft language server protocol [#1287](https://github.com/eclipse/che/issues/1287)
