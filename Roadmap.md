@@ -33,12 +33,13 @@ When enterprises adopt Eclipse Che (or the Codenvy derivative), they break thems
 ## Ecosystem: Make It Easy to Contribute to Che
 Eclipse Che should be easy to customize. Che has many customization points including stacks, templates, extensions, plugins, assemblies, and commands. Currently, these customization and extension points are located and customized in differnet ways. We are going to centralize and standarize these items to make a consistent model for how customizers can work with Che. Additionally, we will advance the infrastructure of Che and our DevOps infrastructure to make it possible to duplicate Che development environments for those that want to give back to the project.
 
--[] Archetype SDK (lifecycle of custom assemblies) [#4257](https://github.com/eclipse/che/issues/4257) & [archetype](https://github.com/eclipse/che-archetypes/issues)
--[] QE automation framework [TBD]
--[] Custom images for each branch with auto-generation from CI [TBD]
--[] Agent & Machine refactoring [#3971](https://github.com/eclipse/che/issues/3971) & [#3612](https://github.com/eclipse/che/issues/3612)
--[] Che-in-Che development model with ability to source workspace recipe from git repo
--[] Branding customizations & workflow
+-[] Archetype SDK (lifecycle of custom assemblies) [#4257](https://github.com/eclipse/che/issues/4257) & [archetype](https://github.com/eclipse/che-archetypes/issues) 
+-[] QE automation framework [TBD] 
+-[] Custom images for each branch with auto-generation from CI [TBD] 
+-[] Agent & Machine refactoring [#3971](https://github.com/eclipse/che/issues/3971) & [#3612](https://github.com/eclipse/che/issues/3612) 
+-[] Che-in-Che development model with ability to source workspace recipe from git repo 
+-[] Branding customizations & workflow 
+
 
 # Roadmap: September 2016
 ## Users: Create a Professional Development Tool
