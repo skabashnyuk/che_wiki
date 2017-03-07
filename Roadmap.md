@@ -9,7 +9,7 @@ Releases occur every two weeks. While working on a current release, we plan the 
 
 The epics and features that roll into a milestone are determined by pull request readiness of the feature at the time a milestone begins. In other words, we only place into a milestone features that are code complete and waiting for master-integration and testing.
 
-# Roadmap: March 2017
+# March 2017
 ## Users: Create a Professional Development Tool
 Eclipse Che should provide a development experience that rivals world-class tools such as the Eclipse IDE and JetBrains. Che should install anywhere. Workspaces should be configurable to work with any kind of language and have best-in-class support for the language server protocol along with packaging all known language servers. Workspaces should be support Docker Compose and enable multi-machine development. There should be an intelligent commands framework that simplifies authoring commands and executing them on differnet machine targets.
 - [ ] Performance of IDE as seen by the user [TBD]
@@ -37,7 +37,7 @@ Eclipse Che should be easy to customize. Che has many customization points inclu
 - [ ] Che-in-Che development model with ability to source workspace recipe from git repo 
 - [ ] Branding customizations & workflow 
 
-# Roadmap: September 2016
+# September 2016
 ## Users: Create a Professional Development Tool
 Eclipse Che should install anywhere and be easy to install. It should also be possible for you to get a project-typed workspace with a custom set of commands in a natural, minimal sequence. Eclipse Che should become context-aware and auto-generate workspaces with type and code information based upon the contents of directory or repository.
 - [x] Make docker the default execution for Che. [#1683](https://github.com/eclipse/che/pull/1683)
