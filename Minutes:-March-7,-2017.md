@@ -1,8 +1,9 @@
 ## TOPICS DISCUSSED:
 
-​1. 5.5.0 status 
-2. Blocker bugs
-3. Intelligent Commands
+​1. 5.5.0 status  
+2. Blocker bugs  
+3. Intelligent Commands  
+4. Roadmap
 
 ## PRIMARY TOPICS
 
