@@ -32,7 +32,7 @@ Tyler discussed roadmap and long term planning of 6-9 months priorities.
   - Also want to reduce output for agent boot
 2. System stack + template + factory + recipes mgmt
 3. Branding customizations & workflow
-4. Traffic through a single port (che + codenvy)
+4. Traffic through a single port
 5. Consolidate chefiles + factory JSON 
 
 #### Infrastructure
