@@ -28,24 +28,18 @@ Tyler discussed roadmap and long term planning of 6-9 months priorities.
 6. JavaScript IDE client prototype (best effort)
 
 #### Enterprise:
-1. (codenvy) Invite by email for SaaS
-2. (codenvy) Teams (org mgmt + team ) for on-prem
-3. (che) UD re-design for ws create + details + crane
-Also want to reduce output for agent boot
-4. (che) System stack + template + factory + recipes mgmt
-5. (both) Branding customizations & workflow
-6. (both) Traffic through a single port (che + codenvy)
-7. (codenvy) Per-seat billing for SaaS
-8. (codenvy) CC billing for on-prem inside of product
-9. (che) Consolidate chefiles + factory JSON 
-10. (codenvy) Workspace templates & notifications
+1. UD re-design for ws create + details + crane
+  - Also want to reduce output for agent boot
+2. System stack + template + factory + recipes mgmt
+3. Branding customizations & workflow
+4. Traffic through a single port (che + codenvy)
+5. Consolidate chefiles + factory JSON 
 
 #### Infrastructure
-1. (both) QE automation
-2. (both) Custom images for each branch
-3. (codenvy) Codenvy infrastructure on Kube / OpenShift
-4. (che) Agent & Machine refactoring
-5. (che) Che-in-Che development model
-Ability to source ws recipe from a git repo 
-Ability to build & run docker from in a ws
-6. (both) Workspace live sync concept (airplane mode)
+1. QE automation
+2. Custom images for each branch
+3. Agent & Machine refactoring
+4. Che-in-Che development model
+  - Ability to source ws recipe from a git repo 
+  - Ability to build & run docker from in a ws
+5. Workspace live sync concept (airplane mode)
