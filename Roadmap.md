@@ -21,11 +21,11 @@ Eclipse Che should provide a development experience that rivals world-class tool
 
 ## Enterprises: Cloud Dev for Teams on a Single Project
 When enterprises adopt Eclipse Che (or the Codenvy derivative), they break themselves into teams that work on projects collectively, but in workspaces that are private and independent. Enterprises are looking to secure workspaces, deploy them on new infrastructure, and make it easier for teams to collaborate on projects together while maintaining developer autonomy. Some of these issues are Codenvy or Red Hat OpenShift issues, but generate significant improvements to the underlying Che platform.
-- [ ] Teams (org mgmt + team ) for on-prem
-- [ ] UD re-design for ws create + details + crane along with reducing output of agent boot
-- [ ] System stack + template + factory + recipes mgmt
-- [ ] Traffic through a single port
-- [ ] Consolidate chefiles + factory JSON 
+- [ ] Teams (org mgmt + team ) for on-prem [#1847](https://github.com/codenvy/codenvy/issues/1847), [#1900](https://github.com/codenvy/codenvy/issues/1900)
+- [ ] UD re-design for ws create + details + crane along with reducing output of agent boot [#4359](https://github.com/eclipse/che/issues/4359)
+- [ ] System stack + template + factory + recipes mgmt [#1902](https://github.com/codenvy/codenvy/issues/1902)
+- [ ] Traffic through a single port [#4361](https://github.com/eclipse/che/issues/4361)
+- [ ] Consolidate chefiles + factory JSON [#4362](https://github.com/eclipse/che/issues/4362)
 - [ ] Che and Codenvy infrastructure deploy on Kube / OpenShift [#2847](https://github.com/eclipse/che/issues/2847)
  
 ## Ecosystem: Make It Easy to Contribute to Che
