@@ -6,7 +6,7 @@ The best way to understand how a project works or to debug an issue is to get th
 * Maven 3.3.1+
 * Oracle or OpenJDK Java 1.8
 
-The M2_HOME and M2 variables should be set correctly.
+The M2_HOME and M2 variables should be set correctly. OpenJDK Java 1.8 on Debian/Ubuntu linux requires "openjdk-8-jdk-headless" package. 
 
 To build the Che core, you will need the maven-patch-plugin. Windows [does not support this plugin](http://maven.apache.org/plugins/maven-patch-plugin/faq.html#Why_doesnt_this_work_on_Windows), and we give instructions on how to skip this plugin when building. You can also optionally modify your build to [download the patch tool](http://gnuwin32.sourceforge.net/packages/patch.htm) and then add the patch tool to your `PATH`.
 
@@ -14,9 +14,9 @@ To build the user dashboard submodule, you will need npm, bower, gulp, and pytho
 - Python `v2.7.x`(`v3.x.x`currently not supported)
 - Node.js `v4.x.x` (`v5.x.x` / `v6.x.x` are currently not supported)
 - npm
-- Bower
-- gulp
-- typings
+  - bower
+  - gulp
+  - typings
 
 Learn more about how to [build the dashboard submodule here](https://github.com/eclipse/che/tree/master/dashboard).
 
