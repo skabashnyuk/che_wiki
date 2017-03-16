@@ -140,6 +140,25 @@ We have integrated [Error Prone](https://github.com/google/error-prone) to check
 
 License checks for submitted files are done within a maven build. You can skip these license checks with `-Dskip-validate-sources` maven option.
  
+## IDE Setup
+You can build (and run) Che from within another IDE. Our engineers use Eclispe and IntelliJ for development.
+
+### Eclipse IDE - Yatta Installer
+Yatta is great and they [maintain an Oomph installer](https://profiles.yatta.de/iQBd) for Eclipse Che. It will install Eclipse, some additional Eclipse plugins, and checkout the Che source code. If you are using OpenJDK on your system, you will need to install OpenJFX first.
+
+We recommend that you deactivate automatic builds in Eclipse to disable running maven in places you do not want it to. 
+
+### Eclipse IDE - Classic Installer
+You can use the standard Eclipse installer. Make sure you are using the [Eclipse IDE for Java](https://www.eclipse.org/downloads/eclipse-packages/) configured with the maven plugin.
+
+Separately, you will need to have Eclipse Che source code cloned on your file system. Use `Import > Maven > Existing Maven Projects` to import Che and select all projects to be imported. 
+
+You will need to define a maven command to bud Che. Create a "Run Configuration" and in the Maven Build section choose `assembly-main` to be the base directory. Add a new goal named `clean install` and select `Skip Tests` checkbox. This will create a command that will build Che.
+
+You may have to setup additional environment variables for a custom command.  If you run into any `npm` errors, this is due to permission and you need to remove your NPM repository `.npm` folder.
+
+If you get a clean compilation, the assembly will be built into the `assembly/assembly-main` folder and you can use our Docker CLI syntax to run the assembly. This syntax can be setup as a run configuration within Eclipse.
+
 ## Debugging
 Che is a multi-node system with processes running within the browser, the Che server and within the workspace. The debugging tactics for each are different.
 
