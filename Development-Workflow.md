@@ -65,7 +65,6 @@ mvn -pl '!dashboard' clean install
 # Build faster by skipping unit tests and other enforcement features:
 mvn -DskipTests=true \
     -Dfindbugs.skip=true \
-    -Dskip-validate-sources \
     -Dmdep.analyze.skip=true \
     -Dlicense.skip=true \
     -Dgwt.compiler.localWorkers=2 -T 1C \
@@ -89,7 +88,7 @@ To build the core:
 cd che/core
 
 # Windows: maven-patch-plugin does not work, so skip tests when building:
-mvn -DskipTests=true -Dfindbugs.skip=true -Dskip-validate-sources clean install
+mvn -DskipTests=true -Dfindbugs.skip=true clean install
 ```
 
 To build plugins:
@@ -119,7 +118,6 @@ docker run -it --rm --name build-che
            mvn -DskipTests=true 
                -Dfindbugs.skip=true
                -Dgwt.compiler.localWorkers=2 -T 1C 
-               -Dskip-validate-sources 
                -Dmdep.analyze.skip=true 
                -Dlicense.skip=true
                clean install
@@ -138,7 +136,7 @@ We have integrated findbugs into the maven build system to generate warnings dur
 
 We have integrated [Error Prone](https://github.com/google/error-prone) to check the state of code when you execute a maven build. Error prone verification is required to pass for all code submissions.
 
-License checks for submitted files are done within a maven build. You can skip these license checks with `-Dskip-validate-sources` maven option.
+License checks for submitted files are done within a maven build. You can skip these license checks with `-Dlicense.skip` maven option.
  
 ## IDE Setup
 You can build (and run) Che from within another IDE. Our engineers use Eclispe and IntelliJ for development.
