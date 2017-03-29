@@ -1,9 +1,9 @@
 ## TOPICS DISCUSSED: 
 
-​1. 5.6.0 status 
-2. Blocker bugs
-3. Intelligent Commands
-4. Factories
+​1. 5.6.0 status  
+2. Blocker bugs  
+3. Intelligent Commands   
+4. Factories  
 
 ## PRIMARY TOPICS
 
