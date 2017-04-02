@@ -41,3 +41,6 @@ Since the upcoming milestone generally does not have net new features and is pri
 When all of the critical bugs have been resolved, we tag the release and produce a final stable build. Before we publish the stable release, we manually execute the smoke test on all supported platforms.
 
 TODO: Roman to document the smoke test execution plan.
+
+# Deprecate Policy
+Plans to deprecate will be outlined in issues (where possible and appropriate) for community feedback. Once feedback has been addressed deprecation schedule will be announced on che-dev mailing list and in the changelog. Discussed API deprecation should stay in product for at least 1 month(2 sprints) before removal. Deprecation notification will be included in release notes and changelog release(s) prior to release where API is removed. In cases where the deprecation may affect white label customers, the team leads will notify PM's (Brad and James) in advance so that those customers can be notified.
