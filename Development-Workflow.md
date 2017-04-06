@@ -293,10 +293,12 @@ Before we can accept a pull request, you'll need to sign a [Contributor License 
 
 To enable us to quickly review and accept your pull requests, always create one pull request per issue and link the issue in the pull request. Never merge multiple requests in one unless they have the same root cause. Be sure to follow our coding guidelines and keep code changes as small as possible. Pull requests should contain tests whenever possible and documentation where appropriate.
 
-We require that each PR has:
+We always require that each PR has:
 - A descriptive title.
-- A link to the issue that initiated the PR.
+- A link to the issue that initiated the PR if one exists.
 - Changelog: one line summary in markdown for the release's Changelog. 
+
+We may require that each PR has:
 - Docs: a link to a matching PR in http://github.com/eclipse/che-docs.
 - Release Notes: markdown summary (as little or as much!) included by marketing when release notes are sent to users.
 
