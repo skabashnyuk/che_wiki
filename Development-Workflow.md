@@ -319,6 +319,11 @@ We really value pull requests and maintainers work to include open pull requests
 
 To improve the chances to get a pull request merged you should select an issue that is labeled with a `level/*` label or `kind/bug` label. If the issue you want to work is not labeled with either of these, you can start a conversation with the issue owner asking how you can help.
 
+## Long-Lived Branches
+We generally prefer that committers work on features using long-lived branches within our repositories instead of making a fork into another repository. This allows for the main repository to maintain a history of activity against the project and also provides a higher degree of transparency for the community at large.
+
+Branch owners can define their own policies for how changes are merged, whether directly with a push or with a branch PR. Branch PRs against long-lived branches are a good practice when teams include multiple engineers or there needs to be a discussion on the structure of the change request. Branch PRs should have the `target/branch` label added. Branch PRs do not have to meet the same quality standard prior to being merged including documentation, changelog, release notes, and code formatting. However, eventually long-lived branches are usually targeted for master, so the higher standard applied to intermediate PRs will likely make the master PR process smoother.
+
 ## Etiquette
 In order to keep the conversation clear and transparent, please limit discussion to English and keep things on topic with the issue. Be considerate to others and try to be courteous and professional at all times. Everyone participating in the project must follow the [Eclipse Community Code of Conduct](https://www.eclipse.org/org/documents/Community_Code_of_Conduct.php).
 
