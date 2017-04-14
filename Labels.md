@@ -4,7 +4,7 @@ The Eclipse Che project relies heavily on issue labels as a way to communicate s
 ### Issue Types
 | Label        | Description
 | ------------ |-------------
-| kind/question| Questions that haven't been identified as being feature requests or bugs.  Cannot overlap with "fixup", "enhancement", "bug", "epic", "task" or "docs".
+| `kind/question`| Questions that haven't been identified as being feature requests or bugs.  Cannot overlap with "fixup", "enhancement", "bug", "epic", "task" or "docs".
 | kind/enhancement| A feature request - must adhere to the feature request template. Cannot overlap with "fixup", "question", "bug", "epic", "task" or "docs".
 | kind/epic| A long-lived, PM-driven feature request. Must include a checklist of items that must be completed, which can reference enhancements or bugs.  Cannot overlap with "fixup", "question", "enhancement", "bug", "task" or "docs".
 | kind/bug| Outline of a bug - must adhere to the bug report template. If a bug is identified during a question investigation a new issue can be created for the bug and the question closed. Cannot overlap with "fixup", "question", "enhancement", "epic", "task" or "docs".
