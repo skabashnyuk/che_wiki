@@ -50,4 +50,6 @@ The Eclipse Che project relies heavily on issue labels as a way to communicate s
 | team/production | Issue to be taken by the production readiness team.
 | team/platform | Issue to be taken by the platform team.
 | team/pm | Issue to be taken by the product management team.
+| **Pull Request Target**| _________________________________________________________________________ |
+| target/branch | Indicates that a PR will be merged into a branch other than master. When merging to master branch `target/` label should not be used as it is an assume default target for most PRs.
 
