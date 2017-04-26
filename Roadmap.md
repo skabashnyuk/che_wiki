@@ -9,33 +9,42 @@ Releases occur every two weeks. While working on a current release, we plan the 
 
 The epics and features that roll into a milestone are determined by pull request readiness of the feature at the time a milestone begins. In other words, we only place into a milestone features that are code complete and waiting for master-integration and testing.
 
-# March 2017
+# April 2017 Update (Covering April - October)
 ## Users: Create a Professional Development Tool
-Eclipse Che should provide a development experience that rivals world-class tools such as the Eclipse IDE and JetBrains. Che should install anywhere. Workspaces should be configurable to work with any kind of language and have best-in-class support for the language server protocol along with packaging all known language servers. Workspaces should be support Docker Compose and enable multi-machine development. There should be an intelligent commands framework that simplifies authoring commands and executing them on differnet machine targets.
-- [ ] Performance of IDE as seen by the user [TBD]
+Eclipse Che should provide a development experience that rivals world-class tools such as the Eclipse IDE and JetBrains. Che should install anywhere. Workspaces should be configurable to work with any kind of language and have best-in-class support for the language server protocol along with packaging all known language servers. Workspaces should be support Docker Compose and enable multi-machine development. There should be an intelligent commands framework that simplifies authoring commands and executing them on different machine targets.
+- [ ] Performance of IDE as seen by the user [TBD], [#3792](https://github.com/eclipse/che/issues/3792), [#4250](https://github.com/eclipse/che/issues/4250)
 - [ ] Critical issues as documented by dev 
 - [ ] LSP advancements - phase II + file extensions [#2109](https://github.com/eclipse/che/issues/2109)
 - [ ] Debugger, debugger, debugger [#2611](https://github.com/eclipse/che/issues/2611)
 - [ ] JavaScript IDE client prototype
-- [ ] Airplane mode - live sync a workspace for offline usage
+- [ ] Offline workspace sync [#2558](https://github.com/eclipse/che/issues/2558)
 
 ## Enterprises: Cloud Dev for Teams on a Single Project
 When enterprises adopt Eclipse Che (or the Codenvy derivative), they break themselves into teams that work on projects collectively, but in workspaces that are private and independent. Enterprises are looking to secure workspaces, deploy them on new infrastructure, and make it easier for teams to collaborate on projects together while maintaining developer autonomy. Some of these issues are Codenvy or Red Hat OpenShift issues, but generate significant improvements to the underlying Che platform.
-- [ ] Teams (org mgmt + team ) for on-prem [#1847](https://github.com/codenvy/codenvy/issues/1847), [#1900](https://github.com/codenvy/codenvy/issues/1900)
-- [ ] UD re-design for ws create + details + crane along with reducing output of agent boot [#4359](https://github.com/eclipse/che/issues/4359)
 - [ ] System stack + template + factory + recipes mgmt [#1902](https://github.com/codenvy/codenvy/issues/1902)
 - [ ] Traffic through a single port [#4361](https://github.com/eclipse/che/issues/4361)
 - [ ] Consolidate chefiles + factory JSON [#4362](https://github.com/eclipse/che/issues/4362)
+- [ ] Factory and PR panel in che [#4290](https://github.com/eclipse/che/issues/4290)
 - [ ] Che and Codenvy infrastructure deploy on Kube / OpenShift [#2847](https://github.com/eclipse/che/issues/2847)
+- [ ] Simplified IDE UI [TBD]
+- [ ] Project samples management in UI [#2970](https://github.com/eclipse/che/issues/2970)
+- [ ] Improvements and new features for terminals [#4824](https://github.com/eclipse/che/issues/4824)
+- [ ] UD re-design for ws create + details + crane along with reducing output of agent boot [#4359](https://github.com/eclipse/che/issues/4359)
  
 ## Ecosystem: Make It Easy to Contribute to Che
-Eclipse Che should be easy to customize. Che has many customization points including stacks, templates, extensions, plugins, assemblies, and commands. Currently, these customization and extension points are located and customized in differnet ways. We are going to centralize and standarize these items to make a consistent model for how customizers can work with Che. Additionally, we will advance the infrastructure of Che and our DevOps infrastructure to make it possible to duplicate Che development environments for those that want to give back to the project.
+Eclipse Che should be easy to customize. Che has many customization points including stacks, templates, extensions, plugins, assemblies, and commands. Currently, these customization and extension points are located and customized in differnet ways. We are going to centralize and standardize these items to make a consistent model for how customizers can work with Che. Additionally, we will advance the infrastructure of Che and our DevOps infrastructure to make it possible to duplicate Che development environments for those that want to give back to the project.
 - [ ] Archetype SDK (lifecycle of custom assemblies) [#4257](https://github.com/eclipse/che/issues/4257) & [archetype](https://github.com/eclipse/che-archetypes/issues) 
 - [ ] QE automation framework [TBD] 
 - [ ] Custom images for each branch with auto-generation from CI [TBD] 
 - [ ] Agent & Machine refactoring [#3971](https://github.com/eclipse/che/issues/3971) & [#3612](https://github.com/eclipse/che/issues/3612) 
+- [ ] Improved Eclipse Che extensions development flow [#4370](https://github.com/eclipse/che/issues/4370)
 - [ ] Che-in-Che development model with ability to source workspace recipe from git repo 
 - [ ] Branding customizations & workflow 
+- [ ] Various internal refactoring [#3244](https://github.com/eclipse/che/issues/3244), [#3248](https://github.com/eclipse/che/issues/3248), [#4221](https://github.com/eclipse/che/issues/4221)
+- [ ] Rework agents installation [#3971](https://github.com/eclipse/che/issues/3971)
+- [ ] Use a single port to route all traffic [#4361](https://github.com/eclipse/che/issues/4361)
+- [ ] Replace everrest based Websocket calls with new RPC framework. [#4459](https://github.com/eclipse/che/issues/4459)
+
 
 # September 2016
 ## Users: Create a Professional Development Tool
