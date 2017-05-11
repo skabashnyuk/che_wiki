@@ -1,9 +1,10 @@
 This roadmap is a 6-9 month forward-looking expectation of what we plan to include in Eclipse Che. 
 
 This roadmap is thematically tied to three audiences: 
-a) users (developers) 
-b) ecosystem (ISVs) 
-c) admins (enterprises / teams) 
+1. Users (developers) 
+1. Ecosystem (ISVs) 
+1. Admins (enterprises / teams) 
+1. Che-Dev (development community)
 
 Releases occur every two weeks. While working on a current release, we plan the following release. We thematically break the major functionality into epics that have sub-issues that can span many sprints, and sometimes across many releases. We do our best to incorporate all of feature into a single release, but it often requires that we break functionality across multiple release milestones.
 
@@ -17,6 +18,7 @@ Eclipse Che should provide a development experience that rivals world-class tool
 - [ ] LSP advancements - phase II + file extensions [#2109](https://github.com/eclipse/che/issues/2109)
 - [ ] Debugger, debugger, debugger [#2611](https://github.com/eclipse/che/issues/2611)
 - [ ] JavaScript IDE client prototype
+- [ ] Improve Git commit window [#3614](https://github.com/eclipse/che/issues/3614)
 - [ ] Offline workspace sync [#2558](https://github.com/eclipse/che/issues/2558)
 
 ## Enterprises: Cloud Dev for Teams on a Single Project
@@ -44,7 +46,6 @@ Eclipse Che should be easy to customize. Che has many customization points inclu
 - [ ] Rework agents installation [#3971](https://github.com/eclipse/che/issues/3971)
 - [ ] Use a single port to route all traffic [#4361](https://github.com/eclipse/che/issues/4361)
 - [ ] Replace everrest based Websocket calls with new RPC framework. [#4459](https://github.com/eclipse/che/issues/4459)
-
 
 # September 2016
 ## Users: Create a Professional Development Tool
