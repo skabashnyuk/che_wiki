@@ -199,7 +199,7 @@ In Eclipse, go to `Run > Run Configurations`, select `Java Application`, right c
 
 In the `Main` tab, add the project `assembly-ide-war` with main class as `com.google.gwt.dev.codeserver.CodeServer`.
 
-`Program arguments` : `-style PRETTY -noincremental -src target/generated-sources/gen`
+`Program arguments` : `-style PRETTY -noincremental -src target/generated-sources/gen org.eclipse.che.ide.IDE`
 `VM Options` : `-Xmx2048m`
 
 In the `Classpath` tab, go to `User Entries > Add External Jars`. Add:
