@@ -2,7 +2,6 @@
 
 ​1. 5.10.0 status  
 2. Blocker bugs    
-3. Branch Policy  
 
 ## PRIMARY TOPICS
 
