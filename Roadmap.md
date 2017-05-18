@@ -10,6 +10,30 @@ Releases occur every two weeks. While working on a current release, we plan the 
 
 The epics and features that roll into a milestone are determined by pull request readiness of the feature at the time a milestone begins. In other words, we only place into a milestone features that are code complete and waiting for master-integration and testing.
 
+
+
+# Che 6
+Eclipse Che should provide a developer experience that rivals world-class tools such as the Eclipse IDE and JetBrains.  Workspaces should be configurable to work with any kind of language and have best-in-class support for the language server protocol along with packaging all known language servers. Users must be able to perform any action using a unified command palette. VCS experience should be simpler and better integrated in the IDE. Navigating into source code, searching and performing actions accross multiple files should also become more natural and designed for efficiency. These needs will also involve an important work on the UI and the UX for the IDE.
+
+## Professional Development Tool
+- [ ] Performance of IDE as seen by the user [#4250](https://github.com/eclipse/che/issues/4250)
+- [ ] Reliable Java tooling for class deletion/renaming/moving [#5108](https://github.com/eclipse/che/issues/5108), [#5013](https://github.com/eclipse/che/issues/5013), [#4979](https://github.com/eclipse/che/issues/4979), [#3928](https://github.com/eclipse/che/issues/3928)
+- [ ] Efficient source code navigation (search and class navigation) [#1564](https://github.com/eclipse/che/issues/1564), [#4577](https://github.com/eclipse/che/issues/4577)
+- [ ] Typescript Support (code completion, errors and syntax highlighting, formatting, refactoring and code navigation)
+- [ ] Improved unit tests support [#4994](https://github.com/eclipse/che/issues/4994), [#4980](https://github.com/eclipse/che/issues/4980)
+- [ ] _(best effort)_ Debugger with thread support [#2611](https://github.com/eclipse/che/issues/2611)
+- [ ] _(best effort)_ Reliable Code formatting [#4138](https://github.com/eclipse/che/issues/4138)
+
+## Redesigned User Experience
+- [ ] New IDE design and experience [#4929](https://github.com/eclipse/che/issues/4929)
+- [ ] UD re-design for ws create + details + crane along with reducing output of agent boot [#4359](https://github.com/eclipse/che/issues/4359)
+- [ ] Git integration as panel 
+
+## Infrastructure and Foundations
+- [ ] Workspace Infrastructure (SPI) to support Docker and Openshift [#4736](https://github.com/eclipse/che/issues/4736)
+- [ ] _(best effort)_ GWT Super dev mode support [#1655](https://github.com/eclipse/che/issues/1655), [#2595](https://github.com/eclipse/che/issues/2595)
+
+
 # April 2017 Update (Covering April - October)
 ## Users: Create a Professional Development Tool
 Eclipse Che should provide a development experience that rivals world-class tools such as the Eclipse IDE and JetBrains. Che should install anywhere. Workspaces should be configurable to work with any kind of language and have best-in-class support for the language server protocol along with packaging all known language servers. Workspaces should be support Docker Compose and enable multi-machine development. There should be an intelligent commands framework that simplifies authoring commands and executing them on different machine targets.
