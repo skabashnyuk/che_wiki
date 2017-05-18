@@ -27,7 +27,7 @@ Eclipse Che should provide a developer experience that rivals world-class tools 
 ## Redesigned User Experience
 - [ ] New IDE design and experience [#4929](https://github.com/eclipse/che/issues/4929)
 - [ ] UD re-design for ws create + details + crane along with reducing output of agent boot [#4359](https://github.com/eclipse/che/issues/4359)
-- [ ] Git integration as panel 
+- [ ] Git integration as panel [#5128](https://github.com/eclipse/che/issues/5128)
 
 ## Infrastructure and Foundations
 - [ ] Workspace Infrastructure (SPI) to support Docker and Openshift [#4736](https://github.com/eclipse/che/issues/4736)
