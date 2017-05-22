@@ -31,6 +31,7 @@ Eclipse Che should provide a developer experience that rivals world-class tools 
 
 ## Infrastructure and Foundations
 - [ ] Workspace Infrastructure (SPI) to support Docker and Openshift [#4736](https://github.com/eclipse/che/issues/4736)
+- [ ] Client-Master communication [#5144](https://github.com/eclipse/che/issues/5144)
 - [ ] _(best effort)_ GWT Super dev mode support [#1655](https://github.com/eclipse/che/issues/1655), [#2595](https://github.com/eclipse/che/issues/2595)
 
 
