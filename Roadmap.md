@@ -19,7 +19,7 @@ Eclipse Che should provide a developer experience that rivals world-class tools 
 - [ ] Performance of IDE as seen by the user [#4250](https://github.com/eclipse/che/issues/4250)
 - [ ] Reliable Java tooling for class deletion/renaming/moving [#5108](https://github.com/eclipse/che/issues/5108), [#5013](https://github.com/eclipse/che/issues/5013), [#4979](https://github.com/eclipse/che/issues/4979), [#3928](https://github.com/eclipse/che/issues/3928)
 - [ ] Efficient source code navigation (search and class navigation) [#1564](https://github.com/eclipse/che/issues/1564), [#4577](https://github.com/eclipse/che/issues/4577)
-- [ ] Typescript Support (code completion, errors and syntax highlighting, formatting, refactoring and code navigation)
+- [ ] Typescript Support (code completion, errors and syntax highlighting, formatting, refactoring and code navigation) [#5146](https://github.com/eclipse/che/issues/5146)
 - [ ] Improved unit tests support [#4994](https://github.com/eclipse/che/issues/4994), [#4980](https://github.com/eclipse/che/issues/4980)
 - [ ] _(best effort)_ Debugger with thread support [#2611](https://github.com/eclipse/che/issues/2611)
 - [ ] _(best effort)_ Reliable Code formatting [#4138](https://github.com/eclipse/che/issues/4138)
