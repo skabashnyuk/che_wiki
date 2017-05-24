@@ -25,7 +25,7 @@ Eclipse Che should provide a developer experience that rivals world-class tools 
 - [ ] _(best effort)_ Reliable Code formatting [#4138](https://github.com/eclipse/che/issues/4138)
 
 ## Redesigned User Experience
-- [ ] New IDE design and experience [#4929](https://github.com/eclipse/che/issues/4929)
+- [ ] New IDE design and experience [#4929](https://github.com/eclipse/che/issues/4929), [#4993](https://github.com/eclipse/che/issues/4993)
 - [ ] UD re-design for ws create + details + crane along with reducing output of agent boot [#4359](https://github.com/eclipse/che/issues/4359)
 - [ ] Git integration as panel [#5128](https://github.com/eclipse/che/issues/5128)
 
