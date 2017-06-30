@@ -1,12 +1,22 @@
 Eclipse Che has generational advances (A.x.x), major releases with features (x.A.x), and bug fix releases (x.x.A). Each release is associated with a milestone target. We develop in two week agile iterations with a milestone release attempted at the end of each sprint.
 
+# Roles
+There are four roles that define responsibilities for managing our process:
+1. Contributors: Anyone who participates in our GitHub forums or issues a pull request. Anyone can be a contributor.
+
+2. Committers: Someone with committer rights to our repositories. Any individual that gets two major PRs merged is nominated by a project leader to become a committer. Committers must submit at least two PRs each year to maintain their committer status. Committers also act as PR "reviewers" whose +1 consent is required for a PR to be merged.
+
+3. Maintainers: Responsible for managing issue backlog and ensuring that the development and pull request process is followed. One maintainer is a mandatory reviewer on every pull request. Their +1 consent must be provided for the pull request to be merged. If the pull request is from a contributor without merge rights, the maintainer will perform the merge. In the rare event that discussions on pull requests or issues lead to a deadlock on which direction should be taken, then a maintainer will decide the path forward. Maintainers have a difficult job in that they are ultimately responsible for ensuring the stability and maintainability of the code base. Current maintainers are Sergii Kabashnyuk, Roman Iuvshin, Vitalii Parfonov, Anna Shumalova, Florent Benoit, Stevan LeMeur, and Mario Loriedo.
+
+4. Project Leaders: Responsible for governing the project, setting the 6 month roadmap, ensuring that the development process reflects our project's values and objectives, and nominating individuals to become committers or maintainers. Current project leaders are Tyler Jewell and Gennady Azarenkov.
+
 # Roadmap
-The team has a 6 month high level [Roadmap]() which defines the themes, features and technical debt to be addressed in the timeframe.
+Project leaders maintain a 6 month forward looking [Roadmap](https://github.com/eclipse/che/wiki/Roadmap) which defines the themes, features and technical debt to be addressed in the time frame.
 
 # Milestones
-We will work in two-week iterations on the items in the roadmap. We begin a milestone on a Thursday and end on a Wednesday. The target is to make a published milestone release at the end of each iteration cycle. We start iterations mid-week to allow for the possibility to have the release process flow into the following iteration and still complete within the same calendar week where the iteration completed.
+We work in three-week iterations. We begin a milestone on a Thursday and end on a Wednesday. We perform a milestone release at the end of each iteration cycle. 
 
-At the end of each iteration, we want to have a version of Che that can be used by the Che community. The project leaders will decide if a milestone release within GitHub becomes a marketing "ship" event, where we have completed the Eclipse IP process and do a broad-based marketing update with the release notes.  
+At the end of each iteration, we version and release Che for community use. The project leaders will decide if a milestone release within GitHub becomes a marketing "ship" event, where we have completed the Eclipse IP process and do a broad-based marketing update with the release notes.  
 
 The work done in a milestone is captured in the milestone plan (see [Milestone Plans]()). The feature highlights, bugs fixed, and technical debt tasks completed are all contained in the release notes.
 
