@@ -46,7 +46,8 @@ TODO: Provide a best practices page around issue tracking
 Each week we will manage work items, cross off completed features and triaging bugs. At the end of the milestone we strike for 0 bugs and 0 issues assigned to the milestone. Some bugs and features will then either be postponed to later milestones, moved to the back of the backlog, or a choice will be taken to delay making the release until all issues are resolved.
 
 # Release Readiness
-Since the upcoming milestone generally does not have net new features and is primarily concerned with stabilization, we focus our testing on the test plans provided in the milestone plans. We then will fix the critical bugs for that milestone.  During this cycle, we make builds available nightly using our Docker image `codenvy/che:nightly` or by downloading a [nightly ZIP build](https://install.codenvycorp.com/che/).
+Since the upcoming milestone generally does not have net new features and is primarily concerned with stabilization, we focus our testing on the test plans provided in the milestone plans. We then will fix the critical bugs for that milestone.  During this cycle, we make builds available as docker images with tag:nightly
+`eclipse/che:nightly`.
 
 When all of the critical bugs have been resolved, we tag the release and produce a final stable build. Before we publish the stable release, we manually execute the smoke test on all supported platforms.
 
