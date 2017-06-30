@@ -305,11 +305,13 @@ We may require that each PR has:
 
 Bug fix PRs may not require docs or release notes. All PRs must have either a `kind/enhancement`, `kind/docs`, or `kind/bugs` label.
 
-PR approvals require at least one other committer and a maintainer to authorize.  Current maintainers include Vitalii Parfonov, Gennady Azarenkov, Sergii Kabashnyuk, Viktor Kuzynetsov, Roman Iuvshin, Florent Benoit, and Tyler Jewell. PRs that include docs and release notes updates must also include a PM reviewer. PM reviewers include Brad Micklea, Stevan LeMeur, James Drummond, Eugene Ivantsov, or Tyler Jewell.
+PR approvals require at least one other committer and a maintainer to authorize.  Current maintainers include Vitalii Parfonov, Gennady Azarenkov, Sergii Kabashnyuk, Viktor Kuzynetsov, Roman Iuvshin, Florent Benoit, Mario Loriedo and Tyler Jewell. PRs that include docs and release notes updates must also include a PM reviewer. PM reviewers include Brad Micklea, Stevan LeMeur, Eugene Ivantsov, or Tyler Jewell.
+
+If a dispute arises between multiple parties on a pull request on the best forward direction, we encourage the parties to work through any differences of opinion within the thread. If a deadlock occurs, then the maintainer assigned to the PR will have decision authority.
 
 If a PR is ready for review from developers or PMs a `status/code-review` label is set. Once all approvals have been granted the `status/code-review` label is removed and `status/pending-merge` is added - this indicates that code reviews are completed and maintainers are waiting for a merge window to appear. 
 
-Once an issue is in `status/pending-merge` and the maintainer is aware of the timeframe for merge, they may assign a milestone marker. Milestones are predictable and any PR merged will be taken into the next milestone. Every merged PR must have an assigned milestone.
+Once an issue is in `status/pending-merge` and the maintainer is aware of the time frame for merge, they may assign a milestone marker. Milestones are predictable and any PR merged will be taken into the next milestone. Every merged PR must have an assigned milestone.
 
 We really value pull requests and maintainers work to include open pull requests into every sprint. Unfortunately, we are not able to accept every pull request. There are several reasons we may not accepts a pull request:
 
@@ -326,7 +328,7 @@ We generally prefer that committers work on features using long-lived branches w
 Branch owners can define their own policies for how changes are merged, whether directly with a push or with a branch PR. Branch PRs against long-lived branches are a good practice when teams include multiple engineers or there needs to be a discussion on the structure of the change request. Branch PRs should have the `target/branch` label added. Branch PRs do not have to meet the same quality standard prior to being merged including documentation, changelog, release notes, and code formatting. However, eventually long-lived branches are usually targeted for master, so the higher standard applied to intermediate PRs will likely make the master PR process smoother.
 
 ## Etiquette
-In order to keep the conversation clear and transparent, please limit discussion to English and keep things on topic with the issue. Be considerate to others and try to be courteous and professional at all times. Everyone participating in the project must follow the [Eclipse Community Code of Conduct](https://www.eclipse.org/org/documents/Community_Code_of_Conduct.php).
+In order to keep the conversation clear and transparent, please limit discussion to English and keep things on topic with the issue. Be considerate, courteous, and professional. Everyone participating in the project must follow the [Eclipse Community Code of Conduct](https://www.eclipse.org/org/documents/Community_Code_of_Conduct.php).
 
 ## Repository Layout
 ### Modules
