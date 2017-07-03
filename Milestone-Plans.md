@@ -2,6 +2,6 @@ We perform a release at the end of every milestone. Our milestones follow our sp
 
 The "current milestone" is the upcoming release that will happen when the current sprint is completed. You can view the list of issues committed by maintainers and their teams for the current milestone. While the current milestone is being engineered we are performing planning on the "next milestone". Issues with the `sprint/next-sprint` tag are under investigation for inclusion in a future sprint, but it is not a guarantee that they will be included. You can browser our commit logs to see "previous milestones" which have already shipped.
 
-[Previous Milestones](https://github.com/eclipse/che/milestones?state=closed)
-[Current Milestone](https://github.com/eclipse/che/issues?q=is%3Aopen+is%3Aissue+label%3Asprint%2Fcurrent-sprint)
-[Next Milestone](https://github.com/eclipse/che/issues?q=is%3Aopen+is%3Aissue+label%3Asprint%2Fnext-sprint)
+[Previous Milestones](https://github.com/eclipse/che/milestones?state=closed)  
+[Current Milestone](https://github.com/eclipse/che/issues?q=is%3Aopen+is%3Aissue+label%3Asprint%2Fcurrent-sprint)  
+[Next Milestone](https://github.com/eclipse/che/issues?q=is%3Aopen+is%3Aissue+label%3Asprint%2Fnext-sprint)  
