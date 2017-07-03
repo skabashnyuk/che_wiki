@@ -30,3 +30,5 @@ At the end of each sprint, we usually do a release. We will publish the links to
 We have been discussing about re-inforcing the role and responsibilities of maintainers of Che repository.
 The goal of the discussion was to define a process in order to provide a better response to the PR that are proposed by the community. We would like to improve the process so that there is an initial triage which is done, but we also want to ensure that a response is given in less than 48h to a pull request. The sooner the feedbacks are provided to a PR, the easier it would be to get the PR requirements completed, merged and delivered to the community.
 
+A proposal will be made by Project Leaders during this week.
+
