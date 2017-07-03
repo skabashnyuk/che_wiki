@@ -1,5 +1,6 @@
-There is an Eclipse Che dev meeting each Monday, 7:00 AM PST. You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/8267848889). Chat link updated 28-Jun-17.
+There is an Eclipse Che dev meeting each Monday, 8:00 AM PST. You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/8267848889). Chat link updated 28-Jun-17.
 
+[Minutes: July 3, 2017](https://github.com/eclipse/che/wiki/Minutes:-July-3,-2017)  
 [Minutes: May 10, 2017](https://github.com/eclipse/che/wiki/Minutes:-May-10,-2017)  
 [Minutes: May 2, 2017](https://github.com/eclipse/che/wiki/Minutes:-May-2,-2017)  
 [Minutes: April 11, 2017](https://github.com/eclipse/che/wiki/Minutes:-April-11,-2017)  
