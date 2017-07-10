@@ -1,15 +1,15 @@
 # PARTICIPANTS:
 
-Gennady Azarenkov
-Florent Benoit
-Gorkem Erkan
-Roman Iuvshyn
-Eugene Ivantsov
-Alexander Garagatyi
-Stevan LeMeur
-Mario Loriedo
-Vitalii Parfonov
-Anna Shumilova
+- Gennady Azarenkov
+- Florent Benoit
+- Gorkem Erkan
+- Roman Iuvshyn
+- Eugene Ivantsov
+- Alexander Garagatyi
+- Stevan LeMeur
+- Mario Loriedo
+- Vitalii Parfonov
+- Anna Shumilova
 
 # TOPICS DISCUSSED:
 
@@ -23,7 +23,7 @@ Anna Shumilova
 8. Che Loading Sequence
 9. Automating changelog generation
 
-# Detailed minute:
+# DETAILED MINUTE:
 
 ### Review the Development Process document
 
