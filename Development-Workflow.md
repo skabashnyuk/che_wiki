@@ -20,7 +20,7 @@ To build the user dashboard submodule, you will need npm, bower, gulp, and pytho
 
 Learn more about how to [build the dashboard submodule here](https://github.com/eclipse/che/tree/master/dashboard).
 
-To [build the exec agent submodule](https://github.com/eclipse/che/tree/master/exec-agent), you will also need Go 1.6+. The exec agent submodule is a way to execute commands and stream process output logs with a websocket terminal. We use it as a replacement for "docker exec" CLI, as this gives us more fine-grained control over interacting with Docker containers.
+To [build the exec agent submodule](https://github.com/eclipse/che/tree/master/agents/exec), you will also need Go 1.6+. The exec agent submodule is a way to execute commands and stream process output logs with a websocket terminal. We use it as a replacement for "docker exec" CLI, as this gives us more fine-grained control over interacting with Docker containers.
 
 ### Clone
 If you do not haven't done already, please clone the Che repository
