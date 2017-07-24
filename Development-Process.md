@@ -5,18 +5,15 @@ Eclipse Che has generational advances (A.x.x), major releases with features (x.A
 # Roles
 There are six roles that define responsibilities for managing our process:
 
-1. Contributors: Anyone who participates in our GitHub forums or issues a pull request. Anyone can be a contributor. Contributors with merge rights (committers) will merge their own PRs after all reviews have completed. Contributors without merge rights will have a Maintainer merge their PR.
+1. **Contributors**: Anyone who participates in our GitHub forums or issues a pull request. Anyone can be a contributor. Contributors with merge rights (committers) will merge their own PRs after all reviews have completed. Contributors without merge rights will have a Maintainer merge their PR.
 
-2. Committers: Someone with committer rights to our repositories. Any individual that gets two major PRs merged can be nominated by another committer to become a committer. Committers must submit at least two PRs each year to maintain their committer status. Committers also act as PR "reviewers" whose +1 consent is required for a PR to be merged.
+2. **Committers**: Someone with committer rights to our repositories. Any individual that gets two major PRs merged can be nominated by another committer to become a committer. Committers must submit at least two PRs each year to maintain their committer status. Committers also act as PR "reviewers" whose +1 consent is required for a PR to be merged.
 
-3. Reviewers: A committer assigned to participate in a PR review. Reviewers can be asked to review any part of the product including code review, code formatting, change log, release notes, documentation, unit test verification, and the marketing material alterations that must exist when a PR is merged. Reviewers are assigned to a PR by the PR initiator, the Triager, or Maintainers. Reviewers are expected to ensure that our standards for code structure, format, and maintenance are met before offering consent.
+3. **Reviewers**: A committer assigned to participate in a PR review. Reviewers can be asked to review any part of the product including code review, code formatting, change log, release notes, documentation, unit test verification, and the marketing material alterations that must exist when a PR is merged. Reviewers are assigned to a PR by the PR initiator, the Triager, or Maintainers. Reviewers are expected to ensure that our standards for code structure, format, and maintenance are met before offering consent.
 
-4. Triager: Someone selected by the project leader responsible to review new PRs, apply necessary labels, assigns reviewers, and identifies the maintainer / product area for the PR. The triager is expected to review all new open PRs daily. The [CODEOWNERS](https://github.com/eclipse/che/blob/master/.github/CODEOWNERS) file automatically assigns recommended reviewers to new PRs. This list is reviewed and expanded or accepted by the Triager.
+4. **Triager**: Someone selected by the project leader responsible to review new PRs, apply necessary labels, assigns reviewers, and identifies the maintainer / product area for the PR. The triager is expected to review all new open PRs daily. The [CODEOWNERS](https://github.com/eclipse/che/blob/master/.github/CODEOWNERS) file automatically assigns recommended reviewers to new PRs. This list is reviewed and expanded or accepted by the Triager.
 
-5. Maintainers: Responsible for managing issue backlog, ensuring long term code quality for a product area, ensures that our PR process is followed, and provides technical decision making on areas where consensus does not exist. Maintainers are responsible for periodically reviewing the open PRs and issue backlog for their product area to ensure that the PR reviewer list is complete, issues are ordered properly in the backlog, and that reviewers are providing substantive reviews. Maintainers need to do the scheduling and the communication of the PR’s review - this would provide in less than 3 business days.
-
-Ideas:
-Have metrics on response time for the PRs
+5. **Maintainers**: Responsible for managing issue backlog, ensuring long term code quality for a product area, ensures that our PR process is followed, and provides technical decision making on areas where consensus does not exist. Maintainers are responsible for periodically reviewing the open PRs and issue backlog for their product area to ensure that the PR reviewer list is complete, issues are ordered properly in the backlog, and that reviewers are providing substantive reviews. Maintainers need to do the scheduling and the communication of the PR’s review - this would provide in less than 3 business days.
 
 Maintainers:
 IDE: Vitalii Parfonov, Artem Zatsarynnyi
@@ -30,7 +27,7 @@ Docs: Stevan Lemeur, Eugene Ivantsov, Brad Micklea
 
 If the pull request is from a contributor without merge rights, the maintainer will perform the merge. 
 
-6. Project Leaders: Responsible for governing the project, setting the 6 month roadmap, ensuring that the development process reflects our project's values and objectives, and nominating individuals to become maintainers. Current project leaders are Tyler Jewell and Gennady Azarenkov.
+6. **Project Leaders**: Responsible for governing the project, setting the 6 month roadmap, ensuring that the development process reflects our project's values and objectives, and nominating individuals to become maintainers. Current project leaders are Tyler Jewell and Gennady Azarenkov.
 
 # Roadmap
 Project leaders maintain a 6 month forward looking [Roadmap](https://github.com/eclipse/che/wiki/Roadmap) which defines the themes, features and technical debt to be addressed in the time frame.
