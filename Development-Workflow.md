@@ -139,7 +139,7 @@ We have integrated [Error Prone](https://github.com/google/error-prone) to check
 License checks for submitted files are done within a maven build. You can skip these license checks with `-Dlicense.skip` maven option.
  
 ## IDE Setup
-You can build (and run) Che from within another IDE. Our engineers use Eclispe and IntelliJ for development.
+You can build (and run) Che from within another IDE. Our engineers use Eclipse and IntelliJ for development.
 
 ### Eclipse IDE - Yatta Installer
 Yatta is great and they [maintain an Oomph installer](https://profiles.yatta.de/iQBd) for Eclipse Che. It will install Eclipse, some additional Eclipse plugins, and checkout the Che source code. If you are using OpenJDK on your system, you will need to install OpenJFX first.
