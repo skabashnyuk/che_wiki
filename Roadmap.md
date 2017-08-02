@@ -19,7 +19,7 @@ We have witnessed a strong need from downstream projects to have a multi-user, m
 
 The Che 6 plan (below) has these features included along with a broader ambition to redesign the IDE, introduce an infrastructure SPI, and include a number of new developer features within the IDE itself.
 
-We are going to do an intermediate release on the Che 5 branch that introduces a multi-user, multi-tenant version of Che on OpenShift. 
+We are investigating an intermediate release on the Che 5 branch that introduces a multi-user, multi-tenant version of Che on OpenShift. 
 
 The 5.x release will:
 1. Include the OpenShift adapter built by Red Hat.
