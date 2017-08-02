@@ -6,11 +6,29 @@ This roadmap is thematically tied to three audiences:
 1. Admins (enterprises / teams) 
 1. Che-Dev (development community)
 
-Releases occur every two weeks. While working on a current release, we plan the following release. We thematically break the major functionality into epics that have sub-issues that can span many sprints, and sometimes across many releases. We do our best to incorporate all of feature into a single release, but it often requires that we break functionality across multiple release milestones.
+Releases occur every three weeks. While working on a current release, we plan the following release. We thematically break the major functionality into epics that have sub-issues that can span many sprints, and sometimes across many releases. We do our best to incorporate all of feature into a single release, but it often requires that we break functionality across multiple release milestones.
 
 The epics and features that roll into a milestone are determined by pull request readiness of the feature at the time a milestone begins. In other words, we only place into a milestone features that are code complete and waiting for master-integration and testing.
 
+# August 2017 Update: Multi-User, Multi-Tenant Che
+We have witnessed a strong need from downstream projects to have a multi-user, multi-tenant Che:
 
+1. codenvy.io, in its push to replace Swarm infrastructure
+2. Red Hat OpenShift.io, a devops solution based upon OpenShift
+3. SAP Hana, in their investigation for upgrading from Che 3 
+
+The Che 6 plan (below) has these features included along with a broader ambition to redesign the IDE, introduce an infrastructure SPI, and include a number of new developer features within the IDE itself.
+
+We are going to do an intermediate release on the Che 5 branch that introduces a multi-user, multi-tenant version of Che on OpenShift. 
+
+The 5.x release will:
+1. Include the OpenShift adapter built by Red Hat.
+2. Certified for Docker and OpenShift, but not yet Kubernetes.
+3. Replace Codenvy's authentication with Keycloak.
+4. Move the elements for teams, groups, and permissions from Codenvy into Che (including UD).
+5. Support multi-tenancy of the Che server on OpenShift.
+
+Most of this engineering work is well scoped and will likely be done within the next 1-2 sprints. However, our engineering teams are making a number of assumptions about how authentication and authorization should work with Keycloak and we need to validate these assumptions in the real world. We will hold on a formal release until we have verification that codenvy.io and OpenShift.io downstream projects have successfully deployed this new solution at scale and we can produce a runbook that guides others wanting to run Che at scale. We may learn that certain design assumptions are invalidated by these deployment that cause us to have another couple sprint engineering cycle.
 
 # Che 6
 Eclipse Che should provide a developer experience that rivals world-class tools such as the Eclipse IDE and JetBrains.  Workspaces should be configurable to work with any kind of language and have best-in-class support for the language server protocol along with packaging all known language servers. Users must be able to perform any action using a unified command palette. VCS experience should be simpler and better integrated in the IDE. Navigating into source code, searching and performing actions accross multiple files should also become more natural and designed for efficiency. These needs will also involve an important work on the UI and the UX for the IDE.
