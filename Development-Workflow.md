@@ -68,7 +68,8 @@ mvn -DskipTests=true \
     -Dmdep.analyze.skip=true \
     -Dlicense.skip=true \
     -Dgwt.compiler.localWorkers=2 -T 1C \
-     clean install
+    -Pnative \
+    clean install
 
 # If you have forked the repository, you can define maven flags permanently by
 # editing /.mvn/.jvm.config. Engineers with advanced multi-core machines usually
