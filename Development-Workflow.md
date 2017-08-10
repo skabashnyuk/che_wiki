@@ -262,7 +262,12 @@ All functionality requires a unit test. Unit tests are executed as part of the b
 We do not apply linting rules.
 
 ## Code Style
-We provide [code style formatters](https://github.com/eclipse/che-dev/tree/master/che-codestyle/src/main/resources) for other IDEs. If you develop Che within Che, we apply our own code style formatting automatically.
+
+By default, Eclipse Che uses [Google Java style formatting](https://github.com/google/google-java-format). There are several ways to apply this formatting (listed in priority order):
+
+* maven plugin is enabled by default in a build cycle (it does not format but checks compliance with code style). If the build fails with an error indicating non-complying files, run `mvn fmt:format` to fix errors.
+* there are [IntelliJ](https://plugins.jetbrains.com/plugin/8527-google-java-format) and [Eclipse](https://github.com/google/google-java-format/releases/download/google-java-format-1.3/google-java-format-eclipse-plugin-1.3.0.jar) plugins that will auto-format Java source files. Sometimes, these IDE plugins may produce slightly different formatting results as compared to the Maven plugin. If compilation fails due to a compliance check, run `mvn fmt:format` to fix errors.
+* Google Java Formatter isn't implemented for Eclipse Che itself. You're welcome to follow [this issue](https://github.com/eclipse/che/issues/339) though.
 
 ## Work Branches
 All branches in the Che repository need to be named after the matching issue number in GitHub. Please try to avoid pretty-named branches. When your pull request is merged to master, the developer that created the branch is responsible for removing the branch. We perform a branch review after each milestone.
