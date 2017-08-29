@@ -1,7 +1,7 @@
 **Project Management**
 * [Roadmap](https://github.com/eclipse/che/wiki/Roadmap)
 * [Milestone Plans](https://github.com/eclipse/che/wiki/Milestone-Plans)
-* [Weekly Planning Meetings](https://github.com/eclipse/che/wiki/Weekly-Planning-Meetings)
+* [Planning Meetings](https://github.com/eclipse/che/wiki/Che-Dev-Meetings)
 * [Issue Labels](https://github.com/eclipse/che/wiki/Labels)  
 * [Issue Tracking](https://github.com/eclipse/che/wiki/Issue-Tracking)
 * [Development Process](https://github.com/eclipse/che/wiki/Development-Process)
