@@ -3,6 +3,12 @@
 - Stevan Le Meur
 - Roman Iuvshyn
 - Florent Benoit
+- Eugene Ivantsov
+- Ann Shumilova
+- Gennady Azarenkov
+- Sergii Kabashniuk
+- Vitaly Parfonov
+- Mario Loriedo
 
 # TOPICS DISCUSSED:
 
