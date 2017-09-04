@@ -47,4 +47,3 @@ Also discussed:
 Actions:
 - improve the homepage of che's wiki so that it better help the reader to navigate into the content of the wiki. 
 
-### Put link to che community call inside CHE product.
