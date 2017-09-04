@@ -18,6 +18,11 @@
 # DETAILED MINUTE:
 
 ### Communicating about the community call
+- community meeting runs each second monday
+- community meeting should have a permanent link
+- we do record each meeting
+- we will set up notification in different channels mail / twitter / MM
+
 
 Actions:
 - @slemeur create an issue to define the notification message for community call
