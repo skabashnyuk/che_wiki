@@ -6,6 +6,9 @@ It's open to anyone interested. You don't need to have a long history with Che t
 ## When and Where ##
 These meetings take place every second Monday, 8:00 AM PST. You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/478856747/4056). Chat link updated 22-Aug-17.
 
+### Next Call
+[Agenda: Sept 4, 2017](https://github.com/eclipse/che/wiki/Community-call:-September-4,-2017)  
+
 ## Agenda and Minutes ##
 [Minutes: Aug 21, 2017](https://github.com/eclipse/che/wiki/Minutes:-August-21,-2017)  
 [Minutes: July 10, 2017](https://github.com/eclipse/che/wiki/Minutes:-July-10,-2017)  
