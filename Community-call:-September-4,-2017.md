@@ -13,7 +13,7 @@
 # TOPICS DISCUSSED:
 
 1. Define how to communicate about the community call (Stevan)
-
+2. Move community call minutes from CHE wiki ?
 
 # DETAILED MINUTE:
 
@@ -23,6 +23,19 @@
 - we do record each meeting
 - we will set up notification in different channels mail / twitter / MM
 
-
 Actions:
 - @slemeur create an issue to define the notification message for community call
+
+### Move community call minutes from CHE wiki
+Problems:
+- We have a lot of wiki pages for the meeting minutes which creates navigation problem, if the reader is just using "Pages" panel
+
+Proposals:
+-  archive the old meeting minutes
+
+Also discussed:
+- keeping the old meetings can allow people to find interesting information by searching in the wiki
+- there is no other place where we could move the meeting minutes
+
+Actions:
+- improve the homepage of che's wiki so that it better help the reader to navigate into the content of the wiki. 
