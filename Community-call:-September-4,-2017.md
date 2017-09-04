@@ -14,6 +14,7 @@
 
 1. Define how to communicate about the community call (Stevan)
 2. Move community call minutes from CHE wiki ?
+3. Put link to che community call inside the CHE product.
 
 # DETAILED MINUTE:
 
@@ -39,3 +40,6 @@ Also discussed:
 
 Actions:
 - improve the homepage of che's wiki so that it better help the reader to navigate into the content of the wiki. 
+
+### Put link to che community call inside CHE product.
+Mario proposed to put link for the call right in IDE which is quite interesting because this way we will cover people that don't know about our twitter or not subscribed to che-dev mail list.
