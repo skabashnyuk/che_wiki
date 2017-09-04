@@ -22,7 +22,13 @@
 - community meeting runs each second monday
 - community meeting should have a permanent link
 - we do record each meeting
-- we will set up notification in different channels mail / twitter / MM
+
+Proposals:
+- we prepare the agenda for the next community call - right after the end of the current one
+we post an email + on MM the link to the meeting minutes + the link to the next agenda and invite people to propose their topics to the wiki (or by answering the email + asking in MM)
+- Add a link for the call right in IDE which is quite interesting because this way we will cover people that don't know about our twitter or not subscribed to che-dev mail list.
+- we will also include a link into the product to the MM channel (action for stevan)
+
 
 Actions:
 - @slemeur create an issue to define the notification message for community call
@@ -42,4 +48,3 @@ Actions:
 - improve the homepage of che's wiki so that it better help the reader to navigate into the content of the wiki. 
 
 ### Put link to che community call inside CHE product.
-Mario proposed to put link for the call right in IDE which is quite interesting because this way we will cover people that don't know about our twitter or not subscribed to che-dev mail list.
