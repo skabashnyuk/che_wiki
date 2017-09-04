@@ -1,5 +1,12 @@
-There is an Eclipse Che dev meeting every second Monday, 8:00 AM PST. You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/478856747/4056). Chat link updated 22-Aug-17.
+## Purpose and Audience ##
+These conference calls are meant for the Che adoptors and contributors to chat about some project development details (can be planning, concerns, or more technical details). The goal is to better synchronize and organize efforts of the various contributors in order to make Che better.
 
+It's open to anyone interested. You don't need to have a long history with Che to attend the talk, listen and ask relevant questions.
+
+## When and Where ##
+These meetings take place every second Monday, 8:00 AM PST. You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/478856747/4056). Chat link updated 22-Aug-17.
+
+## Agenda and Minutes ##
 [Minutes: Aug 21, 2017](https://github.com/eclipse/che/wiki/Minutes:-August-21,-2017)  
 [Minutes: July 10, 2017](https://github.com/eclipse/che/wiki/Minutes:-July-10,-2017)  
 [Minutes: July 3, 2017](https://github.com/eclipse/che/wiki/Minutes:-July-3,-2017)  
