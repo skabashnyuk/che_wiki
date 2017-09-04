@@ -1,15 +1,16 @@
 # ATTENDEES:
 
+- Stevan Le Meur
 
 # TOPICS DISCUSSED:
 
-1. Topic 1
+1. Define how to communicate about the community call (Stevan)
 2. Topic 2
 3. ...
 
 
 # DETAILED MINUTE:
 
-### Topic 1
+### Communicating about the community call
 
 ### Topic 2
