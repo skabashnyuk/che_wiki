@@ -31,7 +31,7 @@ we post an email + on MM the link to the meeting minutes + the link to the next 
 
 
 Actions:
-- @slemeur create an issue to define the notification message for community call
+- @slemeur create an issue to add links to MM + community call inside the IDE
 
 ### Move community call minutes from CHE wiki
 Problems:
