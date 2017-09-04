@@ -1,6 +1,7 @@
 # ATTENDEES:
 
 - Stevan Le Meur
+- Roman Iuvshyn
 
 # TOPICS DISCUSSED:
 
