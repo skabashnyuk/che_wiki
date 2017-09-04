@@ -2,6 +2,7 @@
 
 - Stevan Le Meur
 - Roman Iuvshyn
+- Florent Benoit
 
 # TOPICS DISCUSSED:
 
