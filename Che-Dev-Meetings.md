@@ -8,18 +8,24 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 
 ***
 
-# 18-SEPT-2017
+# Next Meeting: 18-SEPT-2017
 
-## AGENDA
+## Agenda
 
 1. Update on progress toward Che 6 (multi-tenant Che running on OpenShift).
 
 
 ***
 
-# 4-SEPT-2017
+# Previous Meetings
+- [4-Sept-2017 Minutes](#4-sept-2017)
+- [Older Meetings](#old-meeting-minutes)
 
-## ATTENDEES:
+***
+
+# Minutes: 4-Sept-2017
+
+## Attendees:
 
 - Stevan Le Meur
 - Roman Iuvshyn
@@ -31,13 +37,13 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 - Vitaly Parfonov
 - Mario Loriedo
 
-## TOPICS DISCUSSED:
+## Agenda
 
 1. Define how to communicate about the community call (Stevan)
 2. Move community call minutes from CHE wiki ?
 3. Put link to che community call inside the CHE product.
 
-## DETAILED MINUTES:
+## Minutes
 
 ### Communicating about the community call
 - community meeting runs each second monday
