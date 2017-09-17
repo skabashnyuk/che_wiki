@@ -18,7 +18,7 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 ***
 
 # Previous Meetings
-- [4-Sept-2017 Minutes](#4-sept-2017)
+- [4-Sept-2017 Minutes](#minutes-4-sept-2017)
 - [Older Meetings](#old-meeting-minutes)
 
 ***
