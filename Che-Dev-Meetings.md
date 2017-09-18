@@ -13,7 +13,7 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 ## Agenda
 
 1. Update on progress toward Che 6 (multi-tenant Che running on OpenShift).
-
+2. Changelog structure in PR (Stevan)
 
 ***
 
