@@ -8,17 +8,40 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 
 ***
 
-# Next Meeting: 18-SEPT-2017
+# Minutes: 18-SEPT-2017
 
 ## Agenda
 
-1. Update multi-tenant Che running on OpenShift.
-2. Update on SPI branch
+1. Update on progress toward Che 6 
+2. Update on multi-tenant Che running on OpenShift).
 3. Changelog structure in PR (Stevan)
 4. Critical issue with Che IDE: browser freezes all the time (Sun)
 5. Upcoming conferences, events and talks (Stevan)
 
 ***
+
+### Multi tenant Che on OpenShift
+
+Auth and permissions are already in the branch. Working on OS tokens and porting resource management from Codenvy. Merge is expected end of next sprint.
+
+### Update on progress toward Che 6 
+
+Work to be done on factories, commands and pull request panel. Setting up tests on Minishift and looking into testing Che 6 on OCP, OpenShift Dedicated.
+
+### Changelog structure in PR
+Today, we provide templates for PR with placeholder for docs, related issues that it fixes etc. There's changelog section as well, but it is never used when changelog is generated (only pull request titles are taken into account).
+
+Proposal: Edit PR template with some notes saying that the PR title looks good and is informative. Maybe provide examples of good and bad PR titles. In future, consider adding info on APi changes in changelog (if any).
+
+### Critical issue with Che IDE: browser freezes all the time
+
+Problem: with a few big projects in a workspace, browser tab hangs. It may be related to a lot of pending calls to project API. Needs proper investigations.
+
+Action: Vitaly Parfonov and Eugene Ivantsov will try to reproduce and then prioritize.
+
+### Upcoming conferences, events and talks
+
+There needs to be a page with info on conferences and talks about Che. Also, it will be great to invite community members to Che Conf which is an online Che conference.
 
 # Previous Meetings
 - [4-Sept-2017 Minutes](#minutes-4-sept-2017)
