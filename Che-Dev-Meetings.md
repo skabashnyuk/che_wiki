@@ -12,10 +12,11 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 
 ## Agenda
 
-1. Update on progress toward Che 6 (multi-tenant Che running on OpenShift).
-2. Changelog structure in PR (Stevan)
-3. Critical issue with Che IDE: browser freezes all the time (Sun)
-4. Upcoming conferences, events and talks (Stevan)
+1. Update multi-tenant Che running on OpenShift.
+2. Update on SPI branch
+3. Changelog structure in PR (Stevan)
+4. Critical issue with Che IDE: browser freezes all the time (Sun)
+5. Upcoming conferences, events and talks (Stevan)
 
 ***
 
