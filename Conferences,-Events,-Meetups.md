@@ -1,0 +1,25 @@
+Want to present Eclipse Che at agile, developer, and DevOps conferences? Add yourself to the wiki page.
+
+# Upcoming Events
+
+Upcoming opportunities to meet the Eclipse Che community during conferences, events and meetups.
+
+## September 2017
+
+
+## October 2017
+
+[EclipseCon Europe](https://www.eclipsecon.org/europe2017/) 
+_LUDWIGSBURG, GERMANY_ - **October 24-26, 2017**
+* **[Running Theia in Eclipse Che](https://www.eclipsecon.org/europe2017/session/running-theia-eclipse-che)** - _[Sven Efftinge](https://github.com/svenefftinge) & [Anton Kosyakow](https://github.com/akosyakov)_
+* **[What's new in Eclipse Che 6](https://www.eclipsecon.org/europe2017/session/whats-new-eclipse-che-6)** - _[Stevan Le Meur](https://github.com/slemeur) & [Brad Micklea](https://github.com/bmicklea)_
+* **[How to provide a portable developer workspace with Eclipse Che](https://www.eclipsecon.org/europe2017/session/how-provide-portable-developer-workspace-eclipse-che)** - _[Stevan Le Meur](https://github.com/slemeur)_
+
+## November 2017
+
+**CheConf 2017**
+Virtual Conference - November 15,2017
+
+
+# Past events
+
