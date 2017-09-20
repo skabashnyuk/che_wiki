@@ -6,6 +6,9 @@
 * [Issue Tracking](https://github.com/eclipse/che/wiki/Issue-Tracking)
 * [Development Process](https://github.com/eclipse/che/wiki/Development-Process)
 
+**Community**
+* [Conferences, Events and Meetups](https://github.com/eclipse/che/wiki/Conferences,-Events-and-Meetups)
+
 
 **Contributing**
 * [How to Contribute](https://github.com/eclipse/che/wiki/How-To-Contribute)
