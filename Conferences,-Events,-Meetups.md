@@ -7,7 +7,15 @@ Upcoming opportunities to meet the Eclipse Che community during conferences, eve
 ## September 2017
 
 
+
 ## October 2017
+
+
+[JavaOne](https://www.oracle.com/javaone/index.html) 
+_SAN FRANCISCO, US_ - **October 1-5, 2017**
+* **Eclipse Che for Java Microservice Developers** - _[Gorkem Ercan](https://github.com/gorkem)_
+* **Boost Your Java IDE with Kubernetes** - _[Mario Loriedo](https://github.com/l0rd)_
+
 
 [EclipseCon Europe](https://www.eclipsecon.org/europe2017/) 
 _LUDWIGSBURG, GERMANY_ - **October 24-26, 2017**
