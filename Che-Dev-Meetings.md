@@ -11,6 +11,7 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 
 ## Agenda
 
+0. bmicklea: Triaging the Che issues and proper labelling.
 1. bmicklea: Status of multi-user support in Che and how much of "teams" it brings with it.
 4. skabashniuk: Eclipse Che 5.19 and Eclipse Che 6.0-M1 or 6.0-RC1 release plan.
 5. skabashniuk: Che 6: single multi-user assembly (Docker + OpenShift) based.
