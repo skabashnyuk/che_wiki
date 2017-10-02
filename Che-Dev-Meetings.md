@@ -13,6 +13,7 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 
 1. bmicklea: Status of multi-user support in Che and how much of "teams" it brings with it.
 2. bmicklea: JIRA and Jenkins plugins from Codenvy - should we prioritize? 
+3. bmicklea: Where can external contributors / partner companies help us most?  How can we enable them?
 
 ***
 
