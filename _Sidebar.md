@@ -8,7 +8,7 @@
 
 **Community**
 * [Conferences, Events and Meetups](https://github.com/eclipse/che/wiki/Conferences,-Events-and-Meetups)
-* [Community Call](https://github.com/eclipse/che/wiki/Che-Dev-Meetings)
+* [Community Calls](https://github.com/eclipse/che/wiki/Che-Dev-Meetings)
 
 **Contributing**
 * [How to Contribute](https://github.com/eclipse/che/wiki/How-To-Contribute)
