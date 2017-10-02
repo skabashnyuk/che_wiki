@@ -13,10 +13,11 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 
 1. bmicklea: Status of multi-user support in Che and how much of "teams" it brings with it.
 2. bmicklea: JIRA and Jenkins plugins from Codenvy - should we prioritize? 
-3. bmicklea: Where can external contributors / partner companies help us most?  How can we enable them?
+3. Bmicklea: how do we speed up integration of released Language servers?
 4. skabashniuk: Eclipse Che 5.19 and Eclipse Che 6.0-M1 or 6.0-RC1 release plan.
 5. skabashniuk: Che 6: single multi-user assembly (Docker + OpenShift) based.
 6. skabashniuk: Che 6: depreciation of single port functionality (will be provided by OpenShift)
+7. bmicklea: Where can external contributors / partner companies help us most?  How can we enable them?
 
 ***
 
@@ -170,4 +171,3 @@ Actions:
 [Minutes: March 01, 2016](https://github.com/eclipse/che/wiki/Meeting-Minutes-03.01.2016)  
 [Minutes: February 23, 2016](https://github.com/eclipse/che/wiki/Meeting-Minutes-02.23.2016)  
 [Minutes: February 16, 2016](https://github.com/eclipse/che/wiki/Meeting-Minutes-02.16.2016)  
-
