@@ -19,6 +19,11 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 3. Bmicklea: how do we speed up integration of released Language servers?
 7. bmicklea: Where can external contributors / partner companies help us most?  How can we enable them?
 
+Actions:
+0. @Brad update pull request template. Add more explanation on the wiki. @mario do a call with Californication team to explain about labels usage in Che
+1. Expected to be merge in the current sprint.
+4-5. We need additional meetings to provide consolidated vision. @skabashniuk @ivantsov provide some estimation how much memory is used by postgresql and keycloak.
+3-7 Not discussed. Moved to the next meeting.
 ***
 
 # Minutes: 18-SEPT-2017
