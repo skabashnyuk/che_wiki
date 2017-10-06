@@ -7,6 +7,11 @@ It's open to anyone interested. You don't need to have a long history with Che t
 These meetings take place every second Monday, 8:00 AM PST. You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/478856747/4056). Chat link updated 22-Aug-17.
 ***
 
+# Minutes: 16-OCT-2017
+## Agenda
+You can add topics to the agenda in this [Google doc](https://docs.google.com/document/d/1ViUyMbcbOOUPWC2aFCN1mXZPX7B2ux4jwcOnjLSFbOQ/edit). See you all there!
+ 
+
 # Minutes: 02-OCT-2017
 
 ## Agenda
