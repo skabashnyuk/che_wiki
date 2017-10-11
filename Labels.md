@@ -46,6 +46,7 @@ The Eclipse Che project relies heavily on issue labels as a way to communicate s
 | **Team Assignments**| _________________________________________________________________________ |
 | `team/ide` | Issue to be taken by the IDE team.
 | `team/enterprise` | Issue to be taken by the enterprise features team.
+| `team/osio` | Issue to be taken by the OpenShift.IO team (working on the integration of Che in OpenShift.IO).
 | `team/plugin` | Issue to be taken by the plugin development team.
 | `team/production` | Issue to be taken by the production readiness team.
 | `team/platform` | Issue to be taken by the platform team.
