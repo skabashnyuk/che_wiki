@@ -121,6 +121,7 @@ docker run -it --rm --name build-che
                -Dgwt.compiler.localWorkers=2 -T 1C 
                -Dmdep.analyze.skip=true 
                -Dlicense.skip=true
+               -Pnative
                clean install
                
 # For Windows, replace $HOME with maven repo directory.
