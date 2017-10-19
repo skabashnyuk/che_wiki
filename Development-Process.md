@@ -16,14 +16,15 @@ There are six roles that define responsibilities for managing our process:
 5. **Maintainers**: Responsible for managing issue backlog, ensuring long term code quality for a product area, ensures that our PR process is followed, and provides technical decision making on areas where consensus does not exist. Maintainers are responsible for periodically reviewing the open PRs and issue backlog for their product area to ensure that the PR reviewer list is complete, issues are ordered properly in the backlog, and that reviewers are providing substantive reviews. Maintainers need to do the scheduling and the communication of the PR’s review - this would provide in less than 3 business days.
 
 Maintainers:
-IDE: Vitalii Parfonov, Artem Zatsarynnyi
-Language Servers, IDE Plugins: Dmitro Kuleshov,  Evgen Vidolob
-Platform: Sergii Kabashnyuk, Alex Garagatyi
-Kubernetes: Mario Loriedo, Gorkem Ercan
-Dashboard: Anna Shumilova, Florent Benoit
-QA Automation: Anatoliy Bazko
-Utilities (CLI, devops, etc): Roman Iuvshin, Eugene Ivantsov
-Docs: Stevan Lemeur, Eugene Ivantsov, Brad Micklea
+* IDE: Vitalii Parfonov (@vparfonov), Artem Zatsarynnyi (@azatsarynnyy)
+* Language Servers, IDE Plugins: Dmitro Kuleshov (@dkuleshov),  Evgen Vidolob (@evidolob)
+* Platform: Sergii Kabashnyuk (@skabashnyuk), Alex Garagatyi (@garagatyi)
+* Kubernetes: Mario Loriedo (@l0rd), Gorkem Ercan (@gorkem)
+* Dashboard: Anna Shumilova (@ashumilova), Florent Benoit (@benoitf)
+* QA Automation: Anatoliy Bazko (@tolusha)
+* Utilities (CLI, devops, etc): Roman Iuvshin (@riuvshin), Eugene Ivantsov (@eivantsov)
+* Docs: Stevan Lemeur (@slemeur), Eugene Ivantsov (@eivantsov), Brad Micklea (@bmicklea)
+* Architecture: Gennady Azarenkov (@gazarenkov)
 
 If the pull request is from a contributor without merge rights, the maintainer will perform the merge. 
 
