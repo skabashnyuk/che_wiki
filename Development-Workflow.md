@@ -174,6 +174,11 @@ To change che debug port, in the `che.env`:
 CHE_DEBUG_PORT=8000
 ```
 
+You also need to add the following to `che.env`, otherwise it will default to `PRODUCTION` and ignore the debug settings:
+```
+CHE_ENVIRONMENT="development"
+```
+
 Start Che in development mode which is activated by passing `--debug` to any command on the CLI.
 
 ### Debugging Workspace Agent
