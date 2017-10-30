@@ -34,8 +34,7 @@ Most of this engineering work is well scoped and will likely be done within the 
 Eclipse Che should provide a developer experience that rivals world-class tools such as the Eclipse IDE and JetBrains.  Workspaces should be configurable to work with any kind of language and have best-in-class support for the language server protocol along with packaging all known language servers. Users must be able to perform any action using a unified command palette. VCS experience should be simpler and better integrated in the IDE. Navigating into source code, searching and performing actions accross multiple files should also become more natural and designed for efficiency. These needs will also involve an important work on the UI and the UX for the IDE.
 
 ## Professional Development Tool
-- [ ] Performance of IDE as seen by the user [#4250](https://github.com/eclipse/che/issues/4250)
-- [ ] Reliable Java tooling for class deletion/renaming/moving [#5108](https://github.com/eclipse/che/issues/5108), [#5013](https://github.com/eclipse/che/issues/5013), [#4979](https://github.com/eclipse/che/issues/4979), [#3928](https://github.com/eclipse/che/issues/3928)
+- [ ] Reliable Java tooling for class deletion/renaming/moving [#5013](https://github.com/eclipse/che/issues/5013), [#4979](https://github.com/eclipse/che/issues/4979), [#3928](https://github.com/eclipse/che/issues/3928)
 - [ ] Efficient source code navigation (search and class navigation) [#1564](https://github.com/eclipse/che/issues/1564), [#4577](https://github.com/eclipse/che/issues/4577)
 - [ ] Typescript Support (code completion, errors and syntax highlighting, formatting, refactoring and code navigation) [#5146](https://github.com/eclipse/che/issues/5146)
 - [ ] Improved unit tests support [#4994](https://github.com/eclipse/che/issues/4994), [#4980](https://github.com/eclipse/che/issues/4980)
