@@ -12,7 +12,14 @@ Che maintainers moderate the calls. The schedule of moderators is in a [Google s
 
 # Minutes: 30-OCT-2017
 ## Agenda
-You can add topics to the agenda in this [Google doc](https://docs.google.com/document/d/1SCPQ_070TmQqiaP9NgX415nk96k6jTFvKN4SuVX7ygw/edit?ts=59f731d6#heading=h.ly09ur7fsmgi). See you all there!
+
+1. Update on EclipseCon Europe - Stevan Le Meur (Red Hat)
+2. SAP Che use case - Ido Perea (SAP)
+3. Software AG use case - Barry Dresdner (Software AG)
+4. More communication with the community - Stevan Le Meur (Red Hat)
+5. CheConf 2017 - Brad Micklea (Red Hat)
+
+Minutes are in [Google doc](https://docs.google.com/document/d/1SCPQ_070TmQqiaP9NgX415nk96k6jTFvKN4SuVX7ygw/edit?ts=59f731d6#heading=h.ly09ur7fsmgi). The meeting was also [recorded](https://bluejeans.com/s/VTNBJ).
 
 # Minutes: 16-OCT-2017
 ## Agenda
