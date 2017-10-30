@@ -13,8 +13,7 @@ You can add topics to the agenda in this [Google doc](https://docs.google.com/do
 
 # Minutes: 16-OCT-2017
 ## Agenda
-You can add topics to the agenda in this [Google doc](https://docs.google.com/document/d/1ViUyMbcbOOUPWC2aFCN1mXZPX7B2ux4jwcOnjLSFbOQ/edit). See you all there!
- 
+You can read the notes on the following [Google doc](https://docs.google.com/document/d/1ViUyMbcbOOUPWC2aFCN1mXZPX7B2ux4jwcOnjLSFbOQ/edit). 
 
 # Minutes: 02-OCT-2017
 
