@@ -37,17 +37,17 @@ Eclipse Che should provide a developer experience that rivals world-class tools 
 - [ ] Reliable Java tooling for class deletion/renaming/moving [#5013](https://github.com/eclipse/che/issues/5013), [#4979](https://github.com/eclipse/che/issues/4979), [#3928](https://github.com/eclipse/che/issues/3928)
 - [ ] Efficient source code navigation (search and class navigation) [#1564](https://github.com/eclipse/che/issues/1564), [#4577](https://github.com/eclipse/che/issues/4577)
 - [ ] Typescript Support (code completion, errors and syntax highlighting, formatting, refactoring and code navigation) [#5146](https://github.com/eclipse/che/issues/5146)
-- [ ] Improved unit tests support [#4994](https://github.com/eclipse/che/issues/4994), [#4980](https://github.com/eclipse/che/issues/4980)
+- [x] Improved unit tests support [#4994](https://github.com/eclipse/che/issues/4994), [#4980](https://github.com/eclipse/che/issues/4980)
 - [ ] _(best effort)_ Debugger with thread support [#2611](https://github.com/eclipse/che/issues/2611)
 - [ ] _(best effort)_ Reliable Code formatting [#4138](https://github.com/eclipse/che/issues/4138)
 
 ## Redesigned User Experience
 - [ ] New IDE design and experience [#4929](https://github.com/eclipse/che/issues/4929), [#4993](https://github.com/eclipse/che/issues/4993)
-- [ ] UD re-design for ws create + details + crane along with reducing output of agent boot [#4359](https://github.com/eclipse/che/issues/4359)
+- [x] UD re-design for ws create + details + crane along with reducing output of agent boot [#4359](https://github.com/eclipse/che/issues/4359)
 - [ ] Git integration as panel [#5128](https://github.com/eclipse/che/issues/5128)
 
 ## Infrastructure and Foundations
-- [ ] Workspace Infrastructure (SPI) to support Docker and Openshift [#4736](https://github.com/eclipse/che/issues/4736)
+- [x] Workspace Infrastructure (SPI) to support Docker and Openshift [#4736](https://github.com/eclipse/che/issues/4736)
 - [ ] Client-Master communication [#5144](https://github.com/eclipse/che/issues/5144)
 - [ ] _(best effort)_ GWT Super dev mode support [#1655](https://github.com/eclipse/che/issues/1655), [#2595](https://github.com/eclipse/che/issues/2595)
 
