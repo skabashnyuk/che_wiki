@@ -9,8 +9,7 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 
 # Minutes: 30-OCT-2017
 ## Agenda
-You can add topics to the agenda in this [Google doc]
-(https://docs.google.com/document/d/1xVaChdv5-yeUhWFM_9RG94DDF6gvA0-4O0RO8Q2nPJg/edit). See you all there!
+You can add topics to the agenda in this [Google doc](https://docs.google.com/document/d/1xVaChdv5-yeUhWFM_9RG94DDF6gvA0-4O0RO8Q2nPJg/edit). See you all there!
 
 # Minutes: 16-OCT-2017
 ## Agenda
