@@ -10,10 +10,20 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 Che maintainers moderate the calls. The schedule of moderators is in a [Google sheet](https://docs.google.com/spreadsheets/d/10iCqmk1eM216kQFIgLlOcTY1arbbRUrjzqsgQKlZ08g/edit#gid=0).
 ***
 
+# Minutes: 20-NOV-2017
+## Agenda
+You can add topics to the agenda in this [Google doc](https://docs.google.com/document/d/1Kc1s3wyGA4nMIKyxI9oB3l_ktODivZGYR_GNcEUBvI4/edit?usp=sharing). See you all there!
+
+
 # Minutes: 13-NOV-2017
 ## Agenda
-You can add topics to the agenda in this [Google doc](https://docs.google.com/document/d/1jF38p1KHLVxvOSc1NtyvkBziJrmGegEx9-QBZGRFuMw/edit#). See you all there!
 
+1. JS Extension points - Vitalii Parfonov (Red Hat)
+2. Sidecars - Sergii Kabashniuk (Red Hat)
+3. GWT Improvements - Vitalii Parfonov (Red Hat)
+4. CheConf - Pushed to February - Stevan Le Meur (Red Hat)
+
+Minutes are in [Google doc](https://docs.google.com/document/d/1jF38p1KHLVxvOSc1NtyvkBziJrmGegEx9-QBZGRFuMw/edit#).
 
 # Minutes: 30-OCT-2017
 ## Agenda
