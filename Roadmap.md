@@ -47,6 +47,7 @@ Eclipse Che must not rely on specific and custom stacks to provide tooling. Tool
 - [ ] Easy delivery of Languages Servers [#6792](https://github.com/eclipse/che/issues/6792), [#7554](https://github.com/eclipse/che/issues/7554) 
 - [ ] Faster workspace loading [#6261](https://github.com/eclipse/che/issues/6261) 
 - [ ] Consolidation of Chefiles and Factories [#4362](https://github.com/eclipse/che/issues/4362) 
+- [ ] Switch Java infrastructure to JDT LS [#6157](https://github.com/eclipse/che/issues/6157)
 
 ### Professional Development Tool
 - [ ] Replacement of Orion editor by Monaco [#5330](https://github.com/eclipse/che/issues/5330) 
