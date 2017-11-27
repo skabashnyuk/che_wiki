@@ -10,10 +10,21 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 Che maintainers moderate the calls. The schedule of moderators is in a [Google sheet](https://docs.google.com/spreadsheets/d/10iCqmk1eM216kQFIgLlOcTY1arbbRUrjzqsgQKlZ08g/edit#gid=0).
 ***
 
+# Minutes: 11-DEC-2017
+## Agenda
+You can add topics to the agenda in this [Google doc](https://docs.google.com/document/d/1a2L5J1NUWCoE_lPvczqmiFRGYpC2ubTPXDMyCgVA-co/edit). See you all there!
+
 # Minutes: 27-NOV-2017
 ## Agenda
-You can add topics to the agenda in this [Google doc](https://docs.google.com/document/d/1X-FgyawYUyiNfFlr9i-9XYh55vOVXp9GVwTujGGaOE4/edit?usp=sharing). See you all there!
 
+1. Update on Che 6 GA plan and release - Stevan LeMeur (Red Hat)
+2. C/C++ intellisense / ClangD support for Che - Hanno Kolvenbach (Silexica)
+3. Che in Che development - Sergii Kabashniuk (Red Hat)
+4. Che IDE extensibility with JS plugins - Evgen Vidolob (Red Hat)
+
+Minutes are in [Google doc](https://docs.google.com/document/d/1X-FgyawYUyiNfFlr9i-9XYh55vOVXp9GVwTujGGaOE4/edit#).
+
+Recording: 
 
 # Minutes: 13-NOV-2017
 ## Agenda
