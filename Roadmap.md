@@ -10,6 +10,55 @@ Releases occur every three weeks. While working on a current release, we plan th
 
 The epics and features that roll into a milestone are determined by pull request readiness of the feature at the time a milestone begins. In other words, we only place into a milestone features that are code complete and waiting for master-integration and testing.
 
+
+
+# Che 6
+Eclipse Che should provide a developer experience that rivals world-class tools such as the Eclipse IDE and JetBrains.  Workspaces should be configurable to work with any kind of language and have best-in-class support for the language server protocol along with packaging all known language servers. Users must be able to perform any action using a unified command palette. VCS experience should be simpler and better integrated in the IDE. Navigating into source code, searching and performing actions accross multiple files should also become more natural and designed for efficiency. These needs will also involve an important work on the UI and the UX for the IDE.
+
+### Professional Development Tool
+- [x] Reliable Java tooling for class deletion/renaming/moving [#5013](https://github.com/eclipse/che/issues/5013), [#4979](https://github.com/eclipse/che/issues/4979), [#3928](https://github.com/eclipse/che/issues/3928)
+- [x] Typescript Support (code completion, errors and syntax highlighting, formatting, refactoring and code navigation) [#5146](https://github.com/eclipse/che/issues/5146)
+- [x] Improved unit tests support [#4994](https://github.com/eclipse/che/issues/4994), [#4980](https://github.com/eclipse/che/issues/4980)
+- [ ] Debugger with thread support, conditional breakpoints [#2611](https://github.com/eclipse/che/issues/2611)
+
+### Redesigned User Experience
+- [ ] New IDE design and experience [#4929](https://github.com/eclipse/che/issues/4929), [#4993](https://github.com/eclipse/che/issues/4993), [#7577](https://github.com/eclipse/che/issues/7577)
+- [x] UD re-design for ws create + details + crane along with reducing output of agent boot [#4359](https://github.com/eclipse/che/issues/4359)
+- [ ] New workspace loading sequence  [#5128](https://github.com/eclipse/che/issues/5128)
+
+### Infrastructure and Foundations
+- [x] Workspace Infrastructure (SPI) to support Docker and Openshift [#4736](https://github.com/eclipse/che/issues/4736)
+- [ ] SPI implementation for Openshift [#5098](https://github.com/eclipse/che/issues/5098)
+- [ ] _(best effort)_ GWT Super dev mode support [#2595](https://github.com/eclipse/che/issues/2595), [#6602](https://github.com/eclipse/che/issues/6602)
+
+## Che 6 Iterations
+
+Once Che 6 will be GA, the focus will be on some fundamental aspects of the extensibility of Che. We are targeting to improve the extensibility mechanism of Che, so that a contributor can author his plugin with the technologies of his choices and deliver the plugin with its own lifecycle. Separately, we are going to improve the developer experience and make the turnaround when creating a Che extension much smoother. JavaScript extension points in the IDE will be introduced, they will allow a contributor to author an extension with the technologies of his choices. Che will be the best tool to created a Che extension, a developer mode will be introduced.
+Finally, a user will be able to install/uninstall the plugins they want and need per workspace. 
+
+Separately, Che is going to get better  
+
+
+### Extensibility Model
+- [ ] IDE Javascript extension points [#6642](https://github.com/eclipse/che/issues/6642)
+- [ ] Self Hosting in Che [#6713](https://github.com/eclipse/che/issues/6713)
+- [ ] GWT Improvement [#7352](https://github.com/eclipse/che/issues/7352), [#7122](https://github.com/eclipse/che/issues/7122)
+
+### Architecture Improvements
+- [ ] Replacement of Orion editor by Monaco [#5330](https://github.com/eclipse/che/issues/5330)
+- [ ] Faster workspace loading [#6261](https://github.com/eclipse/che/issues/6261)
+- [ ] Easy delivery of Languages Servers [#6792](https://github.com/eclipse/che/issues/6792), [#7554](https://github.com/eclipse/che/issues/7554)
+- [ ] Consolidation of Chefiles and Factories [#4362](https://github.com/eclipse/che/issues/4362)
+
+### Professional Development Tool
+- [ ] Replacement of Orion editor by Monaco [#5330](https://github.com/eclipse/che/issues/5330)
+- [ ] Test Support [#5978](https://github.com/eclipse/che/issues/5978)
+- [ ] Git Dedicated Panel [#5128](https://github.com/eclipse/che/issues/5128)
+
+### Other Cool Features
+- [ ] Guided flows and Tutorial in Che[#6150](https://github.com/eclipse/che/issues/6150)
+- [ ] Spike on Teletype [#438](https://github.com/redhat-developer/rh-che/issues/438)
+
 # August 2017 Update: Multi-User, Multi-Tenant Che
 We have witnessed a strong need from downstream projects to have a multi-user, multi-tenant Che:
 
@@ -17,7 +66,7 @@ We have witnessed a strong need from downstream projects to have a multi-user, m
 2. Red Hat OpenShift.io, a devops solution based upon OpenShift
 3. SAP Hana, in their investigation for upgrading from Che 3 
 
-The Che 6 plan (below) has these features included along with a broader ambition to redesign the IDE, introduce an infrastructure SPI, and include a number of new developer features within the IDE itself.
+The Che 6 plan has these features included along with a broader ambition to redesign the IDE, introduce an infrastructure SPI, and include a number of new developer features within the IDE itself.
 
 We are investigating an intermediate release on the Che 5 branch that introduces a multi-user, multi-tenant version of Che on OpenShift. 
 
@@ -28,28 +77,7 @@ The 5.x release will:
 4. Move the elements for teams, groups, and permissions from Codenvy into Che (including UD).
 5. Support multi-tenancy of the Che server on OpenShift.
 
-Most of this engineering work is well scoped and will likely be done within the next 1-2 sprints. However, our engineering teams are making a number of assumptions about how authentication and authorization should work with Keycloak and we need to validate these assumptions in the real world. We will hold on a formal release until we have verification that codenvy.io and OpenShift.io downstream projects have successfully deployed this new solution at scale and we can produce a runbook that guides others wanting to run Che at scale. We may learn that certain design assumptions are invalidated by these deployment that cause us to have another couple sprint engineering cycle.
-
-# Che 6
-Eclipse Che should provide a developer experience that rivals world-class tools such as the Eclipse IDE and JetBrains.  Workspaces should be configurable to work with any kind of language and have best-in-class support for the language server protocol along with packaging all known language servers. Users must be able to perform any action using a unified command palette. VCS experience should be simpler and better integrated in the IDE. Navigating into source code, searching and performing actions accross multiple files should also become more natural and designed for efficiency. These needs will also involve an important work on the UI and the UX for the IDE.
-
-## Professional Development Tool
-- [ ] Reliable Java tooling for class deletion/renaming/moving [#5013](https://github.com/eclipse/che/issues/5013), [#4979](https://github.com/eclipse/che/issues/4979), [#3928](https://github.com/eclipse/che/issues/3928)
-- [ ] Efficient source code navigation (search and class navigation) [#1564](https://github.com/eclipse/che/issues/1564), [#4577](https://github.com/eclipse/che/issues/4577)
-- [ ] Typescript Support (code completion, errors and syntax highlighting, formatting, refactoring and code navigation) [#5146](https://github.com/eclipse/che/issues/5146)
-- [x] Improved unit tests support [#4994](https://github.com/eclipse/che/issues/4994), [#4980](https://github.com/eclipse/che/issues/4980)
-- [ ] _(best effort)_ Debugger with thread support [#2611](https://github.com/eclipse/che/issues/2611)
-- [ ] _(best effort)_ Reliable Code formatting [#4138](https://github.com/eclipse/che/issues/4138)
-
-## Redesigned User Experience
-- [ ] New IDE design and experience [#4929](https://github.com/eclipse/che/issues/4929), [#4993](https://github.com/eclipse/che/issues/4993)
-- [x] UD re-design for ws create + details + crane along with reducing output of agent boot [#4359](https://github.com/eclipse/che/issues/4359)
-- [ ] Git integration as panel [#5128](https://github.com/eclipse/che/issues/5128)
-
-## Infrastructure and Foundations
-- [x] Workspace Infrastructure (SPI) to support Docker and Openshift [#4736](https://github.com/eclipse/che/issues/4736)
-- [ ] Client-Master communication [#5144](https://github.com/eclipse/che/issues/5144)
-- [ ] _(best effort)_ GWT Super dev mode support [#1655](https://github.com/eclipse/che/issues/1655), [#2595](https://github.com/eclipse/che/issues/2595)
+Most of this engineering work is well scoped and will likely be done within the next 1-2 sprints. However, our engineering teams are making a number of assumptions about how authentication and authorization should work with Keycloak and we need to validate these assumptions in the real world. We will hold on a formal release until we have verification that codenvy.io and OpenShift.io downstream projects have successfully deployed this new solution at scale.
 
 
 # April 2017 Update (Covering April - October)
