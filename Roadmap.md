@@ -15,6 +15,11 @@ The epics and features that roll into a milestone are determined by pull request
 # Che 6
 Eclipse Che should provide a developer experience that rivals world-class tools such as the Eclipse IDE and JetBrains.  Workspaces should be configurable to work with any kind of language and have best-in-class support for the language server protocol along with packaging all known language servers. Users must be able to perform any action using a unified command palette. VCS experience should be simpler and better integrated in the IDE. Navigating into source code, searching and performing actions accross multiple files should also become more natural and designed for efficiency. These needs will also involve an important work on the UI and the UX for the IDE.
 
+An extensibility model must also be introduced for Eclipse Che. Contributor should be able to author extensions with the technologies of their choices. Extensions must have their own lifecycle to be released independently from Eclipse Che core. Turnaround developing Che extension must be smoother and faster. Extension points must be introduced. Creating Che extension must be best in Che. Users must be able to select extensions per workspace. An extension marketplace should be introduced.
+
+Eclipse Che must not rely on specific and custom stacks to provide tooling. Tooling must run as companion sidecars of the workspace machines. 
+
+## Che 6 GA
 ### Professional Development Tool
 - [x] Reliable Java tooling for class deletion/renaming/moving [#5013](https://github.com/eclipse/che/issues/5013), [#4979](https://github.com/eclipse/che/issues/4979), [#3928](https://github.com/eclipse/che/issues/3928)
 - [x] Typescript Support (code completion, errors and syntax highlighting, formatting, refactoring and code navigation) [#5146](https://github.com/eclipse/che/issues/5146)
@@ -29,23 +34,19 @@ Eclipse Che should provide a developer experience that rivals world-class tools 
 ### Infrastructure and Foundations
 - [x] Workspace Infrastructure (SPI) to support Docker and Openshift [#4736](https://github.com/eclipse/che/issues/4736)
 - [ ] SPI implementation for Openshift [#5098](https://github.com/eclipse/che/issues/5098)
-- [ ] _(best effort)_ GWT Super dev mode support [#2595](https://github.com/eclipse/che/issues/2595), [#6602](https://github.com/eclipse/che/issues/6602)
+- [x] _(best effort)_ GWT Super dev mode support [#2595](https://github.com/eclipse/che/issues/2595), [#6602](https://github.com/eclipse/che/issues/6602)
 
-## Che 6 Iterations
-
-Once Che 6 will be GA, the focus will be on some fundamental aspects of the extensibility of Che. We are targeting to improve the extensibility mechanism of Che, so that a contributor can author his plugin with the technologies of his choices and deliver the plugin with its own lifecycle. Separately, we are going to improve the developer experience and make the turnaround when creating a Che extension much smoother. JavaScript extension points in the IDE will be introduced, they will allow a contributor to author an extension with the technologies of his choices. Che will be the best tool to created a Che extension, a developer mode will be introduced.
-Finally, a user will be able to install/uninstall the plugins they want and need per workspace. 
-
-### Extensibility Model
+## Che 6 - Post GA Iterations
+ 
+### Extensibility Mecanism
 - [ ] IDE Javascript extension points [#6642](https://github.com/eclipse/che/issues/6642) 
 - [ ] Self Hosting in Che [#6713](https://github.com/eclipse/che/issues/6713) 
 - [ ] GWT Improvement [#7352](https://github.com/eclipse/che/issues/7352), [#7122](https://github.com/eclipse/che/issues/7122) 
 
 ### Architecture Improvements
-- [ ] Replacement of Orion editor by Monaco [#5330](https://github.com/eclipse/che/issues/5330) 
-- [ ] Faster workspace loading [#6261](https://github.com/eclipse/che/issues/6261) 
 - [ ] Easy delivery of Languages Servers [#6792](https://github.com/eclipse/che/issues/6792), [#7554](https://github.com/eclipse/che/issues/7554) 
-- [ ] Consolidation of Chefiles and Factories [#4362](https://github.com/eclipse/che/issues/4362) 
+- [ ] Faster workspace loading [#6261](https://github.com/eclipse/che/issues/6261) 
+- [ ] Consolidation of Chefiles and Factories [#4362](https://github.com/eclipse/che/issues/4362) 
 
 ### Professional Development Tool
 - [ ] Replacement of Orion editor by Monaco [#5330](https://github.com/eclipse/che/issues/5330) 
