@@ -36,28 +36,25 @@ Eclipse Che should provide a developer experience that rivals world-class tools 
 Once Che 6 will be GA, the focus will be on some fundamental aspects of the extensibility of Che. We are targeting to improve the extensibility mechanism of Che, so that a contributor can author his plugin with the technologies of his choices and deliver the plugin with its own lifecycle. Separately, we are going to improve the developer experience and make the turnaround when creating a Che extension much smoother. JavaScript extension points in the IDE will be introduced, they will allow a contributor to author an extension with the technologies of his choices. Che will be the best tool to created a Che extension, a developer mode will be introduced.
 Finally, a user will be able to install/uninstall the plugins they want and need per workspace. 
 
-Separately, Che is going to get better  
-
-
 ### Extensibility Model
-- [ ] IDE Javascript extension points [#6642](https://github.com/eclipse/che/issues/6642)
-- [ ] Self Hosting in Che [#6713](https://github.com/eclipse/che/issues/6713)
-- [ ] GWT Improvement [#7352](https://github.com/eclipse/che/issues/7352), [#7122](https://github.com/eclipse/che/issues/7122)
+- [ ] IDE Javascript extension points [#6642](https://github.com/eclipse/che/issues/6642) 
+- [ ] Self Hosting in Che [#6713](https://github.com/eclipse/che/issues/6713) 
+- [ ] GWT Improvement [#7352](https://github.com/eclipse/che/issues/7352), [#7122](https://github.com/eclipse/che/issues/7122) 
 
 ### Architecture Improvements
-- [ ] Replacement of Orion editor by Monaco [#5330](https://github.com/eclipse/che/issues/5330)
-- [ ] Faster workspace loading [#6261](https://github.com/eclipse/che/issues/6261)
-- [ ] Easy delivery of Languages Servers [#6792](https://github.com/eclipse/che/issues/6792), [#7554](https://github.com/eclipse/che/issues/7554)
-- [ ] Consolidation of Chefiles and Factories [#4362](https://github.com/eclipse/che/issues/4362)
+- [ ] Replacement of Orion editor by Monaco [#5330](https://github.com/eclipse/che/issues/5330) 
+- [ ] Faster workspace loading [#6261](https://github.com/eclipse/che/issues/6261) 
+- [ ] Easy delivery of Languages Servers [#6792](https://github.com/eclipse/che/issues/6792), [#7554](https://github.com/eclipse/che/issues/7554) 
+- [ ] Consolidation of Chefiles and Factories [#4362](https://github.com/eclipse/che/issues/4362) 
 
 ### Professional Development Tool
-- [ ] Replacement of Orion editor by Monaco [#5330](https://github.com/eclipse/che/issues/5330)
-- [ ] Test Support [#5978](https://github.com/eclipse/che/issues/5978)
-- [ ] Git Dedicated Panel [#5128](https://github.com/eclipse/che/issues/5128)
+- [ ] Replacement of Orion editor by Monaco [#5330](https://github.com/eclipse/che/issues/5330) 
+- [ ] Test Support [#5978](https://github.com/eclipse/che/issues/5978) 
+- [ ] Git Dedicated Panel [#5128](https://github.com/eclipse/che/issues/5128) 
 
 ### Other Cool Features
-- [ ] Guided flows and Tutorial in Che[#6150](https://github.com/eclipse/che/issues/6150)
-- [ ] Spike on Teletype [#438](https://github.com/redhat-developer/rh-che/issues/438)
+- [ ] Guided flows and Tutorial in Che[#6150](https://github.com/eclipse/che/issues/6150) 
+- [ ] Spike on Teletype [#438](https://github.com/redhat-developer/rh-che/issues/438) 
 
 # August 2017 Update: Multi-User, Multi-Tenant Che
 We have witnessed a strong need from downstream projects to have a multi-user, multi-tenant Che:
