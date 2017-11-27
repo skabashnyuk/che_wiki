@@ -51,7 +51,7 @@ Eclipse Che must not rely on specific and custom stacks to provide tooling. Tool
 
 ### Professional Development Tool
 - [ ] Replacement of Orion editor by Monaco [#5330](https://github.com/eclipse/che/issues/5330) 
-- [ ] Test Support [#5978](https://github.com/eclipse/che/issues/5978)  
+- [ ] Generic Testing Support [#5978](https://github.com/eclipse/che/issues/5978)  
 - [ ] Git Dedicated Panel [#5128](https://github.com/eclipse/che/issues/5128) 
 
 ### Other Cool Features
