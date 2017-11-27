@@ -49,7 +49,7 @@ Finally, a user will be able to install/uninstall the plugins they want and need
 
 ### Professional Development Tool
 - [ ] Replacement of Orion editor by Monaco [#5330](https://github.com/eclipse/che/issues/5330) 
-- [ ] Test Support [#5978](https://github.com/eclipse/che/issues/5978) 
+- [ ] Test Support [#5978](https://github.com/eclipse/che/issues/5978)  
 - [ ] Git Dedicated Panel [#5128](https://github.com/eclipse/che/issues/5128) 
 
 ### Other Cool Features
