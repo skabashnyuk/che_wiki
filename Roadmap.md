@@ -49,6 +49,9 @@ Eclipse Che must not rely on specific and custom stacks to provide tooling. Tool
 - [ ] Consolidation of Chefiles and Factories [#4362](https://github.com/eclipse/che/issues/4362) 
 - [ ] Switch Java infrastructure to JDT LS [#6157](https://github.com/eclipse/che/issues/6157)
 
+### Infrastructure Support
+- [ ] Kubernetes Support [#1193](https://github.com/eclipse/che/issues/1193), [#5908](https://github.com/eclipse/che/issues/5908), [#7589](https://github.com/eclipse/che/issues/7589)
+
 ### Professional Development Tool
 - [ ] Replacement of Orion editor by Monaco [#5330](https://github.com/eclipse/che/issues/5330) 
 - [ ] Generic Testing Support [#5978](https://github.com/eclipse/che/issues/5978)  
