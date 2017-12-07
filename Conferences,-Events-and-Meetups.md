@@ -23,10 +23,10 @@ _LUDWIGSBURG, GERMANY_ - **October 24-26, 2017**
 * **[What's new in Eclipse Che 6](https://www.eclipsecon.org/europe2017/session/whats-new-eclipse-che-6)** - _[Stevan Le Meur](https://github.com/slemeur) & [Brad Micklea](https://github.com/bmicklea)_
 * **[How to provide a portable developer workspace with Eclipse Che](https://www.eclipsecon.org/europe2017/session/how-provide-portable-developer-workspace-eclipse-che)** - _[Stevan Le Meur](https://github.com/slemeur)_
 
-## November 2017
+## Q1 2018
 
-**CheConf 2017**
-Virtual Conference - November 15,2017
+**CheConf**
+Virtual Conference - Q1 2018
 
 
 # Past events
