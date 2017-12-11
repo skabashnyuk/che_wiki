@@ -10,9 +10,20 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 Che maintainers moderate the calls. The schedule of moderators is in a [Google sheet](https://docs.google.com/spreadsheets/d/10iCqmk1eM216kQFIgLlOcTY1arbbRUrjzqsgQKlZ08g/edit#gid=0).
 ***
 
+# Minutes: 08-JAN-2018
+## Agenda
+You can add topics to the agenda in this [Google doc](https://docs.google.com/document/d/1I4R9svIt-X2UEPtZq-zxuNamfiJwrh_3d0I3uLJrawg/edit#). See you all there!
+
 # Minutes: 11-DEC-2017
 ## Agenda
-You can add topics to the agenda in this [Google doc](https://docs.google.com/document/d/1a2L5J1NUWCoE_lPvczqmiFRGYpC2ubTPXDMyCgVA-co/edit). See you all there!
+1. Release documentation and marketing - Gorkem Ercan (Red Hat)
+2. Blog post on Docker checkpoint with criu - Florent Benoit (Red Hat)
+3. Status on teletype in Che - Sun Tan (Red Hat)
+4. CheConf update - now targeted for mid-February 2018 - Brad Micklea (Red Hat)
+5. Moving Che6 on master and Che5 on bugfix branch - Gennady Azarenkov (Red Hat)
+6. The way how to solve different vision on UX design of Eclipse Che Sergii Kabashniuk (Red Hat)
+
+Minutes are in [Google doc](https://docs.google.com/document/d/1a2L5J1NUWCoE_lPvczqmiFRGYpC2ubTPXDMyCgVA-co/edit).
 
 # Minutes: 27-NOV-2017
 ## Agenda
