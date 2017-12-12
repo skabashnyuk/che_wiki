@@ -67,6 +67,19 @@ If a bugfix release is needed, we reuse the appropriate release branch.
  
 Once a release is done we deploy the new version to staging where we run a final QA cycle against the new version. The release could be blocked and moved to end of the next sprint if we have blocker bugs.
 
+## Release notes
+We publish release notes on the web site for each release with highlights to `new & noteworthy` changes.
+
+1. After each release the notes maintainer creates the notes for the next release named `Major_Minor.md` under [this folder](https://github.com/eclipse/che-docs/tree/master/release-notes) on the repository.
+2. Every PR for a new and noteworthy change require another PR with changes to this file with description and any visuals
+3. Notes maintainer and Contributors review and merge this PR.
+4. As part of the release Notes maintainer and PM does a last review.
+5. Release notes are published to the web site.
+
+### Roles 
+* Release Notes Maintainer - Eugene Ivantsov (backup Gennady)
+* Product Manager - Steven LeMeur (backup Brad Micklea)  
+
 # Nightly builds
 Nightly builds are generated on daily basis and available as docker images with the
 tag:nightly.
