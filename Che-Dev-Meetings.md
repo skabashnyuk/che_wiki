@@ -25,6 +25,8 @@ You can add topics to the agenda in this [Google doc](https://docs.google.com/do
 
 Minutes are in [Google doc](https://docs.google.com/document/d/1a2L5J1NUWCoE_lPvczqmiFRGYpC2ubTPXDMyCgVA-co/edit).
 
+[Recording](https://bluejeans.com/playback/s/wx7KbGK8xikQl7xCyx0oQmuwbZZbwpc3jhzoAeUBDwOlTYQLPABPVwYjnRZ53BUK)
+
 # Minutes: 27-NOV-2017
 ## Agenda
 
