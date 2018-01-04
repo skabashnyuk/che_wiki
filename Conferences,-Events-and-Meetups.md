@@ -28,6 +28,9 @@ _LUDWIGSBURG, GERMANY_ - **October 24-26, 2017**
 **CheConf**
 Virtual Conference - Q1 2018
 
+[DevConf.cz ](https://devconf.cz/)  Jan 26-28
+* **Scalable cloud IDE with Eclipse Che and OpenShift** - _[Sergii Kabashniuk](https://github.com/skabashnyuk)_ 
+& _[Eugene Ivantsov ](https://github.com/)_  
 
 # Past events
 
