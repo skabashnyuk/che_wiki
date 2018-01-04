@@ -30,7 +30,7 @@ Virtual Conference - Q1 2018
 
 [DevConf.cz ](https://devconf.cz/)  Jan 26-28
 * **Scalable cloud IDE with Eclipse Che and OpenShift** - _[Sergii Kabashniuk](https://github.com/skabashnyuk)_ 
-& _[Eugene Ivantsov ](https://github.com/)_  
+& _[Eugene Ivantsov ](https://github.com/eivantsov)_  
 
 # Past events
 
