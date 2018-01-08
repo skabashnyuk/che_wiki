@@ -25,7 +25,7 @@ You can add topics to the agenda in this [Google doc](https://docs.google.com/do
 7. Migrating of connector done on Che5 for specific container orchestrator - Hongxi (Cloud To Go)
 8. Kubernetes Connector for Che - Guy Daich (SAP)
 9. Network isolation - Guy Daich (SAP)
-10. Conferences and Meetup - Hongxi (Cloug To Go)
+10. Conferences and Meetups - Hongxi (Cloug To Go)
 
 Minutes are in [Google doc](https://docs.google.com/document/d/1I4R9svIt-X2UEPtZq-zxuNamfiJwrh_3d0I3uLJrawg/edit#).
 
