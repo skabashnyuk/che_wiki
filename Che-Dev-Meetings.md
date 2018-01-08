@@ -10,9 +10,26 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 Che maintainers moderate the calls. The schedule of moderators is in a [Google sheet](https://docs.google.com/spreadsheets/d/10iCqmk1eM216kQFIgLlOcTY1arbbRUrjzqsgQKlZ08g/edit#gid=0).
 ***
 
+# Minutes: 22-JAN-2018
+## Agenda
+You can add topics to the agenda in this [Google doc](https://docs.google.com/document/d/1KZUuLl7uaa214SN-XiUAXiRp3PXR_if7wWBmhOd3He0/edit#). See you all there!
+
 # Minutes: 08-JAN-2018
 ## Agenda
-You can add topics to the agenda in this [Google doc](https://docs.google.com/document/d/1I4R9svIt-X2UEPtZq-zxuNamfiJwrh_3d0I3uLJrawg/edit#). See you all there!
+1. Latest update from Che - Gorkem (Red Hat)
+2. JS API status - Gorkem (Red Hat)
+3. Teletype integration demo - Sun (Red Hat)
+4. Performances Improvement and JDT.LS - Stevan (Red Hat)
+5. CLANGD Language Server - Hanno (Silexica)
+6. Internationalisation - Hongxi (Cloud To Go)
+7. Migrating of connector done on Che5 for specific container orchestrator - Hongxi (Cloud To Go)
+8. Kubernetes Connector for Che - Guy Daich (SAP)
+9. Network isolation - Guy Daich (SAP)
+10. Conferences and Meetup - Hongxi (Cloug To Go)
+
+Minutes are in [Google doc](https://docs.google.com/document/d/1I4R9svIt-X2UEPtZq-zxuNamfiJwrh_3d0I3uLJrawg/edit#).
+
+[Recording]()
 
 # Minutes: 11-DEC-2017
 ## Agenda
