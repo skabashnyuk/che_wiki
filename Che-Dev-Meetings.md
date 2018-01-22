@@ -10,9 +10,21 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 Che maintainers moderate the calls. The schedule of moderators is in a [Google sheet](https://docs.google.com/spreadsheets/d/10iCqmk1eM216kQFIgLlOcTY1arbbRUrjzqsgQKlZ08g/edit#gid=0).
 ***
 
-# Minutes: 22-JAN-2018
+# Minutes: 05-FEB-2018
 ## Agenda
 You can add topics to the agenda in this [Google doc](https://docs.google.com/document/d/1KZUuLl7uaa214SN-XiUAXiRp3PXR_if7wWBmhOd3He0/edit#). See you all there!
+
+# Minutes: 22-JAN-2018
+## Agenda
+1. Introduction to CloudToGo - Hongxi (CloudToGo)
+2. Reminder on GSoC 2018 - Stevan (Red Hat)
+3. Che 6 GA - Stevan (Red Hat)
+4. K8s support for Che 6 - Gorkem (Red Hat)
+
+Minutes are in [Google doc](https://docs.google.com/document/d/1KZUuLl7uaa214SN-XiUAXiRp3PXR_if7wWBmhOd3He0/edit#).
+
+[Recording](N/A)
+
 
 # Minutes: 08-JAN-2018
 ## Agenda
