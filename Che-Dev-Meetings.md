@@ -12,7 +12,7 @@ Che maintainers moderate the calls. The schedule of moderators is in a [Google s
 
 # Minutes: 05-FEB-2018
 ## Agenda
-You can add topics to the agenda in this [Google doc](https://docs.google.com/document/d/1KZUuLl7uaa214SN-XiUAXiRp3PXR_if7wWBmhOd3He0/edit#). See you all there!
+You can add topics to the agenda in this [Google doc](https://docs.google.com/document/d/1bxpBC9ZDg80Sv8XMSJz1pzAmnsAa6pIKzT4mryuAjaE/edit#). See you all there!
 
 # Minutes: 22-JAN-2018
 ## Agenda
