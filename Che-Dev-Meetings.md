@@ -23,7 +23,7 @@ You can add topics to the agenda in this [Google doc](https://docs.google.com/do
 
 Minutes are in [Google doc](https://docs.google.com/document/d/1KZUuLl7uaa214SN-XiUAXiRp3PXR_if7wWBmhOd3He0/edit#).
 
-[Recording](N/A)
+[Recording](https://bluejeans.com/s/zExZQ)
 
 
 # Minutes: 08-JAN-2018
