@@ -12,7 +12,14 @@ Che maintainers moderate the calls. The schedule of moderators is in a [Google s
 
 # Minutes: 05-FEB-2018
 ## Agenda
-You can add topics to the agenda in this [Google doc](https://docs.google.com/document/d/1bxpBC9ZDg80Sv8XMSJz1pzAmnsAa6pIKzT4mryuAjaE/edit#). See you all there!
+
+1. Introductions (if needed) - Gorkem
+2. The state of the Che 6 release - Roman
+3. Documentation for Che 6 and going forward - Eugene
+4. Update on kubernetes SPI implementation - Sergii
+
+Minutes are in [Google Doc](https://docs.google.com/document/d/1bxpBC9ZDg80Sv8XMSJz1pzAmnsAa6pIKzT4mryuAjaE/edit#)
+
 
 # Minutes: 22-JAN-2018
 ## Agenda
