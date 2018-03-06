@@ -9,6 +9,16 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 ## Call Moderators
 Che maintainers moderate the calls. The schedule of moderators is in a [Google sheet](https://docs.google.com/spreadsheets/d/10iCqmk1eM216kQFIgLlOcTY1arbbRUrjzqsgQKlZ08g/edit#gid=0).
 ***
+# Minutes: 05-MAR-2018
+## Agenda
+
+1. Explain guides for PR flow - Segii
+
+
+Minutes are in [Google doc](https://docs.google.com/document/d/1FR5UjquA4dJUjBRK9Ncn5iCgUXGk2R1wlBLWh4ricLA/edit#heading=h.gecm5gxb51ub).
+
+[Recording](https://bluejeans.com/s/8z_zj)
+
 
 # Minutes: 05-FEB-2018
 ## Agenda
