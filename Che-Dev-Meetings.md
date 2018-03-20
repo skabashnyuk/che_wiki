@@ -17,7 +17,7 @@ Che maintainers moderate the calls. The schedule of moderators is in a [Google s
 
 Minutes are in [Google doc](https://docs.google.com/document/d/1xYhF3iiKaboIhHRng-prBuPWJ2HLfqP7MxCrpirMJJ8/edit?usp=sharing).
 
-[Recording](TODO)
+[Recording](https://bluejeans.com/s/J1KC@)
 
 
 # Minutes: 05-MAR-2018
