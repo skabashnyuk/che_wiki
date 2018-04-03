@@ -9,6 +9,20 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 ## Call Moderators
 Che maintainers moderate the calls. The schedule of moderators is in a [Google sheet](https://docs.google.com/spreadsheets/d/10iCqmk1eM216kQFIgLlOcTY1arbbRUrjzqsgQKlZ08g/edit#gid=0).
 ***
+
+# Minutes 02-APR-2018
+## Agenda
+
+1. Type A/B - License Compatibility Certification
+2. Workspace.Next implementation plan
+3. Blogging - open invitation
+4. Roadmap
+5. Workspace logging
+
+Minutes are in [Google doc](https://docs.google.com/document/d/1w1BWMiHJHa-bSfYnSYcNjCXMl-9IM4EqvmwlnMYu8Jc/edit)
+
+[Recording](https://bluejeans.com/s/F4FVo/)
+
 # Minutes: 19-MAR-2018
 ## Agenda
 
