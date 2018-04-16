@@ -13,7 +13,7 @@ Che maintainers moderate the calls. The schedule of moderators is in a [Google s
 # Minutes 16-APR-2018
 ## Agenda
 
-The next Che dev meeting will take place on Monday 16 April 2018. You are welcomed to add the topics you would like to discuss to the agenda: [Google doc](https://docs.google.com/document/d/1p0Li9SeUcowy6AW5aVVpgKh6bRNgHHPuD3CMGJ94Gos/edit#)
+The next Che dev meeting will take place on Monday 16 April 2018. You are welcomed to add the topics you would like to discuss to the agenda: [Google doc](https://docs.google.com/document/d/1exhjlZpLoy_BcdMNJVt2wAeUG6QncTvizXk1GExsOgI/edit#)
 
 # Minutes 02-APR-2018
 ## Agenda
