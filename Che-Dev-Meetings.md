@@ -10,10 +10,25 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 Che maintainers moderate the calls. The schedule of moderators is in a [Google sheet](https://docs.google.com/spreadsheets/d/10iCqmk1eM216kQFIgLlOcTY1arbbRUrjzqsgQKlZ08g/edit#gid=0).
 ***
 
+# 30-APR-2018
+## Agenda
+
+The next Che dev meeting will take place on Monday 30 April 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1fXAErz7whySEt1fz-ipk7Sp73UCdUJo0p9LH6AeEdAA/edit#heading=h.o6hsjafth35v)
+
 # Minutes 16-APR-2018
 ## Agenda
 
-The next Che dev meeting will take place on Monday 16 April 2018. You are welcomed to add the topics you would like to discuss to the agenda: [Google doc](https://docs.google.com/document/d/1p0Li9SeUcowy6AW5aVVpgKh6bRNgHHPuD3CMGJ94Gos/edit#)
+1. Consolidating the stacks
+2. Hot Update (#8547)
+3. CI for kubernetes infrastructure
+4. Branding dashboard question(https://github.com/eclipse/che/issues/8421 )
+5. Eclipse Theia proposal
+6. Welcome to Guy Daich and introducing Dave Neary
+7. Keycloak configurability
+
+Minutes are in:[Google doc](https://docs.google.com/document/d/1p0Li9SeUcowy6AW5aVVpgKh6bRNgHHPuD3CMGJ94Gos/edit#)
+
+[Recording](https://bluejeans.com/s/B_oPF)
 
 # Minutes 02-APR-2018
 ## Agenda
