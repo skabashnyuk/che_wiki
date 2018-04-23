@@ -7,4 +7,4 @@ The language servers was checked next way:
 * Add an error in the `echo` command and check that error marker is appeared. Click on error marker - the proposal widget should be present. Restore content. Error marker should disappear.
 * Add variable like `$color = "blue";`. Make sure that there is no errors. Go to the end of `echo "Hello World!"` type `$` and launch autocompletion by Ctrl+Space. The `color` fragment should be completed.
 * Set cursor to the new line type `e` and launch autocompletion by Ctrl+Space. Check that proposal is present, see screenshot below:
-![Php_autocomplete_proposal](https://drive.google.com/open?id=1ptY7cqplJpvH6NJr3IiBFUvEzNDN2LQ8)
+![Php_autocomplete_proposal](https://drive.google.com/file/d/1ptY7cqplJpvH6NJr3IiBFUvEzNDN2LQ8/view?usp=sharing)
