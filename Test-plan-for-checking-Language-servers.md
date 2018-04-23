@@ -61,6 +61,7 @@ Set cursor to the 7 line. Delete the line. Type `std::`. Make sure that error ma
 * Type k and launch authocomplete (Ctrl+Space). Make sure that kind value is present in the proposal widget, check document window with content: `Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: http://releases.k8s.io/HEAD/docs/devel/api-conventions.md#types-kinds`. Enter this value.
 *Type: and launch authocomplete, select `PersistentVolume`. Make sure that there is no errors.
 * Go to the new line type api, launch authocomplete,make sure that `apiVersion` has been pased. Type `: `launch authocomplete, `v1` value should be added.
-* Go to the new line type `me`. Launch authocomplete. `metadata` should be pasted. Type `: `. 
+* Go to the new line type `me`. Launch authocomplete. `metadata` should be pasted. Type `: `.  Launch authocomplete.
+*Go to the beginning string and add some tabs. The error marker should appear. Remove the tabs. The YAML should be valid again
 
 
