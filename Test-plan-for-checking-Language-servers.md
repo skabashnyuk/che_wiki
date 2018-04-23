@@ -1,5 +1,4 @@
-Unfortunately we do not have any functional test specification for covering language servers. For testing we had only simple test cases for covering base functionality based on positive testing. 
-The language servers was checked next way:
+
 1. **PHP language server:**
 * Create a workspace through Dashboard based on Default PHP stack. Enable php language server. by slider on dashboard if it need.
 * Go to the just created workspace and create **_web-php-simple_** project with wizard
@@ -53,5 +52,15 @@ let greeter = new Greeter("world");`
 Set cursor to the 7 line. Delete the line. Type `std::`. Make sure that error marker with `expected unqualified-id` message appears. 
 * Type `std::cou` and launch code assistant by Ctrl+Space. Select `cout Outstream` from the proposal menu. Type `<< "Hello World!;"` Make sure that there is no any errors. 
 * Erase `std::``. Make sure that error marker appears in line 7. Add `using namespace std;`in the line 4. Make sure that there is no any errors.
+
+6. **Yaml language server:**
+
+* Create a workspace through Dashboard based on Java. Go to the workspace. Profile -> Prefernces. Set the YAMPL schema: Select `Yaml`->Add Schema URl button -> type kubernetes.
+* Create the _**blank** project from the wizard. 
+* Create for example openshift.yaml project file. Make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `[INFO ] [.a.l.LanguageServerInitializer 109]  - Started language servers initialization, file path '/yaml/openshift.yaml'`
+* Type k and launch authocomplete (Ctrl+Space). Make sure that kind value is present in the proposal widget, check document window with content: `Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: http://releases.k8s.io/HEAD/docs/devel/api-conventions.md#types-kinds`. Enter this value.
+*Type: and launch authocomplete, select `PersistentVolume`. Make sure that there is no errors.
+* Go to the new line type api, launch authocomplete,make sure that `apiVersion` has been pased. Type `: `launch authocomplete, `v1` value should be added.
+* Go to the new line type `me`. Launch authocomplete. `metadata` should be pasted. Type `: `. 
 
 
