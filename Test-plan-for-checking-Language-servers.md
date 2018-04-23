@@ -27,7 +27,7 @@ Add empty line. Make sure that warning marker with message: `W293 blank line con
 3. **JSON language server:**
 *Create a workspace through Dashboard based on Default Node Stack. Enable JSON language server by slider on dashboard  if it need.
 * Go to the just created workspace and create _**nodejs-hello-world*_. Open the `package.json`file. and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-04-23 13:00:27,948[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 109]  - Started language servers initialization, file path '/nodeJs/package.json'`
-* Remove `,` symbol after `}`. Make sure that error marker appears. Click on the marker and check message like `Expected '(end)' and instead saw ':'.`in the proposal window. Return the just deleted coma and wait disappearance the marker. Go to the line 9 and add frgment like: `"newObj":[1,2,3],`. Make sure that JSON does not have any errors.
+* Remove `,` symbol after `}`. Make sure that error marker appears. Click on the marker and check message like `Expected '(end)' and instead saw ':'.`in the proposal window. Return the just deleted coma and wait disappearance the marker. Go to the line 9 and add fragment like: `"newObj":[1,2,3],`. Make sure that JSON does not have any errors.
 
 4. **Type script language server:**
 * Create a workspace through Dashboard based on Default Node Stack. Enable TypeScript language server by slider on dashboard  if it need.
