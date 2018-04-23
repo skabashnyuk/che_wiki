@@ -11,7 +11,7 @@ The language servers was checked next way:
 
 2. **Python language server:**
 * Create a workspace through Dashboard based on Default python stack. Enable language server by slider on dashboard  if it need.
-* Go to the just created workspace and create _**console-python3.5-simple**_. Open the `main.py`file. and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: ...`
+* Go to the just created workspace and create _**console-python3.5-simple**_. Open the `main.py`file. and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: ...`
 * Add an error in the `print` command and check that error marker is appeared. Click on error marker - the proposal widget should be show `invalid syntax` message. Restore content. Error marker should disappear.
 type. Remove content from the file and paste code like:
 `class MyClass:
@@ -48,6 +48,10 @@ let greeter = new Greeter("world");`
 * Remove the space - error makers should disappear. Add empty line after the code and type `greeter.`. Sent ctrl+space. Make sure that `freet()` function and `greeting` field are present in the proposal panel.
 
 5. **Clang language server:**
-*Create a workspace through Dashboard based on Default C++ language server
+* Create a workspace through Dashboard based on Default C++ language server. Create the _**console-cpp-project** from the wizard. 
+* Open hello.cc file and make sure that  language server has been initialized. Go to the _**dWorkspace Status**_ tab  and check `Clangd language server` has `OK` status.
+Set cursor to the 7 line. Delete the line. Type `std::`. Make sure that error marker with `expected unqualified-id` message appears. 
+* Type `std::cou` and launch code assistant by Ctrl+Space. Select `cout Outstream` from the proposal menu. Type `<< "Hello World!;"` Make sure that there is no any errors. 
+* Erase `std::``. Make sure that error marker appears in line 7. Add `using namespace std;`in the line 4. Make sure that there is no any errors.
 
 
