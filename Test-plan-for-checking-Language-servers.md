@@ -1,6 +1,6 @@
 
 1. **PHP language server:**
-* Create a workspace through Dashboard based on Default PHP stack. Enable php language server. by slider on dashboard if it need.
+* Create a workspace through Dashboard based on Default PHP stack. Enable php language server by slider on dashboard if it need.
 * Go to the just created workspace and create **_web-php-simple_** project with wizard
 * Open **_index-php_** file and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-04-23 08:47:03,059[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 216]  - Initialized language server 'org.eclipse.che.plugin.php.languageserver'`
 * Add an error in the `echo` command and check that error marker is appeared. Click on error marker - the proposal widget should be present. Restore content. Error marker should disappear.
@@ -10,7 +10,7 @@
 
 2. **Python language server:**
 * Create a workspace through Dashboard based on Default python stack. Enable language server by slider on dashboard  if it need.
-* Go to the just created workspace and create _**console-python3.5-simple**_. Open the `main.py`file. and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: ...`
+* Go to the just created workspace and create _**console-python3.5-simple**_. Open the `main.py`file and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: ...`
 * Add an error in the `print` command and check that error marker is appeared. Click on error marker - the proposal widget should be show `invalid syntax` message. Restore content. Error marker should disappear.
 type. Remove content from the file and paste code like:
 `class MyClass:
