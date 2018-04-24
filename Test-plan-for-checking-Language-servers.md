@@ -13,24 +13,51 @@
 * Go to the just created workspace and create _**console-python3.5-simple**_. Open the `main.py`file and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-04-24 13:24:49,159[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 216]  - Initialized language server 'org.eclipse.che.plugin.python.languageserver`
 * Add an error in the `print` command and check that error marker is appeared. Click on error marker - the proposal widget should be show `invalid syntax` message. Restore content. Error marker should disappear.
 type. Remove content from the file and paste code like:
- `class MyClass:`
-    `var = 1`
-    `variable = "bla"`
+```python 
+class MyClass:
+    var = 1
+    variable = "bla"
 
-    `def function(self):`
-        `print("This is a message inside the class.")`
+    def function(self):
+        print("This is a message inside the class.")
+```
+
 Add empty line. Make sure that warning marker with message: `W293 blank line contains whitespace` is present
 * Add empty line again and type code fragment like `myobjectx = MyClass()`
-* Press enter and type myobjectx, than ctrl+space. Make sure that `function`, `var` and `variable` fields are available from the class in the proposal menu.
+* Press enter and type `myobjectx.` than ctrl+space. Make sure that `function`, `var` and `variable` fields are available from the class in the proposal menu.
 
 3. **JSON language server:**
-*Create a workspace through Dashboard based on Default Node Stack. Enable JSON language server by slider on dashboard  if it need.
-* Go to the just created workspace and create _**nodejs-hello-world*_. Open the `package.json`file. and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-04-23 13:00:27,948[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 109]  - Started language servers initialization, file path '/nodeJs/package.json'`
-* Remove `,` symbol after `}`. Make sure that error marker appears. Click on the marker and check message like `Expected '(end)' and instead saw ':'.`in the proposal window. Return the just deleted coma and wait disappearance the marker. Go to the line 9 and add fragment like: `"newObj":[1,2,3],`. Make sure that JSON does not have any errors.
+* Create a workspace through Dashboard based on Default Node Stack. Enable JSON language server by slider on dashboard  if it need.
+* Go to the just created workspace and create _**nodejs-hello-world**_. Open the `package.json`file and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-04-23 13:00:27,948[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 109]  - Started language servers initialization, file path '/nodeJs/package.json'`
+* Remove `,` symbol after last brace 
+```
+{
+  "name": "nodejs-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+``` 
+Make sure that error marker appears. Click on the marker and check message like `Expected '(end)' and instead saw ':'.`in the proposal window. Return the just deleted coma and wait disappearance the marker. Go to the line 9 and add fragment like: `"newObj":[1,2,3],`. Make sure that JSON does not have any errors.
 
 4. **Type script language server:**
 * Create a workspace through Dashboard based on Default Node Stack. Enable TypeScript language server by slider on dashboard  if it need.
-* Go to the just created workspace and create _**nodejs-hello-world*_. Open the `package.json`file. and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `[INFO ] [.a.l.LanguageServerInitializer 216]  - Initialized language server 'org.eclipse.che.plugin.web.typescript`.
+* Go to the just created workspace and create _**nodejs-hello-world**_. Create for example `greeter.ts` file and  add next content:
+```typescript
+class Greeter {
+    constructor(public greeting: string) { }
+    greet() {
+        return "<h1>" + this.greeting + "</h1>";
+    }
+};
+
+var greeter = new Greeter("Hello, world!");
+    
+document.body.innerHTML = greeter.greet();
+```
+make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `[INFO ] [.a.l.LanguageServerInitializer 216]  - Initialized language server 'org.eclipse.che.plugin.web.typescript`.
 Add new file like: `Greeter.ts` wit next content: 
 `class Greeter {
     greeting: string;
@@ -43,12 +70,12 @@ Add new file like: `Greeter.ts` wit next content:
 }
 
 let greeter = new Greeter("world");`
-* Add space into keyword class-> c lass. Make sure that error markets have appear. Click on first marker and check the message like: `cannot find lass`
-* Remove the space - error makers should disappear. Add empty line after the code and type `greeter.`. Sent ctrl+space. Make sure that `freet()` function and `greeting` field are present in the proposal panel.
+* Add space into keyword `class` like: `c lass`. Make sure that error markets have appear. Click on first marker and check the message like: `cannot find lass`
+* Remove the space - error makers should disappear. Add empty line after the code and type `greeter.`. Sent ctrl+space. Make sure that `greet()` function and `greeting` field are present in the proposal panel.
 
 5. **Clang language server:**
 * Create a workspace through Dashboard based on Default C++ language server. Create the _**console-cpp-project** from the wizard. 
-* Open hello.cc file and make sure that  language server has been initialized. Go to the _**dWorkspace Status**_ tab  and check `Clangd language server` has `OK` status.
+* Open hello.cc file and make sure that  language server has been initialized. Go to the _**dev-machine**_ tab  and check that message like`2018-04-24 14:37:56,579[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 109]  - Started language servers initialization, file path '/cpp/hello.cc'` is present.
 Set cursor to the 7 line. Delete the line. Type `std::`. Make sure that error marker with `expected unqualified-id` message appears. 
 * Type `std::cou` and launch code assistant by Ctrl+Space. Select `cout Outstream` from the proposal menu. Type `<< "Hello World!;"` Make sure that there is no any errors. 
 * Erase `std::``. Make sure that error marker appears in line 7. Add `using namespace std;`in the line 4. Make sure that there is no any errors.
