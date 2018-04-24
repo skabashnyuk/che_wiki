@@ -10,15 +10,15 @@
 
 2. **Python language server:**
 * Create a workspace through Dashboard based on Default python stack. Enable language server by slider on dashboard  if it need.
-* Go to the just created workspace and create _**console-python3.5-simple**_. Open the `main.py`file and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: ...`
+* Go to the just created workspace and create _**console-python3.5-simple**_. Open the `main.py`file and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-04-24 13:24:49,159[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 216]  - Initialized language server 'org.eclipse.che.plugin.python.languageserver`
 * Add an error in the `print` command and check that error marker is appeared. Click on error marker - the proposal widget should be show `invalid syntax` message. Restore content. Error marker should disappear.
 type. Remove content from the file and paste code like:
-`class MyClass:
-    var = 1
-    variable = "bla"
+ `class MyClass:`
+    `var = 1`
+    `variable = "bla"`
 
-    def function(self):
-        print("This is a message inside the class.")`
+    `def function(self):`
+        `print("This is a message inside the class.")`
 Add empty line. Make sure that warning marker with message: `W293 blank line contains whitespace` is present
 * Add empty line again and type code fragment like `myobjectx = MyClass()`
 * Press enter and type myobjectx, than ctrl+space. Make sure that `function`, `var` and `variable` fields are available from the class in the proposal menu.
