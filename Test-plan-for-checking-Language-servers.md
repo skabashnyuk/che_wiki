@@ -1,16 +1,16 @@
 
 1. **PHP language server:**
-* Create a workspace through Dashboard based on Default PHP stack. Enable php language server by slider on dashboard if it need.
-* Go to the just created workspace and create **_web-php-simple_** project with wizard
+* Create a workspace through Dashboard based on Default PHP stack. Enable PHP language server by slider on dashboard if needed.
+* Go to freshly created workspace and create **_web-php-simple_** project with wizard
 * Open **_index-php_** file and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-04-23 08:47:03,059[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 216]  - Initialized language server 'org.eclipse.che.plugin.php.languageserver'`
-* Add an error in the `echo` command and check that error marker is appeared. Click on error marker - the proposal widget should be present. Restore content. Error marker should disappear.
-* Add variable like `$color = "blue";`. Make sure that there is no errors. Go to the end of `echo "Hello World!"` type `$` and launch autocompletion by Ctrl+Space. The `color` fragment should be completed.
+* Add an error in the `echo` command and check that error marker is appeared. Click on error marker - the proposal tooltip should pop up. Restore content. Error marker should disappear.
+* Add variable like `$color = "blue";`. Make sure there are no errors. Go to the end of `echo "Hello World!"` type `$` and launch autocompletion by Ctrl+Space. The `color` fragment should be offered.
 * Set cursor to the new line type `e` and launch autocompletion by Ctrl+Space. Check that proposal is present, see link below:
 [PHP autocoplete proposal](https://www.dropbox.com/s/2hrzg04hqbz1a4j/Selection_012.png?dl=0)
 
 2. **Python language server:**
-* Create a workspace through Dashboard based on Default python stack. Enable language server by slider on dashboard  if it need.
-* Go to the just created workspace and create _**console-python3.5-simple**_. Open the `main.py`file and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-04-24 13:24:49,159[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 216]  - Initialized language server 'org.eclipse.che.plugin.python.languageserver`
+* Create a workspace through Dashboard based on Default python stack. Enable language server by slider on dashboard  if it needed.
+* Go to a freshly created workspace and create _**console-python3.5-simple**_. Open the `main.py`file and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-04-24 13:24:49,159[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 216]  - Initialized language server 'org.eclipse.che.plugin.python.languageserver`
 * Add an error in the `print` command and check that error marker is appeared. Click on error marker - the proposal widget should be show `invalid syntax` message. Restore content. Error marker should disappear.
 type. Remove content from the file and paste code like:
 ```python 
@@ -28,7 +28,7 @@ Add empty line. Make sure that warning marker with message: `W293 blank line con
 
 3. **JSON language server:**
 * Create a workspace through Dashboard based on Default Node Stack. Enable JSON language server by slider on dashboard  if it need.
-* Go to the just created workspace and create _**nodejs-hello-world**_. Open the `package.json`file and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-04-23 13:00:27,948[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 109]  - Started language servers initialization, file path '/nodeJs/package.json'`
+* Go to the just created workspace and create _**nodejs-hello-world**_. Open `package.json`file and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-04-23 13:00:27,948[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 109]  - Started language servers initialization, file path '/nodeJs/package.json'`
 * Remove `,` symbol after last brace 
 ```
 {
