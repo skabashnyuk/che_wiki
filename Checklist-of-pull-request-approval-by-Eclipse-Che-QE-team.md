@@ -4,7 +4,7 @@
 4. There are no changes in the code in pull request after **E2E selenium tests** execution was requested.
 5. Coverage of new or updated functionality by unit-tests **>= 80%**. We can use [Cobertura maven plugin](https://github.com/cobertura/cobertura) to measure coverage  - next command generate Cobertura report: 
 `mvn cobertura:cobertura`
-6. Execution of **E2E selenium tests** for_ Eclipse Che Multiuser on OCP_ (command `ci-test` in comment to the pull request to run selenium tests on https://ci.codenvycorp.com/view/pr-builds/job/che-pullrequests-test-ocp/ ) shows:
+6. Execution of **E2E selenium tests** for _Eclipse Che Multiuser on OCP_ (command `ci-test` in comment to the pull request to run selenium tests on https://ci.codenvycorp.com/view/pr-builds/job/che-pullrequests-test-ocp/) shows:
 
    6.1 Success rate **about 100%** for existed **E2E selenium tests** without regression;
 
