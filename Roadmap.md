@@ -11,39 +11,39 @@ The epics and features that roll into a milestone are determined by pull request
 
 ## 2018 Roadmap - At a glance
 
-The goals can be decomposed into the following three themes:
+The goals are decomposed into the following three themes:
 - Ecosystem
 - Support more Cloud Native technologies
 - Pleasurable Development Tool
 
 **Ecosystem**  
-Eclipse Che is a platform to build cloud-native tools. For Che to be successful on this goal, it requires a strong extensibility model with a great contributor developer experience. 
+Eclipse Che is a platform to build cloud-native tools. For Che to be successful on this goal, it requires a strong extensibility model with a enjoyable contributor developer experience. 
 
 In the past, Eclipse Che's extensibility has mainly been focused on the white labelling use cases. ISV were able to customize Eclipse Che, build their own version by completely customizing it and distributing it on their own. While that extensibility approach has been great for many partners, it has always been seen as complex, with a technology stack which was also relying an non-optimal developer experience with slow turnarounds. The lack of a dynamic extensibility approach also forced a Che Plugin to be packaged in the "Che assembly" in order to get available to the end-user. There was no way to build a plugin, package it so that it can be installed in a running Che (without having to rebuild a new Che). 
 
-Moving forward on those different aspects, beginning of 2018 we decided to progressively get ride of the GWT-based IDE from Che to another IDE built by the community: Theia. This new IDE, is built using TypeScript and have some basics which will allow to build a really pleasurable extensible platform.
+Moving forward on those different aspects, beginning of 2018 we decided to progressively get ride of the GWT-based IDE from Che to another IDE built by the community: [Theia](https://github.com/theia-ide/theia). This new IDE, is built using TypeScript and have some basics which will allow to build a really pleasurable extensible platform.
 
-Most of the efforts on this area will be to provide a dynamic plugin model. In Che, a user must not worry about the dependencies needed for the tools running in a workspace. There should be nothing to install or configured - compared to other IDEs. A plugin will provide its dependencies and its "back-end" services (which could be running in its own sidecar container) and the IDE UI extension.
+Most of the efforts on this area will be to provide a dynamic plugin model. In Che, a user must not worry about the dependencies needed for the tools running in a workspace. There should be nothing to install or configure - compared to traditional IDEs. A plugin will provide its dependencies and its "back-end" services (which could be running in its own sidecar container) and the IDE UI extension.
 
 Along with this work, we will also build a plugin marketplace - which will have a public/community and in-house deployment capabilities.
 
 **Support Cloud Native technologies**  
-Developers using Eclipse Che uses containers directly in their developer workspaces. The Che workspaces provide a "dev mode" on containers used onto production, adding intellisense and IDE toolings. 
+Developers using Eclipse Che use containers directly in their developer workspaces. The Che workspaces provide a "dev mode" on containers used onto production, adding intellisense and IDE tooling. 
 
-The workspace model is going to be improved to better leverage an application stack definition (kubernetes.yaml, Helm Chart). IDE tooling will be microservices packaded in their own sidecar containers bringing their own dependencies and keeping application's containers "untouched". The execution of IDE tooling will be isolated from each other and from application's containers too. Each IDE tool will get its own lifecycle, ability for easy upgrade/switch and its own scalability mechanism.
+The workspace model is going to be improved to better leverage an application stack definition (kubernetes.yaml, Helm Chart). IDE tooling will be microservices packaded in their own sidecar containers bringing their own dependencies and keeping application's containers "untouched". The execution of IDE tooling will be isolated from each other and from application's containers too. Each IDE tooling (and by extension plugin) will get its own lifecycle, ability for easy upgrade/switch and its own scalability mechanism.
 
-Eclipse Che will get a workspace engine, capable of interpreting an application stack definition and generating the Che workspace needed for it. 
+Eclipse Che will get a workspace engine, capable of interpreting an application stack definition and generating the Che workspace needed to code on that application. 
 
 We will also be investing efforts on supporting ISTIO and Serverless applications.
 
 **Pleasurable Development Tool**  
-While we decided to adopt Theia, there is a pretty substantial feature gap with the current GWT-based IDE provided with Che. Most of the efforts will be to fill the feature gap and leverage Che experience to bring Theia to an acceptable level of maturity so it can repleace the current IDE. 
+While we decided to integrate [Theia](https://github.com/theia-ide/theia), there is a pretty substantial feature gap with the current GWT-based IDE provided within Che. Most of the efforts will be to fill the feature gap and leverage Che's contributor experience in Cloud IDE to bring [Theia](https://github.com/theia-ide/theia) to an acceptable level of maturity so it can replace the current IDE in Che. 
 
-This will also give the opportunity to rethink and revamp some of the tools that we currently have, so we move the developer experience to a new pleasurable level. 
+This will also give the opportunity to rethink and revamp some of the tools that we currently have and move the developer experience to a new pleasurable level. 
 
 
 ## Users: Professional and Pleasurable Development Tool
-Eclipse Che should provide a development experience that rivals world-class tools such as the Eclipse IDE and JetBrains. Che should support any kind of language and have best-in-class support for the language server protocol and other server protocols. Workspaces should support development of multi-container applications. There should be an intelligent commands framework that simplifies authoring commands and executing them on different machine targets. Preferences must provide two levels: workspace/system. Workspace must leverage application stack definition and allow IDE tooling packaged as microservices running in sidecars.
+Eclipse Che should provide a development experience that rivals world-class tools such as the Eclipse IDE and JetBrains. Che should support any kind of language and have best-in-class support for the language server protocol and other server protocols. Workspaces should support development of multi-container applications. There should be an intelligent commands framework that simplifies authoring commands and executing them on different container targets. Preferences must provide two levels: workspace/system. Workspace must leverage application stack definitions and allow IDE tooling packaged as microservices running in sidecars.
 
 ### Foundations
 - [x] Run Theia in a sidecar container
@@ -88,7 +88,7 @@ Eclipse Che should provide a development experience that rivals world-class tool
 
 
 ## Ecosystem: Make It Easy to Contribute to Che
-Eclipse Che needs a dynamic plugin model. User should not have to install/configured anythiing to get a plugin in their workspaces. Plugins must communicate securely with Che Master. Che must provide a contributor experience which will allow to entirely build Che with Che and provide self hosting capabilities. A marketplace must emerge to let the contributors expose the plugins to the Che community.
+Eclipse Che needs a dynamic plugin model. User should not have to install/configure anything to get a plugin in their workspaces. Plugins must communicate securely with Che Master. Che must provide a contributor experience which will allow to entirely build Che with Che and provide self hosting capabilities. A marketplace must emerge to let the contributors expose the plugins to the Che community.
 
 ### Plugin Model
 - [ ] Plugin system for Theia, with dynamic extensibility [#1482](https://github.com/theia-ide/theia/issues/1482)
