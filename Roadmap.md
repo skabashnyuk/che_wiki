@@ -3,6 +3,11 @@ Releases occur every three weeks. While working on a current release, we plan th
 
 The epics and features that roll into a milestone are determined by pull request readiness of the feature at the time a milestone begins. In other words, we only place into a milestone features that are code complete and waiting for master-integration and testing.
 
+At any time you can see what is being worked on:
+- See [issues in the current sprint](https://github.com/eclipse/che/labels/sprint%2Fcurrent-sprint).
+- See [issues planned for the following sprint](https://github.com/eclipse/che/labels/sprint%2Fnext-sprint).
+- See [PRs in code-review](https://github.com/eclipse/che/pulls?q=is%3Apr+is%3Aopen+label%3Astatus%2Fcode-review).
+
 # Themes for 2018
 - Plugins: Features to drive further growth in the Che ecosystem
 - IDE.next: Updates to the IDE to increase the joy of development
