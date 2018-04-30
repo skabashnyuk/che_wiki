@@ -6,8 +6,8 @@ The epics and features that roll into a milestone are determined by pull request
 # Themes for 2018
 - Plugins: Features to drive further growth in the Che ecosystem
 - IDE.next: Updates to the IDE to increase the joy of development
-- Enterprises: Features to support large scale use of Che
 - Workspace.next: Improvements to workspace creation and tool interaction 
+- Enterprises: Features to support large scale use of Che
 
 ## Plugins
 Eclipse Che is a platform to build cloud-native tools. For Che to be successful on this goal, it requires a strong extensibility model with an enjoyable contributor developer experience. 
@@ -34,11 +34,6 @@ In order to expose these plugins and make them consumable we will build a Che pl
 ## IDE.next
 We have decided to integrate [Theia](https://github.com/theia-ide/theia) into Che to replace our GWT based IDE because it offers simpler extensibility and has many of the foundations we feel will be needed going forward. However, there is a  substantial feature gap between Theia and our current Che IDE. Much of this year will be spent adding needed features to Theia so that it can fully replace the current IDE. During this time we will be doing minimal work on the GWT-based Che IDE.
 
-#### Foundations
-- [x] Run Theia in a sidecar container
-- [ ] Workspace.Next [#8265](https://github.com/eclipse/che/issues/8265)
-- [ ] Workspace.Next phase 1 [#9406](https://github.com/eclipse/che/issues/9406)
-
 #### Language 
 - [ ] Switch Java infrastructure to JDT LS in Che 6 [#6157](https://github.com/eclipse/che/issues/6157)
 - [ ] Multiroot Support in Che 6 [#9486](https://github.com/eclipse/che/issues/9486)
@@ -61,12 +56,6 @@ We have decided to integrate [Theia](https://github.com/theia-ide/theia) into Ch
 #### Terminal
 - [ ] Terminal to access any workspace's container with Theia [#8698](https://github.com/eclipse/che/issues/8698), [#1](https://github.com/eclipse/che-theia-terminal-plugin/pull/1)
 
-#### Preferences
-- [ ] Preferences system at workspace level and system level [#9336](https://github.com/eclipse/che/issues/9336)
-
-#### Cloud Technologies
-- [ ] Development support for applications using ISTIO [#6957](https://github.com/eclipse/che/issues/6957)
-
 #### Live Collaborations
 - [ ] Live collaboration capabilities [#8286](https://github.com/eclipse/che/issues/8286)
 
@@ -74,6 +63,26 @@ We have decided to integrate [Theia](https://github.com/theia-ide/theia) into Ch
 - [ ] Basic support for tablets [#6527](https://github.com/eclipse/che/issues/6527)
 - [ ] Presentation Mode [#6187](https://github.com/eclipse/che/issues/6187)
 - [ ] Guided Flows and Tutorials in Che [#6150](https://github.com/eclipse/che/issues/6150)
+
+## Workspace.next
+Eclipse Che developers all start with a container image. In most cases this should be the same image that is used in production. Today to add the developer tooling needed (which won't be in a production image), Che injects language servers, SSH and terminal access into the container. This makes it easy for the developer, but it alters the container so that it is no longer an exact replica of what's running in production. There is a better way.
+
+Changes will be made so that the workspace tooling is microservice-packaged and isolated from the developer's workspace image and from each other. Each tool plugin the developer needs can be deployed as its own container and connected to the developer's workspace (we call this a "side car" container). These side car tools will have their own lifecycle with the ability for easy upgrade and their own scalability mechanisms.
+
+The workspace model is also going to be improved to better leverage a Kubernetes-friendly application stack definition (kubernetes.yaml, Helm Chart). The workspace engine will be capable of interpreting an application stack definition and generating the Che workspace needed to code on that application.
+
+Finally, we will be investing in support of [ISTIO](https://istio.io/) and Serverless functions (via [OpenWhisk](https://openwhisk.apache.org/) for example).
+
+#### Foundations
+- [x] Run Theia in a sidecar container
+- [ ] Workspace.Next [#8265](https://github.com/eclipse/che/issues/8265)
+- [ ] Workspace.Next phase 1 [#9406](https://github.com/eclipse/che/issues/9406)
+
+#### Preferences
+- [ ] Preferences system at workspace level and system level [#9336](https://github.com/eclipse/che/issues/9336)
+
+#### Cloud Technologies
+- [ ] Development support for applications using ISTIO [#6957](https://github.com/eclipse/che/issues/6957)
 
 
 ## Enterprises
@@ -94,14 +103,4 @@ Eclipse Che has gained a great deal of interest in large enterprises who are mov
 - [ ] Generic telemetry events infrastructure [#5483](https://github.com/eclipse/che/issues/5483) 
 
 
-## Workspace.next
-Eclipse Che developers all start with a container image. In most cases this should be the same image that is used in production. Today to add the developer tooling needed (which won't be in a production image), Che injects language servers, SSH and terminal access into the container. This makes it easy for the developer, but it alters the container so that it is no longer an exact replica of what's running in production. There is a better way.
-
-Changes will be made so that the workspace tooling is microservice-packaged and isolated from the developer's workspace image and from each other. Each tool plugin the developer needs can be deployed as its own container and connected to the developer's workspace (we call this a "side car" container). These side car tools will have their own lifecycle with the ability for easy upgrade and their own scalability mechanisms.
-
-The workspace model is also going to be improved to better leverage a Kubernetes-friendly application stack definition (kubernetes.yaml, Helm Chart). The workspace engine will be capable of interpreting an application stack definition and generating the Che workspace needed to code on that application.
-
-Finally, we will be investing in support of [ISTIO](https://istio.io/) and Serverless functions (via [OpenWhisk](https://openwhisk.apache.org/) for example).
-
-[Issue list in progress]
 
