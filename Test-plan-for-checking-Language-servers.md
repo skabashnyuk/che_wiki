@@ -47,7 +47,7 @@ Close the just created file. Open myClass and add next expression:
 var2 = myModule.add(100, 200)
 ```
 * Set cursor to `add` and invoke Assistant -> Find Definition. The `myModule.py` file should be opened and function `add` should be selected
-* Close the `myModule.py` file. And repeat previous step usig F4 key instead  Assistant -> Find Definition
+* Close the `myModule.py` file. And repeat previous step using F4 key instead of Assistant -> Find Definition invocation
 
 3. **JSON language server:**
 * Create a workspace through Dashboard based on Default Node Stack. Enable JSON language server by slider on dashboard  if it need.
@@ -95,7 +95,31 @@ Add new file like: `Greeter.ts` wit next content:
 let greeter = new Greeter("world");`
 * Add space into keyword `class` like: `c lass`. Make sure that error markets have appear. Click on first marker and check the message like: `cannot find lass`
 * Remove the space - error makers should disappear. Add empty line after the code and type `greeter.`. Sent ctrl+space. Make sure that `greet()` function and `greeting` field are present in the proposal panel.
+* Create new file with name `printTest.ts` and add next content:
+```typescript
+let name: string;
+export class Print {
 
+print (setVAlue: string): void 
+
+{
+    name = setVAlue;
+    console.log('<<:'+ name);
+}     
+    
+}
+```
+* Close the just created file 
+* Open greeter.ts  and add to first line: `import {Print} from './printTest'`
+* Set cursor after `greet()` function. Add new function:
+```typescript
+ testPrint(): void {
+        const printVar = new Print();
+        printVar.print("test print");
+    }
+```
+* Set cursor to `printVar.print`. And invoke Assistant -> Find Definition. Check opening the `printTest.ts` file. The `print` function should be selected.
+* Repeat previous step using F4 key instead of Assistant -> Find Definition invocation
 5. **Clang language server:**
 * Create a workspace through Dashboard based on Default C++ language server. Create the _**console-cpp-project** from the wizard. 
 * Open hello.cc file and make sure that  language server has been initialized. Go to the _**dev-machine**_ tab  and check that message like`2018-04-24 14:37:56,579[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 109]  - Started language servers initialization, file path '/cpp/hello.cc'` is present.
