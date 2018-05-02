@@ -18,7 +18,7 @@ function sayHello($name) {
 ```
 * Add into the `index.php` file next expression: `echo sayHello("man");`
 * Set cursor to `sayHello` and Assistant -> Find Definition. Make sure, that `lip.php` file is opened and function `sayHello`is selected.
-* Close the `lib.php` file and open `index.php`. Set cursor to `sayHello` and press F4
+* Close the `lib.php` file and open `index.php`. Set cursor to `sayHello` and press F4, `lip.php` file should be opened and function `sayHello` should be selected.
 
 2. **Python language server:**
 * Create a workspace through Dashboard based on Default python stack. Enable language server by slider on dashboard  if it needed.
