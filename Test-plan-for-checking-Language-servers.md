@@ -7,6 +7,18 @@
 * Add variable like `$color = "blue";`. Make sure there are no errors. Go to the end of `echo "Hello World!"` type `$` and launch autocompletion by Ctrl+Space. The `color` fragment should be offered.
 * Set cursor to the new line type `e` and launch autocompletion by Ctrl+Space. Check that proposal is present, see link below:
 [PHP autocoplete proposal](https://www.dropbox.com/s/2hrzg04hqbz1a4j/Selection_012.png?dl=0)
+* Create a file in the current project with name `lib.php`. Add next content into the file:
+```php
+<?php
+
+function sayHello($name) {
+    return "Hello, $name";
+}
+?>
+```
+* Add into the `index.php` file next expression: `echo sayHello("man");`
+* Set cursor to `sayHello` and Assistant -> Find Definition. Make sure, that `lip.php` file is opened and function `sayHello`is selected.
+* Close the `lib.php` file and open `index.php`. Set cursor to `sayHello` and press F4
 
 2. **Python language server:**
 * Create a workspace through Dashboard based on Default python stack. Enable language server by slider on dashboard  if it needed.
