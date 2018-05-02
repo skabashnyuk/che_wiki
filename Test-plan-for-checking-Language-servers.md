@@ -121,7 +121,7 @@ print (setVAlue: string): void
 * Set cursor to `printVar.print`. And invoke Assistant -> Find Definition. Check opening the `printTest.ts` file. The `print` function should be selected.
 * Repeat previous step using F4 key instead of Assistant -> Find Definition invocation
 5. **Clang language server:**
-* Create a workspace through Dashboard based on Default C++ language server. Create the _**console-cpp-project** from the wizard. 
+* Create a workspace through Dashboard based on Default C++ language server. Create the _**console-cpp-project**_ from the wizard. 
 * Open hello.cc file and make sure that  language server has been initialized. Go to the _**dev-machine**_ tab  and check that message like`2018-04-24 14:37:56,579[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 109]  - Started language servers initialization, file path '/cpp/hello.cc'` is present.
 Set cursor to the 7 line. Delete the line. Type `std::`. Make sure that error marker with `expected unqualified-id` message appears. 
 * Type `std::cou` and launch code assistant by Ctrl+Space. Select `cout Outstream` from the proposal menu. Type `<< "Hello World!;"` Make sure that there is no any errors. 
