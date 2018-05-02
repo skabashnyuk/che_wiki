@@ -126,9 +126,37 @@ print (setVAlue: string): void
 Set cursor to the 7 line. Delete the line. Type `std::`. Make sure that error marker with `expected unqualified-id` message appears. 
 * Type `std::cou` and launch code assistant by Ctrl+Space. Select `cout Outstream` from the proposal menu. Type `<< "Hello World!;"` Make sure that there is no any errors. 
 * Erase `std::``. Make sure that error marker appears in line 7. Add `using namespace std;`in the line 4. Make sure that there is no any errors.
+* Add new file for example: `iseven.h` and add content: 
+```cpp
+#ifndef VARIABLE
+#define VARIABLE
+
+int isEven(int arg);
+
+#endif
+```
+* Create the new cpp file: `iseven.cpp` and add next:
+```cpp
+int isEven(int x) {
+    return x % 2 == 0;
+}
+```
+* Close all opened files except`hello.cc`. Set next content: `#include <iostream>
+#include "iseven.h"
+
+void test(int);
+
+int main()
+{
+  int x = 4;
+  std::cout << "Hello World!" << std::endl;
+  std::cout << isEven(x) << std::endl;
+  return 0;
+}
+`
+* Set cursor to `isEven` and invoke Assistant -> Find Definition. Check opening the `iseven.h` file. The `int isEven(int arg);` function should be selected.
 
 6. **Yaml language server:**
-
 * Create a workspace through Dashboard based on Java. Go to the workspace. Profile -> Prefernces. Set the YAMPL schema: Select `Yaml`->Add Schema URl button -> type kubernetes.
 * Create the **blank** project from the wizard. 
 * Create for example openshift.yaml project file. Make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `[INFO ] [.a.l.LanguageServerInitializer 109]  - Started language servers initialization, file path '/yaml/openshift.yaml'`
