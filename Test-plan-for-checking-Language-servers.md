@@ -37,6 +37,17 @@ class MyClass:
 Add empty line. Make sure that warning marker with message: `W293 blank line contains whitespace` is present
 * Add empty line again and type code fragment like `myobjectx = MyClass()`
 * Press enter and type `myobjectx.` than ctrl+space. Make sure that `function`, `var` and `variable` fields are available from the class in the proposal menu.
+* Create new python file for instance with name `myModule.py` and add simple content like:
+```python
+def add(a, b):
+    return a + b
+```
+Close the just created file. Open myClass and add next expression: 
+```pyhon
+var2 = myModule.add(100, 200)
+```
+* Set cursor to `add` and invoke Assistant -> Find Definition. The `myModule.py` file should be opened and function `add` should be selected
+* Close the `myModule.py` file. And repeat previous step usig F4 key instead  Assistant -> Find Definition
 
 3. **JSON language server:**
 * Create a workspace through Dashboard based on Default Node Stack. Enable JSON language server by slider on dashboard  if it need.
