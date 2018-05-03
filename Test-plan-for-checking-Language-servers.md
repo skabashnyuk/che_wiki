@@ -165,5 +165,5 @@ int main()
 * Go to the new line type api, launch authocomplete,make sure that `apiVersion` has been pased. Type `: `launch authocomplete, `v1` value should be added.
 * Go to the new line type `me`. Launch authocomplete. `metadata` should be pasted. Type `: `.  Launch authocomplete.
 * Go to the beginning string and add some tabs. The error marker should appear. Remove the tabs. The YAML should be valid again
-7. **Yaml language server:**
+7. **Camel language server:**
 TO DO...
