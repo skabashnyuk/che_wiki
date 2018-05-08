@@ -167,7 +167,7 @@ int main()
 * Go to the beginning string and add some tabs. The error marker should appear. Remove the tabs. The YAML should be valid again
 7. **Camel language server:**
 * Create a workspace through Dashboard based on Default Java stack. Enable `Apache Camel` language server by slider on dashboard if needed.
-Go to the just created workspace. Create for example empty project and add the file: `camel.xml`. Add content into the file like this:
+Go to the just created workspace. Make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `Initialized Language Server org.eclipse.che.plugin.camel.server.languageserver on project file:/...` Create for example empty project and add the file: `camel.xml`. Add content into the file like this:
 ```xml
 <!-- here we have Spring XML file with all the namespaces here in the top of the XML file -->
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -229,4 +229,7 @@ Go to the just created workspace. Create for example empty project and add the f
   </camelContext>
  
 </beans>
-```
+``` 
+* Go to the `<from uri="cxf:bean:reportIncident"/>` section of `the apache.xml file`. Change `uri=tim` and invoke `ctrl + Space`. Select `timer:timerName` from the proposal menu. Select `timer:timerName`. Check document docker window.  There is should be content like:`The timer component is used for generating message exchanges when a timer fires.` Paste the selected  content from codeassist. Type `?`. Invoke codeassistant again by `ctrl + Space`. Make sure that `fixedRate=false` fragment has been pasted properly. Type `&amp;`. Invoke codeassistant 
+select `exchangePattern`into proposal menu. Invoke ctrl + Space again. Paste `InOnly` param.
+
