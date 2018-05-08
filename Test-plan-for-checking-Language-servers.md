@@ -230,6 +230,5 @@ Go to the just created workspace. Make sure that language server has been initia
  
 </beans>
 ``` 
-* Go to the `<from uri="cxf:bean:reportIncident"/>` section of `the apache.xml file`. Change `uri=tim` and invoke `ctrl + Space`. Select `timer:timerName` from the proposal menu. Select `timer:timerName`. Check document docker window.  There is should be content like:`The timer component is used for generating message exchanges when a timer fires.` Paste the selected  content from codeassist. Type `?`. Invoke codeassistant again by `ctrl + Space`. Make sure that `fixedRate=false` fragment has been pasted properly. Type `&amp;`. Invoke codeassistant 
-select `exchangePattern`into proposal menu. Invoke ctrl + Space again. Paste `InOnly` param.
+* Go to the `<from uri="cxf:bean:reportIncident"/>` section of `the apache.xml file`. Change `uri=tim` and invoke `ctrl + Space`. Select `timer:timerName` from the proposal menu.  Check document docker window.  Make sure that content like:`The timer component is used for generating message exchanges when a timer fires.` is present. Paste the selected  content (`timer:timerName`) from codeassist. Type `?`. Invoke codeassistant again by `ctrl + Space`. Make sure that `fixedRate=false` fragment has been pasted properly. Type `&amp;`. Invoke codeassistant, select `exchangePattern`into proposal menu. Invoke ctrl + Space again. Paste `InOnly` param.
 
