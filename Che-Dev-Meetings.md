@@ -13,7 +13,19 @@ Che maintainers moderate the calls. The schedule of moderators is in a [Google s
 # 30-APR-2018
 ## Agenda
 
-The next Che dev meeting will take place on Monday 30 April 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1fXAErz7whySEt1fz-ipk7Sp73UCdUJo0p9LH6AeEdAA/edit#heading=h.o6hsjafth35v)
+The next Che dev meeting will take place on Monday 28 May 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1yvpmOHY2j8tw19ol-CgeD-2p7cnzVddqij2Ue92q2ds/edit?usp=sharing)
+
+# Minutes 14-MAY-2018
+## Agenda
+
+1. Handling of issues with severity/blocker label
+2. RedHat Summit + KubeCon read out
+3. Release planning and community roadmap
+
+Minutes are in:[Google doc](https://docs.google.com/document/d/13UG7Jiam6fdxduETKv3Rc3iquQhrJq7XKbVA74DTuzY/edit?usp=sharing)
+
+[Recording](TODO)
+
 
 # Minutes 16-APR-2018
 ## Agenda
