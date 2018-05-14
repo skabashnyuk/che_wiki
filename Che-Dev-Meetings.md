@@ -22,7 +22,7 @@ The next Che dev meeting will take place on Monday 28 May 2018. You are welcomed
 2. RedHat Summit + KubeCon read out
 3. Release planning and community roadmap
 
-Minutes are in:[Google doc](https://docs.google.com/document/d/13UG7Jiam6fdxduETKv3Rc3iquQhrJq7XKbVA74DTuzY/edit?usp=sharing)
+Minutes are in: [Google doc](https://docs.google.com/document/d/13UG7Jiam6fdxduETKv3Rc3iquQhrJq7XKbVA74DTuzY/edit?usp=sharing)
 
 [Recording](TODO)
 
@@ -38,7 +38,7 @@ Minutes are in:[Google doc](https://docs.google.com/document/d/13UG7Jiam6fdxduET
 6. Welcome to Guy Daich and introducing Dave Neary
 7. Keycloak configurability
 
-Minutes are in:[Google doc](https://docs.google.com/document/d/1p0Li9SeUcowy6AW5aVVpgKh6bRNgHHPuD3CMGJ94Gos/edit#)
+Minutes are in: [Google doc](https://docs.google.com/document/d/1p0Li9SeUcowy6AW5aVVpgKh6bRNgHHPuD3CMGJ94Gos/edit#)
 
 [Recording](https://bluejeans.com/s/B_oPF)
 
