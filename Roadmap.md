@@ -9,11 +9,13 @@ At any time you can see what is being worked on:
 - See [issues planned for the following sprint](https://github.com/eclipse/che/labels/sprint%2Fnext-sprint).
 - See [PRs in code-review](https://github.com/eclipse/che/pulls?q=is%3Apr+is%3Aopen+label%3Astatus%2Fcode-review).
 
+
 # Themes for 2018
 - Plugins: Features to drive further growth in the Che ecosystem
 - IDE.next: Updates to the IDE to increase the joy of development
 - Workspace.next: Improvements to workspace creation and tool interaction 
 - Enterprises: Features to support large scale use of Che
+[//]: # I would like to add release calendar also (number & name of current release, last few releases, with links to release notes)
 
 ## Plugins
 Eclipse Che is a platform to build cloud-native tools. For Che to be successful on this goal, it requires a strong extensibility model with an enjoyable contributor developer experience. 
