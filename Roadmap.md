@@ -1,9 +1,10 @@
 # Eclipse Che Roadmap
-Releases occur every three weeks. While working on a current release, we plan the following release. We thematically break the major functionality into epics that have sub-issues that can span many sprints, and sometimes across many releases. We do our best to incorporate all of feature into a single release, but it often requires that we break functionality across multiple release milestones.
+Eclipse Che has a release every three weeks. While working on a current release, we plan the following release. We thematically break the major functionality into epics that have sub-issues that can span many sprints, and sometimes across many releases. We do our best to incorporate all of a feature into a single release, but it often requires that we break functionality across multiple release milestones.
 
 The epics and features that roll into a milestone are determined by pull request readiness of the feature at the time a milestone begins. In other words, we only place into a milestone features that are code complete and waiting for master-integration and testing.
 
 At any time you can see what is being worked on:
+- See [high level planning per sprint per team](https://github.com/eclipse/che/labels/kind%2Fplanning)
 - See [issues in the current sprint](https://github.com/eclipse/che/labels/sprint%2Fcurrent-sprint).
 - See [issues planned for the following sprint](https://github.com/eclipse/che/labels/sprint%2Fnext-sprint).
 - See [PRs in code-review](https://github.com/eclipse/che/pulls?q=is%3Apr+is%3Aopen+label%3Astatus%2Fcode-review).
