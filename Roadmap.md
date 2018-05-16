@@ -11,9 +11,9 @@ At any time you can see what is being worked on:
 
 
 # Themes for 2018
-- Plugins: Features to drive further growth in the Che ecosystem
-- IDE.next: Updates to the IDE to increase the joy of development
-- Workspace.next: Improvements to workspace creation and tool interaction 
+- Plugins: Features to drive further growth in the Che ecosystem.
+- IDE.next: Updates to the IDE to increase the joy of development.
+- Workspace.next: Improvements to workspace creation and tool interaction to improve the fidelity between developer workspace and production environment. 
 - Enterprises: Features to support large scale use of Che
 [//]: # I would like to add release calendar also (number & name of current release, last few releases, with links to release notes)
 
