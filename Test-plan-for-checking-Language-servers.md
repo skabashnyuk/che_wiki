@@ -82,7 +82,7 @@ document.body.innerHTML = greeter.greet();
 ```
 make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `[INFO ] [.a.l.LanguageServerInitializer 216]  - Initialized language server 'org.eclipse.che.plugin.web.typescript`.
 Add new file like: `Greeter.ts` wit next content: 
-```
+```typescript
 class Greeter {
     greeting: string;
     constructor(message: string) {
@@ -144,7 +144,7 @@ int isEven(int x) {
 }
 ```
 * Close all opened files except`hello.cc`. Set next content: 
-```
+```cpp
 #include <iostream>
 #include "iseven.h"
 
