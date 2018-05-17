@@ -143,7 +143,9 @@ int isEven(int x) {
     return x % 2 == 0;
 }
 ```
-* Close all opened files except`hello.cc`. Set next content: `#include <iostream>
+* Close all opened files except`hello.cc`. Set next content: 
+```
+#include <iostream>
 #include "iseven.h"
 
 void test(int);
@@ -155,7 +157,7 @@ int main()
   std::cout << isEven(x) << std::endl;
   return 0;
 }
-`
+```
 * Set cursor to `isEven` and invoke Assistant -> Find Definition. Check opening the `iseven.h` file. The `int isEven(int arg);` function should be selected.
 
 6. **Yaml language server:**
