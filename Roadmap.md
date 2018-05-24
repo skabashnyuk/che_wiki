@@ -13,7 +13,6 @@ At any time you can see what is being worked on:
 - See [issues planned for the following sprint](https://github.com/eclipse/che/labels/sprint%2Fnext-sprint).
 - See [PRs in code-review](https://github.com/eclipse/che/pulls?q=is%3Apr+is%3Aopen+label%3Astatus%2Fcode-review).
 
-
 # Themes for 2018
 - Plugins: Features to drive further growth in the Che ecosystem.
 - IDE.next: Updates to the IDE to increase the joy of development.
