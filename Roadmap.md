@@ -1,7 +1,11 @@
 # Eclipse Che Roadmap
-Eclipse Che has a release every three weeks. While working on a current release, we plan the following release. We thematically break the major functionality into epics that have sub-issues that can span many sprints, and sometimes across many releases. We do our best to incorporate all of a feature into a single release, but it often requires that we break functionality across multiple release milestones.
+Eclipse Che follows a release cycles with a sprint planned every 3 weeks, with a collection of 4 sprints combining to a major release every 3 months. While working on a current sprint, we plan the following sprint. We thematically break the major functionality into epics that have sub-issues that can span many sprints, and sometimes across many releases. We do our best to incorporate all of a feature into a single release, but it often requires that we break functionality across multiple release milestones.
+
+Sprints are numbered, while major releases (or trains) are named after flowers, in alphabetical order. The current sprint is sprint #149, which started on 2018-05-09 and will finish on 2018-05-29. It is the 2nd sprint in the Iris release train.
 
 The epics and features that roll into a milestone are determined by pull request readiness of the feature at the time a milestone begins. In other words, we only place into a milestone features that are code complete and waiting for master-integration and testing.
+
+# Current sprint planning
 
 At any time you can see what is being worked on:
 - See [high level planning per sprint per team](https://github.com/eclipse/che/labels/kind%2Fplanning)
@@ -111,4 +115,23 @@ Eclipse Che has gained a great deal of interest in large enterprises who are mov
 - [ ] Generic telemetry events infrastructure [#5483](https://github.com/eclipse/che/issues/5483) 
 
 
+# Past Releases
 
+| Sprint start | Sprint end | Sprint number | Release train |
+|---------------|---------------|-------|-------------------|
+| 9-Aug-2017	| 29-Aug-2017	| 136	| Freesia 1 |
+| 30-Aug-2017	| 19-Sep-2017	| 137	| Freesia 2 |
+| 20-Sep-2017	| 10-Oct-2017	| 138	| Freesia 3 |
+| 11-Oct-2017	| 31-Oct-2017	| 139	| Freesia 4 |
+| 1-Nov-2017	| 21-Nov-2017	| 140	| Ginger 1  |
+| 22-Nov-2017	| 12-Dec-2017	| 141	| Ginger 2  |
+| 13-Dec-2017	| 2-Jan-2018	| 142	| Ginger 3  |
+| 3-Jan-2018	| 23-Jan-2018	| 143	| Ginger 4  |
+| 24-Jan-2018	| 13-Feb-2018	| 144	| Heather 1 |
+| 14-Feb-2018	| 6-Mar-2018	| 145	| Heather 2 |
+| 7-Mar-2018	| 27-Mar-2018	| 146	| Heather 3 |
+| 28-Mar-2018	| 17-Apr-2018	| 147	| Heather 4 |
+| 18-Apr-2018	| 8-May-2018	| 148	| Iris 1    |
+| 9-May-2018	| 29-May-2018	| **149** | Iris 2    |
+| 30-May-2018	| 19-Jun-2018	| 150	| Iris 3    |
+| 20-Jun-2018	| 10-Jul-2018	| 151	| Iris 4    |
