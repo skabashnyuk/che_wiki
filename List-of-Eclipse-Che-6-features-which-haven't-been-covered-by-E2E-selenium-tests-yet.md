@@ -1,12 +1,12 @@
 |Feature|Priority|Link|
 | ------------- | ------------- | ---------- |
-|  Hot update on OCP | P2 | https://github.com/eclipse/che/issues/9646 |
+|  Hot update on OCP | P2 | [#9646](https://github.com/eclipse/che/issues/9646) |
 |  Control + P feature for hints of arguments methods. | P2 | |
-|  Add usecase for filewatcher after refreshing page | P2 | https://github.com/eclipse/che/issues/9541 |
+|  Add usecase for filewatcher after refreshing page | P2 | [#9541](https://github.com/eclipse/che/issues/9541) |
 |  Add tests for covering Language Server features | P2 | [test plan for LS](https://github.com/eclipse/che/wiki/Test-plan-for-checking-Language-servers) |
 |  Complete covering of  Dashboard features | P2 | [Dashboard testplan](https://docs.google.com/document/d/1HbU9rzto8wT-6CFE8GFPi3BEW60suVmSmxDkomqbxwQ/edit) |
-|  Create selenium test for checking add maven project and module | P2 | https://github.com/eclipse/che/issues/6905 |
-|  Create selenium test for check interactions between machine processes | P2 | https://github.com/eclipse/che/issues/6242 |
+|  Create selenium test for checking add maven project and module | P2 | [#6905](https://github.com/eclipse/che/issues/6905) |
+|  Create selenium test for check interactions between machine processes | P2 | [#6242](https://github.com/eclipse/che/issues/6242) |
 |  Create E2E test for checking Hot update feature for wsmaster | P2 | |
 |  Using other gitproviders with factories (gitlab, bitbacket) -? | P2 |  |
 |  Console/machine statements | P2 | |
@@ -23,8 +23,8 @@
 |  Searching content with irregular encoding (for example umlauts in german lang.) | P2 |  |
 |  Nav. bar (many features, clarify most valuable) | P2 |  |
 |  Check git features in the  bottom bar | P2 | |
-|  Implement the test | P2 | https://github.com/eclipse/che/issues/9770 |
-|  Implement the test | P2 | https://github.com/eclipse/che/pull/9689 |
+|  Implement the test | P2 | [#9770](https://github.com/eclipse/che/issues/9770) |
+|  Implement the test | P2 | [#9689](https://github.com/eclipse/che/pull/9689) |
 |  Add/Delete remote repository | P2 | |
 |  Add second remote repository | P2 | |
 |  Merge local branch | P2 | |
