@@ -4,7 +4,7 @@
 |  Control + P feature for hints of arguments methods. | P2 | |
 |  Add usecase for filewatcher after refreshing page | P2 | [#9541](https://github.com/eclipse/che/issues/9541) |
 |  Add tests for covering Language Server features | P2 | [test plan for LS](https://github.com/eclipse/che/wiki/Test-plan-for-checking-Language-servers) |
-|  Complete covering of  Dashboard features | P2 | [Dashboard testplan](https://docs.google.com/document/d/1HbU9rzto8wT-6CFE8GFPi3BEW60suVmSmxDkomqbxwQ/edit) |
+|  Complete covering of  Dashboard features | P2 | [Dashboard test plan](https://docs.google.com/document/d/1HbU9rzto8wT-6CFE8GFPi3BEW60suVmSmxDkomqbxwQ/edit) |
 |  Create selenium test for checking add maven project and module | P2 | [#6905](https://github.com/eclipse/che/issues/6905) |
 |  Create selenium test for check interactions between machine processes | P2 | [#6242](https://github.com/eclipse/che/issues/6242) |
 |  Create E2E test for checking Hot update feature for wsmaster | P2 | |
