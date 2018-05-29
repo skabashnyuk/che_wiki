@@ -33,7 +33,7 @@
 |  Add to index by multi-select | P2 |  |
 |  Import a private repository | P2 | |
 
-#### Preferences
+### Preferences
 |Feature|Priority|Link|
 | ------------- | ------------- | ---------- |
 |  Customizing codeformatter | P2 | |
