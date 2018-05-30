@@ -18,7 +18,6 @@ At any time you can see what is being worked on:
 - IDE.next: Updates to the IDE to increase the joy of development.
 - Workspace.next: Improvements to workspace creation and tool interaction to improve the fidelity between developer workspace and production environment. 
 - Enterprises: Features to support large scale use of Che
-[//]: # I would like to add release calendar also (number & name of current release, last few releases, with links to release notes)
 
 ## Plugins
 Eclipse Che is a platform to build cloud-native tools. For Che to be successful on this goal, it requires a strong extensibility model with an enjoyable contributor developer experience. 
@@ -116,21 +115,21 @@ Eclipse Che has gained a great deal of interest in large enterprises who are mov
 
 # Past Releases
 
-| Sprint start | Sprint end | Sprint number | Release train |
+| Sprint start | Sprint end | Sprint number | Release |
 |---------------|---------------|-------|-------------------|
-| 9-Aug-2017	| 29-Aug-2017	| 136	| Freesia 1 |
-| 30-Aug-2017	| 19-Sep-2017	| 137	| Freesia 2 |
-| 20-Sep-2017	| 10-Oct-2017	| 138	| Freesia 3 |
-| 11-Oct-2017	| 31-Oct-2017	| 139	| Freesia 4 |
-| 1-Nov-2017	| 21-Nov-2017	| 140	| Ginger 1  |
-| 22-Nov-2017	| 12-Dec-2017	| 141	| Ginger 2  |
-| 13-Dec-2017	| 2-Jan-2018	| 142	| Ginger 3  |
-| 3-Jan-2018	| 23-Jan-2018	| 143	| Ginger 4  |
-| 24-Jan-2018	| 13-Feb-2018	| 144	| Heather 1 |
-| 14-Feb-2018	| 6-Mar-2018	| 145	| Heather 2 |
-| 7-Mar-2018	| 27-Mar-2018	| 146	| Heather 3 |
-| 28-Mar-2018	| 17-Apr-2018	| 147	| Heather 4 |
-| 18-Apr-2018	| 8-May-2018	| 148	| Iris 1    |
-| 9-May-2018	| 29-May-2018	| **149** | Iris 2    |
-| 30-May-2018	| 19-Jun-2018	| 150	| Iris 3    |
-| 20-Jun-2018	| 10-Jul-2018	| 151	| Iris 4    |
+| 9-Aug-2017	| 29-Aug-2017	| 136	| [5.17.0](https://github.com/eclipse/che/releases/tag/5.17.0) |
+| 30-Aug-2017	| 19-Sep-2017	| 137	| [5.18.0](https://github.com/eclipse/che/releases/tag/5.18.0) ([release notes](https://che.eclipse.org/release-note-5-18-993516476315))|
+| 20-Sep-2017	| 10-Oct-2017	| 138	| [5.19.0](https://github.com/eclipse/che/releases/tag/5.19.0) |
+| 11-Oct-2017	| 31-Oct-2017	| 139	| [5.20.0](https://github.com/eclipse/che/releases/tag/5.20.0), [6.0.0-M1](https://github.com/eclipse/che/releases/tag/6.0.0-M1) |
+| 1-Nov-2017	| 21-Nov-2017	| 140	| [5.21.0](https://github.com/eclipse/che/releases/tag/5.21.0), [6.0.0-M2](https://github.com/eclipse/che/releases/tag/6.0.0-M2)  |
+| 22-Nov-2017	| 12-Dec-2017	| 141	| [5.22.0](https://github.com/eclipse/che/releases/tag/5.22.0), [6.0.0-M3](https://github.com/eclipse/che/releases/tag/6.0.0-M3)  |
+| 13-Dec-2017	| 2-Jan-2018	| 142	| [6.0.0-M4](https://github.com/eclipse/che/releases/tag/6.0.0-M4)  |
+| 3-Jan-2018	| 23-Jan-2018	| 143	| [6.0.0](https://github.com/eclipse/che/releases/tag/6.0.0) ([release notes](https://che.eclipse.org/release-notes-eclipse-che-6-0-43feff5797e5)) |
+| 24-Jan-2018	| 13-Feb-2018	| 144	| [6.1.0](https://github.com/eclipse/che/releases/tag/6.1.0) |
+| 14-Feb-2018	| 6-Mar-2018	| 145	| [6.2.0](https://github.com/eclipse/che/releases/tag/6.2.0) |
+| 7-Mar-2018	| 27-Mar-2018	| 146	| [6.3.0](https://github.com/eclipse/che/releases/tag/6.3.0) |
+| 28-Mar-2018	| 17-Apr-2018	| 147	| [6.4.0](https://github.com/eclipse/che/releases/tag/6.4.0) |
+| 18-Apr-2018	| 8-May-2018	| 148	| [6.5.0](https://github.com/eclipse/che/releases/tag/6.5.0) |
+| 9-May-2018	| 29-May-2018	| 149   | [6.6.0](https://github.com/eclipse/che/releases/tag/6.6.0) |
+| 30-May-2018	| 19-Jun-2018	| **150** | [Sprint planning](https://github.com/eclipse/che/issues?utf8=%E2%9C%93&q=label%3Akind%2Fplanning+Sprint%3A+150)   |
+| 20-Jun-2018	| 10-Jul-2018	| 151	|  |
