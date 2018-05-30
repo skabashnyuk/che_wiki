@@ -5,6 +5,8 @@ Sprints are numbered. The current sprint is sprint #150, which started on 2018-0
 
 The epics and features that roll into a milestone are determined by pull request readiness of the feature at the time a milestone begins. In other words, we only place into a milestone features that are code complete and waiting for master-integration and testing.
 
+Full details of all of the work in a specific release is included in the [Changelog](https://github.com/eclipse/che/blob/master/CHANGELOG.md) file, which is updated after every release.
+
 # Current sprint planning
 
 At any time you can see what is being worked on:
