@@ -241,4 +241,5 @@ Go to the just created workspace. Make sure that language server has been initia
 * Add test cases with Formatting...
 * Hover feature ?
 * Testcases with sidecars - clarify what do we need ?
+
 **The plan is not complete and should be supplemented**
