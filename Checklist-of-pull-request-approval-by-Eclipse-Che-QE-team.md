@@ -18,4 +18,4 @@
 
    7.3 Command `ci-test-ocp-single` -> _Single-User Eclipse Che on OCP_ (hasn't been implemented yet https://github.com/eclipse/che/issues/9567)
 
-8. [List of features which are not covered by **E2E selenium tests**](https://github.com/eclipse/che/wiki/List-of-Eclipse-Che-6-features-which-haven't-been-covered-by-selenium-tests-yet).
+8. Actually, **E2E selenium tests** cover about 50% of functionality of Eclipse Che upstream. There is a [list of features which are not covered by **E2E selenium tests**](https://github.com/eclipse/che/wiki/List-of-Eclipse-Che-6-features-which-haven't-been-covered-by-selenium-tests-yet).
