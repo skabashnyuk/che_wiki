@@ -44,4 +44,4 @@
 |  Customizing yaml schema and interaction with YAML Language Server | P2 | |
 |  Contribute (just implemented feature) | P1 | |
 
-!!!Note: the document may be not completed. Potentially we can have some specific use cases which is not known QA team and should be completed.
+**!!!Note:** the document may be not completed. Potentially we can have some specific use cases which is not known QA team and should be completed.
