@@ -42,6 +42,6 @@
 |  Plugin list (looks like very low priority) | P2 |  |
 |  Maven checkbox Show artifact id in project explorer | P2 | |
 |  Customizing yaml schema and interaction with YAML Language Server | P2 | |
-|  Contribute (just implemented feature) | P1 | [#9852]
+|  Contribute (just implemented feature) | P1 | [#9852](https://github.com/eclipse/che/issues/9852) |
 
 **!!!Note:** the document may be not completed. Potentially we can have some specific use cases which is not known QA team and should be completed.
