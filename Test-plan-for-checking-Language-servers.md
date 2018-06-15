@@ -237,6 +237,56 @@ Go to the just created workspace. Make sure that language server has been initia
 * Go to the `<from uri="cxf:bean:reportIncident"/>` section of `the apache.xml file`. Change `<from uri="cxf:bean:reportIncident"/>`to` <from uri="tim"/>` and invoke `ctrl + Space`. Select `timer:timerName` from the proposal menu.  Check document docker window.  Make sure that content like:`The timer component is used for generating message exchanges when a timer fires.` is present. Paste the selected  content (`timer:timerName`) from codeassist. Type `?`. Invoke codeassistant again by `ctrl + Space`. Make sure that `fixedRate=false` fragment has been pasted properly. Type `&amp;`. Invoke codeassistant, select `exchangePattern`into proposal menu. Invoke ctrl + Space again. Paste `InOnly` param.
 
 7. **Golang language server:**
+* Create a workspace through **Dashboard** based on **Go** stack with **desktop-go-simple** project. Enable **Golang** language server by slider on **Dashboard** if it need.
+
+* Language server initialization:
+1. Open **main.go** file from **desktop-go-simple** project.
+2. Go to the dev-machine console and check `Finished language servers initialization, file path '/desktop-go-simple/main.go'` message.
+
+* Autocomplete feature
+1. Create a new line on line 10;
+2. Add `fmt.P` code and launch autocompletion by Ctrl+Space;
+3. Check that proposal `Printf`is present.
+
+* Code validation feature:
+1. Add an error in code and check that error marker is appeared. 
+2. Click on error marker - the proposal widget should be show invalid syntax message. 
+3. Restore content. The error marker should disappear. 
+
+* **Find Definition** feature:
+TODO
+
+* **Format** feature:
+1. Change content of **main.go** file to this:
+```go
+package 
+main
+
+import (
+
+	   "fmt"
+	"math"
+	
+)
+
+func    main(   ) {
+	   fmt.Printf("Hello, world. Sqrt(2) = %v\n",  math.Sqrt(2))
+}
+```
+2. Select **Format** option from context menu;
+3. Check that the file content is:
+```go
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func main() {
+	fmt.Printf("Hello, world. Sqrt(2) = %v\n", math.Sqrt(2))
+}
+```
 
 * Maven LS in progress ...
 * Add test cases with Formatting...
