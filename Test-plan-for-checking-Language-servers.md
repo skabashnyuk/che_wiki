@@ -290,7 +290,7 @@ func main() {
 
 * Maven LS in progress ...
 * Add test cases with Formatting...
-* Hover feature ?
+* Hover features (clarify hover in php,)
 * Testcases with sidecars - clarify what do we need ?
 
 **The plan is not complete and should be supplemented**
