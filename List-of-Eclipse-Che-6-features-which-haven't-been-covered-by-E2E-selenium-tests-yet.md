@@ -33,6 +33,7 @@
 |  Add to index by multi-select | P2 |  |
 |  Import a private repository | P2 | |
 |  Сonsuming a factories with commands | P2 | |
+|  Light theme| P2 | |
 
 ### Preferences
 |Feature|Priority|Link|
