@@ -56,28 +56,26 @@ var2 = myModule.add(100, 200)
 * **Format code feature:**
 * Create new python file for instance with name `format.py` and add simple content like:
 ```python
-from flask import Flask
-app = Flask(__name__)
+def towers(i, start, finish, middle):
+    if i > 0:
+        towers(i-1, start, middle, finish)
+        print('move disk from ', start, ' to ', finish)
+        towers  ( i-1, middle, finish, start   )
 
-@app.route("/")
-def hello():
-    return       "Hello World!"
-
-if __name__ ==      "__main__":
-    app.run                 (host='0.0.0.0', port=8080,  debug=True)
+towers  ( 5, 'X', 'Z', 'Y'      )
 ```
 *  Select **Format** option from context menu;
 * Check that the file content is: 
 ```python
-from flask import Flask
-app = Flask(__name__)
+def towers(i, start, finish, middle):
+    if i > 0:
+        towers(i-1, start, middle, finish)
+        print('move disk from ', start, ' to ', finish)
+        towers(i-1, middle, finish, start)
 
-@app.route("/")
-def hello():
-    return "Hello World!"
 
-if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8080,  debug=True)
+towers(5, 'X', 'Z', 'Y')
+
 ```
 3. **JSON language server:**
 * Create a workspace through Dashboard based on Default Node Stack. Enable JSON language server by slider on dashboard  if it need.
