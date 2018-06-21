@@ -22,7 +22,9 @@ function sayHello($name) {
 
 2. **Python language server:**
 * Create a workspace through Dashboard based on Default python stack. Enable language server by slider on dashboard  if it needed.
+* **Language server initialization:**
 * Go to a freshly created workspace and create _**console-python3.5-simple**_. Open the `main.py`file and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-04-24 13:24:49,159[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 216]  - Initialized language server 'org.eclipse.che.plugin.python.languageserver`
+* **Code validation feature:**
 * Add an error in the `print` command and check that error marker is appeared. Click on error marker - the proposal widget should be show `invalid syntax` message. Restore content. Error marker should disappear.
 type. Remove content from the file and paste code like:
 ```python 
@@ -35,8 +37,10 @@ class MyClass:
 ```
 
 Add empty line. Make sure that warning marker with message: `W293 blank line contains whitespace` is present
+* **Autocomplete feature:**
 * Add empty line again and type code fragment like `myobjectx = MyClass()`
 * Press enter and type `myobjectx.` than ctrl+space. Make sure that `function`, `var` and `variable` fields are available from the class in the proposal menu.
+* **Find definition feature:**
 * Create new python file for instance with name `myModule.py` and add simple content like:
 ```python
 def add(a, b):
