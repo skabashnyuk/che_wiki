@@ -49,6 +49,32 @@ var2 = myModule.add(100, 200)
 * Set cursor to `add` and invoke Assistant -> Find Definition. The `myModule.py` file should be opened and function `add` should be selected
 * Close the `myModule.py` file. And repeat previous step using F4 key instead of Assistant -> Find Definition invocation
 
+* **Format code feature:**
+* Create new python file for instance with name `format.py` and add simple content like:
+```python
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+    return       "Hello World!"
+
+if __name__ ==      "__main__":
+    app.run                 (host='0.0.0.0', port=8080,  debug=True)
+```
+*  Select **Format** option from context menu;
+* Check that the file content is: 
+```python
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+    return "Hello World!"
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=8080,  debug=True)
+```
 3. **JSON language server:**
 * Create a workspace through Dashboard based on Default Node Stack. Enable JSON language server by slider on dashboard  if it need.
 * Go to the just created workspace and create _**nodejs-hello-world**_. Open `package.json`file and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-04-23 13:00:27,948[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 109]  - Started language servers initialization, file path '/nodeJs/package.json'`
