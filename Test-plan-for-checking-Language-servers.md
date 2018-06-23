@@ -271,12 +271,12 @@ Go to the just created workspace. Make sure that language server has been initia
 1. Open **main.go** file from **desktop-go-simple** project.
 2. Go to the dev-machine console and check `Finished language servers initialization, file path '/desktop-go-simple/main.go'` message.
 
-* Autocomplete feature
+* **Autocomplete** feature
 1. Create a new line on line 10;
 2. Add `fmt.P` code and launch autocompletion by Ctrl+Space;
 3. Check that proposal `Printf`is present.
 
-* Code validation feature:
+* **Code validation** feature:
 1. Add an error in code and check that error marker is appeared. 
 2. Click on error marker - the proposal widget should be show invalid syntax message. 
 3. Restore content. The error marker should disappear. 
