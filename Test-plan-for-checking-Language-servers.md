@@ -1,3 +1,17 @@
+1. Overview
+
+|Name|Language Server Feature|Eclipse Che support|
+| ------------- | ------------- | ---------- |
+|C#|||
+|PHP|||
+|Python|||
+|Type script|||
+|Clang|||
+|Yaml|||
+|Camel|||
+|Golang|||
+
+
 1. **C# language server:**
 * Create a workspace through Dashboard based on Default Dot Net stack. Enable C# language server by slider on dashboard if it needed.
 * Go to freshly created workspace and create **dotnet-web-simple* project with wizard. 
@@ -24,6 +38,7 @@ Startup.checkMessage();
 * Set cursor on the `checkMessage` and invoke go to the definition by F4
 * Make sure that `Startup.cs` file is opened and cursor has been placed to `checkMessage`method.
 * Set cursor to `Build();` and invoke the go to the definition again. Make sure that `IWebHostBuilder` has been opened and cursor was set to the Build position (Clarify this usecase because this feature may be unavailable)
+
 2. **PHP language server:**
 * Create a workspace through Dashboard based on Default PHP stack. Enable PHP language server by slider on dashboard if needed.
 * Go to freshly created workspace and create **_web-php-simple_** project with wizard
