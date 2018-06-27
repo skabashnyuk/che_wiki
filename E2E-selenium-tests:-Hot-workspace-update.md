@@ -6,7 +6,7 @@ To deploy _Eclipse Che_ with **Rolling Update Strategy** we should pre-set syste
 export UPDATE_STRATEGY=Rolling
 ```
 
-##### Command to run Rolling Workspace Update E2E selenium tests:
+##### Command to run Rolling Workspace Update E2E selenium tests
 ```
 selenium-tests.sh --test=org.eclipse.che.selenium.hotupdate.rolling.**
 ```
@@ -22,7 +22,7 @@ To deploy _Eclipse Che_ with **Recreate Update Strategy** we should pre-set syst
 export UPDATE_STRATEGY=Recreate
 ```
 
-##### Command to run Recreate Workspace Update E2E selenium tests:
+##### Command to run Recreate Workspace Update E2E selenium tests
 ```
 selenium-tests.sh --test=org.eclipse.che.selenium.hotupdate.recreate.**
 ```
