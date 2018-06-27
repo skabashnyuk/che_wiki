@@ -19,3 +19,7 @@
    7.3 Command `ci-test-ocp-single` -> _Single-User Eclipse Che on OCP_ (hasn't been implemented yet https://github.com/eclipse/che/issues/9567)
 
 8. Actually, **E2E selenium tests** cover about 50% of functionality of Eclipse Che upstream. There is a [list of features which are not covered by **E2E selenium tests**](https://github.com/eclipse/che/wiki/List-of-Eclipse-Che-6-features-which-haven't-been-covered-by-selenium-tests-yet).
+
+9. There are some tests which require special configuration of product and doesn't run by **ci-test** commands:
+- [Hot workspace update E2E selenium tests](https://github.com/eclipse/che/wiki/Hot-workspace-update-E2E-selenium-tests)
+- [Creation of OpenShift objects under the current user account on OCP E2E selenium tests](https://github.com/eclipse/che/wiki/E2E-selenium-tests:-creation-of-OpenShift-objects-under-the-current-user-account-on-OCP)
