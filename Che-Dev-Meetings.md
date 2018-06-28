@@ -10,10 +10,20 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 Che maintainers moderate the calls. The schedule of moderators is in a [Google sheet](https://docs.google.com/spreadsheets/d/10iCqmk1eM216kQFIgLlOcTY1arbbRUrjzqsgQKlZ08g/edit#gid=0).
 ***
 
+# 9-JULY-2018
+## Agenda
+
+The next Che dev meeting will take place on Monday 9 July 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1a5qYDCMJBvAWrLdw_xzAIlv9VWeuMLKd2sLQfv4Uq2s/edit?usp=sharing)
+
 # 25-JUNE-2018
 ## Agenda
 
-The next Che dev meeting will take place on Monday 25 June 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1qrLyknhv9-1J7Oj5ZR74FrBiSWQipNRFayaYOSQ2xxo/edit#heading=h.o6hsjafth35v)
+
+1. Feedbacks from Eclipse Con France
+2. Telemetry, Monitoring and Logging in Eclipse Che
+3. Conferences for late October: Eclipse Con EU & Che/Theia day
+
+Minutes are in: [Google Doc](https://docs.google.com/document/d/1qrLyknhv9-1J7Oj5ZR74FrBiSWQipNRFayaYOSQ2xxo/edit#heading=h.o6hsjafth35v)
 
 # 11-JUNE-2018
 ## Agenda
