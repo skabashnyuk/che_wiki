@@ -362,5 +362,10 @@ func main() {
 * Add test cases with Formatting...
 * Hover features (clarify hover in php,)
 * Testcases with sidecars - clarify what do we need ?
+* Add next use cases to LS that can format selected text:
+    * there is no blank line in selected text
+    * there is a blank line in selected text
+    * there are several lines in selected text
+    * cursor position must be in the same place after formatting
 
 **The plan is not complete and should be supplemented**
