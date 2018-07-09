@@ -9,11 +9,18 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 ## Call Moderators
 Che maintainers moderate the calls. The schedule of moderators is in a [Google sheet](https://docs.google.com/spreadsheets/d/10iCqmk1eM216kQFIgLlOcTY1arbbRUrjzqsgQKlZ08g/edit#gid=0).
 ***
+# 16-JULY-2018
+
+The next Che dev meeting will take place on Monday 16 July 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1a5qYDCMJBvAWrLdw_xzAIlv9VWeuMLKd2sLQfv4Uq2s/edit?usp=sharing)
 
 # 9-JULY-2018
 ## Agenda
 
-The next Che dev meeting will take place on Monday 9 July 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1a5qYDCMJBvAWrLdw_xzAIlv9VWeuMLKd2sLQfv4Uq2s/edit?usp=sharing)
+1. Overview of Workspace.next
+2. Review of logging, tracing, analytics epics (deferred to next meeting)
+
+Minutes are in: [Google Doc](https://docs.google.com/document/d/19V5l8cVyhfDyhoaATIkLlt7NRbGIMS9dNgvotGMU0ys/edit)
+
 
 # 25-JUNE-2018
 ## Agenda
