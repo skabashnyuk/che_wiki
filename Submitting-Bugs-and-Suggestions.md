@@ -69,6 +69,8 @@ Workspace agent is a Tomcat server that starts in a container. WS-agent logs are
 
 #### How to get workspace agent logs?
 
+Workspace agent isn't the main process in a container so, you cannot get logs using infrastructure commands like `docker logs` or `oc/kubectl logs`. You can still find the logs though. 
+
 There's a button on the consoles panel that will download machine logs.
 
 ![Workspace Agent Logs](https://user-images.githubusercontent.com/5337267/42514683-ac1ecae4-8462-11e8-9b64-d4229bac1dae.png)
