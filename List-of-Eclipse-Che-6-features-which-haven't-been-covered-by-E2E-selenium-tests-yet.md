@@ -10,7 +10,7 @@
 |  Console/machine statements | P2 | |
 |  Consoles buttons and scroll | P2 | |
 |  Consoles selection test (we should clarify possibility of implementation) | P2 |  |
-|  Uploading key | P2 | |
+|  Uploading SSH key for GitHub | P2 | |
 |  Workspace status widget | P2 | |
 |  Show/hide toolbar. Toolbar commands cut/copy/delete | P2 | |
 |  Import from che config file (Project menu) | P2 |  |
