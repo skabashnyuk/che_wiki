@@ -1,4 +1,4 @@
-1. Overview
+### Overview
 
 |Name|Language Server Feature|Eclipse Che support|
 | ------------- | ------------- | ---------- |
@@ -12,7 +12,7 @@
 |Golang|||
 
 
-1. **C# language server:**
+### **C# language server:**
 * Create a workspace through Dashboard based on Default Dot Net stack. Enable C# language server by slider on dashboard if it needed.
 * Go to freshly created workspace and create **dotnet-web-simple* project with wizard. 
 * Open **Program.cs**. Make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-06-26 09:04:30,162[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 112]  - Started language servers initialization, file path '/dotnet/Program.cs'
@@ -39,7 +39,7 @@ Startup.checkMessage();
 * Make sure that `Startup.cs` file is opened and cursor has been placed to `checkMessage`method.
 * Set cursor to `Build();` and invoke the go to the definition again. Make sure that `IWebHostBuilder` has been opened and cursor was set to the Build position (Clarify this usecase because this feature may be unavailable)
 
-2. **PHP language server:**
+### **PHP language server:**
 * Create a workspace through Dashboard based on Default PHP stack. Enable PHP language server by slider on dashboard if needed.
 * Go to freshly created workspace and create **_web-php-simple_** project with wizard
 * Open **_index-php_** file and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-04-23 08:47:03,059[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 216]  - Initialized language server 'org.eclipse.che.plugin.php.languageserver'`
