@@ -8,7 +8,7 @@
 |Type script|||
 |Clang|||
 |Yaml|||
-|Camel|||
+|Camel| autocomplete, hover, diagnostic|autocomplete, hover|
 |Golang|||
 
 
