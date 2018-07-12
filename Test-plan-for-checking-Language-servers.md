@@ -12,7 +12,7 @@
 |Golang|||
 
 
-### **C# language server:**
+### C# language server
 * Create a workspace through Dashboard based on Default Dot Net stack. Enable C# language server by slider on dashboard if it needed.
 * Go to freshly created workspace and create **dotnet-web-simple* project with wizard. 
 * Open **Program.cs**. Make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-06-26 09:04:30,162[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 112]  - Started language servers initialization, file path '/dotnet/Program.cs'
