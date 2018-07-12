@@ -39,7 +39,7 @@ Startup.checkMessage();
 * Make sure that `Startup.cs` file is opened and cursor has been placed to `checkMessage`method.
 * Set cursor to `Build();` and invoke the go to the definition again. Make sure that `IWebHostBuilder` has been opened and cursor was set to the Build position (Clarify this usecase because this feature may be unavailable)
 
-### **PHP language server:**
+### PHP language server
 * Create a workspace through Dashboard based on Default PHP stack. Enable PHP language server by slider on dashboard if needed.
 * Go to freshly created workspace and create **_web-php-simple_** project with wizard
 * Open **_index-php_** file and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-04-23 08:47:03,059[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 216]  - Initialized language server 'org.eclipse.che.plugin.php.languageserver'`
@@ -60,7 +60,7 @@ function sayHello($name) {
 * Set cursor to `sayHello` and Assistant -> Find Definition. Make sure, that `lip.php` file is opened and function `sayHello`is selected.
 * Close the `lib.php` file and open `index.php`. Set cursor to `sayHello` and press F4, `lip.php` file should be opened and function `sayHello` should be selected.
 
-3. **Python language server:**
+### Python language server
 * Create a workspace through Dashboard based on Default python stack. Enable language server by slider on dashboard  if it needed.
 * **Language server initialization:**
 * Go to a freshly created workspace and create _**console-python3.5-simple**_. Open the `main.py`file and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-04-24 13:24:49,159[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 216]  - Initialized language server 'org.eclipse.che.plugin.python.languageserver`
@@ -117,7 +117,7 @@ def towers(i, start, finish, middle):
 towers(5, 'X', 'Z', 'Y')
 
 ```
-4. **JSON language server:**
+### JSON language server
 * Create a workspace through Dashboard based on Default Node Stack. Enable JSON language server by slider on dashboard  if it need.
 * Go to the just created workspace and create _**nodejs-hello-world**_. Open `package.json`file and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-04-23 13:00:27,948[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 109]  - Started language servers initialization, file path '/nodeJs/package.json'`
 * Remove `,` symbol after last brace 
@@ -135,7 +135,7 @@ Make sure that error marker appears. Click on the marker and check message like 
 Go to the line 9 and add fragment like: `"newObj":[1,2,3],`. Make sure that JSON does not have any errors.
 Add this object again and check error marker with **Duplicate object key** message.
 
-5. **Type script language server:**
+### Type script language server
 * Create a workspace through Dashboard based on Default Node Stack. Enable TypeScript language server by slider on dashboard  if it need.
 * Go to the just created workspace and create _**nodejs-hello-world**_. Create for example `greeter.ts` file and  add next content:
 ```typescript
@@ -192,7 +192,8 @@ print (setVAlue: string): void
 ```
 * Set cursor to `printVar.print`. And invoke Assistant -> Find Definition. Check opening the `printTest.ts` file. The `print` function should be selected.
 * Repeat previous step using F4 key instead of Assistant -> Find Definition invocation
-6. **Clang language server:**
+
+### Clang language server
 * Create a workspace through Dashboard based on Default C++ language server. Create the _**console-cpp-project**_ from the wizard. 
 * Open hello.cc file and make sure that  language server has been initialized. Go to the _**dev-machine**_ tab  and check that message like`2018-04-24 14:37:56,579[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 109]  - Started language servers initialization, file path '/cpp/hello.cc'` is present.
 Set cursor to the 7 line. Delete the line. Type `std::`. Make sure that error marker with `expected unqualified-id` message appears. 
@@ -230,7 +231,7 @@ int main()
 ```
 * Set cursor to `isEven` and invoke Assistant -> Find Definition. Check opening the `iseven.h` file. The `int isEven(int arg);` function should be selected.
 
-7. **Yaml language server:**
+### Yaml language server
 * Create a workspace through Dashboard based on Node. Go to the workspace. Profile -> Preferences. Set the YAMPL schema: Select `Yaml`->Add Schema URl button -> type kubernetes.
 * Create the **blank** project from the wizard. 
 * Create for example openshift.yaml project file. Make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `[INFO ] [.a.l.LanguageServerInitializer 109]  - Started language servers initialization, file path '/yaml/openshift.yaml'`
@@ -239,7 +240,8 @@ int main()
 * Go to the new line type api, launch authocomplete,make sure that `apiVersion` has been pased. Type `: `launch authocomplete, `v1` value should be added.
 * Go to the new line type `me`. Launch authocomplete. `metadata` should be pasted. Type `: `.  Launch authocomplete.
 * Go to the beginning string and add some tabs. The error marker should appear. Remove the tabs. The YAML should be valid again
-8. **Camel language server:**
+
+### Camel language server
 * Create a workspace through Dashboard based on Default Java stack. Enable `Apache Camel` language server by slider on dashboard if needed.
 Go to the just created workspace. Make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `Initialized Language Server org.eclipse.che.plugin.camel.server.languageserver on project file:/...` Create for example empty project and add the file: `camel.xml`. Add content into the file like this:
 ```xml
@@ -308,7 +310,7 @@ Go to the just created workspace. Make sure that language server has been initia
 * Type `?`. Invoke codeassistant again by `ctrl + Space`. Make sure that `fixedRate=false` fragment has been pasted properly. 
 * Type `&amp;`. Invoke codeassistant, select `exchangePattern`into proposal menu. Invoke ctrl + Space again. Paste `InOnly` param.
 
-9. **Golang language server:**
+### Golang language server
 * Create a workspace through **Dashboard** based on **Go** stack with **desktop-go-simple** project. Enable **Golang** language server by slider on **Dashboard** if it need.
 
 * Language server initialization:
