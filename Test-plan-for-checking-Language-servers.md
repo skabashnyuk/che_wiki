@@ -5,6 +5,7 @@
 |C#|||
 |PHP|||
 |Python|||
+|JSON|code validation|code validation|
 |Type script|||
 |Clang|||
 |Yaml|||
