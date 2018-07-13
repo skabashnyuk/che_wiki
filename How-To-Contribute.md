@@ -5,7 +5,7 @@ There are many ways to contribute to an open source project. Many people start w
 #### Report Bugs
 * Check if the bug is [already known](https://github.com/eclipse/che/labels/kind%2Fbug).
 * If it's known and you have additional information or logs that will help add those to the bug.
-* If it's not known [file the bug](https://github.com/eclipse/che/wiki/Submitting-Bugs-and-Suggestions). Please add all the requested information from the issue template...it helps speed resolution.
+* If it's not known [file the bug](https://github.com/eclipse/che/wiki/Submitting-Bugs-and-Suggestions). Please add all the requested information from the issue template and [logs](https://github.com/eclipse/che/wiki/Submitting-Bugs-and-Suggestions#logs-and-debug-information)...it helps speed resolution.
 
 #### File Enhancements
 * Check if the enhancement [already exists](https://github.com/eclipse/che/labels/kind%2Fenhancement).
