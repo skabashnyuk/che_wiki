@@ -12,3 +12,6 @@ selenium-tests.sh --test=org.eclipse.che.selenium.site.ocpoauth.**
 
 ##### CI job which is executing the tests daily
 https://ci.codenvycorp.com/view/qa/job/che-multiuser-master-ocp-oauth-test/
+
+#### Reference
+https://www.eclipse.org/che/docs/openshift-admin-guide.html#create-workspace-objects-in-personal-namespaces
