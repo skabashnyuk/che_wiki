@@ -1,4 +1,4 @@
-##### Command to run E2E selenium tests of creation of workspaces from the stacks within Eclipse Che Dashboard
+##### Command to run E2E selenium tests of creation of workspaces from the stacks from within Eclipse Che Dashboard
 ```
 selenium-tests.sh --test=org.eclipse.che.selenium.stack.**
 ```
