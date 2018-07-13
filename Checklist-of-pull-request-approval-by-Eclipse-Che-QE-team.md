@@ -20,6 +20,7 @@
 
 8. Actually, **E2E selenium tests** cover about 50% of functionality of Eclipse Che upstream. There is a [list of features which are not covered by **E2E selenium tests**](https://github.com/eclipse/che/wiki/List-of-Eclipse-Che-6-features-which-haven't-been-covered-by-selenium-tests-yet).
 
-9. There are some tests which require special configuration of product and don't run by **ci-test** commands on _Pull Requests_:
+9. There are some tests which require special configuration of product, or are executing to long, and so don't run by **ci-test** commands on _Pull Requests_:
 - [Hot workspace update E2E selenium tests](https://github.com/eclipse/che/wiki/E2E-selenium-tests:-Hot-workspace-update)
 - [Creation of OpenShift objects under the current user account on OCP E2E selenium tests](https://github.com/eclipse/che/wiki/E2E-selenium-tests:-creation-of-OpenShift-objects-under-the-current-user-account-on-OCP)
+- [Creation of workspaces from stacks from within Eclipse Che Dashboard](https://github.com/eclipse/che/wiki/E2E-selenium-tests:-creation-of-workspaces-from-stacks).
