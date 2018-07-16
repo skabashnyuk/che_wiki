@@ -5,7 +5,7 @@
 |C#|||
 |PHP|||
 |Python|||
-|JSON|code validation|code validation|
+|JSON|code validation, hover|code validation, hover|
 |Type script|||
 |Clang|||
 |Yaml|||
