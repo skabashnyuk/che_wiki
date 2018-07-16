@@ -133,5 +133,7 @@ Eclipse Che has gained a great deal of interest in large enterprises who are mov
 | 28-Mar-2018	| 17-Apr-2018	| 147	| [6.4.0](https://github.com/eclipse/che/releases/tag/6.4.0) |
 | 18-Apr-2018	| 8-May-2018	| 148	| [6.5.0](https://github.com/eclipse/che/releases/tag/6.5.0) |
 | 9-May-2018	| 29-May-2018	| 149   | [6.6.0](https://github.com/eclipse/che/releases/tag/6.6.0) |
-| 30-May-2018	| 19-Jun-2018	| **150** | [Sprint planning](https://github.com/eclipse/che/issues?utf8=%E2%9C%93&q=label%3Akind%2Fplanning+Sprint%3A+150)   |
-| 20-Jun-2018	| 10-Jul-2018	| 151	|  |
+| 30-May-2018	| 19-Jun-2018	| 150 | [6.7.0](https://github.com/eclipse/che/releases/tag/6.7.0) |  |
+| 20-Jun-2018	| 10-Jul-2018	| 151	| [6.8.0](https://github.com/eclipse/che/releases/tag/6.8.0) |
+| 11-Jul-2018	| 31-Jul-2018	| **152** |  [Sprint planning](https://github.com/eclipse/che/issues?utf8=%E2%9C%93&q=label%3Akind%2Fplanning+Sprint%3A+152)  |
+| 1-Aug-2018	| 20-Aug-2018	| 153 |  |
