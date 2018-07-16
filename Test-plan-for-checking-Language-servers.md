@@ -132,9 +132,11 @@ towers(5, 'X', 'Z', 'Y')
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 ``` 
-Make sure that error marker appears. Click on the marker and check message like `Expected '(end)' and instead saw ':'.`in the proposal window. Return the just deleted coma and wait disappearance the marker. 
-Go to the line 9 and add fragment like: `"newObj":[1,2,3],`. Make sure that JSON does not have any errors.
-Add this object again and check error marker with **Duplicate object key** message.
+Make sure that error marker appears. Click on the marker and check message like `Expected '(end)' and instead saw ':'.`in the proposal window. 
+* Hover mouse on "author" text and wait for hover popup with "Expected comma or closing brace" text. Return the just deleted coma and wait disappearance the marker. 
+* Go to the line 9 and add fragment like: `"newObj":[1,2,3],`. Make sure that JSON does not have any errors.
+* Add this object again and check error marker with **Duplicate object key** message.
+* Go to the line 6 and press ENTER. Add `"newObj":[1,2,3],` object and check there is not any errors.
 
 ### Type script language server
 * Create a workspace through Dashboard based on Default Node Stack. Enable TypeScript language server by slider on dashboard  if it need.
