@@ -243,6 +243,8 @@ int main()
 * Go to the new line type api, launch autocomplete,make sure that `apiVersion:` has been passed. Launch autocomplete, `v1` value should be added.
 * Go to the new line type `me`. Launch autocomplete and check `metadata:` should be added. 
 * Go to the beginning string and launch autocomplete. The error marker should appear. Remove the tabs. The YAML should be valid again.
+* Move mouse pointer on 'kind:' text, wait hover popup and check "Kind is a string value representing the REST resource this object represents." message in it.
+* Move mouse pointer on 'apiVersion:' text, wait hover popup and check "APIVersion defines the versioned schema of this representation of an object." message in it.
 
 ### Camel language server
 * Create a workspace through Dashboard based on Default Java stack. Enable `Apache Camel` language server by slider on dashboard if needed.
