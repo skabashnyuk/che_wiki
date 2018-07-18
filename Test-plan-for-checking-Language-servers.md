@@ -8,7 +8,7 @@
 |JSON|code validation |code validation |
 |Type script|||
 |Clang|||
-|Yaml|||
+|Yaml|autocomplete, hover, code validation||
 |Camel| autocomplete, hover, diagnostic|autocomplete, hover|
 |Golang|||
 
