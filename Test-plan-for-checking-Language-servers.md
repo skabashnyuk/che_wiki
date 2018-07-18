@@ -2,15 +2,15 @@
 
 |Name|Language Server Feature|Eclipse Che support|
 | ------------- | ------------- | ---------- |
-|C#|||
-|PHP|||
-|Python|||
+|C#|autocomplete, hover, code validation, find definition|autocomplete, code validation|
+|PHP|autocomplete, hover, code validation, find definition|autocomplete, code validation, find definition|
+|Python|autocomplete, hover, code validation, find definition, format|autocomplete, code validation, find definition, format|
 |JSON|code validation |code validation |
-|Type script|||
-|Clang|||
+|Type script|autocomplete, hover, code validation, find definition|autocomplete, code validation, find definition|
+|Clang|autocomplete, code validation, find definition, format|autocomplete, code validation, find definition, format|
 |Yaml|autocomplete, hover, code validation||
 |Camel| autocomplete, hover, diagnostic|autocomplete, hover|
-|Golang|||
+|Golang|autocomplete, hover, code validation, find definition, format||
 
 
 ### C# language server
