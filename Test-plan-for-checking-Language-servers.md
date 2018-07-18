@@ -238,11 +238,11 @@ int main()
 * Create a workspace through Dashboard based on Node. Go to the workspace. Profile -> Preferences. Set the YAMPL schema: Select `Yaml`->Add Schema URl button -> type kubernetes.
 * Create the **blank** project from the wizard. 
 * Create for example openshift.yaml project file. Make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `[INFO ] [.a.l.LanguageServerInitializer 109]  - Started language servers initialization, file path '/yaml/openshift.yaml'`
-* Type `k` and launch authocomplete (Ctrl+Space). Make sure that kind value is present in the proposal widget, check document window with content: `Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: http://releases.k8s.io/HEAD/docs/devel/api-conventions.md#types-kinds`. Enter this value.
-*Type: and launch authocomplete, select `PersistentVolume`. Make sure that there is no errors.
-* Go to the new line type api, launch authocomplete,make sure that `apiVersion` has been pased. Type `: `launch authocomplete, `v1` value should be added.
-* Go to the new line type `me`. Launch authocomplete. `metadata` should be pasted. Type `: `.  Launch authocomplete.
-* Go to the beginning string and add some tabs. The error marker should appear. Remove the tabs. The YAML should be valid again
+* Launch autocomplete (Ctrl+Space). Make sure that kind value is present in the proposal widget, check document window with content: `Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: http://releases.k8s.io/HEAD/docs/devel/api-conventions.md#types-kinds`. Enter this value.
+* Launch autocomplete, select `PersistentVolume`. Make sure that there is no errors.
+* Go to the new line type api, launch autocomplete,make sure that `apiVersion:` has been passed. Launch autocomplete, `v1` value should be added.
+* Go to the new line type `me`. Launch autocomplete and check `metadata:` should be added. 
+* Go to the beginning string and launch autocomplete. The error marker should appear. Remove the tabs. The YAML should be valid again.
 
 ### Camel language server
 * Create a workspace through Dashboard based on Default Java stack. Enable `Apache Camel` language server by slider on dashboard if needed.
