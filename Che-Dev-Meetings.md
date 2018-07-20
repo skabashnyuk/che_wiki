@@ -9,9 +9,19 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 ## Call Moderators
 Che maintainers moderate the calls. The schedule of moderators is in a [Google sheet](https://docs.google.com/spreadsheets/d/10iCqmk1eM216kQFIgLlOcTY1arbbRUrjzqsgQKlZ08g/edit#gid=0).
 ***
-# 16-JULY-2018
+# 6-AUG-2018
 
-The next Che dev meeting will take place on Monday 16 July 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1a5qYDCMJBvAWrLdw_xzAIlv9VWeuMLKd2sLQfv4Uq2s/edit?usp=sharing)
+The next Che dev meeting will take place on Monday 6 August 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1F33n2pQyJHyu9jcVXjXCFqworNg3gpvmhco0ULwloDE/edit#heading=h.2baooh7o19a8)
+
+
+# 16-JULY-2018
+## Agenda
+Dedicated session to:
+- Log - https://github.com/eclipse/che/issues/10290  
+- Trace - https://github.com/eclipse/che/issues/10298  
+- Monitor - https://github.com/eclipse/che/issues/10329 
+
+Minutes are in: [Google Doc](https://docs.google.com/document/d/1a5qYDCMJBvAWrLdw_xzAIlv9VWeuMLKd2sLQfv4Uq2s/edit?usp=sharing)
 
 # 9-JULY-2018
 ## Agenda
