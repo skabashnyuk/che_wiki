@@ -332,11 +332,8 @@ Go to the just created workspace. Make sure that language server has been initia
 2. Click on error marker - the proposal widget should be show invalid syntax message. 
 3. Restore content. The error marker should disappear. 
 
-* **Find Definition** feature:
-TODO
-
 * **Format** feature:
-1. Change content of **main.go** file to this:
+1. Create a new go file with **print.go** name and add next content:
 ```go
 package
  main
@@ -373,6 +370,36 @@ const COLOR_BLACK = "\x1b[34;1m "
 func Print(color string, s string) {
 	fmt.Printf("%s %s\n", color, s)
 }
+```
+* **Find Definition** feature:
+1. Create a new **go** file with "towers.go" name and add next content to it:
+```go
+package main
+
+import (
+	"fmt"
+)
+
+var count int
+
+func hanoi(n int, a, b, c string) {
+	if n == 1 {
+		count++
+		Print(COLOR_GREEN, fmt.Sprintf("Step %d: move disk from %s to %s\n", count, a, c))
+		return
+	}
+
+	hanoi(n-1, a, c, b)
+	count++
+	Print(COLOR_YELLOW, fmt.Sprintf("Step %d: move disk from %s to %s\n", count, a, c))
+	hanoi(n-1, b, a, c)
+}
+
+func main() {
+	hanoi(3, "1", "2", "3")
+}
+2. Set cursor on Print method and press F4 button.
+3. Check that "print.go" file is opened and cursor is on correct position.
 ```
 
 * Maven LS in progress ...
