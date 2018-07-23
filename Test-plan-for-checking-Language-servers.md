@@ -333,7 +333,7 @@ Go to the just created workspace. Make sure that language server has been initia
 3. Restore content. The error marker should disappear. 
 
 * **Format** feature:
-1. Create a new go file with **print.go** name and add next content:
+1. Create a new **print.go** file and add next content:
 ```go
 package
  main
@@ -398,9 +398,9 @@ func hanoi(n int, a, b, c string) {
 func main() {
 	hanoi(3, "1", "2", "3")
 }
+```
 2. Set cursor on Print method and press F4 button.
 3. Check that "print.go" file is opened and cursor is on correct position.
-```
 
 * Maven LS in progress ...
 * Add test cases with Formatting...
