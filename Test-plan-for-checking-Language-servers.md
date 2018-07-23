@@ -333,7 +333,7 @@ Go to the just created workspace. Make sure that language server has been initia
 3. Restore content. The error marker should disappear. 
 
 * **Format** feature:
-1. Create a new **print.go** file and add next content:
+1. Create **print.go** file and add next content:
 ```go
 package
  main
@@ -372,7 +372,7 @@ func Print(color string, s string) {
 }
 ```
 * **Find Definition** feature:
-1. Create a new **go** file with "towers.go" name and add next content to it:
+1. Create "towers.go" file and add next content to it:
 ```go
 package main
 
