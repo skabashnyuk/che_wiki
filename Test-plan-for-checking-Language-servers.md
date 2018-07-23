@@ -401,7 +401,7 @@ func main() {
 }
 ```
 2. Set cursor to `Print` and invoke Assistant -> Find Definition. The "print.go" file should be opened and function `Print` should be selected
-3 Close the `print.go` file. And repeat previous step using F4 key instead of Assistant -> Find Definition invocation
+3. Close the `print.go` file. And repeat previous step using F4 key instead of Assistant -> Find Definition invocation
 
 * Maven LS in progress ...
 * Add test cases with Formatting...
