@@ -21,7 +21,7 @@ Dedicated session to:
 - Trace - https://github.com/eclipse/che/issues/10298  
 - Monitor - https://github.com/eclipse/che/issues/10329 
 
-Minutes are in: [Google Doc](https://docs.google.com/document/d/1a5qYDCMJBvAWrLdw_xzAIlv9VWeuMLKd2sLQfv4Uq2s/edit?usp=sharing)
+Minutes are in: [Google Doc](https://docs.google.com/document/d/1yF6DjW6chfuit-oHZmrGqvv2-1Y2tSN1j4YLhQPgVCM/edit#)
 
 # 9-JULY-2018
 ## Agenda
