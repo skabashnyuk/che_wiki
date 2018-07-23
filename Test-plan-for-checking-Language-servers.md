@@ -331,6 +331,7 @@ Go to the just created workspace. Make sure that language server has been initia
 1. Add an error in code and check that error marker is appeared. 
 2. Click on error marker - the proposal widget should be show invalid syntax message. 
 3. Restore content. The error marker should disappear. 
+4. Add a new variable and check error marker with " declared and not used" message
 
 * **Format** feature:
 1. Create **print.go** file and add next content:
@@ -399,8 +400,8 @@ func main() {
 	hanoi(3, "1", "2", "3")
 }
 ```
-2. Set cursor on Print method and press F4 button.
-3. Check that "print.go" file is opened and cursor is on correct position.
+2. Set cursor to `Print` and invoke Assistant -> Find Definition. The "print.go" file should be opened and function `Print` should be selected
+3 Close the `print.go` file. And repeat previous step using F4 key instead of Assistant -> Find Definition invocation
 
 * Maven LS in progress ...
 * Add test cases with Formatting...
