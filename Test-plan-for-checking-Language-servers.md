@@ -338,18 +338,22 @@ TODO
 * **Format** feature:
 1. Change content of **main.go** file to this:
 ```go
-package 
-main
+package
+ main
 
 import (
 
-	   "fmt"
-	"math"
-	
+
+	       "fmt"
 )
 
-func    main(   ) {
-	   fmt.Printf("Hello, world. Sqrt(2) = %v\n",  math.Sqrt(2))
+                const COLOR_RED = "\x1b[31;1m "
+            const COLOR_GREEN = "\x1b[32;1m "
+        const COLOR_YELLOW = "\x1b[33;1m "
+    const COLOR_BLACK = "\x1b[34;1m "
+
+func        Print(color string, s string) {
+	fmt.Printf("%s %s\n",                      color,s)
 }
 ```
 2. Select **Format** option from context menu;
@@ -359,11 +363,15 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
-func print() {
-	fmt.Printf("Hello, world. Sqrt(2) = %v\n", math.Sqrt(2))
+const COLOR_RED = "\x1b[31;1m "
+const COLOR_GREEN = "\x1b[32;1m "
+const COLOR_YELLOW = "\x1b[33;1m "
+const COLOR_BLACK = "\x1b[34;1m "
+
+func Print(color string, s string) {
+	fmt.Printf("%s %s\n", color, s)
 }
 ```
 
