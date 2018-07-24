@@ -32,6 +32,8 @@
 |  Import a private repository | P2 | |
 |  Сonsuming a factories with commands | P2 | |
 |  Light theme| P2 | |
+|  Law disk space. More info: https://github.com/eclipse/che/issues/10522| P2 | |
+
 
 ### Preferences
 |Feature|Priority|Link|
