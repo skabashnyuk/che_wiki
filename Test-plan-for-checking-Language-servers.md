@@ -2,7 +2,7 @@
 
 |Name|Language Server Feature|Eclipse Che support|
 | ------------- | ------------- | ---------- |
-|C#|autocomplete, hover, code validation, find definition|autocomplete, code validation|
+|C#|autocomplete, hover, code validation, find definition, code comment|autocomplete, code validation|
 |PHP|autocomplete, hover, code validation, find definition|autocomplete, code validation, find definition|
 |Python|autocomplete, hover, code validation, find definition, format|autocomplete, code validation, find definition, format|
 |JSON|code validation |code validation |
