@@ -235,16 +235,26 @@ int main()
 * Set cursor to `isEven` and invoke Assistant -> Find Definition. Check opening the `iseven.h` file. The `int isEven(int arg);` function should be selected.
 
 ### Yaml language server
-* Create a workspace through Dashboard based on Node. Go to the workspace. Profile -> Preferences. Set the YAMPL schema: Select `Yaml`->Add Schema URl button -> type kubernetes.
-* Create the **blank** project from the wizard. 
-* Create for example openshift.yaml project file. Make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `[INFO ] [.a.l.LanguageServerInitializer 109]  - Started language servers initialization, file path '/yaml/openshift.yaml'`
-* Launch autocomplete (Ctrl+Space). Make sure that kind value is present in the proposal widget, check document window with content: `Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: http://releases.k8s.io/HEAD/docs/devel/api-conventions.md#types-kinds`. Enter this value.
-* Launch autocomplete, select `PersistentVolume`. Make sure that there is no errors.
-* Go to the new line type api, launch autocomplete,make sure that `apiVersion:` has been passed. Launch autocomplete, `v1` value should be added.
-* Go to the new line type `me`. Launch autocomplete and check `metadata:` should be added. 
-* Go to the beginning string and launch autocomplete. The error marker should appear. Remove the tabs. The YAML should be valid again.
-* Move mouse pointer on 'kind:' text, wait hover popup and check "Kind is a string value representing the REST resource this object represents." message in it.
-* Move mouse pointer on 'apiVersion:' text, wait hover popup and check "APIVersion defines the versioned schema of this representation of an object." message in it.
+* **Language server initialization:**
+1. Create a workspace through Dashboard based on Node. Go to the workspace. Profile -> Preferences. Set the YAMPL schema: Select `Yaml`->Add Schema URl button -> type kubernetes.
+2. Create the **blank** project from the wizard. 
+3. Create for example openshift.yaml project file. Make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `[INFO ] [.a.l.LanguageServerInitializer 109]  - Started language servers initialization, file path '/yaml/openshift.yaml'`
+
+* **Autocomplete** feature:
+1. In the opened file launch autocomplete (Ctrl+Space). Make sure that kind value is present in the proposal widget, check document window with content: `Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: http://releases.k8s.io/HEAD/docs/devel/api-conventions.md#types-kinds`. Enter this value.
+2. Launch autocomplete, select `PersistentVolume`. Make sure that there is no errors.
+3. Go to the new line type api, launch autocomplete,make sure that `apiVersion:` has been passed. Launch autocomplete, `v1` value should be added.
+4. Go to the new line type `me`. Launch autocomplete and check `metadata:` should be added. 
+5. Go to the beginning string and launch autocomplete. The error marker should appear. Remove the tabs. The YAML should be valid again.
+
+* **Hover feature:**
+1. Move mouse pointer on 'kind:' text, wait hover popup and check "Kind is a string value representing the REST resource this object represents." message in it.
+2. Move mouse pointer on 'apiVersion:' text, wait hover popup and check "APIVersion defines the versioned schema of this representation of an object." message in it.
+
+* **Comment code feature:**
+1. Select any line of code.
+2. Comment this line by Ctrl+'/' buttons and check that the line is commented.
+3. Launch comment feature again and check that the line uncommented.
 
 ### Camel language server
 * Create a workspace through Dashboard based on Default Java stack. Enable `Apache Camel` language server by slider on dashboard if needed.
