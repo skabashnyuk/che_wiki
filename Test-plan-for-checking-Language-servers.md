@@ -256,6 +256,11 @@ int main()
 2. Comment this line by Ctrl+'/' buttons and check that the line is commented.
 3. Launch comment feature again and check that the line uncommented.
 
+* **Code validation feature:**
+1. Add 'k' symbol to 1,1 position and checkcheck that error marker is appeared. 
+2. Click on error marker and check 'Unexpected property kkind' message.
+3. Restore content. Error marker should disappear. 
+
 ### Camel language server
 * Create a workspace through Dashboard based on Default Java stack. Enable `Apache Camel` language server by slider on dashboard if needed.
 Go to the just created workspace. Make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `Initialized Language Server org.eclipse.che.plugin.camel.server.languageserver on project file:/...` Create for example empty project and add the file: `camel.xml`. Add content into the file like this:
