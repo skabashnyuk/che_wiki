@@ -248,17 +248,17 @@ int main()
 5. Go to the beginning string and launch autocomplete. The error marker should appear. Remove the tabs. The YAML should be valid again.
 
 * **Hover feature:**
-1. Move mouse pointer on 'kind:' text, wait hover popup and check "Kind is a string value representing the REST resource this object represents." message in it.
-2. Move mouse pointer on 'apiVersion:' text, wait hover popup and check "APIVersion defines the versioned schema of this representation of an object." message in it.
+1. Move mouse pointer on **'kind:'** text, wait hover popup and check **"Kind is a string value representing the REST resource this object represents."** message in it.
+2. Move mouse pointer on **'apiVersion:'** text, wait hover popup and check **"APIVersion defines the versioned schema of this representation of an object."** message in it.
 
 * **Comment code feature:**
 1. Select any line of code.
-2. Comment this line by Ctrl+'/' buttons and check that the line is commented.
+2. Comment this line by **Ctrl**+**'/'** buttons and check that the line is commented.
 3. Launch comment feature again and check that the line uncommented.
 
 * **Code validation feature:**
-1. Add 'k' symbol to 1,1 position and checkcheck that error marker is appeared. 
-2. Click on error marker and check 'Unexpected property kkind' message.
+1. Add **'k'** symbol to 1,1 position and check that error marker is appeared. 
+2. Click on error marker and check **'Unexpected property kkind'** message.
 3. Restore content. Error marker should disappear. 
 
 ### Camel language server
