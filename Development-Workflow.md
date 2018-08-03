@@ -5,6 +5,7 @@ The best way to understand how a project works or to debug an issue is to get th
 * Docker 1.8+
 * Maven 3.3.1+
 * Oracle or OpenJDK Java 1.8
+* Go 1.6.3
 
 The M2_HOME and M2 variables should be set correctly. OpenJDK Java 1.8 on Debian/Ubuntu linux requires "openjdk-8-jdk-headless" package. 
 
