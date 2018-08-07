@@ -2,15 +2,15 @@
 
 |Name|Language Server Feature|Eclipse Che support|
 | ------------- | ------------- | ---------- |
-|C#|autocomplete, hover, code validation, find definition, code comment, rename|autocomplete, code validation|
-|PHP|autocomplete, hover, code validation, find definition|autocomplete, code validation, find definition|
-|Python|autocomplete, hover, code validation, find definition, format, rename|autocomplete, code validation, find definition, format|
-|JSON|code validation |code validation |
-|Type script|autocomplete, hover, code validation, find definition, rename|autocomplete, code validation, find definition|
-|Clang|autocomplete, code validation, find definition, format, rename|autocomplete, code validation, find definition, format|
+|C#|autocomplete, find definition, code validation, code comment, rename, hover|autocomplete, code validation|
+|PHP|autocomplete, find definition, code validation, code comment, rename, hover|autocomplete, code validation, find definition|
+|Python|autocomplete, find definition, code validation, format, format selected code, code comment, rename, hover|autocomplete, code validation, find definition, format|
+|JSON|code validation|code validation |
+|Type script|autocomplete, find definition, code validation, format, code comment, rename|autocomplete, code validation, find definition|
+|Clang|autocomplete, find definition, code validation, format, format selected code, code comment, rename|autocomplete, code validation, find definition, format|
 |Yaml|autocomplete, hover, code validation, code comment|autocomplete, hover, code validation, code comment|
 |Camel| autocomplete, hover, diagnostic|autocomplete, hover|
-|Golang|autocomplete, hover, code validation, find definition, format, rename||
+|Golang|autocomplete, find definition, code validation, format, code comment, rename, hover|autocomplete, find definition, code validation, format, hover|
 
 
 ### C# language server
