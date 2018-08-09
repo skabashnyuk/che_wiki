@@ -2,15 +2,15 @@
 
 |Name|Language Server Feature|Eclipse Che support|
 | ------------- | ------------- | ---------- |
-|C#|autocomplete, find definition, code validation, code comment, rename, hover|autocomplete, code validation|
+|C#|autocomplete, find definition, code validation, code comment, rename, hover, signature help, go to symbol|autocomplete, code validation|
 |PHP|autocomplete, find definition, code validation, code comment, rename, hover|autocomplete, code validation, find definition|
-|Python|autocomplete, find definition, code validation, format, format selected code, code comment, rename, hover|autocomplete, code validation, find definition, format|
-|JSON|code validation|code validation |
-|Type script|autocomplete, find definition, code validation, format, code comment, rename|autocomplete, code validation, find definition|
-|Clang|autocomplete, find definition, code validation, format, format selected code, code comment, rename|autocomplete, code validation, find definition, format|
-|Yaml|autocomplete, hover, code validation, code comment|autocomplete, hover, code validation, code comment|
-|Camel| autocomplete, hover, diagnostic|autocomplete, hover|
-|Golang|autocomplete, find definition, code validation, format, code comment, rename, hover|autocomplete, find definition, code validation, format, hover|
+|Python|autocomplete, find definition, code validation, format, format selected code, code comment, rename, hover, find references, signature help, go to symbol|autocomplete, code validation, find definition, format|
+|JSON|code validation, go to symbol, hover(?)|code validation |
+|Type script|autocomplete, find definition, code validation, format, code comment, rename, find references, signature help, go to symbol|autocomplete, code validation, find definition|
+|Clang|autocomplete, find definition, code validation, format, format selected code, code comment, rename, signature help|autocomplete, code validation, find definition, format|
+|Yaml|autocomplete, hover, code validation, code comment, go to symbol|autocomplete, hover, code validation, code comment|
+|Camel| autocomplete, hover, diagnostic, go to symbol|autocomplete, hover|
+|Golang|autocomplete, find definition, code validation, format, code comment, rename, hover, find references, signature help, go to symbol, find project symbol|autocomplete, find definition, code validation, format, hover|
 
 
 ### C# language server
