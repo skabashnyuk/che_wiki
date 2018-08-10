@@ -9,12 +9,23 @@ The version of this image consists of two parts:
 - second one - the Che version itself (ex. `eclipse/che-theia:0.3.10-nightly`, `eclipse/che-theia:0.3.10-6.7.0`, [etc](https://hub.docker.com/r/eclipse/che-theia/tags/)) 
  
 
+### How to update Theia version, used in the image?
+
+You need to change the value of argument `THEIA_VERSION` in [Dockerfile](https://github.com/eclipse/che/blob/master/dockerfiles/theia/Dockerfile).
+
 ### How to build Che Theia image with my own changes?
 
 The sources of eclipse/che-theia is located [here](https://github.com/eclipse/che/tree/master/dockerfiles/theia).
+After the changes are made, you need to rebuild the image with the following command:
+using build script:
+```
+./build.sh --build-args:GITHUB_TOKEN=$GITHUB_TOKEN,THEIA_VERSION=0.3.13 --tag:0.3.13-nightly
+```
+or using docker:
 
-
-
+```
+docker build -t eclipse/che-theia:0.3.13-nightly --build-arg GITHUB_TOKEN={your token} --build-arg THEIA_VERSION=0.3.13 .
+```
 ### How to create workspace with Theia IDE?
 
 ### How to add existing extension to Theia IDE?
