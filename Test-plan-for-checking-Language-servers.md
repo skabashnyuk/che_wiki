@@ -1,6 +1,6 @@
 ### Overview
 
-|Name|Language Server Feature|Eclipse Che support|
+|Name|Language Server Features supported by Eclipse Che|Features covered by selenium tests|
 | ------------- | ------------- | ---------- |
 |C#|autocomplete, find definition, code validation, code comment, rename, hover, signature help, go to symbol|autocomplete, code validation|
 |PHP|autocomplete, find definition, code validation, code comment, rename, hover|autocomplete, code validation, find definition|
