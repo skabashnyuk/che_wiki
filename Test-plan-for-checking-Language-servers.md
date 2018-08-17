@@ -5,7 +5,7 @@
 |C#|autocomplete, find definition, code validation, code comment, rename, hover, signature help, go to symbol|autocomplete, code validation|
 |PHP|autocomplete, find definition, code validation, code comment, rename, hover|autocomplete, code validation, find definition|
 |Python|autocomplete, find definition, code validation, format, format selected code, code comment, rename, hover, find references, signature help, go to symbol|autocomplete, code validation, find definition, format|
-|JSON|autocomplete, code validation, go to symbol, hover(?)|code validation |
+|JSON|autocomplete, code validation, go to symbol, hover|code validation |
 |Type script|autocomplete, find definition, code validation, format, code comment, rename, find references, signature help, go to symbol|autocomplete, code validation, find definition|
 |Clang|autocomplete, find definition, code validation, format, format selected code, code comment, rename, signature help|autocomplete, code validation, find definition, format|
 |Yaml|autocomplete, hover, code validation, code comment, go to symbol|autocomplete, hover, code validation, code comment|
