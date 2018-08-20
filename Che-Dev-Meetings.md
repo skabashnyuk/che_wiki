@@ -9,9 +9,16 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 ## Call Moderators
 Che maintainers moderate the calls. The schedule of moderators is in a [Google sheet](https://docs.google.com/spreadsheets/d/10iCqmk1eM216kQFIgLlOcTY1arbbRUrjzqsgQKlZ08g/edit#gid=0).
 ***
-# 6-AUG-2018
 
-The next Che dev meeting will take place on Monday 6 August 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1F33n2pQyJHyu9jcVXjXCFqworNg3gpvmhco0ULwloDE/edit#heading=h.2baooh7o19a8)
+
+# 20-AUG-2018
+The next Che dev meeting will take place on Monday 20 August 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1OODjdZXMM4TKb9-2GCMHBQTs-pYjTkXjJ_TNzUC-PcM/edit)
+
+# 6-AUG-2018
+## Agenda
+- Security
+- Scalability and high availability
+Minutes are in: [Google Doc] (https://docs.google.com/document/d/1F33n2pQyJHyu9jcVXjXCFqworNg3gpvmhco0ULwloDE/edit#heading=h.2baooh7o19a8)
 
 
 # 16-JULY-2018
