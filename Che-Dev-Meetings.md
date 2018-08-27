@@ -11,8 +11,16 @@ Che maintainers moderate the calls. The schedule of moderators is in a [Google s
 ***
 
 
+# 3-SEP-2018
+The next Che dev meeting will take place on Monday 20 August 2018. You are welcomed to add the topics you would like to discuss during the call:
+
 # 20-AUG-2018
-The next Che dev meeting will take place on Monday 20 August 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1OODjdZXMM4TKb9-2GCMHBQTs-pYjTkXjJ_TNzUC-PcM/edit)
+## Agenda
+- Che 6.x timeline
+- Workspace restart strategy
+- Accessibility, Localization, Internationalization
+
+Minutes are in: [Google Doc](https://docs.google.com/document/d/1OODjdZXMM4TKb9-2GCMHBQTs-pYjTkXjJ_TNzUC-PcM/edit)
 
 # 6-AUG-2018
 ## Agenda
