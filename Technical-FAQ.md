@@ -33,3 +33,7 @@ docker build -t eclipse/che-theia:0.3.13-nightly --build-arg GITHUB_TOKEN={your 
 ### How to add my extension to Theia IDE?
 
 ### How to add existing plug-in to Theia IDE?
+
+### How to debug a Theia extension running in Che ?
+
+### How to deploy Che + Theia in Openshift and Minishift ?
