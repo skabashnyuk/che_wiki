@@ -46,7 +46,7 @@ Startup.checkMessage();
 * Open **_index-php_** file and make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-04-23 08:47:03,059[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 216]  - Initialized language server 'org.eclipse.che.plugin.php.languageserver'`
 * Add an error in the `echo` command and check that error marker is appeared. Click on error marker - the proposal tooltip should pop up. Restore content. Error marker should disappear.
 * Add variable like `$color = "blue";`. Make sure there are no errors. Go to the end of `echo "Hello World!"` type `$` and launch autocompletion by Ctrl+Space. The `color` fragment should be offered.
-* Set cursor to the new line type `e` and launch autocompletion by Ctrl+Space. Check that next proposals are present in Proposals widget: "each array", "error_reporting in", "end mixed", "exec string".
+* Set cursor to the new line type `e` and launch autocompletion by Ctrl+Space. Check that next proposals are present in Proposals widget: ```"each array", "error_reporting in", "end mixed", "exec string"```.
 * Create a file in the current project with name `lib.php`. Add next content into the file:
 ```php
 <?php
