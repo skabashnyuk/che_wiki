@@ -13,6 +13,10 @@ The version of this image consists of two parts:
 
 You need to change the value of argument `THEIA_VERSION` in [Dockerfile](https://github.com/eclipse/che/blob/master/dockerfiles/theia/Dockerfile).
 
+### How to update Theia image with patches to avoid upgrading Theia version ?
+
+### How and when to update Theia version in the default Theia image (removing patches, etc ...)?
+
 ### How to build Che Theia image with my own changes?
 
 The sources of eclipse/che-theia is located [here](https://github.com/eclipse/che/tree/master/dockerfiles/theia).
