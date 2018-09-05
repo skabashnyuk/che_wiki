@@ -12,6 +12,8 @@ The version of this image consists of two parts:
 ### How to update Theia version, used in the image?
 
 You need to change the value of argument `THEIA_VERSION` in [Dockerfile](https://github.com/eclipse/che/blob/master/dockerfiles/theia/Dockerfile).
+Beware of the CQ to be created for each Theia version upgrade.
+Patches are per Theia version, so no need to remove them.
 
 ### How to update Theia image with patches to avoid upgrading Theia version ?
 Patches are per version
@@ -19,9 +21,6 @@ let say you want to patch 0.3.12 version
 you put patches in `dockerfiles/theia/src/patches/0.3.12` folder and name your patches like `001-this-is-my.patch` , `002-another.patch`
 
 For `0.3.13`, patches will go in `dockerfiles/theia/src/patches/0.3.13`, etc
-
-
-### How and when to update Theia version in the default Theia image (removing patches, etc ...)?
 
 ### How to build Che Theia image with my own changes?
 
