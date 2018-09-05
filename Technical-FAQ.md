@@ -13,8 +13,8 @@ The version of this image consists of two parts:
 
 You need to change the value of argument `THEIA_VERSION` in [Dockerfile](https://github.com/eclipse/che/blob/master/dockerfiles/theia/Dockerfile).
 
-Beware of the CQ to be created for each Theia version upgrade.
-Patches are per Theia version, so no need to remove them.
+Beware of the CQ to be created for each Theia version upgrade.<br/>
+Patches are per Theia version, so no need to remove them.<br/>
 Integration test are executed by default. Upgrading Theia may require updating integration tests.
 
 ### How to update Theia image with patches to avoid upgrading Theia version ?
