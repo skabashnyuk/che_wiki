@@ -12,7 +12,9 @@ The version of this image consists of two parts:
 ### How to update Theia version, used in the image?
 
 You need to change the value of argument `THEIA_VERSION` in [Dockerfile](https://github.com/eclipse/che/blob/master/dockerfiles/theia/Dockerfile).
+
 Beware of the CQ to be created for each Theia version upgrade.
+
 Patches are per Theia version, so no need to remove them.
 
 ### How to update Theia image with patches to avoid upgrading Theia version ?
