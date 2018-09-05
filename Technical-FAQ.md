@@ -15,7 +15,7 @@ You need to change the value of argument `THEIA_VERSION` in [Dockerfile](https:/
 
 Beware of the CQ to be created for each Theia version upgrade.<br/>
 Patches are per Theia version, so no need to remove them.<br/>
-Integration test are executed by default. Upgrading Theia may require updating integration tests.
+Integration tests are executed by default. Upgrading Theia may require updating integration tests.
 
 ### How to update Theia image with patches to avoid upgrading Theia version ?
 Patches are per version
