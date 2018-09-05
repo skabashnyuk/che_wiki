@@ -30,13 +30,20 @@ The sources of eclipse/che-theia is located [here](https://github.com/eclipse/ch
 After the changes are made, you need to rebuild the image with the following command:
 using build script:
 ```
-./build.sh --build-args:GITHUB_TOKEN=$GITHUB_TOKEN,THEIA_VERSION=0.3.13 --tag:0.3.13-nightly
+$ ./build.sh --build-args:GITHUB_TOKEN=$GITHUB_TOKEN,THEIA_VERSION=0.3.13 --tag:0.3.13-nightly
 ```
 or using docker:
 
 ```
-docker build -t eclipse/che-theia:0.3.13-nightly --build-arg GITHUB_TOKEN={your token} --build-arg THEIA_VERSION=0.3.13 .
+$ docker build -t eclipse/che-theia:0.3.13-nightly --build-arg GITHUB_TOKEN={your token} --build-arg THEIA_VERSION=0.3.13 .
 ```
+
+Integration tests are launched by default during the build. It is possible to skip with the option `--skip-tests`
+
+```
+./build.sh --skip-tests
+```
+
 ### How to create workspace with Theia IDE?
 
 ### How to add existing extension to Theia IDE?
