@@ -16,7 +16,7 @@ You need to change the value of argument `THEIA_VERSION` in [Dockerfile](https:/
 ### How to update Theia image with patches to avoid upgrading Theia version ?
 Patches are per version
 let say you want to patch 0.3.12 version
-you put patches in `dockerfiles/theia/src/patches/0.3.12` folder and name your patches like `001-this-is-my.patch` , `002-another.patch``
+you put patches in `dockerfiles/theia/src/patches/0.3.12` folder and name your patches like `001-this-is-my.patch` , `002-another.patch`
 
 For `0.3.13`, patches will go in `dockerfiles/theia/src/patches/0.3.13`, etc
 
