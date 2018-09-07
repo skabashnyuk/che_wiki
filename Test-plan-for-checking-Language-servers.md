@@ -169,7 +169,7 @@ let greeter = new Greeter("world");
 ```
 * Add space into keyword `class` like: `c lass`. Make sure that error markets have appear. Click on first marker and check the message like: `cannot find lass`
 * Remove the space - error makers should disappear. Add empty line after the code and type `greeter.`. Sent ctrl+space. Make sure that `greet()` function and `greeting` field are present in the proposal panel.
-* Create new file with name `printTest.ts` and add next content:
+* Create new file with name `testPrint.ts` and add next content:
 ```typescript
 let name: string;
 export class Print {
