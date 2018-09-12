@@ -1048,6 +1048,33 @@ main
 7. Click on any of them and check that it correctly selected in file.
 
 
+### C# language server
+* Create a workspace through Dashboard based on Default Dot Net stack. Enable C# language server by slider on dashboard if it needed.
+* Go to freshly created workspace and create **dotnet-web-simple* project with wizard. 
+* Open **Program.cs**. Make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-06-26 09:04:30,162[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 112]  - Started language servers initialization, file path '/dotnet/Program.cs'
+2018-06-26 09:04:31,240[rverInitializer]  [WARN ] [c.l.CSharpLanguageServerConfig 83]   - An executable 'dotnet' is not present at '/projects/dotnet'
+2018-06-26 09:04:31,240[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 219]  - Initialized language server 'org.eclipse.che.plugin.csharp.languageserver'
+2018-06-26 09:04:31,241[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 128]  - Finished language servers initialization, file path '/dotnet/Program.cs'`
+* Make sure that code is validated by LS. We should have info markers in the 1-5 and 8,9 positions. Hover curso for instance on the first maker. Make sure that hint contains `Unnecessary using directive.`
+* Remove `;` from the `Build();` - the error marker should appear. Undo changes the error marker should disappear.
+*Remove `Build` till `.` symbol. Invoke autocomplete (Ctrl+Space). Make sure that `Build` is present in the widget. Hover cursor on Build. Make sure that docker window with `Builds an Microsoft.AspNetCore.Hosting.IWebHost which hosts a web application.` has been opened.
+* Paste `Build` and complete `Build();`
+* Hover cursor on `Build`. Make sure that hovering works without duplicated items. In the widget we should get next: `IWebHost IWebHostBuilder.Build() Builds an Microsoft.AspNetCore.Hosting.IWebHost which hosts a web application.`
+* Open `Startup.cs` file add new method in the body of `Startup` class: 
+```dotnet 
+public static String checkMessage(){
+            return "Message has been checked";
+        }
+```
+* Add instance of the `Startup.cs` class into `Program.cs` in next way:
+ - set cursor into the body of Main method of Program.cs and create invocation like:
+```dotnet
+Startup.checkMessage();
+```
+* Set cursor on the `checkMessage` and invoke go to the definition by F4
+* Make sure that `Startup.cs` file is opened and cursor has been placed to `checkMessage`method.
+* Set cursor to `Build();` and invoke the go to the definition again. Make sure that `IWebHostBuilder` has been opened and cursor was set to the Build position (Clarify this usecase because this feature may be unavailable)
+
 ### TODO
 * Maven LS in progress ...
 * Testcases with sidecars - clarify what do we need ?
