@@ -1049,31 +1049,69 @@ main
 
 
 ### C# language server
-* Create a workspace through Dashboard based on Default Dot Net stack. Enable C# language server by slider on dashboard if it needed.
-* Go to freshly created workspace and create **dotnet-web-simple* project with wizard. 
-* Open **Program.cs**. Make sure that language server has been initialized. Go to the _**dev-machine**_ console and check message like: `2018-06-26 09:04:30,162[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 112]  - Started language servers initialization, file path '/dotnet/Program.cs'
-2018-06-26 09:04:31,240[rverInitializer]  [WARN ] [c.l.CSharpLanguageServerConfig 83]   - An executable 'dotnet' is not present at '/projects/dotnet'
-2018-06-26 09:04:31,240[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 219]  - Initialized language server 'org.eclipse.che.plugin.csharp.languageserver'
-2018-06-26 09:04:31,241[rverInitializer]  [INFO ] [.a.l.LanguageServerInitializer 128]  - Finished language servers initialization, file path '/dotnet/Program.cs'`
-* Make sure that code is validated by LS. We should have info markers in the 1-5 and 8,9 positions. Hover curso for instance on the first maker. Make sure that hint contains `Unnecessary using directive.`
-* Remove `;` from the `Build();` - the error marker should appear. Undo changes the error marker should disappear.
-*Remove `Build` till `.` symbol. Invoke autocomplete (Ctrl+Space). Make sure that `Build` is present in the widget. Hover cursor on Build. Make sure that docker window with `Builds an Microsoft.AspNetCore.Hosting.IWebHost which hosts a web application.` has been opened.
-* Paste `Build` and complete `Build();`
-* Hover cursor on `Build`. Make sure that hovering works without duplicated items. In the widget we should get next: `IWebHost IWebHostBuilder.Build() Builds an Microsoft.AspNetCore.Hosting.IWebHost which hosts a web application.`
-* Open `Startup.cs` file add new method in the body of `Startup` class: 
-```dotnet 
+
+### Preconditions:
+
+1. Create workspace from the **.NET** stack with **.NET** project.
+2. Enable **C#** language server in the **Installers** tab and start the workspace.
+
+### Testing process
+
+* **Language server initialization**
+1. From the project open "Program.cs" file.
+2. Check ```Finished language servers initialization, file path '/dotnet-web-simple/Program.cs'``` message in the **dev-machine** console.
+
+* **Code validation feature, Comment line, Autocomplete feature**
+1. Open "Program.cs" file.
+2. Make sure that code is validated by LS. We should have info markers in the 1-5 and 8,9 positions. Hover curso for instance on the first maker. Make sure that hint contains ```Unnecessary using directive```.
+3. Remove ```;``` from the ```Build();``` - the error marker should appear. Undo changes the error marker should disappear. 
+4. Remove ```Build``` till ```.``` symbol. Invoke autocomplete (Ctrl+Space). Make sure that ```Build``` is present in the widget. 
+5. Hover cursor on ```Build```. Make sure that docker window with ```Builds an Microsoft.AspNetCore.Hosting.IWebHost which hosts a web application.``` has been opened.
+6. Paste ```Build``` and complete ```Build()```;
+7. Move cursor in line 1 position and comment this line by **Ctrl**+**/** buttons.
+8. Check that text in line 3 was changed from ```package main``` to ```//package main```.
+9. Uncomment this line by **Ctrl**+**/** buttons.
+
+* **Find definition feature**
+1. Open "Startup.cs" file.
+2. Add new method in the body of ```Startup``` class:
+```
 public static String checkMessage(){
             return "Message has been checked";
         }
 ```
-* Add instance of the `Startup.cs` class into `Program.cs` in next way:
- - set cursor into the body of Main method of Program.cs and create invocation like:
-```dotnet
-Startup.checkMessage();
+3. Add instance of the ```Startup.cs``` class into ```Program.cs``` in next way:
+set cursor into the body of Main method of Program.cs and create invocation like:
+```Startup.checkMessage();```
+4. Set cursor on the ```checkMessage``` and invoke go to the definition by F4
+Make sure that Startup.cs file is opened and cursor has been placed to checkMessagemethod.
+5. Set cursor to ```Build();``` and invoke the go to the definition again. Make sure that ```IWebHostBuilder``` has been opened and cursor was set to the Build position (Clarify this usecase because this feature may be unavailable)
+
+* **Hover feature**
+1. Open "Program.cs" file.
+2. Hover cursor on ```Build```. Make sure that hovering works without duplicated items. In the widget we should get next: ```IWebHost IWebHostBuilder.Build() Builds an Microsoft.AspNetCore.Hosting.IWebHost which hosts a web application.```
+
+**Rename** TODO
+1. Open "Program.cs" file.
+2. Select "" variable in line ****.
+3. Start **Rename** feature by **Shift**+**F6** or from **Assistant** menu.
+4. Type new variable name.
+5. Check that the variable name was changed.
+
+**Signature Help** TODO
+1. Open "Program.cs" file.
+2. Type `````` on line .
+3. Type '(' symbol and wait for hover popup with `````` text.
+4. Delete added line.
+
+**Go To Symbol** TODO
+1. Open "Program.cs" file.
+2. Start **Go To Symbol** feature by **Ctrl**+**F12** buttons or from **Assistant** menu.
+3. Wait for **Go To Symbol** form is opened with next lines:
 ```
-* Set cursor on the `checkMessage` and invoke go to the definition by F4
-* Make sure that `Startup.cs` file is opened and cursor has been placed to `checkMessage`method.
-* Set cursor to `Build();` and invoke the go to the definition again. Make sure that `IWebHostBuilder` has been opened and cursor was set to the Build position (Clarify this usecase because this feature may be unavailable)
+
+```
+4. Click on any of them and check that it correctly selected in file.
 
 ### TODO
 * Maven LS in progress ...
