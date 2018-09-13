@@ -58,9 +58,16 @@ Integration tests are launched by default during the build. It is possible to sk
 
 # Che on Osio
 ### How to clean up PV content on Osio
-In very rare case, you may ending up with orphan workspace folders on osio. Here are the commands to clean them up:
+In very rare case, you may ending up with orphan workspace folders on osio. Here are the commands to clean them up.
+#### oc login
+To log in with the `oc` command line,
+- Connect to https://console.starter-us-east-2.openshift.com/
+- Click on `top right ? button` > `Command Line Tools`
+- Click on the `Copy to Clipboard` button for the line `oc login https://api.starter-us-east-2.openshift.com --token=<hidden>` to copy the command with your secret.
+- Having a shell with `oc` command available, paste and execute the command.
+
+#### After login with `oc`
 ```
-# After login with oc
 oc project xxxx-che # usually xxx-che is username-che
 oc run cleanup --image=registry.access.redhat.com/rhel7 -- tail -f /dev/null
 oc volume dc/cleanup --add -t pvc --name=cleanup --claim-name=claim-che-workspace --mount-path=/workspaces
