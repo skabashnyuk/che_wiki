@@ -1008,14 +1008,14 @@ func print() {
 ```
 
 **Rename**
-1. Open "towers.py" file.
+1. Open "towers.go" file.
 2. Select "n" variable in line **10**.
 3. Start **Rename** feature by **Shift**+**F6** or from **Assistant** menu.
 4. Type new variable name.
 5. Check that the variable name was changed.
 
 **Find References**
-1. Open "towers.py" file.
+1. Open "towers.go" file.
 2. Select ```count``` variable
 2. Start **Find References** feature by pressing **Alt**+**F7** buttons or from **Assistant** menu.
 3. Check that Find References panel is opened with ```/desktop-go-simple/towers.go From:7:5 To:7:10``` result in it.
