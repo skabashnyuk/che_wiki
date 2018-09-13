@@ -55,3 +55,16 @@ Integration tests are launched by default during the build. It is possible to sk
 ### How to debug a Theia extension running in Che ?
 
 ### How to deploy Che + Theia in Openshift and Minishift ?
+
+# Che on Osio
+### How to clean up PV content on Osio
+In very rare case, you may ending up with orphan workspace folders on osio. Here are the commands to clean them up:
+```
+# After login with oc
+oc project xxxx-che # usually xxx-che is username-che
+oc run cleanup --image=registry.access.redhat.com/rhel7 -- tail -f /dev/null
+oc volume dc/cleanup --add -t pvc --name=cleanup --claim-name=claim-che-workspace --mount-path=/workspaces
+oc rsh cleanup-X-XXXXX # you can get the name of the pod with `oc get po`
+# find and remove the orphans workpace folders if any in the folder `/workspaces`
+oc delete all -l app=cleanup # once the folders removed, delete the image
+```
