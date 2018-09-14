@@ -9,7 +9,7 @@
 |Type script|autocomplete, find definition, code validation, format, code comment, rename, find references, signature help, go to symbol|autocomplete, code validation, find definition|format, code comment, rename, find references, signature help, go to symbol|
 |Clang|autocomplete, find definition, code validation, format, format selected code, code comment, rename, signature help|autocomplete, code validation, find definition, format|format selected code, code comment, rename, signature help|
 |Yaml|autocomplete, hover, code validation, code comment, go to symbol|autocomplete, hover, code validation, code comment|go to symbol|
-|Camel| autocomplete, hover, diagnostic, go to symbol|autocomplete, hover| diagnostic, go to symbol|
+|Camel| autocomplete, hover, diagnostic, go to symbol|autocomplete, hover| go to symbol|
 |Golang|autocomplete, find definition, code validation, format, code comment, rename, hover, find references, signature help, go to symbol, find project symbol|autocomplete, find definition, code validation, format, hover| code comment, rename, find references, signature help, go to symbol, find project symbol|
 
 ### PHP language server
