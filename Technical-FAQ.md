@@ -50,6 +50,9 @@ Integration tests are launched by default during the build. It is possible to sk
 
 ### How to add my extension to Theia IDE?
 
+### How to create a new plug-in to Theia or Che-theia IDE ?
+You can use the yeoman generator as describe here: https://www.theia-ide.org/doc/Authoring_Plugins.html
+
 ### How to add existing plug-in to Theia IDE?
 
 ### Where can I find more details about the Theia Plugin API ?
