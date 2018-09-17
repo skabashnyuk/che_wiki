@@ -10,8 +10,15 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 Che maintainers moderate the calls. The schedule of moderators is in a [Google sheet](https://docs.google.com/spreadsheets/d/10iCqmk1eM216kQFIgLlOcTY1arbbRUrjzqsgQKlZ08g/edit#gid=0).
 ***
 
+# 01-OCT-2018
+The next Che dev meeting will take place on Monday 1 October 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1ZFT0x7N3WXMFHI_CYJtKHMfxdMtEfBRWwgbmeFCucNE/edit#)
+
 # 17-SEP-2018
-The next Che dev meeting will take place on Monday 17 September 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1AJZRnPN0POH23FyKsLm4FA4du1pcuFuibpi1if5eRDI/edit)
+## Agenda
+- Release version vs. Master version (or Che 7 / WS.Next) - QA level, Different Fix policy, Double Maintenance
+- Che WS Master bootstrapper, stdout, K8s Pod restart (refer also to WS.Next)
+
+Minutes are in: [Google Doc](https://docs.google.com/document/d/1AJZRnPN0POH23FyKsLm4FA4du1pcuFuibpi1if5eRDI/edit)
 
 # 3-SEP-2018
 ## Agenda
