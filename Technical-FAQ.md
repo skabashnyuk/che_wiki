@@ -52,6 +52,9 @@ Integration tests are launched by default during the build. It is possible to sk
 
 ### How to add existing plug-in to Theia IDE?
 
+### Where can I find more details about the Theia Plugin API ?
+Complete documentation is located in this Theia documentation section: https://github.com/theia-ide/theia/blob/master/packages/plugin/API.md
+
 ### How to debug a Theia extension running in Che ?
 
 ### How to deploy Che + Theia in Openshift and Minishift ?
