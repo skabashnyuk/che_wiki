@@ -58,6 +58,9 @@ You can use the yeoman generator as describe here: https://www.theia-ide.org/doc
 ### Where can I find more details about the Theia Plugin API ?
 Complete documentation is located in this Theia documentation section: https://github.com/theia-ide/theia/blob/master/packages/plugin/API.md
 
+### How to add more Theia Plugin API ?
+WIP documentation is located here: https://github.com/theia-ide/theia/blob/plugin-api-documentation/packages/plugin-ext/doc/how-to-add-new-plugin-api.md
+
 ### How to debug a Theia extension running in Che ?
 
 ### How to deploy Che + Theia in Openshift and Minishift ?
