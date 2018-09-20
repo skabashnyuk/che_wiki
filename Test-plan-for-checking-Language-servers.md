@@ -773,9 +773,10 @@ app
 ### Apache Camel language server
 ### Preconditions:
 
-1. Create workspace from the **Java** stack with **web-java-spring** project.
+1. Create workspace from the **Apache Camel based projects** stack.
 2. Enable **Apache Camel** language server in the **Installers** tab and start the workspace.
-3. Create "**camel.xml**" file with content:
+3. Create a project.
+4. Create "**camel.xml**" file with content:
 ``` xml
 <!-- here we have Spring XML file with all the namespaces here in the top of the XML file -->
 <beans xmlns="http://www.springframework.org/schema/beans"
