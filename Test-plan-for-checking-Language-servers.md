@@ -987,8 +987,6 @@ func main() {
 1. Open "towers.go" file.
 2. Move mouse pointer on position **12:15**
 3. Wait hover popup is appeared with text ```const COLOR_YELLOW string = "\x1b[33;1m "```.
-4. Move mouse pointer on position **22:8**
-5. Wait hover popup is appeared with text ```main redeclared in this block previous declaration at```.
 
 * **Format code feature**
 1. Open "format.go" file.
