@@ -38,7 +38,7 @@ Minutes are in: [Google Doc](https://docs.google.com/document/d/1OODjdZXMM4TKb9-
 ## Agenda
 - Security
 - Scalability and high availability
-Minutes are in: [Google Doc] (https://docs.google.com/document/d/1F33n2pQyJHyu9jcVXjXCFqworNg3gpvmhco0ULwloDE/edit#heading=h.2baooh7o19a8)
+Minutes are in: [Google Doc](https://docs.google.com/document/d/1F33n2pQyJHyu9jcVXjXCFqworNg3gpvmhco0ULwloDE/edit#heading=h.2baooh7o19a8)
 
 
 # 16-JULY-2018
