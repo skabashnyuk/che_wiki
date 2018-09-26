@@ -66,6 +66,16 @@ WIP documentation is located here: https://github.com/theia-ide/theia/blob/plugi
 ### How to deploy Che + Theia in Openshift and Minishift ?
 
 # Che on Osio
+### How do I figure out where my workspace is running?
+To figure out which cluster your workspace is running in:
+
+1. Connect to the openshift.io dashboard
+2. Create a new space, with a test project, and kick off a pipeline
+3. Click on the "Build #x" link for the pipeline, you will be taken to an OpenShift Online cluster
+4. In the OpenShift Online console, select the "username-che" namespace
+
+You are now looking at the OpenShift project which contains your Che workspaces.
+
 ### How to clean up PV content on Osio
 In very rare case, you may ending up with orphan workspace folders on osio. Here are the commands to clean them up.
 #### oc login
