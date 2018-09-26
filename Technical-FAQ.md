@@ -94,3 +94,5 @@ oc rsh cleanup-X-XXXXX # you can get the name of the pod with `oc get po`
 # find and remove the orphans workpace folders if any in the folder `/workspaces`
 oc delete all -l app=cleanup # once the folders removed, delete the image
 ```
+### How can I use Theia on che.openshift.io?
+
