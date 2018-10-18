@@ -9,4 +9,4 @@ We have prepared a developer workspace in four languages (C, Go, Python, and Jav
 
 Once you have provisioned your workspace, you will need to modify the relevant source file in the project to complete the challenge.
 
-For those who are unfamiliar with FizzBuzz, it is a children's game, played by a group who arrange themselves in a circle. One child starts counting at 1, and the next child increments the coult, replacing any multiple of 3 with "Fizz", and any multiple of 5 with "Buzz". Multiples of 15 are replaced with both words, "FizzBuzz", giving the game its name. These programs print the numbers from 1 to 100 inclusive according to the rules of this game.
+For those who are unfamiliar with FizzBuzz, it is a children's game, played by a group who arrange themselves in a circle. One child starts counting at 1, and the next child increments the count, replacing any multiple of 3 with "Fizz", and any multiple of 5 with "Buzz". Multiples of 15 are replaced with both words, "FizzBuzz", giving the game its name. These programs print the numbers from 1 to 100 inclusive according to the rules of this game.
