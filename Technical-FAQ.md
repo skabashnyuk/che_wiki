@@ -115,7 +115,7 @@ With the error on the browser console:
 ```
 Uncaught (in promise) Error: pods is forbidden: User "system:serviceaccount:mini-che:default" cannot list pods in the namespace "mini-che": User "system:serviceaccount:mini-che:default" cannot list pods in project "mini-che"
 ```
-To fix this, you can provide privilege to your user:
+To fix this, provide privilege to your user:
 ```
 oc login -u system:admin
 oc adm policy add-cluster-role-to-user admin system:serviceaccount:mini-che:default
