@@ -110,6 +110,17 @@ When some changes are made to plugin one should recompile the plugin and then ju
 
 ### How to deploy Che + Theia in Openshift and Minishift ?
 
+### I can not start a multi container terminal in Che Theia on Minishift
+With the error on the browser console:
+```
+Uncaught (in promise) Error: pods is forbidden: User "system:serviceaccount:mini-che:default" cannot list pods in the namespace "mini-che": User "system:serviceaccount:mini-che:default" cannot list pods in project "mini-che"
+```
+To fix this, you can provide privilege to your user:
+```
+oc login -u system:admin
+oc adm policy add-cluster-role-to-user admin system:serviceaccount:mini-che:default
+```
+
 # Che on OpenShift.io
 
 ### How do I figure out where my workspace is running?
