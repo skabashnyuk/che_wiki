@@ -9,12 +9,31 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 ## Call Moderators
 Che maintainers moderate the calls. The schedule of moderators is in a [Google sheet](https://docs.google.com/spreadsheets/d/10iCqmk1eM216kQFIgLlOcTY1arbbRUrjzqsgQKlZ08g/edit#gid=0).
 ***
+# Next meeting
+The next Che dev meeting will take place on Monday 12 November 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1peSkmboH6QLn1_gXIocKXr8Y1N42cSqtmCxSVDqAQ2s/edit)
+
+# 29-OCT-2018
+## Agenda
+- EclipseCon feedback
+- Docker support
+
+Minutes: [Google Doc](https://docs.google.com/document/d/1ir4Fp7_YKHZXWprZUwj3IQU1JhuJu-7Qmh5Xyiyf408/edit)
 
 # 15-OCT-2018
-The next Che dev meeting will take place on Monday 15 October 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1peSkmboH6QLn1_gXIocKXr8Y1N42cSqtmCxSVDqAQ2s/edit)
+## Agenda
+- Community Spotlight: Progress Software
+- The current integration topics of Theia and Che (Execution Agent, LSP, WS Master…), and the way forward (roadmap)
+- Eclipse Industry Working Groups: https://www.eclipse.org/org/workinggroups - vision, goal, scope, expectation
+
+Minutes: [Google Doc](https://docs.google.com/document/d/1peSkmboH6QLn1_gXIocKXr8Y1N42cSqtmCxSVDqAQ2s/edit)
 
 # 01-OCT-2018
-The next Che dev meeting will take place on Monday 1 October 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1ZFT0x7N3WXMFHI_CYJtKHMfxdMtEfBRWwgbmeFCucNE/edit#)
+## Agenda
+- Introducing Community Spotlight
+- MySQL TCK
+- Java 11 + ws-master
+
+Minutes are in [Google Doc](https://docs.google.com/document/d/1ZFT0x7N3WXMFHI_CYJtKHMfxdMtEfBRWwgbmeFCucNE/edit#)
 
 # 17-SEP-2018
 ## Agenda
