@@ -1,8 +1,6 @@
 # Eclipse Che Roadmap
 Eclipse Che follows a release cycles with a sprint planned every 3 weeks, with a new release after every sprint. For serious issues, we occasionally make a bug fix release during a sprint. While working on a current sprint, we plan the following sprint. We thematically break the major functionality into epics that have sub-issues that can span many sprints, and sometimes across many releases. We do our best to incorporate all of a feature into a single release, but it often requires that we break functionality across multiple release milestones.
 
-Sprints are numbered. The current sprint is sprint #150, which started on 2018-05-30 and will finish on 2018-06-19.
-
 The epics and features that roll into a milestone are determined by pull request readiness of the feature at the time a milestone begins. In other words, we only place into a milestone features that are code complete and waiting for master-integration and testing.
 
 Full details of all of the work in a specific release is included in the [Changelog](https://github.com/eclipse/che/blob/master/CHANGELOG.md) file, which is updated after every release.
