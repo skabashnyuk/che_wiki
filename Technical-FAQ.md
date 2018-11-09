@@ -64,8 +64,8 @@ WIP documentation is located here: https://github.com/theia-ide/theia/blob/plugi
 ### How to debug a Theia extension running in Che ?
 
 ### How to debug a Theia plugin running in Che ?
-Frontend: https://github.com/eclipse/che/wiki/Contributing-to-Che7-and-Che-Theia#frontend-plugin
-Backend: https://github.com/eclipse/che/wiki/Contributing-to-Che7-and-Che-Theia#backend-plugin
+- Frontend: https://github.com/eclipse/che/wiki/Contributing-to-Che7-and-Che-Theia#frontend-plugin
+- Backend: https://github.com/eclipse/che/wiki/Contributing-to-Che7-and-Che-Theia#backend-plugin
 
 ### How to deploy Che + Theia in Openshift and Minishift ?
 
