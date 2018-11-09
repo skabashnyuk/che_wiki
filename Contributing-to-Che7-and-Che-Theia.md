@@ -1,3 +1,4 @@
+## Create a custom Che7 stack
 ## Debugging a Theia-plugin
 #### Frontend plugin
 
