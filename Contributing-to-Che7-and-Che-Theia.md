@@ -1,4 +1,4 @@
-## Debugging a Frontend theia-plugin
+## Debugging a Theia-plugin
 #### Frontend plugin
 
 To debug frontend plugin switch to hosted instance tab in browser and open Developer Tools by pressing `F12` or `Ctrl+Shift+I`. After this you should see something like this (all screenshots here is for Google Chrome, but the flow is similar for other browsers):
