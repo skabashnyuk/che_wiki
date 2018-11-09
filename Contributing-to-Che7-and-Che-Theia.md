@@ -1,4 +1,57 @@
 ## Create a custom Che7 stack
+Let's say we want to create a workspace with
+- a 'dev' container that would contains our own command line tools
+- your projects
+- a Theia IDE to code with
+- some predefined commands
+This workspace should be created from a predefined stack or a 'factory URL'.
+
+### 1. Create the workspace
+In your Che dashboard (for instance https://che.openshift.io)
+1. Access to the `Workspaces` section
+2. Add a workspace
+3. Choose the stack `Che 7`
+4. Add your projects to import (git)
+5. Create and choose to edit your workspace
+
+### 2. Customize and test your workspace
+#### Branch to checkout
+By default, project to import would be done from the default branch (usueally master). If you which to checkout another branch, in Config tab add the right branch to `projects` > `source` > `attributes` > `branch` item (create it if it doesn't exist
+```
+  "projects": [
+    {
+      "links": [],
+      "name": "ansible-netops",
+      "attributes": {},
+      "source": {
+        "location": "https://github.com/victorock/ansible-netops.git",
+        "type": "git",
+        "parameters": {
+          "branch": "dev", "_comment": "<-------------- here"
+        }
+      },
+      "path": "/ansible-netops",
+      "description": "",
+      "problems": [],
+      "mixins": []
+    }
+```
+#### Custom image for your tooling
+By default, `eclipse/che-dev:nightly` docker image is provided as a default container for your tools to be used from the command line. But you can add or replace with yours.
+1. In the same config view `environments` > `default` > `recipe` > `content`, Change `   image: 'eclipse/che-dev:nightly'` with your own image. You can also rename the machine `dev` to `ansible`.
+
+#### Predefined Commands
+TODO
+#### Test it
+1. Click on `Open`, the workspace will start.
+2. Workspace should automatically clones the projects to the right branch
+3. You can access to the terminal of any 'containers' of che pod: `F1` > `Open new multimachine terminal` > choose dev or ansible.
+
+### 3. TODO Make it a stack or a factory URL
+
+#### Stack
+#### Factory URL
+
 ## Debugging a Theia-plugin
 #### Frontend plugin
 
