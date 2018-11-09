@@ -17,3 +17,4 @@
 * [Coding Guidelines](https://github.com/eclipse/che/wiki/Coding-Guidelines)
 * [Contributor License Agreement](https://github.com/eclipse/che/wiki/Contributor-License-Agreement)
 * [FAQ](https://github.com/eclipse/che/wiki/Technical-FAQ)
+* [Contributing to Che7 and Che-Theia](https://github.com/eclipse/che/wiki/Contributing-to-Che7-and-Che-Theia)
