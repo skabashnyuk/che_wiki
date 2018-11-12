@@ -12,9 +12,8 @@ Che maintainers moderate the calls. The schedule of moderators is in a [Google s
 
 
 # Next meeting
-The next Che dev meeting will take place on Monday 26 November 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1KDdbufXTPelEhTmuWwhgOdUhFOEYD_DR_W2Z213ZCVE/edit)
+The next Che dev meeting will take place on Monday 26 November 2018. You are welcomed to add the topics you would like to discuss during the call.
 
-# 12-NOV-2018
 ## Agenda
  - Community Spotlight: CA
  - Eclipse Cloud Development Tools Working Group
