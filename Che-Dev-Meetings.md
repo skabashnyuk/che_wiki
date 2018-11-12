@@ -9,8 +9,18 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 ## Call Moderators
 Che maintainers moderate the calls. The schedule of moderators is in a [Google sheet](https://docs.google.com/spreadsheets/d/10iCqmk1eM216kQFIgLlOcTY1arbbRUrjzqsgQKlZ08g/edit#gid=0).
 ***
+
+
 # Next meeting
-The next Che dev meeting will take place on Monday 12 November 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/18nHnwL6X6RfV_raC4HEWFAxSqk_nnf8HbfF7axuaY7k/edit#heading=h.o6hsjafth35v)
+The next Che dev meeting will take place on Monday 26 November 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1KDdbufXTPelEhTmuWwhgOdUhFOEYD_DR_W2Z213ZCVE/edit)
+
+# 12-NOV-2018
+## Agenda
+ - Community Spotlight: CA
+ - Eclipse Cloud Development Tools Working Group
+ - Docker support for Eclipse Che
+
+Agenda and minutes: [Google Doc](https://docs.google.com/document/d/18nHnwL6X6RfV_raC4HEWFAxSqk_nnf8HbfF7axuaY7k/edit#heading=h.o6hsjafth35v)
 
 # 29-OCT-2018
 ## Agenda
