@@ -249,12 +249,6 @@ add
 5. Add this object again and check error marker with ```Duplicate object key``` message. Delete just add object and check wait disappearance of the marker.
 6. Go to the line **6** and press **ENTER**. Add `"newObj":[1,2,3],` object and check there is not any errors.
 
-* **Hover feature**
-?
-
-* **Autocomplete feature**
-?
-
 * **Go To Symbol**
 1. Open "package.json" file.
 2. Start **Go To Symbol** feature by **Ctrl**+**F12** buttons or from **Assistant** menu.
@@ -1090,7 +1084,7 @@ Make sure that Startup.cs file is opened and cursor has been placed to checkMess
 1. Open "Program.cs" file.
 2. Hover cursor on ```Build```. Make sure that hovering works without duplicated items. In the widget we should get next: ```IWebHost IWebHostBuilder.Build() Builds an Microsoft.AspNetCore.Hosting.IWebHost which hosts a web application.```
 
-**Rename** TODO
+**Rename**
 1. Open "Program.cs" file.
 2. Select "" variable in line ****.
 3. Start **Rename** feature by **Shift**+**F6** or from **Assistant** menu.
