@@ -1,4 +1,5 @@
 # Theia IDE + Che questions
+https://stackoverflow.com/questions/tagged/eclipse-che+theia
 
 ### What Theia image to use inside Che?
 
