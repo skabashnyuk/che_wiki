@@ -5,7 +5,7 @@
 5. Coverage of new or updated functionality by unit-tests **>= 80%**. We can use [Cobertura maven plugin](https://github.com/cobertura/cobertura) to measure coverage  - next command generate Cobertura report: 
 `mvn cobertura:cobertura`
 6. Build of whole project including _unit_ and _integration_ tests have passed successfully. It can be checked by command `ci-build` in comment of pull reauest, which run build on [dedicated CI job](https://ci.codenvycorp.com/view/pr-builds/job/che-pullrequests-build/).
-7. Execution of **E2E selenium tests** for _Eclipse Che Multiuser on OCP_ (command `ci-test` in comment to the pull request to run selenium tests on [dedicated CI job](https://ci.codenvycorp.com/view/pr-builds/job/che-pullrequests-test-ocp/)) shows no regression, that is success rate **about 100%**. Such execution doesn't include tests which fail because of known issue. "flaky" tests has been restarted once.
+7. Execution of **E2E selenium tests** for _Eclipse Che Multiuser on OCP_ (command `ci-test` in comment to the pull request to run selenium tests on [dedicated CI job](https://ci.codenvycorp.com/view/pr-builds/job/che-pullrequests-test-ocp/)) shows no regression, that is success rate **about 100%**. Such execution doesn't include tests which fail because of known issue. "Flaky" tests has been restarted once.
 
 8. If pull request creator decides that changes influence assembly of _Eclipse Che_ on Docker, **E2E selenium tests** should be executed against Eclipse Che on Docker as well - by using another the command `ci-test-docker-single`, which run build on [another CI job](https://ci.codenvycorp.com/view/pr-builds/job/che-pullrequests-test/).
 
