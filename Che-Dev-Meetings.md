@@ -11,7 +11,19 @@ Che maintainers moderate the calls. The schedule of moderators is in a [Google s
 ***
 
 # Next meeting
-The next Che dev meeting will take place on Monday 10 December 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1W1eoUZl5jR7LpycvutDbcsvZj9MJb97Ft05AdcLrjDo/edit#)
+The next Che dev meeting will take place on Monday 10 December 2018. You are welcomed to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/16dsjMpeku0eXrjdHw0cHejFCfXGr-LKy40h6_-4JW1w/edit#)
+
+
+# 10-DEC-2018
+## Agenda
+ - CORS, Docker, GWT IDE,  Java version
+ - Will stacks created in Che 6.x work unchanged in Che 7? 
+ - CheConf 2018.2 - Summary
+ - Che Incubator repository
+ - Introducing new Che CLI
+
+Agenda and minutes: [Google Doc](https://docs.google.com/document/d/1W1eoUZl5jR7LpycvutDbcsvZj9MJb97Ft05AdcLrjDo/edit#)
+
 
 # 26-NOV-2018
 ## Agenda
