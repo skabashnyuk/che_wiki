@@ -56,6 +56,40 @@ You can use the yeoman generator as describe here: https://www.theia-ide.org/doc
 
 ### How to add existing plug-in to Theia IDE?
 
+### How to test custom Theia IDE Che plug-in?
+
+To use cutom Theia IDE Che plug-in one need to host custom plugin registry and plug-in itself.
+
+In this example we'll use GitHub to host needed files, but it is possible to use other solution.
+
+First we need to create a Che plugin with Theia IDE.
+It should be `che-plugin.yaml` file inside some `*.tar.gz` file.
+To simplify the process one may just fork [existing sample](https://github.com/ws-skeleton/che-editor-theia),
+make some changes in `etc/che-plugin.yaml`(for example specify other Theia image, add an enviroment variable, etc.) and create plugin metadata file
+(one may use `build.sh` from the repo, which just creates an archive from the config file in `etc` directory).
+Then create new release in own fork and attach (via `Edit` -> `Attach binaries`) the `che-editor-plugin.tar.gz` file.
+
+Second step is to add the plugin from the first step in custom plugin registry.
+Fork official [registry](https://github.com/eclipse/che-plugin-registry),
+and create a new plugin or edit existing configuration `plugins/org.eclipse.che.editor.theia/1.0.0/meta.yaml`.
+In case of custom Theia one should edit `url` field to point to the tar file from the first step.
+For example, the url may look like:
+
+```
+https://github.com/ws-skeleton/che-editor-theia/releases/download/untagged-efe6c6ceb88545c76b94/che-editor-plugin.tar.gz
+```
+
+Finally, create a worspace, go to workspace settings, open `Config` tab and edit `editor` attribute
+(or `plugins` if it is not an editor).
+Instead of plugin name, url to the plugin root should be specified following by colon and plugin version.
+For example:
+
+```
+https://raw.githubusercontent.com/username/che-custom-plugins/master/plugins/org.eclipse.che.editor.theia:1.0.0
+```
+
+Then save changes and start workspace.
+
 ### Where can I find more details about the Theia Plugin API ?
 Complete documentation is located in this Theia documentation section: https://github.com/theia-ide/theia/blob/master/packages/plugin/API.md
 
