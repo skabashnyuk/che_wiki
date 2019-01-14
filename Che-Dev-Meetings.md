@@ -11,8 +11,15 @@ Che maintainers moderate the calls. The schedule of moderators is in a [Google s
 ***
 
 # Next meeting
-The next Che dev meeting will take place on Monday 14 January 2019. You are welcome to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/16dsjMpeku0eXrjdHw0cHejFCfXGr-LKy40h6_-4JW1w/edit#)
 
+
+The next Che dev meeting will take place on Monday 21 January 2019. You are welcome to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1v7hfGTawLgkpsLJOmo1iIrQw7R7RJxh1Ul4NQ7Gn4Ik/edit#)
+
+# 14-JAN-2019
+## Agenda
+ - Community Spotlight: Software AG
+
+Agenda and minutes: [Google Doc](https://docs.google.com/document/d/16dsjMpeku0eXrjdHw0cHejFCfXGr-LKy40h6_-4JW1w/edit#)
 
 # 10-DEC-2018
 ## Agenda
