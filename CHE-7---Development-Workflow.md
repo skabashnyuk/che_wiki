@@ -25,7 +25,7 @@ attributes:
 
 *  `extension` attribute consists of prefix `vscode:extension/` and VS Code extension ID that can be retrieved from plugin details page at  [marketplace](https://marketplace.visualstudio.com/)
 
-* `container-image` attribute contains the image name from the step #1 - `registry/org/repo:tag`. In the example abovce, registry is omitted since this is DockerHub. And if no tag is specified, `latest` is used by default.
+* `container-image` attribute contains the image name from the step #1 - `registry/org/repo:tag`. In the example above, registry is omitted since this is DockerHub. And if no tag is specified, `latest` is used by default.
 
 4. Push `meta.yaml` to https://github.com. The list of [available plugins](https://github.com/eclipse/che-plugin-registry/tree/master/plugins). It may not be GitHub. It's enough to host your yaml anywhere it's accessible for plugin broker (Apache server etc).
 
