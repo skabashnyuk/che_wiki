@@ -32,7 +32,7 @@ attributes:
 5. Create workspace and add plugin url to the workspace config. 
 
 Important notes:
-* plugin's url in the workspace config should be the url to the raw content, like:
+* plugin's url in the workspace config should be the url to the raw content:
 * the version of the plugin in meta.yaml has to be the same as a name of parent folder which contains thats file
 
 ```json
