@@ -45,4 +45,5 @@ Important notes:
 ```
 Please, note that the URL to meta.yaml should be a direct URL to file contents, not the page that contains/serves it (raw GitHub link in the example above).
 
-### Writing Theia Plugin API: https://github.com/eclipse/che/wiki/Writing-Theia-plugin-API
+### Writing Theia Plugin API
+see https://github.com/eclipse/che/wiki/Writing-Theia-plugin-API
