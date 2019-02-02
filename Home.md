@@ -6,4 +6,4 @@ Please refer to the sidebar (on the right) for details on Project Management, Co
 
 We run bi-weekly Che community calls that are open to anyone. Subscribe to the che-dev mailing list to interact with the community and get updates on releases.
 
-If you are looking for more information on using Eclipse Che, please visit our Eclipse Che portal and follow us on twitter!
+If you are looking for more information on using Eclipse Che, please visit our Eclipse Che [portal](https://che.eclipse.org/) and follow us on [Twitter](https://twitter.com/eclipse_che)!
