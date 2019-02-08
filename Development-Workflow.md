@@ -323,7 +323,7 @@ PR approvals require at least one other committer and a maintainer to authorize.
 
 If a dispute arises between multiple parties on a pull request on the best forward direction, we encourage the parties to work through any differences of opinion within the thread. If a deadlock occurs, then the maintainer assigned to the PR will have decision authority.
 
-To have approval from [Che QE team](https://github.com/orgs/eclipse/teams/eclipse-che-qa), PR should comply with conditions described it [Checklist](https://github.com/eclipse/che/wiki/Checklist-of-pull-request-approval-by-Eclipse-Che-QE-team).
+To have approval from [Che QE team](https://github.com/orgs/eclipse/teams/eclipse-che-qa), PR should comply with conditions described in [Checklist](https://github.com/eclipse/che/wiki/Checklist-of-pull-request-approval-by-Eclipse-Che-QE-team).
 
 If a PR is ready for review from developers or PMs a `status/code-review` label is set. Once all approvals have been granted the `status/code-review` label is removed and `status/pending-merge` is added - this indicates that code reviews are completed and maintainers are waiting for a merge window to appear. 
 
