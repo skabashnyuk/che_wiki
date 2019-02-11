@@ -12,8 +12,15 @@ Che maintainers moderate the calls. The schedule of moderators is in a [Google s
 
 # Next meeting
 
+The next Che dev meeting will take place on Monday 18 February 2019. You are welcome to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1Z7guNbcvjrpbJgec1xvUFkzP5IU2gabyDtT_n1LwwZ8/edit#)
 
-The next Che dev meeting will take place on Monday 4 February 2019. You are welcome to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1-SVy_fOLtvg2RmzsiXCmwiQPRiu6S0rTpwJlGYEH4IA/edit#)
+# 4-FED-2019
+## Agenda
+ - Status of Che tracing and monitoring (Sergii Kabashniuk)
+ - Che 7 beta status (Mario Loriedo)
+ - Feedback from FOSDEM (Ilya Buziuk)
+
+Agenda and minutes: [Google Doc](https://docs.google.com/document/d/1-SVy_fOLtvg2RmzsiXCmwiQPRiu6S0rTpwJlGYEH4IA/edit#)
 
 # 21-JAN-2019
 ## Agenda
