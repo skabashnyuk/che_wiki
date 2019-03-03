@@ -12,7 +12,7 @@ Che maintainers moderate the calls. The schedule of moderators is in a [Google s
 
 # Next meeting
 
-The next Che dev meeting will take place on Monday 4 March 2019. You are welcome to add the topics you would like to discuss during the call: {Google Doc](https://docs.google.com/document/d/1rcgy5u9kktHeTECJ2LSPEwf0oJJZh5eBGmRLoB4f9Rw/edit)
+The next Che dev meeting will take place on Monday 4 March 2019. You are welcome to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1rcgy5u9kktHeTECJ2LSPEwf0oJJZh5eBGmRLoB4f9Rw/edit)
 
 # 18-FEB-2019
 ## Agenda
