@@ -4,7 +4,7 @@ These conference calls are meant for the Che adoptors and contributors to chat a
 It's open to anyone interested. You don't need to have a long history with Che to attend the talk, listen and ask relevant questions.
 
 ## When and Where ##
-These meetings take place every second Monday, 8:00 AM PST. You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/478856747/4056). Chat link updated 22-Aug-17.
+These meetings take place every second Monday, 8:00 AM PST. You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/9155073783/3728). Chat link updated 18-Mar-19.
 
 ## Call Moderators
 Che maintainers moderate the calls. The schedule of moderators is in a [Google sheet](https://docs.google.com/spreadsheets/d/10iCqmk1eM216kQFIgLlOcTY1arbbRUrjzqsgQKlZ08g/edit#gid=0).
