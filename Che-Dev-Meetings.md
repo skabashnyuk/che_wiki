@@ -12,7 +12,16 @@ Che maintainers moderate the calls. The schedule of moderators is in a [Google s
 
 # Next meeting
 
-The next Che dev meeting will take place on Monday 18 March 2019. You are welcome to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/12lbNn37Sj1PuW8ioKSnfcy-4nJzqml2sBwJY98mc6OU/edit#)
+The next Che dev meeting will take place on Monday April 1st 2019. You are welcome to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1ASkwloswJ_70oc-7MQvt2kIBljWdBoSS_Z72vU9KlxE/edit)
+
+# 18-MAR-2019
+## Agenda
+
+ - Improve documentation for Extensions/Plug Ins/General Architecture
+ - Future of single user Che under Docker
+ - Running Che and Che workspaces as non root
+
+Agenda and minutes: [Google Doc](https://docs.google.com/document/d/12lbNn37Sj1PuW8ioKSnfcy-4nJzqml2sBwJY98mc6OU/edit)
 
 # 4-MAR-2019
 ## Agenda
