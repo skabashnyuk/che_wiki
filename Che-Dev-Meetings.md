@@ -11,10 +11,18 @@ Che maintainers moderate the calls. The schedule of moderators is in a [Google s
 ***
 
 # Next meeting
+The next Che dev meeting will take place on Monday May 13th 2019. You are welcome to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1BCqOEmtBzMenAQUqFtPBC_aYd3vZI20tng-h-tH2Azg/edit?usp=sharing)
 
-The next Che dev meeting will take place on Monday April 29th 2019. You are welcome to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1qHEPfTP4x0LhpliTcPRWisss4agD7XzgLlA27kXh9YU/edit)
+# 29-APR-2019
+## Agenda
 
-# 14-APR-2019
+ - Question aout Kubernetes components in Devfiles (Rajiv)
+ - Question about passing OIDC client secrets into Che (John)
+ - Community Spotlight: IBM (Tim)
+
+Agenda and minutes: [Google Doc](https://docs.google.com/document/d/1qHEPfTP4x0LhpliTcPRWisss4agD7XzgLlA27kXh9YU/edit)
+
+# 15-APR-2019
 ## Agenda
 
  - Overview of Che 7 (Stevan)
