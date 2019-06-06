@@ -11,7 +11,14 @@ Che maintainers moderate the calls. The schedule of moderators is in a [Google s
 ***
 
 # Next meeting
-The next Che dev meeting will take place on Monday May 13th 2019. You are welcome to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1C-bWzG_8_rSfHsH_F7_8v91LD3Ljy-9MkTHCwkIf00E/edit?usp=sharing)
+The next Che dev meeting will take place on Monday June 10th 2019. You are welcome to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1hb7Bu3gCDs_kVc8A2PAvhL2XzLApnkEI2t2MMgVq-8Y/edit?usp=sharing)
+
+# 27-May-2019:
+## Agenda:
+
+* Plan for Operator support (Elson)
+
+Agenda and minutes: [Google Doc](https://docs.google.com/document/d/1C-bWzG_8_rSfHsH_F7_8v91LD3Ljy-9MkTHCwkIf00E/edit?usp=sharing)
 
 # 13-MAY-2019
 ## Agenda
