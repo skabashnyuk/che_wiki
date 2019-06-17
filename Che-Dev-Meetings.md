@@ -11,7 +11,16 @@ Che maintainers moderate the calls. The schedule of moderators is in a [Google s
 ***
 
 # Next meeting
-The next Che dev meeting will take place on Monday June 10th 2019. You are welcome to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1hb7Bu3gCDs_kVc8A2PAvhL2XzLApnkEI2t2MMgVq-8Y/edit?usp=sharing)
+The next Che dev meeting will take place on Monday June 10th 2019. You are welcome to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+
+# 10-June-2019:
+## Agenda:
+
+* Presenting Grafana monitoring and dashboard for che.openshift.io (Sergii Kabashniuk)
+* Process to add official workspace templates/stacks to Che (John Collier)
+* Picking up Theia changes into che-theia: [Theia PR](https://github.com/theia-ide/theia/pull/5310) (Tim Etchells)
+
+Agenda and minutes:  [Google Doc](https://docs.google.com/document/d/1hb7Bu3gCDs_kVc8A2PAvhL2XzLApnkEI2t2MMgVq-8Y/edit?usp=sharing) / [YouTube video](https://youtu.be/DRm-c36Z7UY)
 
 # 27-May-2019:
 ## Agenda:
