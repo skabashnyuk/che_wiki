@@ -17,6 +17,6 @@
 * [Development Workflow](https://github.com/eclipse/che/wiki/Development-Workflow)
 * [CHE 7 - Development Workflow](https://github.com/eclipse/che/wiki/CHE-7---Development-Workflow)
 * [Coding Guidelines](https://github.com/eclipse/che/wiki/Coding-Guidelines)
-* [Contributor License Agreement](https://github.com/eclipse/che/wiki/Contributor-License-Agreement)
+* [Eclipse Contributor Agreement](https://github.com/eclipse/che/wiki/Eclipse-Contributor-Agreement)
 * [FAQ](https://github.com/eclipse/che/wiki/Technical-FAQ)
 * [Contributing to Che7 and Che-Theia](https://github.com/eclipse/che/wiki/Contributing-to-Che7-and-Che-Theia)
