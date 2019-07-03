@@ -4,13 +4,9 @@ These conference calls are meant for the Che adoptors and contributors to chat a
 It's open to anyone interested. You don't need to have a long history with Che to attend the talk, listen and ask relevant questions.
 
 ## When and Where ##
-These meetings take place every second Monday, 8:00 AM PST. You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/9155073783/3728). Chat link updated 18-Mar-19.
+These meetings take place every second Monday, 8:00 AM PST. You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/2488406763). Chat link updated 18-Mar-19.
 
-## Call Moderators
-Che maintainers moderate the calls. The schedule of moderators is in a [Google sheet](https://docs.google.com/spreadsheets/d/10iCqmk1eM216kQFIgLlOcTY1arbbRUrjzqsgQKlZ08g/edit#gid=0).
-***
-
-# Next meeting
+# Next meeting 8-July-2019
 The next Che dev meeting will take place on Monday July 8th 2019. You are welcome to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
 
 # 24-June-2019
