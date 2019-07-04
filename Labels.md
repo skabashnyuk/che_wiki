@@ -23,7 +23,7 @@ The following labels will appear in the https://github.com/eclipse/che/contribut
 | `kind/usability`| Issues related to the end-user experience.
 ||
 | **Bug Severities**| _________________________________________________________________________ |
-| `severity/blocker`| Causes system to crash and be non-recoverable or prevents Codenvy developers from working on Codenvy code.  Must be resolved immediately. Can only be applied to `kind/bugs`.
+| `severity/blocker`| Causes system to crash and be non-recoverable or prevents Che developers from working on Che code.  Must be resolved immediately. Can only be applied to `kind/bugs`.
 | `severity/P1`| Has a major impact to usage or development of the system. Issues / PRs with P1 status should be prioritized during sprint planning. Can be applied to all kinds of issues. Not all issues need a severity. If an enhancement or bug will take >1 sprint to address consider using the `roadmap/*` labels instead.
 | `severity/P2`| Has a minor but important impact to the usage or development of the system. Should be considered when planning sprints. Can be applied to all kinds of issues. Not all issues need a severity. If an enhancement or bug will take >1 sprint to address consider using the `roadmap/*` labels instead.
 ||
