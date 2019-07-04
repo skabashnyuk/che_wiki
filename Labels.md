@@ -3,6 +3,7 @@ The Eclipse Che project relies heavily on [issue labels](https://github.com/ecli
 
 ### Issues and pull request for new contributors
 The following labels will appear in the https://github.com/eclipse/che/contribute page.
+
 | Label        | Description
 | ------------ |-------------
 | `good first issue`| Community, this issue looks easy to start with for a new contributor. Just take it. We'll help you!
