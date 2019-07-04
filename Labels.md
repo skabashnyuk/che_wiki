@@ -38,7 +38,6 @@ The following labels will appear in the https://github.com/eclipse/che/contribut
 | `status/open-for-dev` | An issue has had its specification reviewed and confirmed. Waiting for an engineer to accept the issue and take it into active development.
 | `status/in-progress` | This issue has been taken by an engineer and is under active development.
 | `status/code-review` | This issue has a pull request posted for it and is awaiting code review completion by the community.
-| `status/pending-merge` | This issue has completed development and awaiting authorization to be merged into master. Sometimes issues can be completed, but are placed on hold to merge in "info-needed", "analyzing", "open-for-dev", "in-progress", "code-review" or "blocked". Issues with a `pending-merge` label need to reference the PR(s) that are pending.
 | `status/blocked` | Issue that can’t be moved forward. Must include a comment on the reason for the blockage. If it’s blocked because it depends on another issue then it should include a link to the issue it depends on.
 ||
 | **Dev Open Pull Request Status**| _________________________________________________________________________ |
