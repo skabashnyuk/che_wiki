@@ -40,10 +40,6 @@ The following labels will appear in the https://github.com/eclipse/che/contribut
 | `status/code-review` | This issue has a pull request posted for it and is awaiting code review completion by the community.
 | `status/blocked` | Issue that can’t be moved forward. Must include a comment on the reason for the blockage. If it’s blocked because it depends on another issue then it should include a link to the issue it depends on.
 ||
-| **Dev Open Pull Request Status**| _________________________________________________________________________ |
-| `status/work-in-progress` | This PR is not ready to be merged. There is additional testing, development or input required.
-| `status/merge-ready` | All reviews have been finalized. The PR can be merged into master if merges are being accepted according to sprint or milestone plan.
-||
 | **Roadmap labels**| _________________________________________________________________________ |
 | `roadmap/this-QTR` | A large scale feature or bug fix that is scheduled to be addressed in the current quarter.
 | `roadmap/next-QTR` | A large scale feature or bug fix that is scheduled to be addressed in the next quarter.
