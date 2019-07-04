@@ -20,6 +20,7 @@ The following labels will appear in the https://github.com/eclipse/che/contribut
 | `kind/task`| Internal things, technical debt, and to-do tasks to be performed. Cannot overlap with "question", "enhancement", "bug", "epic" or "docs".
 | `kind/docs`| A work item tied to documentation.  Cannot overlap with "question", "enhancement", "bug", "epic" or "task".
 | `kind/planning`| A checklist of issues that a team is planning for a particular sprint.
+| `kind/usability`| Issues related to the end-user experience.
 ||
 | **Bug Severities**| _________________________________________________________________________ |
 | `severity/blocker`| Causes system to crash and be non-recoverable or prevents Codenvy developers from working on Codenvy code.  Must be resolved immediately. Can only be applied to `kind/bugs`.
