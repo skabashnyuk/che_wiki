@@ -19,6 +19,7 @@ The following labels will appear in the https://github.com/eclipse/che/contribut
 | `kind/bug`| Outline of a bug - must adhere to the bug report template. If a bug is identified during a question investigation a new issue can be created for the bug and the question closed. Cannot overlap with  "question", "enhancement", "epic", "task" or "docs".
 | `kind/task`| Internal things, technical debt, and to-do tasks to be performed. Cannot overlap with "question", "enhancement", "bug", "epic" or "docs".
 | `kind/docs`| A work item tied to documentation.  Cannot overlap with "question", "enhancement", "bug", "epic" or "task".
+| `kind/planning`| A checklist of issue that a team is planning for a particular sprint.
 ||
 | **Bug Severities**| _________________________________________________________________________ |
 | `severity/blocker`| Causes system to crash and be non-recoverable or prevents Codenvy developers from working on Codenvy code.  Must be resolved immediately. Can only be applied to `kind/bugs`.
