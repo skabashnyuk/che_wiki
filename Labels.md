@@ -1,5 +1,5 @@
 ## Issue Labels
-The Eclipse Che project relies heavily on issue labels as a way to communicate status and responsibility.
+The Eclipse Che project relies heavily on [issue labels](https://github.com/eclipse/che/labels) as a way to communicate status and responsibility.
 
 ### Issue Types
 | Label        | Description
