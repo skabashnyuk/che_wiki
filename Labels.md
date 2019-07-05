@@ -1,7 +1,8 @@
 ## Issue Labels
 The Eclipse Che project relies heavily on [issue labels](https://github.com/eclipse/che/labels) as a way to communicate status and responsibility.
 
-### Issues and pull request for new contributors
+### New contributors
+These labels are for issues and pull request that new contributors can start with.
 The following labels will appear in the https://github.com/eclipse/che/contribute page.
 
 | Label        | Description
