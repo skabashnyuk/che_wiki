@@ -59,7 +59,8 @@ The following labels will appear in the https://github.com/eclipse/che/contribut
 | `team/ide` | Issue to be taken by the IDE team (working on Che-theia plugins).
 | `team/ide2` | Issue to be taken by the IDE2 team (working on Che-theia plugins and extensibility).
 | `team/osio` | Issue to be taken by the che.openshift.io team (working on the integration of Che in che.openshift.io).
-| `team/plugin` | Issue to be taken by the plugin development team.
+| `team/languages` | Issue to be taken by the languages development team.
+| `team/che-qe` | Issue to be taken by the QE development team.
 | `team/platform` | Issue to be taken by the platform team.
 | `team/pm` | Issue to be taken by the product management team.
 
