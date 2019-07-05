@@ -23,6 +23,10 @@ The following labels will appear in the https://github.com/eclipse/che/contribut
 | `kind/planning`| A checklist of issues that a team is planning for a particular sprint.
 | `kind/usability`| Issues related to the end-user experience.
 
+### [Areas](https://github.com/eclipse/che/labels?q=area)
+Issues related to a specific functional area of Che. https://github.com/eclipse/che/labels?q=area
+
+
 ### [Bug Severities](https://github.com/eclipse/che/labels?q=severity) 
 | Label        | Description
 | ------------ |-------------
