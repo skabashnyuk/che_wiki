@@ -71,3 +71,9 @@ The following labels will appear in the https://github.com/eclipse/che/contribut
 | `target/che6` | Indicates that a PR or an issue will be merged into che6.
 | `target/che7` | Indicates that a PR or an issue will be merged into che7.
 | `target/che7GA` | Indicates that a PR or an issue is targetting 7.0.0-GA.
+
+### [Test failures](https://github.com/eclipse/che/labels?q=selenium)
+| Label        | Description
+| ------------ |-------------
+| `selenium/failure` | Issues that is related to a Selenium failures reported by our CI platform and our QE team.
+
