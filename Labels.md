@@ -68,5 +68,6 @@ The following labels will appear in the https://github.com/eclipse/che/contribut
 | Label        | Description
 | ------------ |-------------
 | `target/branch` | Indicates that a PR will be merged into a branch other than master. When merging to master branch `target/` label should not be used as it is an assume default target for most PRs.
-| `target/che5` | Indicates that a PR or an issue will be merged into che5. 
-| `target/che6` | Indicates that a PR or an issue will be merged into che6 branch. 
+| `target/che6` | Indicates that a PR or an issue will be merged into che6.
+| `target/che7` | Indicates that a PR or an issue will be merged into che7.
+| `target/che7GA` | Indicates that a PR or an issue is targetting 7.0.0-GA.
