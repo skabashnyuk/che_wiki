@@ -10,7 +10,8 @@ The following labels will appear in the https://github.com/eclipse/che/contribut
 | `help wanted`| Community, our teams are fully engaged on other issues. Feel free to take this one. We'll help you!
 
 
-### Issue Types
+### [Issue Types](https://github.com/eclipse/che/labels?q=kind)
+
 | Label        | Description
 | ------------ |-------------
 | `kind/question`| Questions that haven't been identified as being feature requests or bugs.
@@ -21,34 +22,40 @@ The following labels will appear in the https://github.com/eclipse/che/contribut
 | `kind/docs`| A work item tied to documentation.
 | `kind/planning`| A checklist of issues that a team is planning for a particular sprint.
 | `kind/usability`| Issues related to the end-user experience.
-||
-| **Bug Severities**| _________________________________________________________________________ |
+
+### [Bug Severities](https://github.com/eclipse/che/labels?q=severity) 
+| Label        | Description
+| ------------ |-------------
 | `severity/blocker`| Causes system to crash and be non-recoverable or prevents Che developers from working on Che code.  Must be resolved immediately. Can only be applied to `kind/bugs`.
 | `severity/P1`| Has a major impact to usage or development of the system. Issues / PRs with P1 status should be prioritized during sprint planning. Can be applied to all kinds of issues. Not all issues need a severity. If an enhancement or bug will take >1 sprint to address consider using the `roadmap/*` labels instead.
 | `severity/P2`| Has a minor but important impact to the usage or development of the system. Should be considered when planning sprints. Can be applied to all kinds of issues. Not all issues need a severity. If an enhancement or bug will take >1 sprint to address consider using the `roadmap/*` labels instead.
-||
-| **Issue Level**| _________________________________________________________________________ |
+
+### [Issue Level](https://github.com/eclipse/che/labels?q=level)
+| Label        | Description
+| ------------ |-------------
 | `level/beginner` | A relatively easy issue that's well suited to being addressed by a pull request from the community.
 | `level/intermediate` | A more advanced issue that is open to a pull request from a community member with more experience in Che.
 | `level/advanced` | A challenging issue that is complicated and needs help from a community member with domain experience.
-||
-| **Dev Open Issue Status**| _________________________________________________________________________ |
+
+### [Dev Open Issue Status](https://github.com/eclipse/che/labels?q=status)
+| Label        | Description
+| ------------ |-------------
 | `status/info-needed` | More information is needed before the issue can move into the “analyzing” state for engineering.
 | `status/analyzing` | An issue has been proposed and it is currently being analyzed for effort and implementation approach.
 | `status/open-for-dev` | An issue has had its specification reviewed and confirmed. Waiting for an engineer to accept the issue and take it into active development.
 | `status/in-progress` | This issue has been taken by an engineer and is under active development.
 | `status/code-review` | This issue has a pull request posted for it and is awaiting code review completion by the community.
 | `status/blocked` | Issue that can’t be moved forward. Must include a comment on the reason for the blockage. If it’s blocked because it depends on another issue then it should include a link to the issue it depends on.
-||
-| **Roadmap labels**| _________________________________________________________________________ |
-| `roadmap/this-QTR` | A large scale feature or bug fix that is scheduled to be addressed in the current quarter.
-| `roadmap/next-QTR` | A large scale feature or bug fix that is scheduled to be addressed in the next quarter.
-||
-| **Sprint labels**| _________________________________________________________________________ |
+
+### [Sprint labels](https://github.com/eclipse/che/labels?q=sprint)
+| Label        | Description
+| ------------ |-------------
 | `sprint/current-sprint` | Issue is being worked in the current sprint.
 | `sprint/next-sprint` | Issue is planned to be worked in the next sprint.
-||
-| **Team Assignments**| _________________________________________________________________________ |
+
+### [Team Assignments](https://github.com/eclipse/che/labels?q=team)
+| Label        | Description
+| ------------ |-------------
 | `team/ide` | Issue to be taken by the IDE team.
 | `team/enterprise` | Issue to be taken by the enterprise features team.
 | `team/osio` | Issue to be taken by the OpenShift.IO team (working on the integration of Che in OpenShift.IO).
@@ -56,7 +63,10 @@ The following labels will appear in the https://github.com/eclipse/che/contribut
 | `team/production` | Issue to be taken by the production readiness team.
 | `team/platform` | Issue to be taken by the platform team.
 | `team/pm` | Issue to be taken by the product management team.
-| **Pull Request Target**| _________________________________________________________________________ |
+
+### [Pull Request Target](https://github.com/eclipse/che/labels?q=target)
+| Label        | Description
+| ------------ |-------------
 | `target/branch` | Indicates that a PR will be merged into a branch other than master. When merging to master branch `target/` label should not be used as it is an assume default target for most PRs.
 | `target/che5` | Indicates that a PR or an issue will be merged into che5. 
 | `target/che6` | Indicates that a PR or an issue will be merged into che6 branch. 
