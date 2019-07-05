@@ -56,11 +56,10 @@ The following labels will appear in the https://github.com/eclipse/che/contribut
 ### [Team Assignments](https://github.com/eclipse/che/labels?q=team)
 | Label        | Description
 | ------------ |-------------
-| `team/ide` | Issue to be taken by the IDE team.
-| `team/enterprise` | Issue to be taken by the enterprise features team.
-| `team/osio` | Issue to be taken by the OpenShift.IO team (working on the integration of Che in OpenShift.IO).
+| `team/ide` | Issue to be taken by the IDE team (working on Che-theia plugins).
+| `team/ide2` | Issue to be taken by the IDE2 team (working on Che-theia plugins and extensibility).
+| `team/osio` | Issue to be taken by the che.openshift.io team (working on the integration of Che in che.openshift.io).
 | `team/plugin` | Issue to be taken by the plugin development team.
-| `team/production` | Issue to be taken by the production readiness team.
 | `team/platform` | Issue to be taken by the platform team.
 | `team/pm` | Issue to be taken by the product management team.
 
