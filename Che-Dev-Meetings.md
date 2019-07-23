@@ -6,8 +6,17 @@ It's open to anyone interested. You don't need to have a long history with Che t
 ## When and Where ##
 These meetings take place every second Monday, 8:00 AM PST. You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/2488406763). Chat link updated 18-Mar-19. Calendar [link](https://calendar.google.com/event?action=TEMPLATE&tmeid=NzBzajBjOWtjNG82Y2I5azYwcjMwYjlrNnNxMzhiYjFjY3A2OGI5bzc1Z21jcGhwY2NyamlkcjNjOF8yMDE5MDcwOFQxNTAwMDBaIHN1dGFuQHJlZGhhdC5jb20&tmsrc=sutan%40redhat.com).
 
-# Next meeting 22-July-2019
-The next Che dev meeting will take place on Monday July 22nd 2019. You are welcome to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+# Next meeting 5-August-2019
+The next Che dev meeting will take place on Monday August 5th 2019. You are welcome to add the topics you would like to discuss during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+
+# 22-July-2019
+## Agenda:
+* Che 7.0 GA updates- Mario (Red Hat)
+* Multiple Registries- Toby (IBM)
+* 7.1 / 7.2 milestone issues - Stevan (Red Hat)
+
+Agenda and minutes:  [Google Doc](https://docs.google.com/document/u/1/d/e/2PACX-1vT2PveEGZ1X9BFsvhiV4g-wDKOIlFkW5itgujNFeC4jY9XSEiPi8Ov0-IxcEVSHUx4T2NzC13LP91HX/pub) / [YouTube video](https://www.google.com/url?q=https://youtu.be/PapBkNZm2j8&sa=D&ust=1563831333849000)
+
 
 # 8-July-2019
 ## Agenda:
