@@ -2,10 +2,10 @@ The best way to understand how a project works or to debug an issue is to get th
 
 ## Build and Run From Source
 ### Dependencies
-* Docker 1.8+
-* Maven 3.3.1+
+* Docker 18+
+* Maven 3.5+
 * Oracle or OpenJDK Java 1.8
-* Go 1.6.3
+* Go 1.10+
 
 The M2_HOME and M2 variables should be set correctly. OpenJDK Java 1.8 on Debian/Ubuntu linux requires "openjdk-8-jdk-headless" package. 
 
@@ -13,15 +13,14 @@ To build the Che core, you will need the maven-patch-plugin. Windows [does not s
 
 To build the user dashboard submodule, you will need npm, bower, gulp, and python.
 - Python `v2.7.x`(`v3.x.x`currently not supported)
-- Node.js `v4.x.x` (`v5.x.x` / `v6.x.x` are currently not supported)
-- npm
-  - bower
-  - gulp
+- Node.js `v10.x`
+- npm 6.4+
+  - yarn 1.16+
   - typings
 
 Learn more about how to [build the dashboard submodule here](https://github.com/eclipse/che/tree/master/dashboard).
 
-To [build the exec agent submodule](https://github.com/eclipse/che/tree/master/agents/exec), you will also need Go 1.6+. The exec agent submodule is a way to execute commands and stream process output logs with a websocket terminal. We use it as a replacement for "docker exec" CLI, as this gives us more fine-grained control over interacting with Docker containers.
+To [build the exec agent submodule](https://github.com/eclipse/che/tree/master/agents/exec), you will also need Go 1.10+. The exec agent submodule is a way to execute commands and stream process output logs with a websocket terminal. We use it as a replacement for "docker exec" CLI, as this gives us more fine-grained control over interacting with Docker containers.
 
 ### Clone
 If you haven't done so already, please clone the Che repository
@@ -30,14 +29,14 @@ git clone https://github.com/eclipse/che.git
 ```
 If you want to develop an extension for Che, we recommend to checkout the latest tagged and stable version after cloning, e.g.:
 ```sh
-git checkout tags/4.6.0
+git checkout tags/7.0.0-rc-4.0
 ```
 
 ### Build and Run
 In its purest form, Che runs as a Tomcat server. You can build Che to create an assembly that has an embedded Tomcat server. 
 
 ```sh
-cd assembly/assembly-main
+cd che/assembly/assembly-main
 mvn clean install
 
 # A new assembly is placed in:
@@ -68,14 +67,13 @@ mvn -DskipTests=true \
     -Dfindbugs.skip=true \
     -Dmdep.analyze.skip=true \
     -Dlicense.skip=true \
-    -Dgwt.compiler.localWorkers=2 -T 1C \
     -Pnative \
     clean install
 
 # If you have forked the repository, you can define maven flags permanently by
 # editing /.mvn/.jvm.config. Engineers with advanced multi-core machines usually
 # set it to:
--Xms512m -Xmx4g -Djava.net.preferIPv4Stack=true -Dgwt.compiler.localWorkers=4
+-Xms512m -Xmx4g -Djava.net.preferIPv4Stack=true
 
 # We also have a maven "fast" profile that provides the same flags:
 mvn clean install -Pfast
@@ -93,15 +91,9 @@ cd che/core
 mvn -DskipTests=true -Dfindbugs.skip=true clean install
 ```
 
-To build plugins:
-```sh
-cd che/plugins
-mvn clean install
-```
-
 To build the user dashboard:
 ```sh
-# You need npm, bower, and gulp installed.
+# You need npm, yarn, typings installed.
 # See setup instructions in /dashboard
 cd che/dashboard
 mvn clean install
@@ -119,7 +111,7 @@ docker run -it --rm --name build-che
            eclipse/che-dev 
            mvn -DskipTests=true 
                -Dfindbugs.skip=true
-               -Dgwt.compiler.localWorkers=2 -T 1C 
+               -T 1C 
                -Dmdep.analyze.skip=true 
                -Dlicense.skip=true
                -Pnative
@@ -130,7 +122,7 @@ docker run -it --rm --name build-che
 ```
 
 ### Developers on Windows
-The dashboard and subversion plugins require OS-specific libraries to complete compilation. These modules will fail on Windows. You can use the `eclipse/che-dev` Docker image to compile the code which contains all of the dependencies. 
+The dashboard requires OS-specific libraries to complete compilation. This may fail on Windows. You can use the `eclipse/che-dev` Docker image to compile the code which contains all of the dependencies. 
 
 Alternatively, you can skip building submodules by using `-pl '!dashboard'` with the maven command line.
 
@@ -142,7 +134,7 @@ We have integrated [Error Prone](https://github.com/google/error-prone) to check
 License checks for submitted files are done within a maven build. You can skip these license checks with `-Dlicense.skip` maven option.
  
 ## IDE Setup
-You can build (and run) Che from within another IDE. Our engineers use Eclipse and IntelliJ for development.
+You can build (and run) Che from within another IDE. Our engineers use Eclipse, IntelliJ, VSCode, and Che itself for development. See https://github.com/eclipse/che/blob/master/devfile.yaml if you want to build Che from within Che.
 
 ### Eclipse IDE - Yatta Installer
 Yatta is great and they [maintain an Oomph installer](https://profiles.yatta.de/iQBd) for Eclipse Che. It will install Eclipse, some additional Eclipse plugins, and checkout the Che source code. If you are using OpenJDK on your system, you will need to install OpenJFX first.
@@ -212,22 +204,7 @@ In the `Arguments` tab:
 `Program arguments` : `-style PRETTY -noincremental -src target/generated-sources/gen org.eclipse.che.ide.IDE`  
 `VM Arguments` : `-Xmx2048m`
 
-In the `Classpath` tab, go to `User Entries > Add External Jars`. Add:
-
-1. `gwt-codeserver.jar` (in the directory where you unzipped GWT zip),
-2. `gwt-dev.jar`, (also in the same directory)
-
 In the `Source` tab, remove any non-existent source folders. This is uncommon, but if you see something like `src/text/java` then these folders should be removed.
-
-#### GWT Super Dev Mode for IntelliJ  
-[Download the GWT SDK 2.8.0 zip](http://www.gwtproject.org/versions.html) from Google's site. You will need to explode it and save in a directory on your compuer.
-
-JetBrains has a helpful page. There is [just a single step](https://www.jetbrains.com/help/idea/2016.2/enabling-gwt-support.html).
-
-Setup Run Configuration. In `Run > Edit Configurations > GWT Configuration`, add a new configuration:
-* `Use Super Dev Mode`
-* `Dev Mode parameters`: `-noserver -noincremental -style PRETTY`
-* `VM options:` `-Xmx2048m`
 
 #### Launch Che with Super Dev Mode
 Run Che normally. You can use the CLI, the Che launcher, or Eclipse. Within your browser create a workspace and then identify the workspace name.  Open the workspace with the workspace name or ID that you captured, so this would be `http://<che-url>/che/<ws-name>`.
@@ -319,7 +296,7 @@ We may require that each PR has:
 
 Bug fix PRs may not require docs or release notes. All PRs must have either a `kind/enhancement`, `kind/docs`, or `kind/bugs` label.
 
-PR approvals require at least one other committer and a maintainer to authorize.  Current maintainers include Vitalii Parfonov, Gennady Azarenkov, Sergii Kabashnyuk, Viktor Kuzynetsov, Roman Iuvshin, Florent Benoit, Mario Loriedo and Tyler Jewell. PRs that include docs and release notes updates must also include a PM reviewer. PM reviewers include Brad Micklea, Stevan LeMeur, Eugene Ivantsov, or Tyler Jewell.
+PR approvals require at least one other committer and a maintainer to authorize.  Current maintainers include Vitalii Parfonov, Sergii Kabashnyuk, Florent Benoit, Mario Loriedo. PRs that include docs and release notes updates must also include a PM reviewer. PM reviewers include Brad Micklea, Stevan LeMeur, Robert Kratky.
 
 If a dispute arises between multiple parties on a pull request on the best forward direction, we encourage the parties to work through any differences of opinion within the thread. If a deadlock occurs, then the maintainer assigned to the PR will have decision authority.
 
@@ -369,20 +346,25 @@ Our repository is broken in a variety of independently buildable submodules.
 /che/dashboard                         # JavaScript app user management
 /che/dockerfiles                       # Docker images to run Che, CLI, & utilities
 /che/ide                               # The browser-based IDE
-/che/plugins                           # IDE & workspace agent plug-ins
 /che/samples                           # Code templates injected into new workspaces
 ```
 
 ### Repositories
 Some dependencies are managed in separate repositories as part of the `http://github.com/eclipse` organization. These dependencies are forks of other important projects, contain shared libraries that need to be managed on a different tagging lifecycle than Che, or have very large files within them (such as docs).
 ```
-https://github.com/eclipse/che-archetypes
-https://github.com/eclipse/che-dependencies
+https://github.com/eclipse/che-parent
+https://github.com/eclipse/che-lib
 https://github.com/eclipse/che-dev
+
 https://github.com/eclipse/che-dockerfiles
 https://github.com/eclipse/che-docs
-https://github.com/eclipse/che-lib
-https://github.com/eclipse/che-parent
+
+https://github.com/eclipse/che-ls-jdt
+https://github.com/eclipse/che-operator
+https://github.com/eclipse/che-theia
+
+https://github.com/eclipse/che-devfile-registry
+https://github.com/eclipse/che-plugin-registry
 ```
 
 ### Other Repositories
