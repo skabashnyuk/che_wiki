@@ -15,20 +15,23 @@ There are six roles that define responsibilities for managing our process:
 
 5. **Maintainers**: Responsible for managing issue backlog, ensuring long term code quality for a product area, ensures that our PR process is followed, and provides technical decision making on areas where consensus does not exist. Maintainers are responsible for periodically reviewing the open PRs and issue backlog for their product area to ensure that the PR reviewer list is complete, issues are ordered properly in the backlog, and that reviewers are providing substantive reviews. Maintainers need to do the scheduling and the communication of the PR’s review - this would provide in less than 3 business days. Maintainer usually listed as a [CODEOWNER](https://help.github.com/articles/about-codeowners/) of particular area and included to PR Reviewer list by default.
 
-Maintainers:
-* IDE: Vitalii Parfonov (@vparfonov), Artem Zatsarynnyi (@azatsarynnyy)
-* Language Servers, IDE Plugins: Dmitro Kuleshov (@dkuleshov),  Evgen Vidolob (@evidolob)
-* Platform: Sergii Kabashnyuk (@skabashnyuk), Alex Garagatyi (@garagatyi)
-* Kubernetes: Mario Loriedo (@l0rd), Gorkem Ercan (@gorkem)
-* Dashboard: Anna Shumilova (@ashumilova), Florent Benoit (@benoitf)
-* QA Automation: Anatoliy Bazko (@tolusha)
-* Utilities (CLI, devops, etc): Roman Iuvshin (@riuvshin), Eugene Ivantsov (@eivantsov)
-* Docs: Stevan Lemeur (@slemeur), Eugene Ivantsov (@eivantsov), Brad Micklea (@bmicklea)
-* Architecture: Gennady Azarenkov (@gazarenkov)
+    Maintainers:
+    * Che-theia: [eclipse/che-theia CODEOWNERS](https://github.com/eclipse/che-theia/blob/master/.github/CODEOWNERS)
+    * Platform: [eclipse/che CODEOWNERS](https://github.com/eclipse/che/blob/master/.github/CODEOWNERS)
+    * Dashboard: [eclipse/che CODEOWNERS](https://github.com/eclipse/che/blob/master/.github/CODEOWNERS)
+    * QE: [eclipse/che CODEOWNERS](https://github.com/eclipse/che/blob/master/.github/CODEOWNERS)
+    * Chectl: [che-incubator/chectl CODEOWNERS](https://github.com/che-incubator/chectl/blob/master/.github/CODEOWNERS)
+    * Docs: [eclipse/che-docs CODEOWNERS](https://github.com/eclipse/che-docs/blob/master/.github/CODEOWNERS)
+    * Plugin registry: [eclipse/che-plugin-registry CODEOWNERS](https://github.com/eclipse/che-plugin-registry/blob/master/.github/CODEOWNERS)
+    * Devfile registry: [eclipse/che-devfile-registry  CODEOWNERS](https://github.com/eclipse/che-devfile-registry/blob/master/.github/CODEOWNERS)
+    * Plugin broker: [eclipse/che-plugin-broker CODEOWNERS](https://github.com/eclipse/che-plugin-broker/blob/master/.github/CODEOWNERS)
+    * Che operator: [eclipse/che-operator CODEOWNERS](https://github.com/eclipse/che-operator/blob/master/.github/CODEOWNERS)
+    * Workspace client [eclipse/che-workspace-client CODEOWNERS](https://github.com/eclipse/che-workspace-client/blob/master/.github/CODEOWNERS)
+    * Machine exec [eclipse/che-machine-exec CODEOWNERS](https://github.com/eclipse/che-machine-exec/blob/master/.github/CODEOWNERS)
 
-If the pull request is from a contributor without merge rights, the maintainer will perform the merge. 
+    If the pull request is from a contributor without merge rights, the maintainer will perform the merge. 
 
-6. **Project Leaders**: Responsible for governing the project, setting the 6 month roadmap, ensuring that the development process reflects our project's values and objectives, and nominating individuals to become maintainers. Current project leaders are Tyler Jewell and Gennady Azarenkov.
+6. **Project Leaders**: Responsible for governing the project, setting the 6 month roadmap, ensuring that the development process reflects our project's values and objectives, and nominating individuals to become maintainers. Current project leader is Mario Loriedo (@l0rd).
 
 # Roadmap
 Project leaders maintain a 6 month forward looking [Roadmap](https://github.com/eclipse/che/wiki/Roadmap) which defines the themes, features and technical debt to be addressed in the time frame.
