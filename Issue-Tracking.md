@@ -1,8 +1,8 @@
 This page describes how we track issues in the `eclipse/che` repository.
 
 ## Popular Queries
-### Triage and Unprocessed Issue Queries
-[Issue Triage](https://github.com/eclipse/che/issues?utf8=%E2%9C%93&q=is%3Aopen%20no%3Aassignee%20-label%3Akind%2Fquestion%20-label%3Akind%2Fenhancement%20-label%3Akind%2Fepic%20-label%3Akind%2Ftask%20-label%3Akind%2Fdocs%20-label%3Aseverity%2Fblocker%20-label%3Astatus%2Finfo-needed%20-label%3Astatus%2Fanalyzing%20-label%3Astatus%2Fopen-for-dev%20-label%3Astatus%2Fin-progress%20-label%3Astatus%2Fcode-review%20-label%3Astatus%2Fpending-merge%20-label%3Astatus%2Fblocked%20-label%3Ateam%2Fide%20-label%3Ateam%2Fenterprise%20-label%3Ateam%2Fplugin%20-label%3Ateam%2Fproduction%20-label%3Ateam%2Fplatform%20-label%3Ateam%2Fpm%20-label%3Astatus%2Fwork-in-progress%20-label%3Astatus%2Fmerge-ready%20-label%3Asprint%2Fcurrent-sprint%20-label%3Asprint%2Fnext-sprint)
+### Triage
+[Issues to be prioritized](https://github.com/eclipse/che/labels/status%2Fneed-triage)
 
 [Questions for Support](https://github.com/eclipse/che/labels/kind%2Fquestion)
 
