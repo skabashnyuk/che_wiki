@@ -183,35 +183,6 @@ Dashboard -> Workspaces -> Runtime tab -> Servers
 wsagent.debug 4403 http	http://172.17.0.1:40037
 ```
 
-### Debugging Che IDE extensions
-Che IDE extensions are authored with Google Web Toolkit (GWT) and then compiled into JavaScript. GWT has a concept called Super Dev Mode, which allows you to debug Java extensions within the browser, even though they are running as JavaScript.
-
-#### GWT Super Dev Mode for Eclipse
-
-[Download the GWT SDK 2.8.0 zip](http://www.gwtproject.org/versions.html) from Google's site. You will need to explode it and save in a directory on your compuer.
-
-[Install Google Plugin for Eclipse](https://developers.google.com/eclipse/docs/getting_started) You will be asked to install software for Google App Engine and other Google utilities. You only need the Eclipse plugin package.
-
-In Eclipse, go to `Window > Preferences > Google > Web Toolkit > SDKs > Add`. You will need to specify the directory where GWT is installed. 
-
-##### Setup Run Configuration
-In Eclipse, go to `Run > Run Configurations`, select `Java Application`, right click and select `New`.
-
-In the `Main` tab, add the project `assembly-ide-war` with main class as `com.google.gwt.dev.codeserver.CodeServer`.
-
-In the `Arguments` tab: 
-
-`Program arguments` : `-style PRETTY -noincremental -src target/generated-sources/gen org.eclipse.che.ide.IDE`  
-`VM Arguments` : `-Xmx2048m`
-
-In the `Source` tab, remove any non-existent source folders. This is uncommon, but if you see something like `src/text/java` then these folders should be removed.
-
-#### Launch Che with Super Dev Mode
-Run Che normally. You can use the CLI, the Che launcher, or Eclipse. Within your browser create a workspace and then identify the workspace name.  Open the workspace with the workspace name or ID that you captured, so this would be `http://<che-url>/che/<ws-name>`.
-
-Click the `Dev Mode On` bookmark on your booksmark bar. A message will appear asking you to recompile the application.  Select the `_app` and compile it.
-
-
 ## Profiling
 The Che server and the primary workspace agent deployed within a workspace have JVM runtimes. We use JProfiler as the primary performance profiling utility for the JVMs that are running within each of these notes. Our servers are running within Docker containers for each of these nodes. JProfiler needs to be added, configured, and exposed within the Dockerfiles used to run Che or a workspace. JProfiler will need an additional port exposed and you will have to find the ephemeral port mapping of the container when it is running.
 
