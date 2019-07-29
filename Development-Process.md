@@ -11,7 +11,7 @@ There are six roles that define responsibilities for managing our process:
 
 3. **Reviewers**: A committer assigned to participate in a PR review. Reviewers can be asked to review any part of the product including code review, code formatting, change log, release notes, documentation, unit test verification, and the marketing material alterations that must exist when a PR is merged. Reviewers are assigned to a PR by the PR initiator, the Triager, or Maintainers. Reviewers are expected to ensure that our standards for code structure, format, and maintenance are met before offering consent.
 
-4. **Triager**: Someone selected by the project leader responsible to review new PRs, apply necessary labels, assigns reviewers, and identifies the maintainer / product area for the PR. The triager is expected to review all new open PRs daily. The [CODEOWNERS](https://github.com/eclipse/che/blob/master/.github/CODEOWNERS) file automatically assigns recommended reviewers to new PRs. This list is reviewed and expanded or accepted by the Triager.
+4. **Triager**: A committer assigned to apply necessary labels and milestones, assigns reviewers, and identifies the maintainer / product area for the issue. The triager is expected to review all new open issues daily.
 
 5. **Maintainers**: Responsible for managing issue backlog, ensuring long term code quality for a product area, ensures that our PR process is followed, and provides technical decision making on areas where consensus does not exist. Maintainers are responsible for periodically reviewing the open PRs and issue backlog for their product area to ensure that the PR reviewer list is complete, issues are ordered properly in the backlog, and that reviewers are providing substantive reviews. Maintainers need to do the scheduling and the communication of the PR’s review - this would provide in less than 3 business days. Maintainer usually listed as a [CODEOWNER](https://help.github.com/articles/about-codeowners/) of particular area and included to PR Reviewer list by default.
 
@@ -44,22 +44,7 @@ At the end of each iteration, we version and release Che for community use. The 
 The work done in a milestone is captured in the milestone plan (see [Milestone Plans]()). The feature highlights, bugs fixed, and technical debt tasks completed are all contained in the release notes.
 
 # Planning
-We make commitments for the current milestone in a three-week sprint. While working on the current sprint we pre-plan (prepare) the next milestone to have enough context for planning it. We have a planning meeting before a sprint starts with a pre-planning discussion about one week before the sprint begins.
-
-Issues with the `sprint/current-sprint` label are commitments to be part of the upcoming milestone assuming development is able to complete a PR merge. Issues with the `sprint/next-sprint` label are items that are under consideration under the sprint pre-planning exercise.
-
-We handle planning for Eclipse Che in two ways:
-*  For the immediate upcoming milestone, we will only accept features who have a pending pull request which has been reviewed, tested and ready for merge. This will allow the entirety of the iteration to be dedicated to hardening the system and resolving any infrastructure or regressions that appear. Che maintainers may optionally accept pull requests that are initiated during a milestone if they are deemed to have a low risk to destabilizing the code base for the release.
-
-* For the milestone after the upcoming milestone, we prioritize features to implement and bugs to fix to be worked on during the current milestone so that it can have a set of pending pull requests ready when the following milestone starts. 
-
-# Triage
-Bugs are assigned a priority based upon the impact that they have to end users. The priority dictates the order in which issues should be addressed. A critical bug (something that we think is critical for the milestone) is to be addressed before the other bugs.
-
-To find out when a bug fix will be available in an update, please check the milestone that is assigned to the issue.
-
-# Weekly
-At the end of a milestone we strive for 0 bugs and 0 issues remaining open that were assigned to the milestone. Some bugs and features may be postponed to later milestones, moved back into the backlog, or on rare occasions delay the release while issues are resolved.
+We make commitments for the current milestone in a three-week sprint. While working on the current sprint we pre-plan (prepare) the next milestone to have enough context for planning it. We have a planning meeting before a sprint starts with a pre-planning discussion about one week before the sprint begins. The result of these planning meeting is a issue with the [`kind/planning`](https://github.com/eclipse/che/labels/kind%2Fplanning) label. These are commitments to be part of the upcoming milestone assuming development is able to complete a PR merge.
 
 # Release
 A release is performed at the end of each sprint. The release procedure is automated as part of the CI/CD pipeline. We use maven to tag / compile binaries from the source code and Docker to build and tag images.
@@ -80,8 +65,8 @@ We publish release notes on the web site for each release with highlights to `ne
 5. Release notes are published to the web site.
 
 ### Roles 
-* Release Notes Maintainer - Eugene Ivantsov (backup Gennady)
-* Product Manager - Steven LeMeur (backup Brad Micklea)  
+* Release Notes Maintainer - Steven LeMeur (backup Brad Micklea)
+* Product Manager - Steven LeMeur (backup Brad Micklea)
 
 # Nightly builds
 Nightly builds are generated on daily basis and available as docker images with the
