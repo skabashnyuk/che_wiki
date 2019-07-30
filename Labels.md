@@ -45,6 +45,7 @@ Issues related to a specific functional area of Che. https://github.com/eclipse/
 ### [Dev Open Issue Status](https://github.com/eclipse/che/labels?q=status)
 | Label        | Description
 | ------------ |-------------
+| `status/need-triage` | An issue that needs to be prioritized by the triage team.
 | `status/info-needed` | More information is needed before the issue can move into the “analyzing” state for engineering.
 | `status/analyzing` | An issue has been proposed and it is currently being analyzed for effort and implementation approach.
 | `status/open-for-dev` | An issue has had its specification reviewed and confirmed. Waiting for an engineer to accept the issue and take it into active development.
