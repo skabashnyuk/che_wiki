@@ -14,7 +14,7 @@ Upcoming opportunities to meet the Eclipse Che community during conferences, eve
 - **[Eclipse Che: IDE and developer workspaces as a service ](https://conferences.oreilly.com/oscon/oscon-or/public/schedule/detail/79220)** - Dave Neary (Red Hat)
  
 [Paris JUG](https://www.parisjug.org) and [hack.commit.pu.sh](https://hack-commit-pu.sh/) _PARIS, FR_ - **June 13/15, 2019**
-- [Contribute to Che7](https://www.parisjug.org/xwiki/wiki/oldversion/view/Meeting/20190613 - hack.commit.pu.sh) - Sun Tan
+- [Contribute to Che7](https://www.parisjug.org/xwiki/wiki/oldversion/view/Meeting/20190613) - Sun Tan
 
 [Red Hat Paris - Next gen apps day](https://www.redhat.com/fr/events/next-gen-apps-day-france-2019)  _PARIS, FR_ - **May 21, 2019**
 - **Développement et productivité à l’ère des infras cloud native: l’approche Eclipse Che** - Sun Tan 
