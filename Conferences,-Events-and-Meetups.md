@@ -4,18 +4,29 @@ Want to present Eclipse Che at agile, developer, and DevOps conferences? Add you
 
 Upcoming opportunities to meet the Eclipse Che community during conferences, events and meetups.
 
+[Eclipse Con Europe 2019](https://www.eclipsecon.org/europe2019) _LUDWIGSBURG, GERMANY_ - **October 21-24, 2019**
+
 
 
 # Past events
 ## 2019
+[OSCON](https://conferences.oreilly.com/) _PORTLAND, OR_ - **July 17, 2019**
+- **[Eclipse Che: IDE and developer workspaces as a service ](https://conferences.oreilly.com/oscon/oscon-or/public/schedule/detail/79220)** - Dave Neary (Red Hat)
+ 
+[Paris JUG](https://www.parisjug.org) and [hack.commit.pu.sh](https://hack-commit-pu.sh/) _PARIS, FR_ - **June 13/15, 2019**
+- [Contribute to Che7](https://www.parisjug.org/xwiki/wiki/oldversion/view/Meeting/20190613 - hack.commit.pu.sh) - Sun Tan
 
-- Paris JUG - hack.commit.pu.sh
-- Red Hat Paris - Next App Gen Day
-- Riviera Dev 2019]
-- https://theiadevcon.org/
+[Red Hat Paris - Next gen apps day](https://www.redhat.com/fr/events/next-gen-apps-day-france-2019)  _PARIS, FR_ - **May 21, 2019**
+- **Développement et productivité à l’ère des infras cloud native: l’approche Eclipse Che** - Sun Tan 
 
-[Devoxx France 2019](https://cfp.devoxx.fr/2019/talk/CKZ-2407/Developpement_et_deploiement_sur_le_cloud_avec_Spring_Boot,_ISTIO_et_Eclipse_Che) _PARIS, FR_ **April 2019**
-* **Développement et déploiement sur le cloud avec Spring_Boot,ISTIO et Eclipse Che** - Tug Grall, Madou Coulibaly, Stevan Lemeur
+[Riviera Dev 2019](https://rivieradev.fr/) _SOPHIA ANTIPOLIS, FR_ - **May 15-17,2019**
+   - **Développement Cloud-Natif Java avec Spring Boot, ISTIO et Eclipse Che** - Tugdual Grall, Madou Coulibaly
+   - **How Kubernetes and Eclipse Che will change your developer's life.** - Sun Tan
+
+[Eclipse Theia Developer Conference](https://theiadevcon.org/) _STOCKHOLM, SWEDEN_ - **June 4-5, 2019** 
+
+[Devoxx France 2019](https://www.devoxx.fr/agenda?year=2019) _PARIS, FR_ **April 2019**
+* **[Développement et déploiement sur le cloud avec Spring_Boot,ISTIO et Eclipse Che](https://cfp.devoxx.fr/2019/talk/CKZ-2407/Developpement_et_deploiement_sur_le_cloud_avec_Spring_Boot,_ISTIO_et_Eclipse_Che)** - Tug Grall, Madou Coulibaly, Stevan Lemeur
 
 [DevConf.CZ 2019](https://devconfcz2019.sched.com) _BRNO,CZ_ **Jan 25-27, 2019**
 * **[Eclipse Che and Development of Microservices Apps](https://devconfcz2019.sched.com/event/Jcgd/eclipse-che-and-development-of-microservices-apps)** 
