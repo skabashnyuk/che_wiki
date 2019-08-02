@@ -2,107 +2,17 @@
 https://stackoverflow.com/questions/tagged/eclipse-che+theia
 
 ### What Theia image to use inside Che?
-
 It is **eclipse/che-theia**, which is located [here](https://hub.docker.com/r/eclipse/che-theia/).
 The version of this image consists of two parts: 
 `[THEIA_VERSION]-[CHE_VERSION]`
 - first one - the version of Theia inside the image
 - second one - the Che version itself (ex. `eclipse/che-theia:0.3.10-nightly`, `eclipse/che-theia:0.3.10-6.7.0`, [etc](https://hub.docker.com/r/eclipse/che-theia/tags/)) 
  
-
-### How to update Theia version, used in the image?
-
-You need to change the value of argument `THEIA_VERSION` in [Dockerfile](https://github.com/eclipse/che/blob/master/dockerfiles/theia/Dockerfile).
-
-Beware of the CQ to be created for each Theia version upgrade.<br/>
-Patches are per Theia version, so no need to remove them.<br/>
-Integration tests are executed by default. Upgrading Theia may require updating integration tests.
-
-### How to update Theia image with patches to avoid upgrading Theia version ?
-Patches are per version
-let say you want to patch 0.3.12 version
-you put patches in `dockerfiles/theia/src/patches/0.3.12` folder and name your patches like `001-this-is-my.patch` , `002-another.patch`
-
-For `0.3.13`, patches will go in `dockerfiles/theia/src/patches/0.3.13`, etc
-
-### How to build Che Theia image with my own changes?
-
-The sources of eclipse/che-theia is located [here](https://github.com/eclipse/che/tree/master/dockerfiles/theia).
-After the changes are made, you need to rebuild the image with the following command:
-using build script:
-```
-$ ./build.sh --build-args:GITHUB_TOKEN=$GITHUB_TOKEN,THEIA_VERSION=0.3.13 --tag:0.3.13-nightly
-```
-or using docker:
-
-```
-$ docker build -t eclipse/che-theia:0.3.13-nightly --build-arg GITHUB_TOKEN={your token} --build-arg THEIA_VERSION=0.3.13 .
-```
-
-Integration tests are launched by default during the build. It is possible to skip with the option `--skip-tests`
-
-```
-./build.sh --skip-tests
-```
-
-### How to create workspace with Theia IDE?
-
-### How to add existing extension to Theia IDE?
-
-### How to add my extension to Theia IDE?
-
-### How to create a new plug-in to Theia or Che-theia IDE ?
-You can use the yeoman generator as describe here: https://www.theia-ide.org/doc/Authoring_Plugins.html
-
-### How to add existing plug-in to Theia IDE?
-
-### How to test custom Theia IDE Che plug-in?
-
-To use cutom Theia IDE Che plug-in one need to host custom plugin registry and plug-in itself.
-
-In this example we'll use GitHub to host needed files, but it is possible to use other solution.
-
-First we need to create a Che plugin with Theia IDE.
-It should be `che-plugin.yaml` file inside some `*.tar.gz` file.
-To simplify the process one may just fork [existing sample](https://github.com/ws-skeleton/che-editor-theia),
-make some changes in `etc/che-plugin.yaml`(for example specify other Theia image, add an enviroment variable, etc.) and create plugin metadata file
-(one may use `build.sh` from the repo, which just creates an archive from the config file in `etc` directory).
-Then create new release in own fork and attach (via `Edit` -> `Attach binaries`) the `che-editor-plugin.tar.gz` file.
-
-Second step is to add the plugin from the first step in custom plugin registry.
-Fork official [registry](https://github.com/eclipse/che-plugin-registry),
-and create a new plugin or edit existing configuration `plugins/org.eclipse.che.editor.theia/1.0.0/meta.yaml`.
-In case of custom Theia one should edit `url` field to point to the tar file from the first step.
-For example, the url may look like:
-
-```
-https://github.com/ws-skeleton/che-editor-theia/releases/download/untagged-efe6c6ceb88545c76b94/che-editor-plugin.tar.gz
-```
-
-Finally, create a worspace, go to workspace settings, open `Config` tab and edit `editor` attribute
-(or `plugins` if it is not an editor).
-Instead of plugin name, url to the plugin root should be specified following by colon and plugin version.
-For example:
-
-```
-https://raw.githubusercontent.com/username/che-custom-plugins/master/plugins/org.eclipse.che.editor.theia:1.0.0
-```
-
-Then save changes and start workspace.
-
 ### Where can I find more details about the Theia Plugin API ?
 Complete documentation is located in this Theia documentation section: https://github.com/theia-ide/theia/blob/master/packages/plugin/API.md
 
 ### How to add more Theia Plugin API ?
 WIP documentation is located here: https://github.com/theia-ide/theia/blob/plugin-api-documentation/packages/plugin-ext/doc/how-to-add-new-plugin-api.md
-
-### How to debug a Theia extension running in Che ?
-
-### How to debug a Theia plugin running in Che ?
-- Frontend: https://github.com/eclipse/che/wiki/Contributing-to-Che7-and-Che-Theia#frontend-plugin
-- Backend: https://github.com/eclipse/che/wiki/Contributing-to-Che7-and-Che-Theia#backend-plugin
-
-### How to deploy Che + Theia in Openshift and Minishift ?
 
 ### I can not start a multi container terminal in Che Theia on Minishift
 With the error on the browser console:
@@ -156,6 +66,4 @@ oc rsh cleanup-X-XXXXX # Use the name found above here - this will log you in to
 # find and remove the orphans workpace folders if any in the `/workspaces` using normal Unix shell commands
 oc delete all -l app=cleanup # once the folders removed, delete the image
 ```
-
-### How can I use Theia on che.openshift.io?
 
