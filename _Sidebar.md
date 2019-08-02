@@ -13,7 +13,6 @@
 
 **Contributing**
 * [How to Contribute](https://github.com/eclipse/che/wiki/How-To-Contribute)
-* [Bugs and Suggestions](https://github.com/eclipse/che/wiki/Submitting-Bugs-and-Suggestions)
 * [Development Workflow](https://github.com/eclipse/che/wiki/Development-Workflow)
 * [Eclipse Contributor Agreement](https://github.com/eclipse/che/wiki/Eclipse-Contributor-Agreement)
 * [FAQ](https://github.com/eclipse/che/wiki/Technical-FAQ)
