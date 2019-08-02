@@ -19,4 +19,3 @@
 * [Coding Guidelines](https://github.com/eclipse/che/wiki/Coding-Guidelines)
 * [Eclipse Contributor Agreement](https://github.com/eclipse/che/wiki/Eclipse-Contributor-Agreement)
 * [FAQ](https://github.com/eclipse/che/wiki/Technical-FAQ)
-* [Contributing to Che7 and Che-Theia](https://github.com/eclipse/che/wiki/Contributing-to-Che7-and-Che-Theia)
