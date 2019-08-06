@@ -5,8 +5,16 @@ Want to present Eclipse Che at agile, developer, and DevOps conferences? Add you
 Upcoming opportunities to meet the Eclipse Che community during conferences, events and meetups.
 
 [Eclipse Con Europe 2019](https://www.eclipsecon.org/europe2019) _LUDWIGSBURG, GERMANY_ - **October 21-24, 2019**
-
-
+- **[Managing lightweight, standalone and composable Che workspaces with Kubernetes Operators](https://www.eclipsecon.org/europe2019/sessions/managing-lightweight-standalone-and-composable-che-workspaces-kubernetes)** - David Festal
+- **[Move your VS Code extension into Eclipse Che](https://www.eclipsecon.org/europe2019/sessions/move-your-vs-code-extension-eclipse-che)** - Florent Benoit (Red Hat, Inc.) 
+- **[Che7: Let’s code our Cloud native Quarkus microservice without the "GrallVM and co" setup hell.](https://www.eclipsecon.org/europe2019/sessions/che7-let%E2%80%99s-code-our-cloud-native-quarkus-microservice-without-grallvm-and-co)** - Sun TAN (Red Hat, Inc.)
+- **[An experience report on migrating an industrial-grade IDE to the Cloud using the Eclipse ecosystem](https://www.eclipsecon.org/europe2019/sessions/experience-report-migrating-industrial-grade-ide-cloud-using-eclipse-ecosystem)** - Rainer Poisel (logi.cals GmbH)
+- **[Your roadmap towards web-based tooling](https://www.eclipsecon.org/europe2019/sessions/your-roadmap-towards-web-based-tooling)** - Maximilian Koegel (EclipseSource)
+- **[Using Eclipse Kuksa for Connected Vehicle Services](https://www.eclipsecon.org/europe2019/sessions/using-eclipse-kuksa-connected-vehicle-services)** - Sven Erik Jeroschewski (Bosch Software Innovations GmbH), Pratheek Rai (Robert Bosch GmbH), Sebastian Lohmeier (Bosch Software Innovations GmbH)
+- **[JDT As A Service](https://www.eclipsecon.org/europe2019/sessions/jdt-service)** - Roland Grunberg (Red Hat, Inc.)
+- **[Building web-based tools with Theia and Che](https://www.eclipsecon.org/europe2019/sessions/building-web-based-tools-theia-and-che)** - Maximilian Koegel (EclipseSource)
+- **[Eclipse Theia and Che, explained and explored!](https://www.eclipsecon.org/europe2019/sessions/eclipse-theia-and-che-explained-and-explored)** - Jonas Helming (EclipseSource)
+- **[Intro to Eclipse Codewind - simplified app development for the cloud!](https://www.eclipsecon.org/europe2019/sessions/intro-eclipse-codewind-simplified-app-development-cloud)** - Tim deBoer (IBM)
 
 # Past events
 ## 2019
