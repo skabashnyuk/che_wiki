@@ -28,7 +28,7 @@ Once the user logs in to the Openshift Console underlying cluster with his opens
 
 
 
-Elements of type INLINE_IMAGE are not supported
+![Pods in OpenShift](./lstroubleshooting.images/image7.png)
 
 
 
@@ -42,7 +42,7 @@ There are few places which are useful to check logs. In Applications -> Pods vie
 
 
 
-Elements of type INLINE_IMAGE are not supported
+![Crash loop back-off](./lstroubleshooting.images/image18.png)
 
 
 
@@ -50,7 +50,7 @@ The pod where the workspace is running contains the information about all contai
 
 
 
-Elements of type INLINE_IMAGE are not supported
+![Containers](./lstroubleshooting.images/image14.png)
 
 
 
@@ -60,7 +60,7 @@ To check the logs of each of them you need to go to Logs section. Most interesti
 
 
 
-Elements of type INLINE_IMAGE are not supported
+![Container Output](./lstroubleshooting.images/image15.png)
 
 
 
@@ -99,7 +99,7 @@ This will log all the communication events . In order to watch these events a us
 
 
 
-Elements of type INLINE_IMAGE are not supported
+![Log Debug Output](./lstroubleshooting.images/image11.png)
 
 
 
@@ -109,13 +109,15 @@ Elements of type INLINE_IMAGE are not supported
 
 To check the logs go to Output view and select Python in the dropdown list.
 
-Elements of type INLINE_IMAGE are not supported
+![Python Logs](./lstroubleshooting.images/image20.png)
 
 ## Go
 
 ### Finding the Gopath
 
 To check where GOPATH points to use the Go: Current GOPATH command.
+![Gopath Command](./lstroubleshooting.images/image1.png)
+![Gopath Output](./lstroubleshooting.images/image8.png)
 
 ### Debug Console Log
 
@@ -146,7 +148,8 @@ To show log output from the debugger set showLog to true in a debug configuratio
 
 The debug console will print additional information in the debug console:
 
-Elements of type INLINE_IMAGE are not supported
+![Debug Console](./lstroubleshooting.images/image9.png)
+
 
 Besides showing logs from the debugger layer you can enable debugging output for a component by adding the package to the comma-separated list value of the logOutput attribute
 
@@ -172,7 +175,8 @@ Besides showing logs from the debugger layer you can enable debugging output for
 
 }
 
-Elements of type INLINE_IMAGE are not supported
+![Debugger Log](./lstroubleshooting.images/image17.png)
+
 
 
 
@@ -180,7 +184,8 @@ Elements of type INLINE_IMAGE are not supported
 
 To check the logs go to the Output view and select Go in the dropdown list.
 
-Elements of type INLINE_IMAGE are not supported
+![Output Panel](./lstroubleshooting.images/image12.png)
+
 
 ## NodeDebug NodeDebug2
 
@@ -193,24 +198,24 @@ There aren’t any specific diagnostics besides the general ones.
 To enable tracing of messages sent to the TS server set typescript.tsserver.trace to verbose in preferences. This trace can be used to diagnose TS Server issues. 
 
 
-
 To enable logging of TS server to a file set typescript.tsserver.log to verbose. This log can be used to diagnose TS Server issues. The log may contain file paths. 
 
 ### Language Server Log
 
 To open log file use Open TS Server log command.
 
-Elements of type INLINE_IMAGE are not supported
+![TS Server Log](./lstroubleshooting.images/image6.png)
 
 
 
 Additionally, you can figure out the path to the log file by checking the Typescript output console:
+![TS Log Location](./lstroubleshooting.images/image19.png)
 
 ### Viewing Output Panel
 
 To check the logs go to the Output view and select TypeScript in the dropdown list.
 
-Elements of type INLINE_IMAGE are not supported
+![TS Output Panel](./lstroubleshooting.images/image16.png)
 
 ## Java 
 
@@ -250,7 +255,8 @@ Besides the general diagnostics, PHP Intelephense Language Support can be config
 
 To view these events navigate to **View -> Output** and select **Intelephense** in the drop-down selection list for the **Output** view.
 
-Elements of type INLINE_IMAGE are not supported
+![Php Output](./lstroubleshooting.images/image5.png)
+
 
 ## PHP-Debug
 
@@ -258,7 +264,8 @@ Elements of type INLINE_IMAGE are not supported
 
 Besides the general diagnostics, the PHP Debug plugin can be configured to log the PHP Debug plugin diagnostic messages into **Debug Console** view. This can be configured before the start of debug session through “launch.json” by adding a ‘"log": true’ attribute to the selected launch configuration. In this case the diagnostic messages will be printed into the **Debug Console** view along with the application output.
 
-Elements of type INLINE_IMAGE are not supported
+![Php Debug Console](./lstroubleshooting.images/image13.png)
+
 
 ## XML
 
@@ -270,7 +277,8 @@ First, open up a terminal in the container that is named ‘vscode-xml-xxx’. O
 
 
 
-Elements of type INLINE_IMAGE are not supported
+![XML Running](./lstroubleshooting.images/image2.png)
+
 
 If it is not then please refer to the general tips.
 
@@ -306,7 +314,8 @@ First, you need to check if the container running the YAML plugin is running the
 
 
 
-Elements of type INLINE_IMAGE are not supported
+![YAML Running](./lstroubleshooting.images/image4.png)
+
 
 
 
@@ -406,7 +415,8 @@ To test whether it exists, try autocompletion inside of the braces of the “con
 
 The debug console is the only location where you can find logs.
 
-Elements of type INLINE_IMAGE are not supported
+![CShapr Logs](./lstroubleshooting.images/image10.png)
+
 
 ## Camel 
 
@@ -434,4 +444,5 @@ The Camel language server is a Springboot application that writes its log to ${j
 
 There can be an Output channel named “Language Support for Apache Camel”. Please note that it is created only at the first created log entry on client side. (so it can be normal that there are none when everything is going well)
 
-Elements of type INLINE_IMAGE are not supported
+![Camel Output](./lstroubleshooting.images/image3.png)
+
