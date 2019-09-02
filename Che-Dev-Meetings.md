@@ -6,8 +6,19 @@ It's open to anyone interested. You don't need to have a long history with Che t
 ## When and Where ##
 These meetings take place every second Monday, 8:00 AM PST. You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/2488406763). Chat link updated 18-Mar-19. Calendar [link](https://calendar.google.com/event?action=TEMPLATE&tmeid=NzBzajBjOWtjNG82Y2I5azYwcjMwYjlrNnNxMzhiYjFjY3A2OGI5bzc1Z21jcGhwY2NyamlkcjNjOF8yMDE5MDcwOFQxNTAwMDBaIHN1dGFuQHJlZGhhdC5jb20&tmsrc=sutan%40redhat.com).
 
-# Next meeting 19-August-2019
-The next Che dev meeting will take place on Monday August 19th 2019. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+# Next meeting 2-September-2019
+The next Che dev meeting will take place on Monday September 2nd 2019. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+
+# 19-August-2019
+## Agenda:
+* Che/Theia community day @ EclipseCon - Martha
+* GSoC update - Sun/Rijul
+* Che 7.0.0 release - Mario/Stevan
+* Status of Happy Path testing - Gorkem (Red Hat)
+
+Agenda and minutes:  [Google Doc](https://docs.google.com/document/d/e/2PACX-1vTFLD0qDuALDIxlMXo6GlXqcy1HIdpeOwuD0vNaP6vneXu1Piv_AWhlGjpD-xAM71oGOKvJwlxwKT_c/pub) / [YouTube video](https://youtu.be/Nz-8ilM3Cw4)
+
+
 
 # 5-August-2019
 ## Agenda:
@@ -15,7 +26,7 @@ The next Che dev meeting will take place on Monday August 19th 2019. You are wel
 * Open discussion: Questions/Answers about Che7 release - Sun (Red Hat)
 * Accepted talks for Eclipse Con Europe - Sun (Red Hat)
 
-Agenda and minutes:  [Google Doc](https://docs.google.com/a/redhat.com/document/d/e/2PACX-1vT1cHRV1NOAjbZ13FwWZpGO38BTeoQ48_q6OqrraHVos6XvTdcXlck48ORgKEQrfLA2xRzoBQTQH3Bv/pub) / [YouTube video](https://www.google.com/url?q=https://youtu.be/sXKYV_wszvk&sa=D&ust=1565112451494000)
+Agenda and minutes:  [Google Doc](https://docs.google.com/a/redhat.com/document/d/e/2PACX-1vT1cHRV1NOAjbZ13FwWZpGO38BTeoQ48_q6OqrraHVos6XvTdcXlck48ORgKEQrfLA2xRzoBQTQH3Bv/pub) / [YouTube video](https://youtu.be/sXKYV_wszvk)
 
 
 
@@ -25,7 +36,7 @@ Agenda and minutes:  [Google Doc](https://docs.google.com/a/redhat.com/document/
 * Multiple Registries- Toby (IBM)
 * 7.1 / 7.2 milestone issues - Stevan (Red Hat)
 
-Agenda and minutes:  [Google Doc](https://docs.google.com/document/u/1/d/e/2PACX-1vT2PveEGZ1X9BFsvhiV4g-wDKOIlFkW5itgujNFeC4jY9XSEiPi8Ov0-IxcEVSHUx4T2NzC13LP91HX/pub) / [YouTube video](https://www.google.com/url?q=https://youtu.be/PapBkNZm2j8&sa=D&ust=1563831333849000)
+Agenda and minutes:  [Google Doc](https://docs.google.com/document/u/1/d/e/2PACX-1vT2PveEGZ1X9BFsvhiV4g-wDKOIlFkW5itgujNFeC4jY9XSEiPi8Ov0-IxcEVSHUx4T2NzC13LP91HX/pub) / [YouTube video](https://youtu.be/PapBkNZm2j8)
 
 
 # 8-July-2019
@@ -37,7 +48,7 @@ Agenda and minutes:  [Google Doc](https://docs.google.com/document/u/1/d/e/2PACX
 * New templates for Github issues #13777 (Florent)
 * Workspace Creation/Deletion API (Maysun)
 
-Agenda and minutes:  [Google Doc](https://docs.google.com/a/redhat.com/document/d/e/2PACX-1vRsVTmXUGKGZhSeXFD75ymOk1Vs-bqQdxgX5z9ltrZRtb4-tFbD9tx06PF_vtD93yYCnUkD_DHcmIuH/pub) / [YouTube video](https://www.google.com/url?q=https://youtu.be/uxYklqFx-JM&sa=D&ust=1562611126294000)
+Agenda and minutes:  [Google Doc](https://docs.google.com/a/redhat.com/document/d/e/2PACX-1vRsVTmXUGKGZhSeXFD75ymOk1Vs-bqQdxgX5z9ltrZRtb4-tFbD9tx06PF_vtD93yYCnUkD_DHcmIuH/pub) / [YouTube video](https://youtu.be/uxYklqFx-JM)
 
 
 
