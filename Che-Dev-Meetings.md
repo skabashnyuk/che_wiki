@@ -9,6 +9,40 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 # Next meeting 2-September-2019
 The next Che dev meeting will take place on Monday September 2nd 2019. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
 
+# 2-September-2019
+## Notes and Minutes:
+### Closing 6months old issues (Mario):
+* https://github.com/eclipse/che/issues/14401
+* Apply to all issues
+* Apply a new label if closed by bot
+* Apply a new label if pending to be closed
+* Let users to comment for one week to avoid deletion
+* Sun: Inform the user to close it by himself
+* Find a proper message to not be so rude
+
+### Release Che 7.1.0 (Mario)
+* New release will be started tomorrow
+* Two steps:
+   * Day 1:  plugins and devfile registries/ che-theia / machine-exec
+   * Day 2 : che-server release + chectl + che operator
+* Bugfixes
+* End-to-end tests improved with improved PR
+* C++ support will be delayed
+* Ilya in charge of the release this time: ping him if needed
+
+## Attendees
+1. Oleksandr Andriienko
+2. Florent Benoit
+3. Ilya Buziuk
+4. Mario Loriedo
+5. Mykola Morhun
+6. Oleksii Orel
+7. Sun Tan
+8. Vitaliy Gulyy
+
+## Recording
+https://youtu.be/IuIkup-ktww
+
 # 19-August-2019
 ## Agenda:
 * Che/Theia community day @ EclipseCon - Martha
