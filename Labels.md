@@ -53,6 +53,16 @@ Issues related to a specific functional area of Che. https://github.com/eclipse/
 | `status/code-review` | This issue has a pull request posted for it and is awaiting code review completion by the community.
 | `status/blocked` | Issue that can’t be moved forward. Must include a comment on the reason for the blockage. If it’s blocked because it depends on another issue then it should include a link to the issue it depends on.
 
+### [Issue Lifecycle ](https://github.com/eclipse/che/labels?q=lifecycle)
+| Label        | Description
+| ------------ |-------------
+| `lifecycle/stale` | Indicates an issue or PR has remained open with no activity and has become stale.
+| `lifecycle/frozen` | Indicates that an issue or PR should not be auto-closed due to staleness.
+| `lifecycle/rotten` | Denotes an issue or PR that has aged beyond stale and will be auto-closed.
+| `lifecycle/active` | Indicates that an issue or PR is actively being worked on by a contributor.
+
+
+
 ### [Sprint labels](https://github.com/eclipse/che/labels?q=sprint)
 | Label        | Description
 | ------------ |-------------
