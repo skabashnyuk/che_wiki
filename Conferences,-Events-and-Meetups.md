@@ -8,7 +8,7 @@ Upcoming opportunities to meet the Eclipse Che community during conferences, eve
 - **Ansible Ready Workspaces** - Sun Tan - Victor Da Costa
 
 [Educode 2019](https://www.educode.be) _BRUSSELS, BELGIUM_ - **September 27, 2019**
-- **Eclipse Che workshop** - Fabrice Flore-Thébault
+- **[Eclipse Che workshop](https://www.educode.be/ateliers/eclipse-che-pour-simplifier-les-besoins-dinstallation-lors-des-formations/)** - Fabrice Flore-Thébault
 
 [Eclipse Con Europe 2019](https://www.eclipsecon.org/europe2019) _LUDWIGSBURG, GERMANY_ - **October 21-24, 2019**
 - **[Managing lightweight, standalone and composable Che workspaces with Kubernetes Operators](https://www.eclipsecon.org/europe2019/sessions/managing-lightweight-standalone-and-composable-che-workspaces-kubernetes)** - David Festal
