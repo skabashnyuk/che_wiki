@@ -67,6 +67,8 @@ Upcoming opportunities to meet the Eclipse Che community during conferences, eve
 * **[Beyond LSP: Extensions for Java](https://www.eclipsecon.org/europe2018/sessions/beyond-lsp-extensions-java)** - Thomas Mäder (Red Hat, Inc.)
 * **[Benefits of Eclipse Che When Developing Microservices Apps](https://www.eclipsecon.org/europe2018/sessions/benefits-eclipse-che-when-developing-microservices-apps)**
 
+[LVEE - Linux Vacation / Eastern Europe 2018](https://lvee.org/ru/reports/materials_lvee_2018) _MINSK, BELARUS_ - **August 24-25, 2018**
+* **[How to build applications on Kubernetes / OpenShift with ease of a Cloud Native IDE – Eclipse Che](https://youtu.be/zH-HdWW343w) - Ilya Buziuk (Red Hat, Inc.)
 
 [Eclipse Con France 2018](https://www.eclipsecon.org/france2018/) _TOULOUSE, FR_ - **June 13-14, 2018**
 * **[The future of development tooling: The example of Eclipse Che, Theia and Sirius.](https://www.eclipsecon.org/france2018/session/future-development-tooling-example-eclipse-che-theia-and-sirius) - Stevan Le Meur (Red Hat, Inc.), Melanie Bats (OBEO)
