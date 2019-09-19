@@ -4,6 +4,9 @@ Want to present Eclipse Che at agile, developer, and DevOps conferences? Add you
 
 Upcoming opportunities to meet the Eclipse Che community during conferences, events and meetups.
 
+[Ansiblefest 2019](https://www.ansible.com/ansiblefest) _ATLANTA, USA_ - **September 24-26, 2019**
+- **Ansible Ready Workspaces** - Sun Tan - Victor Da Costa
+
 [Eclipse Con Europe 2019](https://www.eclipsecon.org/europe2019) _LUDWIGSBURG, GERMANY_ - **October 21-24, 2019**
 - **[Managing lightweight, standalone and composable Che workspaces with Kubernetes Operators](https://www.eclipsecon.org/europe2019/sessions/managing-lightweight-standalone-and-composable-che-workspaces-kubernetes)** - David Festal
 - **[Move your VS Code extension into Eclipse Che](https://www.eclipsecon.org/europe2019/sessions/move-your-vs-code-extension-eclipse-che)** - Florent Benoit (Red Hat, Inc.) 
