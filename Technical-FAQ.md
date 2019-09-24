@@ -60,7 +60,7 @@ After logging in to OpenShift (see previous question), you can attach to a conta
 ```
 oc project xxxx-che # usually xxx-che is username-che - selects your Che project
 oc run cleanup --image=registry.access.redhat.com/rhel7 -- tail -f /dev/null # This file will remove unused images from your local instance cache
-oc volume dc/cleanup --add -t pvc --name=cleanup --claim-name=claim-che-workspace --mount-path=/workspaces # Mount your persistent volume to the local path /workspaces
+oc set volume dc/cleanup --add -t pvc --name=cleanup --claim-name=claim-che-workspace --mount-path=/workspaces # Mount your persistent volume to the local path /workspaces
 oc get pods #Identify the name of the active Che pod
 oc rsh cleanup-X-XXXXX # Use the name found above here - this will log you in to the container with your workspaces mounted in the `/workspaces` folder
 # find and remove the orphans workpace folders if any in the `/workspaces` using normal Unix shell commands
