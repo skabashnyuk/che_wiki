@@ -64,6 +64,6 @@ oc set volume dc/cleanup --add -t pvc --name=cleanup --claim-name=claim-che-work
 oc get pods #Identify the name of the active Che pod
 oc rsh cleanup-X-XXXXX # Use the name found above here - this will log you in to the container with your workspaces mounted in the `/workspaces` folder
 # find and remove the orphans workpace folders if any in the `/workspaces` using normal Unix shell commands
-oc delete all -l app=cleanup # once the folders removed, delete the image
+oc delete all -l run=cleanup # once the folders removed, delete the image
 ```
 
