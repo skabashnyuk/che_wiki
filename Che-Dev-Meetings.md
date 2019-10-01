@@ -10,25 +10,32 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 The next Che dev meeting will take place on Monday October 14th 2019. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
 
 # 30-September-2019
-## Notes and Minutes:
-### Triaging issue (Sun)
+## Recording
+https://youtu.be/XCr_6LOR6Rs
+
+## Notes and Minutes
+
+### 1. Triaging issue (Sun)
 * Explain the process in the wiki 
 * Sun: not clear enough for external people how the triaging is done
 * AI: Mario will take the action item
-### Maybe we should have some youtube channel with video tutorials about Eclipse Che (Olexandr)
+
+### 2.  Maybe we should have some youtube channel with video tutorials about Eclipse Che (Olexandr)
 * Sun: anybody could send videos
 * Sun: Channel could be listed somewhere -> to the website and readme: https://www.youtube.com/channel/UChhI38Rvs5q1-JmmULHRiSw 
 * Link published on the website ?
 * Gorkem: What are the steps to upload content to youtube channel ?
   * Open github issue + add label ‘website’ on this issue
-### Definition of Done:
+
+### 3. Definition of Done:
 * Definition of done will be done by updating the templates and all reviewers/code owners need to be responsible before merging the PR to ensure that the doc is ready and that QE endorsed enhancements/modifications
   * If you’re reviewing a work, you’re testing it → as responsible as the author.
   * Should be easy to test and review a PR
     * Enhancements to have workspace allowing to test a given PR (not there yet but in **next** plans with a one-click button)
   * Theia community is expecting all reviewers test the PR before giving the approval and not provide a LGTM approval
   * AI to ? : update templates and enforce them
-### An Update about Che 7 launch
+
+### 4. An Update about Che 7 launch
 * Announced tuesday 17
 * Eclipse foundation with press release announcement : good coverage on blog posts, etc.
 * Social media activity, twitter, etc.
@@ -39,7 +46,8 @@ The next Che dev meeting will take place on Monday October 14th 2019. You are we
 * More than welcome to write new blog post and discuss it on che-dev mailing list.
   * Opening a github issue to publish a blog post
   * AI: needs to be documented somewhere
-### Demo
+
+### 5. Demo
 Che-ansible
 
 ## Attendees
@@ -68,9 +76,6 @@ Che-ansible
 1. Viktor Kusnietsov
 1. Vitaliy Gulyy
 1. Yevhen Vydolob
-
-## Recording
-https://youtu.be/XCr_6LOR6Rs
 
 # 16-September-2019
 No topic discussed
