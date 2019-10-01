@@ -27,7 +27,7 @@ https://youtu.be/XCr_6LOR6Rs
 * Gorkem: What are the steps to upload content to youtube channel ?
   * Open github issue + add label ‘website’ on this issue
 
-### 3. Definition of Done:
+### 3. Definition of Done (Gorkem):
 * Definition of done will be done by updating the templates and all reviewers/code owners need to be responsible before merging the PR to ensure that the doc is ready and that QE endorsed enhancements/modifications
   * If you’re reviewing a work, you’re testing it → as responsible as the author.
   * Should be easy to test and review a PR
@@ -35,7 +35,7 @@ https://youtu.be/XCr_6LOR6Rs
   * Theia community is expecting all reviewers test the PR before giving the approval and not provide a LGTM approval
   * AI to ? : update templates and enforce them
 
-### 4. An Update about Che 7 launch
+### 4. An Update about Che 7 launch (mario)
 * Announced tuesday 17
 * Eclipse foundation with press release announcement : good coverage on blog posts, etc.
 * Social media activity, twitter, etc.
