@@ -70,6 +70,7 @@ Che-ansible
 1. Yevhen Vydolob
 
 ## Recording
+https://youtu.be/XCr_6LOR6Rs
 
 # 16-September-2019
 No topic discussed
