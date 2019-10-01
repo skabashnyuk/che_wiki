@@ -6,9 +6,70 @@ It's open to anyone interested. You don't need to have a long history with Che t
 ## When and Where ##
 These meetings take place every second Monday, 8:00 AM PST. You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/2488406763). Chat link updated 18-Mar-19. Calendar [link](https://calendar.google.com/event?action=TEMPLATE&tmeid=NzBzajBjOWtjNG82Y2I5azYwcjMwYjlrNnNxMzhiYjFjY3A2OGI5bzc1Z21jcGhwY2NyamlkcjNjOF8yMDE5MDcwOFQxNTAwMDBaIHN1dGFuQHJlZGhhdC5jb20&tmsrc=sutan%40redhat.com).
 
-# Next meeting 30-September-2019
-The next Che dev meeting will take place on Monday September 30th 2019. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+# Next meeting 14-October-2019
+The next Che dev meeting will take place on Monday October 14th 2019. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
 
+# 30-September-2019
+## Notes and Minutes:
+### Triaging issue (Sun)
+* Explain the process in the wiki 
+* Sun: not clear enough for external people how the triaging is done
+* AI: Mario will take the action item
+### Maybe we should have some youtube channel with video tutorials about Eclipse Che (Olexandr)
+* Sun: anybody could send videos
+* Sun: Channel could be listed somewhere -> to the website and readme: https://www.youtube.com/channel/UChhI38Rvs5q1-JmmULHRiSw 
+* Link published on the website ?
+* Gorkem: What are the steps to upload content to youtube channel ?
+  * Open github issue + add label ‘website’ on this issue
+### Definition of Done:
+* Definition of done will be done by updating the templates and all reviewers/code owners need to be responsible before merging the PR to ensure that the doc is ready and that QE endorsed enhancements/modifications
+  * If you’re reviewing a work, you’re testing it → as responsible as the author.
+  * Should be easy to test and review a PR
+    * Enhancements to have workspace allowing to test a given PR (not there yet but in **next** plans with a one-click button)
+  * Theia community is expecting all reviewers test the PR before giving the approval and not provide a LGTM approval
+  * AI to ? : update templates and enforce them
+### An Update about Che 7 launch
+* Announced tuesday 17
+* Eclipse foundation with press release announcement : good coverage on blog posts, etc.
+* Social media activity, twitter, etc.
+* Blog post about Che 7: release notes: most read blog post of all time
+  * https://che.eclipse.org/eclipse-che-7-is-now-available-40ae07120b38
+* New blog posts about discovering Eclipse Che on the way to go by Florent
+  * https://che.eclipse.org/discover-eclipse-che-7-7515e74a99ca
+* More than welcome to write new blog post and discuss it on che-dev mailing list.
+  * Opening a github issue to publish a blog post
+  * AI: needs to be documented somewhere
+### Demo
+Che-ansible
+
+## Attendees
+1. Andrew
+1. Artem Zatsarynnyi
+1. Beau Morley
+1. Carl Anderson
+1. eyuen
+1. Florent Benoit
+1. Gorkem Ercan
+1. Jag
+1. Mario Loriedo
+1. Stevan Le Meur
+1. Martha Benitez
+1. Michal Vala
+1. Mykola Morhun
+1. Nick Boldt (joining late)
+1. Rajiv
+1. Oleksii Orel
+1. Rick Wagner
+1. Sergii Kabashniuk
+1. Stevan LeMeur
+1. Steven Hung
+1. Sun Tan
+1. Thomas Mader
+1. Viktor Kusnietsov
+1. Vitaliy Gulyy
+1. Yevhen Vydolob
+
+## Recording
 
 # 16-September-2019
 No topic discussed
@@ -37,7 +98,7 @@ No topic discussed
 ## Attendees
 1. Oleksandr Andriienko
 2. Florent Benoit
-3. Ilya Buziuk
+3. Ilya Buziuk## Recording
 4. Mario Loriedo
 5. Mykola Morhun
 6. Oleksii Orel
