@@ -6,8 +6,40 @@ It's open to anyone interested. You don't need to have a long history with Che t
 ## When and Where ##
 These meetings take place every second Monday, 8:00 AM PST. You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/2488406763). Chat link updated 18-Mar-19. Calendar [link](https://calendar.google.com/event?action=TEMPLATE&tmeid=NzBzajBjOWtjNG82Y2I5azYwcjMwYjlrNnNxMzhiYjFjY3A2OGI5bzc1Z21jcGhwY2NyamlkcjNjOF8yMDE5MDcwOFQxNTAwMDBaIHN1dGFuQHJlZGhhdC5jb20&tmsrc=sutan%40redhat.com).
 
-# Next meeting 14-October-2019
-The next Che dev meeting will take place on Monday October 14th 2019. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+# Next meeting 28-October-2019
+The next Che dev meeting will take place on Monday October 28th 2019. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+
+# 14-October-2019
+## Recording
+https://youtu.be/4ah2OENYxaQ
+
+## Notes and Minutes
+### 1. Che Onboarding Concepts - Intro to User Experience Design (Beau Morley)
+- Epic related to this work: https://github.com/eclipse/che/issues/14878
+- Sharing some work done on che
+- Updated Onboarding Concepts presentation link ?
+- Studied the different user experience aspects related to the first time use of Eclipse Che.
+  - Beau has been studied the different other projects and developers tools on how they are onboarding new users. 
+  - Beau has been interviewing users (during various conference and also with various stakeholders in RedHat). 
+- Different concepts have been explored and presented during user interviews
+- Concepts can be reviewed at: https://docs.google.com/presentation/d/1QYGq2vV4WS-G5Ft4ANIv_INy3RBJ9zYxIeSVQwrKlMQ/edit?usp=sharing 
+- You can take the concept survey at: https://forms.gle/jQNR3LW3eNREwe3V6
+- Email bmorley at redhat dot com if you have trouble accessing the concepts or survey 
+
+## Attendees:
+1. Beau Morley
+1. Carl Anderson
+1. Dave Neary
+1. Fabrice Flore-Thébault
+1. Florent Benoit
+1. Ilya Buziuk
+1. Radomir Ludva
+1. Rick Wagner
+1. Sergii Kabashniuk
+1. Stevan LeMeur
+1. Sun Tan
+1. Thomas Maeder
+
 
 # 30-September-2019
 ## Recording
