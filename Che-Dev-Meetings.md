@@ -9,6 +9,27 @@ These meetings take place every second Monday, 8:00 AM PST. You can be part of t
 # Next meeting 28-October-2019
 The next Che dev meeting will take place on Monday October 28th 2019. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
 
+# 28-October-2019
+## Recording
+https://youtu.be/7nQq_LclZ3I
+
+## Notes and Minutes
+### 1. Feedback from Eclipse Con Europe
+- Feedback from John, Mario and Florent that were present
+- Eclipse Theia day
+- Roadmap about Eclipse Che @ Theia projects
+- Good conversations with community
+- Typefox want to provide alternate VS Code marketplace
+- Discussed if Che metadata would fit inside this model
+- Tim joined the meeting as well
+- Fit to scale (LSP), Workspaces as kubernete resources (David’s talk)
+- John: Including codewind plug-ins in Eclipse Che plugin registries.
+
+### 2. Release 7.3.1
+- Patch release (tuesday)
+- Will be used in Red Hat CodeReady Workspaces
+
+
 # 14-October-2019
 ## Recording
 https://youtu.be/4ah2OENYxaQ
