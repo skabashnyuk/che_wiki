@@ -17,17 +17,38 @@ https://youtu.be/7nQq_LclZ3I
 ### 1. Feedback from Eclipse Con Europe
 - Feedback from John, Mario and Florent that were present
 - Eclipse Theia day
-- Roadmap about Eclipse Che @ Theia projects
+  - Roadmap about Eclipse Che @ Theia projects
 - Good conversations with community
 - Typefox want to provide alternate VS Code marketplace
-- Discussed if Che metadata would fit inside this model
+  - Discussed if Che metadata would fit inside this model
 - Tim joined the meeting as well
-- Fit to scale (LSP), Workspaces as kubernete resources (David’s talk)
+  - Fit to scale (LSP), Workspaces as kubernete resources (David’s talk)
 - John: Including codewind plug-ins in Eclipse Che plugin registries.
 
 ### 2. Release 7.3.1
 - Patch release (tuesday)
 - Will be used in Red Hat CodeReady Workspaces
+
+## Attendees:
+1. Andrew Mak
+1. Angel Misevski
+1. Beau Morley
+1. Carl Anderson
+1. Elson Yuen
+1. Fabrice Flore-Thébault
+1. Florent Benoit
+1. Ilya Buziuk
+1. Jag
+1. John Collier
+1. Mario Loriedo
+1. Mykola Morhun
+1. Oleksandr Andriienko
+1. Oleksii Orel
+1. Roman Nikitenko
+1. Serhii Leshchenko
+1. Steven Hung
+1. Tim deBoer
+1. Travis
 
 
 # 14-October-2019
