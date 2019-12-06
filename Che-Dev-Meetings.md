@@ -1,13 +1,76 @@
 ## Purpose and Audience ##
-These conference calls are meant for the Che adoptors and contributors to chat about some project development details (can be planning, concerns, or more technical details). The goal is to better synchronize and organize efforts of the various contributors in order to make Che better.
+These conference calls are meant for the Che adopters and contributors to chat about some project development details (can be planning, concerns, or more technical details). The goal is to better synchronize and organize efforts of the various contributors in order to make Che better.
 
 It's open to anyone interested. You don't need to have a long history with Che to attend the talk, listen and ask relevant questions.
 
 ## When and Where ##
 These meetings take place every second Monday, 8:00 AM PST. You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/2488406763). Chat link updated 18-Mar-19. Calendar [link](https://calendar.google.com/event?action=TEMPLATE&tmeid=NzBzajBjOWtjNG82Y2I5azYwcjMwYjlrNnNxMzhiYjFjY3A2OGI5bzc1Z21jcGhwY2NyamlkcjNjOF8yMDE5MDcwOFQxNTAwMDBaIHN1dGFuQHJlZGhhdC5jb20&tmsrc=sutan%40redhat.com).
 
-# Next meeting 25-November-2019
-The next Che dev meeting will take place on Monday November 25th 2019. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+# Next meeting 9-December-2019
+The next Che dev meeting will take place on Monday December 9th 2019. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+
+# 25-November-2019
+## Recording
+
+## Notes and Minutes
+### Code Owner - review
+- Many codeowners but usually other ppl review PR
+- Busy people and then it doesn’t work as it seems to be a slow process for external contributors.
+- How to move forward ?
+  - Update codeowners
+  - Responsibility of committers ?
+- Conclusion: Postpone : wait new team re-org of Red Hat teams and discuss it after
+
+### Status of Che4Z 
+- Broadcom folks online: 
+- https://www.eclipse.org/che/docs/che-7/eclipse-che4z/
+- Sun: want to get some demos of Che4z. Would be nice in a next call
+
+### Clarification of use of VSCode plugin in Che Workspaces 
+- VSCode marketplace term of use does not allow end-users to use direct pointers.
+- But we can pull from a running workspace and it’s not compliant with TOS
+- Plugin registry shouldn’t have links to the marketplace as well
+- Note that some VS Code extensions also can’t be run outside of Microsoft Product based on their license.
+
+### Chatroom snapshot
+Stevan LeMeur - 5:03 PM
+Agenda for today : https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit
+Stevan LeMeur - 5:03 PM
+looks empty right now :)
+Stevan LeMeur - 5:03 PM
+feel free to take 2min to add items you would like to discuss
+Ilya Buziuk - 5:05 PM
+shouldn't we review codeowners after teams reorg?
+Ilya Buziuk - 5:07 PM
+There is a mailing thread `Updating Eclipse Che codeowners` started by Angel
+Stevan LeMeur - 5:11 PM
+https://www.eclipse.org/che/docs/che-7/eclipse-che4z/
+Stevan LeMeur - 5:16 PM
+https://github.com/eclipse/che-plugin-registry/blob/master/v3/plugins/redhat/java8/0.50.0/meta.yaml
+
+
+## Attendees
+1. Andre Mak
+1. Beau Morley
+1. Elson Yuen
+1. Florent Benoit (taking notes) (thank you!)
+1. Fabrice Flore-Thébault
+1. Ilya Buziuk
+1. Jag
+1. John Collier
+1. Joshua Pinkney
+1. Martha Benitez
+1. Mykola Morhun
+1. Oleksandr Andriienko
+1. Oleksii Orel
+1. Rajiv
+1. Sergii Kabashniuk
+1. Serhii Leshchenko
+1. Stevan Le Meur
+1. Sun Tan
+1. Travis Wang
+1. Vitaliy Gulyy
+
 
 # 28-October-2019
 ## Recording
