@@ -11,6 +11,7 @@ The next Che dev meeting will take place on Monday December 9th 2019. You are we
 
 # 25-November-2019
 ## Recording
+https://youtu.be/c8X3khqYEaU
 
 ## Notes and Minutes
 ### Code Owner - review
