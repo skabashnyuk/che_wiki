@@ -6,8 +6,39 @@ It's open to anyone interested. You don't need to have a long history with Che t
 ## When and Where ##
 These meetings take place every second Monday, 8:00 AM PST. You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/2488406763). Chat link updated 18-Mar-19. Calendar [link](https://calendar.google.com/event?action=TEMPLATE&tmeid=NzBzajBjOWtjNG82Y2I5azYwcjMwYjlrNnNxMzhiYjFjY3A2OGI5bzc1Z21jcGhwY2NyamlkcjNjOF8yMDE5MDcwOFQxNTAwMDBaIHN1dGFuQHJlZGhhdC5jb20&tmsrc=sutan%40redhat.com).
 
-# Next meeting 9-December-2019
-The next Che dev meeting will take place on Monday December 9th 2019. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+# Next meeting 23-December-2019
+The next Che dev meeting will take place on Monday December 23th 2019. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+
+# 9-December-2019
+## Recording
+## Notes and Minutes
+### Update from Che teams
+- Goal is to give more update from each che team from Red Hat
+- Being more open to give status
+
+Refactor of the plug-in broker by Angel: PR https://github.com/eclipse/che-plugin-broker/pull/80
+Issue: https://github.com/eclipse/che/issues/14494
+
+Benefit: allow to work on each side of the broker separately, and logic could be extracted and used in other places like plugin-registry.etc
+-1500 lines dropped after refactoring
+
+Question by Tim: does it affect performance ?
+
+Very easy to improve the downloading process. Workspace starting twice in a row shouldn’t download new stuff anymore
+Some logic should be extracted to plug-in service to be a service always available instead of starting/stopping stuff.
+
+### CodeReady Workspaces 2.0 shipped and availability 
+- Huge topic for Red Hat teams
+- Installation in restricted environments
+- All has been developed upstream so AirGap mode is also available in Eclipse Che 7
+
+### UXD work - update 
+- Working with Stevan for a while and how to make a plan
+- Welcome page use-case for example
+- Another item is about theme (colors that developers like, etc)
+  - User study
+  - Theming survey : https://docs.google.com/forms/d/1i_dOLcQ_HmWwwBIz2C201MhgvTC0ACJbKr6lC1LbVjU/edit
+- Stevan: avoid back/forward steps and perform all the stuff directly within the IDE
 
 # 25-November-2019
 ## Recording
