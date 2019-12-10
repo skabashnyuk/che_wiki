@@ -40,6 +40,28 @@ Some logic should be extracted to plug-in service to be a service always availab
   - Theming survey : https://docs.google.com/forms/d/1i_dOLcQ_HmWwwBIz2C201MhgvTC0ACJbKr6lC1LbVjU/edit
 - Stevan: avoid back/forward steps and perform all the stuff directly within the IDE
 
+## Attendees
+1. Andrew Mak
+1. Angel Misevski
+1. Beau Morley
+1. Elson Yuen
+1. Fabrice Flore-Thébault
+1. Florent Benoit (taking notes)
+1. Ilya Buziuk
+1. John Collier
+1. Martha Benitez
+1. Mykola Morhun
+1. Nick Boldt
+1. Oleksandr Andriienko
+1. Rajiv
+1. Rick Wagner
+1. Stevan LeMeur
+1. Serhii
+1. Sun Tan
+1. Tim deBoer
+1. Travis Wang
+
+
 # 25-November-2019
 ## Recording
 https://youtu.be/c8X3khqYEaU
