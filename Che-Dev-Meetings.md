@@ -11,6 +11,8 @@ The next Che dev meeting will take place on Monday December 23th 2019. You are w
 
 # 9-December-2019
 ## Recording
+https://youtu.be/QJnAFsUs43Q
+
 ## Notes and Minutes
 ### Update from Che teams
 - Goal is to give more update from each che team from Red Hat
