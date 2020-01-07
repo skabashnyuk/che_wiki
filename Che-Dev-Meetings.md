@@ -6,8 +6,59 @@ It's open to anyone interested. You don't need to have a long history with Che t
 ## When and Where ##
 These meetings take place every second Monday, 8:00 AM PST. You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/2488406763). Chat link updated 18-Mar-19. Calendar [link](https://calendar.google.com/event?action=TEMPLATE&tmeid=NzBzajBjOWtjNG82Y2I5azYwcjMwYjlrNnNxMzhiYjFjY3A2OGI5bzc1Z21jcGhwY2NyamlkcjNjOF8yMDE5MDcwOFQxNTAwMDBaIHN1dGFuQHJlZGhhdC5jb20&tmsrc=sutan%40redhat.com).
 
-# Next meeting 6-Jan-2020
-The next Che dev meeting will take place on Monday January 6th 2020. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+# Next meeting 20-Jan-2020
+The next Che dev meeting will take place on Monday January 20th 2020. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+
+# 6-January-2020
+## Recording
+https://youtu.be/5dBdz2mXlyo
+
+## Notes and Minutes
+### Update from Che teams (Sun)
+- RH Language team, working on Quarkus extensions (Thomas)
+
+### New teams at Red Hat (Florent)
+https://docs.google.com/presentation/d/1WHBFZ1q7ym2jQ2hersSakF48saMrk6v0eEmTvwMfXM0/edit#slide=id.g6d3396950e_2_0
+
+### Web Browsers compatibility improvements
+- Better handling with Firefox with like font issues, etc
+- If you have problems, please report issues
+- Safari: not yet supported, issue on login.
+
+### Update on troubleshooting installation and getting logs (Stevan)
+- Tricky to retrieve the logs of the container, etc.
+- Epic related to improve the troubleshooting report
+  - https://github.com/eclipse/che/issues/14882
+  - https://github.com/eclipse/che/issues/15485
+- Will help you to retrieve what you’re doing
+
+
+
+### TLS by default (Stevan)
+Same experience than when using final product
+- https://github.com/eclipse/che/issues/14742
+- Self-certificate will be provided as well (if no real certificates are provided)
+
+### Better log message when workspace is not starting (Stevan)
+Much more easier to get the log and get the root cause (still in progress)
+
+
+## Attendees
+1. Florent Benoit (taking notes)
+1. Andrew Mak
+1. Beau Morley
+1. Fabrice Flore-Thébault
+1. John Collier
+1. Keith
+1. Martha Benitez
+1. Nick Boldt
+1. Rick Wagner
+1. Stevan LeMeur
+1. Sun Tan
+1. Thomas Mader
+
+
+
 
 # 9-December-2019
 ## Recording
