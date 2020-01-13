@@ -4,6 +4,13 @@ Want to present Eclipse Che at agile, developer, and DevOps conferences? Add you
 
 Upcoming opportunities to meet the Eclipse Che community during conferences, events and meetups.
 
+[DevConf.CZ](https://www.devconf.info/cz/) _Brno, Czech Republic_ - **January 24-26, 2020**
+- ** [Eclipse Che & the future of Cloud Development Tool](https://devconfcz2020a.sched.com/event/YOxx/eclipse-che-the-future-of-cloud-development-tool)** - Ilya Buziuk
+- ** [Customize your own Online IDE with a Devfile](https://devconfcz2020a.sched.com/event/YOxu/customize-your-own-online-ide-with-a-devfile)** - Valerii Svydenko
+
+
+# Past events
+## 2019
 [Ansiblefest 2019](https://www.ansible.com/ansiblefest) _ATLANTA, USA_ - **September 24-26, 2019**
 - **Ansible Ready Workspaces** - Sun Tan - Victor Da Costa
 
@@ -22,8 +29,7 @@ Upcoming opportunities to meet the Eclipse Che community during conferences, eve
 - **[Eclipse Theia and Che, explained and explored!](https://www.eclipsecon.org/europe2019/sessions/eclipse-theia-and-che-explained-and-explored)** - Jonas Helming (EclipseSource)
 - **[Intro to Eclipse Codewind - simplified app development for the cloud!](https://www.eclipsecon.org/europe2019/sessions/intro-eclipse-codewind-simplified-app-development-cloud)** - Tim deBoer (IBM)
 
-# Past events
-## 2019
+
 [OSCON](https://conferences.oreilly.com/) _PORTLAND, OR_ - **July 17, 2019**
 - **[Eclipse Che: IDE and developer workspaces as a service ](https://conferences.oreilly.com/oscon/oscon-or/public/schedule/detail/79220)** - Dave Neary (Red Hat)
  
