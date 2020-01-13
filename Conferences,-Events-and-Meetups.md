@@ -7,8 +7,7 @@ Upcoming opportunities to meet the Eclipse Che community during conferences, eve
 [DevConf.CZ](https://www.devconf.info/cz/) _Brno, Czech Republic_ - **January 24-26, 2020**
 - **[Eclipse Che & the future of Cloud Development Tool](https://devconfcz2020a.sched.com/event/YOxx/eclipse-che-the-future-of-cloud-development-tool)** - Ilya Buziuk
 - **[Customize your own Online IDE with a Devfile](https://devconfcz2020a.sched.com/event/YOxu/customize-your-own-online-ide-with-a-devfile)** - Valerii Svydenko
-- **[https://devconfcz2020a.sched.com/event/YOwk/web-development-with-eclipse-che-on-openshift](Web development with Eclipse Che on OpenShift
-)** - Artem Zatsarynnyi
+- **[Web development with Eclipse Che on OpenShift](https://devconfcz2020a.sched.com/event/YOwk/web-development-with-eclipse-che-on-openshift)** - Artem Zatsarynnyi
 - **[Development environment as code
 ](https://devconfcz2020a.sched.com/event/YOqD/development-environment-as-code)** - Sergii Kabashniuk and Michal Vala
 
