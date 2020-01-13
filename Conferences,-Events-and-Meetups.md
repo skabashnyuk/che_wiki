@@ -8,6 +8,8 @@ Upcoming opportunities to meet the Eclipse Che community during conferences, eve
 - ** [Eclipse Che & the future of Cloud Development Tool](https://devconfcz2020a.sched.com/event/YOxx/eclipse-che-the-future-of-cloud-development-tool)** - Ilya Buziuk
 - ** [Customize your own Online IDE with a Devfile](https://devconfcz2020a.sched.com/event/YOxu/customize-your-own-online-ide-with-a-devfile)** - Valerii Svydenko
 
+[Montpellier JUG](https://www.jug-montpellier.org) _Montpellier, France_ - **January 15, 2020**
+- ** [Eclipse Che, votre compagnon idéal pour développer vos applications Cloud native](https://www.jug-montpellier.org/events/76)** - Sun Tan
 
 # Past events
 ## 2019
