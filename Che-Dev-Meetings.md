@@ -6,8 +6,48 @@ It's open to anyone interested. You don't need to have a long history with Che t
 ## When and Where ##
 These meetings take place every second Monday, 8:00 AM PST. You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/2488406763). Chat link updated 18-Mar-19. Calendar [link](https://calendar.google.com/event?action=TEMPLATE&tmeid=NzBzajBjOWtjNG82Y2I5azYwcjMwYjlrNnNxMzhiYjFjY3A2OGI5bzc1Z21jcGhwY2NyamlkcjNjOF8yMDE5MDcwOFQxNTAwMDBaIHN1dGFuQHJlZGhhdC5jb20&tmsrc=sutan%40redhat.com).
 
-# Next meeting 20-Jan-2020
-The next Che dev meeting will take place on Monday January 20th 2020. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+# Next meeting 3-Feb-2020
+The next Che dev meeting will take place on Monday February 3rd 2020. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+
+# 20-January-2020
+## Recording
+
+## Notes and Minutes
+
+### Update from teams
+#### Elson:
+- Codewind team. GA, Jan 23 v0.8.0
+- Added support Helm 3 - removal of the insecure non-default tiller
+- Planning to propose some changes on devfile definition, e.g. volume definition, commands and actions
+#### Mario:
+- Want to have a list of teams on Wiki
+- Want to have a list of areas on Wiki (need a quick update before assigning teams and labels)
+- Want to avoid to set ‘team/**’ label
+- If someone is starting to work on the issue, it needs to be assigned to someone
+
+#### Sun:
+- new proposal about issue triaging at next call
+
+## Attendees
+1. Florent Benoit (taking notes)
+1. Andrew Mak
+1. Beau Morley
+1. Carl Anderson
+1. Elson Yuen
+1. Jag
+1. Jasper
+1. John Collier
+1. Jonathan West
+1. Josh Pinkney
+1. Mario Loriedo
+1. Martha Benitez
+1. Mykola Morhun
+1. Rajiv
+1. Sarah I
+1. Sun Tan
+1. Thomas Maeder
+1. Travis Wang
+
 
 # 6-January-2020
 ## Recording
