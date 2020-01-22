@@ -111,6 +111,16 @@ To check the logs go to Output view and select Python in the dropdown list.
 
 ![Python Logs](./lstroubleshooting.images/image20.png)
 
+## C++
+
+### Viewing the logs
+To view the logs, navigate to the Output view and select Clang Language Server in the drop-down list.
+
+![C++ Logs](./lstroubleshooting.images/cpplog.png)
+
+### Enabling the language server protocol (LSP) performance tracing
+To enable performance tracing the clang server, in the Preferences view, use the clangd.trace to name a file that clangd should log a performance trace to, in chrome trace-viewer JSON format. Use this to diagnose the server issues. 
+
 ## Go
 
 ### Finding the Gopath
