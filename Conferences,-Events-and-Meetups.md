@@ -4,17 +4,21 @@ Want to present Eclipse Che at agile, developer, and DevOps conferences? Add you
 
 Upcoming opportunities to meet the Eclipse Che community during conferences, events and meetups.
 
+# Past events
+
+## 2020
+
 [DevConf.CZ](https://www.devconf.info/cz/) _Brno, Czech Republic_ - **January 24-26, 2020**
 - **[Eclipse Che & the future of Cloud Development Tool](https://devconfcz2020a.sched.com/event/YOxx/eclipse-che-the-future-of-cloud-development-tool)** - Ilya Buziuk
 - **[Customize your own Online IDE with a Devfile](https://devconfcz2020a.sched.com/event/YOxu/customize-your-own-online-ide-with-a-devfile)** - Valerii Svydenko
 - **[Web development with Eclipse Che on OpenShift](https://devconfcz2020a.sched.com/event/YOwk/web-development-with-eclipse-che-on-openshift)** - Artem Zatsarynnyi
 - **[Development environment as code
 ](https://devconfcz2020a.sched.com/event/YOqD/development-environment-as-code)** - Sergii Kabashniuk and Michal Vala
+- **[Docs with Efficient Downstreaming in Mind](https://themr0c.github.io/2020-01-efficient-downstreaming/) - Fabrice Flore-Thébault
 
 [Montpellier JUG](https://www.jug-montpellier.org) _Montpellier, France_ - **January 15, 2020**
 - **[Eclipse Che, votre compagnon idéal pour développer vos applications Cloud native](https://www.jug-montpellier.org/events/76)** - Sun Tan
 
-# Past events
 ## 2019
 [Ansiblefest 2019](https://www.ansible.com/ansiblefest) _ATLANTA, USA_ - **September 24-26, 2019**
 - **Ansible Ready Workspaces** - Sun Tan - Victor Da Costa
