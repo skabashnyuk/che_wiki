@@ -14,7 +14,7 @@ Upcoming opportunities to meet the Eclipse Che community during conferences, eve
 - **[Web development with Eclipse Che on OpenShift](https://devconfcz2020a.sched.com/event/YOwk/web-development-with-eclipse-che-on-openshift)** - Artem Zatsarynnyi
 - **[Development environment as code
 ](https://devconfcz2020a.sched.com/event/YOqD/development-environment-as-code)** - Sergii Kabashniuk and Michal Vala
-- **[Docs with Efficient Downstreaming in Mind](https://themr0c.github.io/2020-01-efficient-downstreaming/) - Fabrice Flore-Thébault
+- **[Docs with Efficient Downstreaming in Mind](https://themr0c.github.io/2020-01-efficient-downstreaming/)** - Fabrice Flore-Thébault
 
 [Montpellier JUG](https://www.jug-montpellier.org) _Montpellier, France_ - **January 15, 2020**
 - **[Eclipse Che, votre compagnon idéal pour développer vos applications Cloud native](https://www.jug-montpellier.org/events/76)** - Sun Tan
