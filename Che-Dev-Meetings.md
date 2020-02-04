@@ -6,8 +6,106 @@ It's open to anyone interested. You don't need to have a long history with Che t
 ## When and Where ##
 These meetings take place every [Monday, 7:00 AM PST](https://www.wolframalpha.com/input/?i=Monday+7%3A00+AM+PST). You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/2488406763). Chat link updated 18-Mar-19. Calendar [link](https://calendar.google.com/event?action=TEMPLATE&tmeid=NzBzajBjOWtjNG82Y2I5azYwcjMwYjlrNnNxMzhiYjFjY3A2OGI5bzc1Z21jcGhwY2NyamlkcjNjOF8yMDE5MDcwOFQxNTAwMDBaIHN1dGFuQHJlZGhhdC5jb20&tmsrc=sutan%40redhat.com).
 
-# Next meeting 3-Feb-2020
-The next Che dev meeting will take place on Monday February 3rd 2020. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+# Next meeting 10-Feb-2020
+The next Che dev meeting will take place on Monday February 10th 2020. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+
+# 3-February-2020
+## Recording
+https://youtu.be/rQ1521HkRhc
+
+## Notes and Minutes
+### Making the call weekly?
+- Before we had one internal meeting at Red Hat and Community call
+- Want to merge two of them and will then get a weekly meeting
+
+### Update of owners of the different components of Eclipse Che
+- It also includes all repositories like che-plugin-registry, che-theia, etc.
+- What is happening if a committer which is not a codeowner approve a PR then it’s merged and it breaks !
+- Make enhancement on the template to really test the PR and not because they like the idea
+- Want to have an agreement this week so we can decide what to do on all the projects in a common way.
+
+### Teams updates
+#### Eclipse Codewind
+  -   Codewind 0.8.0 Jan 23 GAed
+  -   Presented a talk on Codewind and Che on Devconf.cz conference in Czech Republic
+  -   Next: Work on adding Codewind as part of the devfile registry, will create PR for adding Codewind to the Che plugin registry
+
+#### Hosted Che
+
+*   [Update Hosted Che to the latest 7.8.0 upstream version](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15871&sa=D&ust=1580829986269000)
+*   [k8s-image-puller](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15385&sa=D&ust=1580829986270000) (faster workspace startup)
+*   [Backup and Disaster Recovery documentation](https://www.google.com/url?q=https://github.com/eclipse/che/issues/14240&sa=D&ust=1580829986271000)
+
+####   [Platform](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15869&sa=D&ust=1580829986271000)
+
+*   [https://github.com/eclipse/che/projects/15](https://www.google.com/url?q=https://github.com/eclipse/che/projects/15&sa=D&ust=1580829986272000)
+
+####   [Deploy](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15839&sa=D&ust=1580829986273000)
+- Finalizing POC TLS by default (created a [PR #476](https://www.google.com/url?q=https://github.com/che-incubator/chectl/pull/476&sa=D&ust=1580829986273000))  
+- Continue working on improving installation capabilities
+
+####   [Controller](https://www.google.com/url?q=https://github.com/eclipse/che/projects/16&sa=D&ust=1580829986274000)
+
+*   User Dashboard will be be configurable enough for reusing in Hosted Che soon [https://github.com/eclipse/che/issues/15462](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15462&sa=D&ust=1580829986275000)
+*   Get started page improvements
+*   Active developing Workspace CR Controller [https://github.com/eclipse/che/projects/16](https://www.google.com/url?q=https://github.com/eclipse/che/projects/16&sa=D&ust=1580829986276000)
+
+####   [Languages](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15796&sa=D&ust=1580829986276000)
+
+*   Call hierarchy API
+*   Enable “References View”
+*   VS Code API tests (PR Check)
+*   Some CRW plugin/image work
+*   Doc air-gap procedures
+
+####   [Plugins](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15862&sa=D&ust=1580829986278000)
+####   [Editors](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15628&sa=D&ust=1580829986278000)
+####   Devex:
+
+*   [Che-theia build fix](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15851&sa=D&ust=1580829986279000) and [CDN support fix](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15791&sa=D&ust=1580829986279000)
+*   [Asynchronously attach PVs to Workspaces](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15384&sa=D&ust=1580829986280000)
+*   [New Devfile and DevWorkspace API](https://www.google.com/url?q=https://github.com/che-incubator/devworkspace-api&sa=D&ust=1580829986280000)
+*   [Cloud Shell Spec](https://www.google.com/url?q=https://github.com/openshift/enhancements/pull/182&sa=D&ust=1580829986281000)
+
+####   Documentation
+####   QE
+
+*   che-bot token is finally on ci.centos.org
+*   migrating remaining jobs from ci.codenvycorp.com
+
+####   Che CI & [Build Process](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15506&sa=D&ust=1580829986283000) Updates (Prod Team)
+
+*   3 of the 9 build stages scripted by Prod Team w/ RELEASE.md docs & used for Che 7.8.0 release; the rest of the stages are documented too, with 3 more scripted. Also have an [updated template](https://www.google.com/url?q=https://github.com/eclipse/che/pull/15875/files&sa=D&ust=1580829986283000) for creating [release issues](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15860&sa=D&ust=1580829986284000) so it’s easier to track owner/status & verify artifacts are live. Remaining 3 stages will be scripted in future (requires Nexus integration).
+*   [Sprint 179 plan](https://www.google.com/url?q=https://hackmd.io/fdo9FSNiQU2tL-jka33_HA?both&sa=D&ust=1580829986284000)
+
+## Attendees
+1. Florent Benoit (taking notes)
+1. Anatolii Bazko
+1. Andrew Mak
+1. Angel Misevski
+1. Beau Morley
+1. David Festal
+1. Elson Yuen
+1. Gennady Azarenkov
+1. Ilya Buziuk
+1. Jag
+1. Jonathan West
+1. Joshua Pinkney
+1. Mario Loriedo
+1. Martha Benitez
+1. Mykhailo Kuznetsov
+1. Mykola Morhun
+1. Nick Boldt
+1. Oleksii Orel
+1. Radim Hopp
+1. Rajiv
+1. Sakib Hasan
+1. Sergii kabashniuk
+1. Serhii Leshchenko
+1. Sun Tan
+1. Thomas Maeder
+1. Tibor Dancs
+
 
 # 20-January-2020
 ## Recording
