@@ -48,7 +48,8 @@ https://youtu.be/rQ1521HkRhc
 
 *   User Dashboard will be be configurable enough for reusing in Hosted Che soon [https://github.com/eclipse/che/issues/15462](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15462&sa=D&ust=1580829986275000)
 *   Get started page improvements
-*   Active developing Workspace CR Controller [https://github.com/eclipse/che/projects/16](https://www.google.com/url?q=https://github.com/eclipse/che/projects/16&sa=D&ust=1580829986276000)
+*   Active developing Workspace CR Controller 
+Actual status of sprint can be found at [https://github.com/eclipse/che/projects/16](https://www.google.com/url?q=https://github.com/eclipse/che/projects/16&sa=D&ust=1580829986276000)
 
 ####   [Languages](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15796&sa=D&ust=1580829986276000)
 
