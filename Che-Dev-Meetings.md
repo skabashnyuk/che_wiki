@@ -6,8 +6,139 @@ It's open to anyone interested. You don't need to have a long history with Che t
 ## When and Where ##
 These meetings take place every [Monday, 7:00 AM PST](https://www.wolframalpha.com/input/?i=Monday+7%3A00+AM+PST). You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/2488406763). Chat link updated 18-Mar-19. Calendar [link](https://calendar.google.com/event?action=TEMPLATE&tmeid=NzBzajBjOWtjNG82Y2I5azYwcjMwYjlrNnNxMzhiYjFjY3A2OGI5bzc1Z21jcGhwY2NyamlkcjNjOF8yMDE5MDcwOFQxNTAwMDBaIHN1dGFuQHJlZGhhdC5jb20&tmsrc=sutan%40redhat.com).
 
-# Next meeting 10-Feb-2020
-The next Che dev meeting will take place on Monday February 10th 2020. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+# Next meeting 17-Feb-2020
+The next Che dev meeting will take place on Monday February 17th 2020. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+
+# 10-February-2020
+## Recording
+https://youtu.be/KC8ZuhTzeLk
+
+## Notes and Minutes
+### Triage proposal (Sun)
+
+- Sun presenting proposal:
+  - [link](https://docs.google.com/presentation/d/e/2PACX-1vQr-DPCxHRcd3y7M7IVSSeEHkcWWBxHlHgZXww9WwPf2UDZ9eESAs7GlnAXcePw2woOnQ-NKUifWChp/pub?start=false&loop=false&delayms=3000)  to the slide-deck 
+- Priority might differ based on developer’s feeling
+- Issue affecting dogfooding might have a low severity while as user it might impact them with a higher priority.
+
+### Dashboard / own repo (sergii)
+Move the dashboard to its own github repository https://github.com/eclipse/che/issues/15266
+
+- May solve issue about using java for one project and typescript for another one
+- Split dashboard in its own repository (and probably workspace-loader)
+- Needs to wait 7.10 release for that (after CRW 2.1)
+- Maybe we could move che-server to another repository as well (and keep only che as being an assembly)
+
+### Documentation about che server environment variables
+	
+https://www.eclipse.org/che/docs/pages/che-7/administration-guide/ref_configuring-system-variables.html Documentation about che server environment variables.
+
+- Do you have feedback on this new page ?
+
+### Definition of workspace sharing
+
+*   Sharing : More than just sharing the editor. It can include the ssh stuff, tokens, etc.
+*   Maybe investigate “pair programming” and drop the direct share.
+*   Option could be to disable some security injection (no ssh, no token, etc) in that mode.
+*   Proper messaging + document what is doing “sharing”
+
+### Che docs team collaboration
+
+*   Good job on collaboration between platform and doc team but:
+*   Some PRs may be delayed since a long time without any feedback (stay there for too long)
+*   → Try to keep PR as small as possible to do a better review
+*   Will create a new che docs channel on mattermost to ping Doc people.
+*   [https://mattermost.eclipse.org/eclipse/channels/che-docs](https://www.google.com/url?q=https://mattermost.eclipse.org/eclipse/channels/che-docs&sa=D&ust=1581422028283000)
+
+### Teams updates:
+#### Eclipse Codewind (Elson can’t attend this week so just provide update in here)
+
+*   Reviewed devfile 2.0 proposal and added requirements: [https://github.com/che-incubator/devworkspace-api/issues/15](https://www.google.com/url?q=https://github.com/che-incubator/devworkspace-api/issues/15&sa=D&ust=1581422028268000)
+
+#### Hosted Che
+
+*   Adapt Hosted Che 'k8s-image-puller' to the upstream needs [#15385](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15385&sa=D&ust=1581422028269000)
+*   Backup and Disaster Recovery documentation [#14240](https://www.google.com/url?q=https://github.com/eclipse/che/issues/14240&sa=D&ust=1581422028269000)
+*   Enabling telemetry on Hosted Che
+
+####   Platform
+
+*   [https://github.com/eclipse/che/projects/15](https://www.google.com/url?q=https://github.com/eclipse/che/projects/15&sa=D&ust=1581422028270000)
+
+####   Deploy
+
+*   \[Troubleshooting capabilities\] Checking minimal version of k8s/openshift/helm
+*   Some changes in \`chectl\` to be able to deprecate \`deploy\_che\` in future
+
+####   Controller
+
+*   [https://github.com/eclipse/che/projects/16](https://www.google.com/url?q=https://github.com/eclipse/che/projects/16&sa=D&ust=1581422028270000)
+
+####   [Languages](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15796&sa=D&ust=1581422028271000)
+
+- [DONE] Upgrade vscode-xml plugin to 0.10.1 [#15592](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15592&sa=D&ust=1581422028271000)
+- [WIP] Working in fixing Find All references (for typescript plugin)
+- [WIP] VS Code API tests (PR Check) [che-theia/pull/597](https://www.google.com/url?q=https://github.com/eclipse/che-theia/pull/597&sa=D&ust=1581422028272000)
+- [WIP] Some CRW plugin/image/devfile: started camel-k devfile
+- Doc air-gap procedures
+  -   [DONE] Maven/Go/dotnet
+  -   [WIP] npm + global doc by thomas
+
+####   [Plugins](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15862&sa=D&ust=1581422028273000)
+
+*   Concluded face-to-face meetings in Cherkasy, travel back for non-Cherkasy teammates
+*   Opened PR for [Vale plugin addition](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15856&sa=D&ust=1581422028273000) to the registry
+*   Opened [PR](https://www.google.com/url?q=https://github.com/eclipse/che/pull/15963&sa=D&ust=1581422028274000) for OpenShift connector authentication work
+*   Discussions and PRs opened for [task clicking delay issue](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15277&sa=D&ust=1581422028274000)
+
+####   Editors
+####   Devex:
+
+*   [Devfile 2.0](https://www.google.com/url?q=https://github.com/che-incubator/devworkspace-api/issues/15&sa=D&ust=1581422028274000) and [PoC for devfile as a stack definition](https://www.google.com/url?q=https://github.com/che-incubator/devworkspace-api/issues/25&sa=D&ust=1581422028275000)
+*   [Che Plugin dependencies resolution](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15966&sa=D&ust=1581422028275000)
+*   Created all the subtask for the [async PV mount epic](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15384&sa=D&ust=1581422028275000)
+
+####   Documentation
+*   Yana Hontyk is now an Eclipse Committer
+*   WIP Dogfooding che-docs [https://github.com/eclipse/che/issues/15866](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15866&sa=D&ust=1581422028276000)
+
+####   QE
+*   All jobs moved, now fine-tuning them.  
+
+####   Che CI & Build Process Updates (Prod Team)
+*   No Che process updates this week
+*   CRW 2.1 Quay images updated to Che 7.8, but [having problems deploying](https://www.google.com/url?q=https://issues.redhat.com/browse/CRW-625&sa=D&ust=1581422028277000) w/ crwctl. Cannot open a workspace: could be related to upstream che-operator issue [pull/166](https://www.google.com/url?q=https://github.com/eclipse/che-operator/pull/166&sa=D&ust=1581422028277000)
+
+## Attendees:
+1. Florent Benoit (taking notes)
+1. Anatolii Bazko
+1. Angel Misevski
+1. Beau Morley
+1. David Festal
+1. Eric Williams
+1. Fabrice Flore-Thébault
+1. Gennady Azarenkov
+1. Ihor Vinokur
+1. Ilya Buziuk
+1. Josh Pinkney
+1. Lukas Krejci
+1. Mario Loriedo
+1. Martha Benitez
+1. Mykhailo Kuznetsov
+1. Nick Boldt
+1. Oleksii Orel
+1. Radim Hopp
+1. Rick Wagner
+1. Sergii Kabashniuk
+1. Serhii Leshchenko
+1. Sopot Cela
+1. Stevan LeMeur
+1. Sun Tan
+1. Thomas George
+1. Viktor Kuznietsov
+1. Vitaliy Gulyy
+1. Vladyslav Zhukovskyi
+
 
 # 3-February-2020
 ## Recording
