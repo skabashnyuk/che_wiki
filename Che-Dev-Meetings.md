@@ -9,6 +9,175 @@ These meetings take place every [Monday, 7:00 AM PST](https://www.wolframalpha.c
 # Next meeting 17-Feb-2020
 The next Che dev meeting will take place on Monday February 17th 2020. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
 
+# 17-February-2020
+## Recording
+https://youtu.be/ye-3Tvp7oQs
+
+## Notes and Minutes
+### Your work is new, &/or noteworthy! (Nick) AI: all committees, contributors, users, customers, support, docs
+- Please [tell the world](https://www.google.com/url?q=https://www.eclipse.org/lists/che-dev/msg03578.html&sa=D&ust=1582041846808000) about it!
+
+- (aka self-assessment of [interesting GH issues](https://www.google.com/url?q=https://github.com/eclipse/che/issues?utf8%3D%25E2%259C%2593%26q%3D%2Bmilestone%253A7.9.0%2Blabel%253Anew%2526noteworthy%2B&sa=D&ust=1582041846808000), and setting correct milestone fix version & doneness)
+
+
+### Che release process update (Nick) AI: release owners & prod team
+- Now we start on [Tuesday 09:00 EST / 15:00 CEST / 16:00 EEST](https://www.google.com/url?q=https://www.eclipse.org/lists/che-dev/msg03577.html&sa=D&ust=1582041846809000)(to avoid sliding past the weekend)
+- Want to do as before in the past with an expected release date (no shift)
+
+
+
+
+### Topic branches in private forks - (Nick) AI: committees and contributors
+(vs. cluttering the origin repos & forgetting to take out your trash): best practices/least effort. [Discussion](https://www.google.com/url?q=https://www.eclipse.org/lists/che-dev/msg03575.html&sa=D&ust=1582041846810000)
+
+*   Best way for “single contributions” should be in private forks/branches
+*   Only if really need (like contributing with several people)
+*   Sergii: why we should enforce that: no technical reason
+*   → use forks as much as possible but try to avoid branches in the repository.
+*   Mykola: what is the problem if users clean up branches after the merge ?
+*   Mario: Would avoid to see branches
+*   Matter of taste, so probably we would need a vote ?
+*   Sun: More and more contributors : hard to follow
+*   AI: @Sun: survey to follow-up
+
+
+### New committers recently approved Who's next ? (Nick) AI: contributors?
+
+*   Tom George
+*   Eric Williams
+*   Yana Hontyk
+
+Who will be next? :D -> Flavius
+
+*   Next one should be Flavius
+*   [https://projects.eclipse.org/projects/ecd.che/elections/election-flavius-lacatusu-committer-eclipse-che](https://www.google.com/url?q=https://projects.eclipse.org/projects/ecd.che/elections/election-flavius-lacatusu-committer-eclipse-che&sa=D&ust=1582041846830000)
+
+### PR check jobs migrated to ci.centos.org (Radim)
+
+*   Who should be in the admin list?
+*   Who should be the committers
+*   Radim will provide a link on how to do that for internal Red Hat people.
+*   For now, could start with [https://github.com/orgs/eclipse/teams/ecd-che-committers/members](https://www.google.com/url?q=https://github.com/orgs/eclipse/teams/ecd-che-committers/members&sa=D&ust=1582041846830000)
+*   See if we can automatically sync it or if continue manually
+*   AI: @Radim: how to trigger the test again, how to reach ppl if there is an issue in the check, etc.
+
+### Using digests rather then tags for image references and commit hash rather then master branch for samples (Mario)
+
+*   [https://github.com/eclipse/che/issues/16047](https://www.google.com/url?q=https://github.com/eclipse/che/issues/16047&sa=D&ust=1582041846813000)
+*   [https://github.com/eclipse/che/issues/15898](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15898&sa=D&ust=1582041846813000)
+
+
+*   Build of Che more repeatable/reproducible from external images
+*   Avoid tags and use digest instead
+*   Same approach should be followed for examples like using a specific tag instead of a branch
+*   Use of forked repository ? to avoid deletion on upstream repositories
+*   →
+
+
+### Promote builtin-related plugin issues to P1 (gattytto)
+
+[https://github.com/eclipse/che/issues/16057](https://www.google.com/url?q=https://github.com/eclipse/che/issues/16057&sa=D&ust=1582041846815000)
+Postponed discussion (mic issue from gattytto)
+
+
+### Team update:
+
+####   Eclipse Codewind (Public holiday on 2/17 in Toronto, no attendance)
+
+*   Codewind 0.10.0 currently on track to GA on Feb. 18.
+*   0.10.0 needs to stay on Che 7.5.1.  Currently blocked by [#15658](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15658&sa=D&ust=1582041846816000)before Codewind can move up to a newer version of Che.  More background info can be found on Codewind issue [#2203](https://www.google.com/url?q=https://github.com/eclipse/codewind/issues/2203&sa=D&ust=1582041846816000)
+
+####   Hosted Che
+
+*   Adapt Hosted Che 'k8s-image-puller' to the upstream needs [#15385](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15385&sa=D&ust=1582041846817000) \[WIP\]
+*   Backup and Disaster Recovery documentation [#14240](https://www.google.com/url?q=https://github.com/eclipse/che/issues/14240&sa=D&ust=1582041846817000) \[WIP\]
+*   Enabling telemetry on Hosted Che \[DONE\]
+
+####   Platform
+
+*   [https://github.com/eclipse/che/projects/15](https://www.google.com/url?q=https://github.com/eclipse/che/projects/15&sa=D&ust=1582041846818000)
+
+####   Deploy
+
+*   \[Troubleshooting capabilities\] Checking minimal version of k8s/openshift/helm
+*   Some changes in \`chectl\` to be able to deprecate \`deploy\_che\` in future
+
+####   Controller
+
+*   [https://github.com/eclipse/che/projects/16](https://www.google.com/url?q=https://github.com/eclipse/che/projects/16&sa=D&ust=1582041846818000)
+
+####   [Languages](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15796&sa=D&ust=1582041846819000)
+
+*   [DONE] Update Debugger for Java and Language support for Java to latest[#15560](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15560&sa=D&ust=1582041846819000)
+*   [WIP] Working on enabling Find All references extension
+*   [WIP] VS Code API tests (PR Check) [che-theia/pull/597](https://www.google.com/url?q=https://github.com/eclipse/che-theia/pull/597&sa=D&ust=1582041846820000)
+*   [WIP]  Some CRW plugin/image/devfile: started camel-k devfile
+*   Doc air-gap procedures
+
+*   [WIP]  npm + global doc by thomas, gradle
+
+####   [Plugins](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15862&sa=D&ust=1582041846820000)
+
+*   Help with vue plugin which is almost done
+*   [Vale plugin](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15856&sa=D&ust=1582041846821000) now in the plugin registry
+*   [OpenShift authentication provider merged](https://www.google.com/url?q=https://github.com/eclipse/che/pull/15963&sa=D&ust=1582041846821000)
+*   More investigation into [task clicking delay issue](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15277&sa=D&ust=1582041846821000)
+*   [Provided the ability](https://www.google.com/url?q=https://github.com/eclipse/che/issues/16002&sa=D&ust=1582041846822000) to add a public SSL key to the Java trusted key store
+*   [Clarified docs](https://www.google.com/url?q=https://github.com/eclipse/che-docs/pull/1074&sa=D&ust=1582041846822000) for adding a VS Code extension to Che
+
+####   Editors
+
+*   Switched Che Theia to using VS Code’s built-in extensions for grammars/syntax highlighting instead of Eclipse Theia’s Textmate grammars [che-theia#618](https://www.google.com/url?q=https://github.com/eclipse/che-theia/pull/618&sa=D&ust=1582041846822000)
+*   More secure Theia WebViews, on a separate origin [che-theia#591](https://www.google.com/url?q=https://github.com/eclipse/che-theia/pull/591&sa=D&ust=1582041846823000)
+*   Working on upgrading Monaco editor in Eclipse Theia from 0.18.0 to 0.19.3 [theia#6900](https://www.google.com/url?q=https://github.com/eclipse-theia/theia/issues/6900&sa=D&ust=1582041846823000)
+
+####   Devex:
+
+*   [Devfile 2.0](https://www.google.com/url?q=https://github.com/che-incubator/devworkspace-api/issues/15&sa=D&ust=1582041846823000)and [PoC for devfile as a stack definition](https://www.google.com/url?q=https://github.com/che-incubator/devworkspace-api/issues/25&sa=D&ust=1582041846824000)
+*   [Che Plugin dependencies resolution](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15966&sa=D&ust=1582041846824000)
+*   Created all the subtask for the [async PV mount epic](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15384&sa=D&ust=1582041846824000)
+*   Che RAM and CPU requirements documentation
+
+####   Documentation
+
+*   Yana Hontyk is now an Eclipse Committer
+*   WIP Dogfooding che-docs [https://github.com/eclipse/che/issues/15866](https://www.google.com/url?q=https://github.com/eclipse/che/issues/15866&sa=D&ust=1582041846825000)
+
+####   QE
+
+*   All QE jobs moved, now fine-tuning them.  
+    
+
+####   Che CI & Build Process Updates (Prod Team)
+
+*   Trying a new Che release process for 7.9: see above
+
+## Attendees:
+
+1.  Florent Benoit (taking notes)
+2.  Sun Tan
+3.  Artem Zatsarynnyi
+4.  Beau Morley
+5.  David Festal
+6.  Dmytro Nochenov
+7.  Fabrice Flore-Thébault
+8.  Esteban Basso aka gattyto
+9.  Maksym Shaposhnyk
+10.  Mario Loriedo
+11.  Michal Vala
+12.  Mykola Morhun
+13.  Oleksii Orel
+14.  Radim Hopp
+15.  Rick Wagner
+16.  Roman Nikitenko
+17.  Sergii Kabashniuk
+18.  Serhii Leshchenko
+19.  Thomas Maeder
+20.  Vitaliy Gulyy
+21.  Vladyslav Zhukovskyi
+
+
+
 # 10-February-2020
 ## Recording
 https://youtu.be/KC8ZuhTzeLk
