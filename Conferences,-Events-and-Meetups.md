@@ -8,6 +8,9 @@ Upcoming opportunities to meet the Eclipse Che community during conferences, eve
 
 ## 2020
 
+[FOSDEM 2020](https://fosdem.org/2020/) _Brussels, Belgium_ - **February 1-2, 2020**
+- **[Developer Workspace As Code - Is Developer Heaven in the Cloud?](https://fosdem.org/2020/schedule/event/developer_workspace_as_code_is_developer_heaven_in_the_cloud/)** - Lukas Krejci
+
 [DevConf.CZ](https://www.devconf.info/cz/) _Brno, Czech Republic_ - **January 24-26, 2020**
 - **[Eclipse Che & the future of Cloud Development Tool](https://devconfcz2020a.sched.com/event/YOxx/eclipse-che-the-future-of-cloud-development-tool)** - Ilya Buziuk
 - **[Customize your own Online IDE with a Devfile](https://devconfcz2020a.sched.com/event/YOxu/customize-your-own-online-ide-with-a-devfile)** - Valerii Svydenko
