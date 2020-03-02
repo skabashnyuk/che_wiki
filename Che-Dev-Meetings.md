@@ -10,7 +10,14 @@ These meetings take place every [Monday, 7:00 AM PST](https://www.wolframalpha.c
 The next Che dev meeting will take place on Monday March 2nd 2020. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
 
 # 24-February-2020
+## Agenda:
+* Move this to HackMD.io or eventually Che (Sun)
+* Taking notes of this call next week (Florent on PTO next week) -> mario ? (Florent - 1mn)
+* Google Summer of Code discussion (Sun)
+* Status of 7.9.0 release (Ilya) 
+* Users branches survey (Mario)
 
+Minutes:  [Google Doc](https://docs.google.com/document/d/e/2PACX-1vQg10YnJx8byOJhI-uhuBGZtaDh-mOpGSNR7XK9a44Ta1WClBMChpwweip_j5SPA4di87IBELHByvKG/pub)
 
 # 17-February-2020
 ## Recording
