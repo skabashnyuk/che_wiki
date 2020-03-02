@@ -51,6 +51,7 @@ Issues related to a specific functional area of Che. https://github.com/eclipse/
 | `status/open-for-dev` | An issue has had its specification reviewed and confirmed. Waiting for an engineer to accept the issue and take it into active development.
 | `status/in-progress` | This issue has been taken by an engineer and is under active development.
 | `status/code-review` | This issue has a pull request posted for it and is awaiting code review completion by the community.
+| `status/doc-impact` | This issue has an impact on documentation, it is required to provide a documentation update.
 | `status/blocked` | Issue that can’t be moved forward. Must include a comment on the reason for the blockage. If it’s blocked because it depends on another issue then it should include a link to the issue it depends on.
 
 ### [Issue Lifecycle ](https://github.com/eclipse/che/labels?q=lifecycle)
