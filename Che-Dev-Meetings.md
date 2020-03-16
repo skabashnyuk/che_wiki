@@ -15,10 +15,10 @@ The next Che dev meeting will take place on Monday March 16th 2020. You are welc
 * 2 meetings in the calendar - can we remove one of them? (Ilya)
 * Team updates
 
-## Recording:
+Recording: https://youtu.be/HWNQShe69_0
 
-## Minutes:
-[Google Doc](https://docs.google.com/document/d/e/2PACX-1vQoojvqfcGyJoKvSxfgD0LmpltR_PNnHvnh4ttrftU9XWwJ1W1yo2RzC0r6cekHHNqA-fNKn2C15K72/pub)
+
+Minutes: [Google Doc](https://docs.google.com/document/d/e/2PACX-1vQoojvqfcGyJoKvSxfgD0LmpltR_PNnHvnh4ttrftU9XWwJ1W1yo2RzC0r6cekHHNqA-fNKn2C15K72/pub)
 
 # 2-March-2020
 ## Agenda:
