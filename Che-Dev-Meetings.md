@@ -10,7 +10,7 @@ These meetings take place every [Monday, 7:00 AM PST](https://www.wolframalpha.c
 The next Che dev meeting will take place on Monday March 16th 2020. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
 
 
-# 6-March-2020
+# 9-March-2020
 ## Agenda:
 * 2 meetings in the calendar - can we remove one of them? (Ilya)
 * Team updates
