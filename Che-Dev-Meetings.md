@@ -6,8 +6,22 @@ It's open to anyone interested. You don't need to have a long history with Che t
 ## When and Where ##
 These meetings take place every [Monday, 7:00 AM PST](https://www.wolframalpha.com/input/?i=Monday+7%3A00+AM+PST). You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/2488406763). Chat link updated 18-Mar-19. Calendar [link](https://calendar.google.com/event?action=TEMPLATE&tmeid=NzBzajBjOWtjNG82Y2I5azYwcjMwYjlrNnNxMzhiYjFjY3A2OGI5bzc1Z21jcGhwY2NyamlkcjNjOF8yMDE5MDcwOFQxNTAwMDBaIHN1dGFuQHJlZGhhdC5jb20&tmsrc=sutan%40redhat.com).
 
-# Next meeting 16-Mar-2020
-The next Che dev meeting will take place on Monday March 16th 2020. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+# Next meeting 23-Mar-2020
+The next Che dev meeting will take place on Monday March 23th 2020. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+
+# 16-March-2020
+## Agenda:
+* Bug in exposing route (Sun)
+* Consider launching Happy Path tests on others repos except Che, like workspace-loader, dashboard (is not moved yet but eventually it will be soon) (Serhii Leshchenko)
+* When adding new che-theia api should the new api always be added to @eclipse-che/plugin API or should it be split into its own module depending on the contents. Relevant PR: https://github.com/eclipse/che-theia/pull/597 (Josh Pinkney)
+* Ensuring non-codeowner contributions are included in releases (Angel Misevski)
+* Team updates
+
+Recording: 
+
+
+Minutes: [Google Doc](https://docs.google.com/document/d/e/2PACX-1vSxS9FHjEw4AOLKJtwZruJC9YBM4NG1kk05z7LjJphEwl25ne5MmI9gxFXC5A3XpCn-sppyI4btgVcd/pub)
+
 
 
 # 9-March-2020
