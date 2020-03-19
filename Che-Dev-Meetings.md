@@ -18,7 +18,7 @@ The next Che dev meeting will take place on Monday March 23th 2020. You are welc
 * Team updates
 
 Recording: 
-
+https://youtu.be/DsxEwg-2-e0
 
 Minutes: [Google Doc](https://docs.google.com/document/d/e/2PACX-1vSxS9FHjEw4AOLKJtwZruJC9YBM4NG1kk05z7LjJphEwl25ne5MmI9gxFXC5A3XpCn-sppyI4btgVcd/pub)
 
