@@ -13,11 +13,11 @@ The next Che dev meeting will take place on Monday March 30th 2020. You are welc
 ## Agenda:
 1. Che commands as Theia tasks, what are the next steps? Following [15540#issuecomment-599462786](https://github.com/eclipse/che/issues/15540#issuecomment-599462786) and [12709#issuecomment-601769959](https://github.com/eclipse/che/issues/12709#issuecomment-601769959) (Sun)
 2. Che release candidate testing flow (Mykhailo)
-  what do we do about unreleased operator and chectl (7.9.2) when we need them to test che 7.9.2.RC bits?
-  Currently use nightly/next but if there are breaking changes in master, that won’t work (as we discovered during 7.9.2 / 7.11 last week)
-  Could we do RC builds for operator and chectl too?
-  Or just release them completely (full R, no RC pre-release) like we do for che-theia and registries?
-  It has been decided to start providing chectl:rc and che-operator:rc (dedicated  issue).
+  - what do we do about unreleased operator and chectl (7.9.2) when we need them to test che 7.9.2.RC bits?
+  - Currently use nightly/next but if there are breaking changes in master, that won’t work (as we discovered during 7.9.2 / 7.11 last week)
+  - Could we do RC builds for operator and chectl too?
+  - Or just release them completely (full R, no RC pre-release) like we do for che-theia and registries?
+  - It has been decided to start providing chectl:rc and che-operator:rc (dedicated  issue).
 3. Updates on progress made on the implementation of CoEditing Skeleton in Eclipse Che 7 (Live collaboration) - Quick Demo (Rijul/Sun)
 4. How to use Image digests instead of tags in time of Eclipse Che deployment by chectl? It seems we support it now but I can’t find the doc. (Dmytro)
 5. Docs PR (Sergii Kabashniuk)
