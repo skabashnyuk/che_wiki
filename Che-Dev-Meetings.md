@@ -6,8 +6,28 @@ It's open to anyone interested. You don't need to have a long history with Che t
 ## When and Where ##
 These meetings take place every [Monday, 7:00 AM PST](https://www.wolframalpha.com/input/?i=Monday+7%3A00+AM+PST). You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/2488406763). Chat link updated 18-Mar-19. Calendar [link](https://calendar.google.com/event?action=TEMPLATE&tmeid=NzBzajBjOWtjNG82Y2I5azYwcjMwYjlrNnNxMzhiYjFjY3A2OGI5bzc1Z21jcGhwY2NyamlkcjNjOF8yMDE5MDcwOFQxNTAwMDBaIHN1dGFuQHJlZGhhdC5jb20&tmsrc=sutan%40redhat.com).
 
-# Next meeting 23-Mar-2020
-The next Che dev meeting will take place on Monday March 23th 2020. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+# Next meeting 30-Mar-2020
+The next Che dev meeting will take place on Monday March 30th 2020. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+
+# 23-March-2020
+## Agenda:
+1. Che commands as Theia tasks, what are the next steps? Following https://github.com/eclipse/che/issues/15540#issue comment-599462786 and https://github.com/eclipse/che/issues/12709#issuecomment-601769959 (Sun)
+2. Che release candidate testing flow (Mykhailo)
+  what do we do about unreleased operator and chectl (7.9.2) when we need them to test che 7.9.2.RC bits?
+  Currently use nightly/next but if there are breaking changes in master, that won’t work (as we discovered during 7.9.2 / 7.11 last week)
+  Could we do RC builds for operator and chectl too?
+  Or just release them completely (full R, no RC pre-release) like we do for che-theia and registries?
+  It has been decided to start providing chectl:rc and che-operator:rc (dedicated  issue).
+3. Updates on progress made on the implementation of CoEditing Skeleton in Eclipse Che 7 (Live collaboration) - Quick Demo (Rijul/Sun)
+4. How to use Image digests instead of tags in time of Eclipse Che deployment by chectl? It seems we support it now but I can’t find the doc. (Dmytro)
+5. Docs PR (Sergii Kabashniuk)
+6. Area labels and triage instructions updated (Mario) 
+
+Recording: 
+https://youtu.be/2xWpUChqHr8
+
+Minutes: [Google Doc](https://docs.google.com/document/d/e/2PACX-1vSICRK0q1Qq9xP_BdYGFr-kRI9PlZJJHphAUzhkWPe0Qg4bsevoCQkeEWx5U1AWAmjKQEX3aupKEFwq/pub)
+
 
 # 16-March-2020
 ## Agenda:
