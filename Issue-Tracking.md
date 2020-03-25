@@ -53,7 +53,7 @@ We should look for:
 * [Issues waiting for analysis](https://github.com/eclipse/che/issues?q=is%3Aopen+is%3Aissue+label%3Astatus%2Fanalyzing)
 
 **Should the curator try to reproduce all the issues?**
-The curator doesn’t have the time to reproduce every issue. If it takes more than 15 min he should delegate it to a team leader. We do that labelling the issue as “team/xyz” + “status/2Fanalyzing” and assigning it to the team lead.
+The curator doesn’t have the time to reproduce every issue. If it takes more than 15 min he should delegate it to a team. We do that labelling the issue with the right areas + “status/analyzing” and assigning it to the corresponding team lead.
 
 **Should the curator set the issue milestone?**
-The curator should not set the issue milestone but, if the issue is a blocker, it should be part of current milestone. If it’s a P1 or P2 it depends on the team bandwidth (have they finished working on other P1s/P2s?) and on the risk of regressions. That said the curator may not be able to determine if it’s a blocker or not (ask @l0rd, @davidfestal @benoitf in that case) and if the corresponding team has bandwidth to work on it during the current sprint (just assign it to “team/xyz” or to a TL in that case).
+The curator should not set the issue milestone but, if the issue is a blocker, it should be part of current milestone. If it’s a P1 or P2 it depends on the corresponding team bandwidth (have they finished working on other P1s/P2s?) and on the risk of regressions. That said the curator may not be able to determine if it’s a blocker or not (ask @l0rd, @davidfestal @benoitf in that case) and if the corresponding teams have bandwidth to work on it during the current sprint.
