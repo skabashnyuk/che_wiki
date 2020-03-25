@@ -28,18 +28,18 @@ At the end of its working day the curator reports the triage summary in the [Ecl
 The curator changes every day and we are currently doing a bi-weekly rotation by Che team:
 
 **Week 0 (even weeks)**
-Monday: Hosted Che
-Tuesday: Platform
-Wednesday: Deploy
-Thursday: Productization + Community Enabler (Sun)
-Friday: Controller
+- Monday: Hosted Che
+- Tuesday: Platform
+- Wednesday: Deploy
+- Thursday: Productization + Community Enabler (Sun)
+- Friday: Controller
 
 **Week 1 (odd weeks)**
-Monday: Plugins
-Tuesday: Editors
-Wednesday: Devex
-Thursday: QE
-Friday: TBD
+- Monday: Plugins
+- Tuesday: Editors
+- Wednesday: Devex
+- Thursday: QE
+- Friday: TBD
 
 To be part of the list committers can request it on [Eclipse Che mattermost channel](https://mattermost.eclipse.org/eclipse/channels/eclipse-che) or with an email at che-dev@eclipse.org mailing list.
 
