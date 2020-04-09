@@ -11,7 +11,6 @@ The next Che dev meeting will take place on Monday April 13th 2020. You are welc
 
 # 6-April-2020
 ## Agenda:
-#Agenda
 1. Demo: Smartface Mobile Development IDE on Che (Smartface Team)
 2. License check for kubernetes-image-puller (planned to be contributed to the Eclipse Foundation but not clear where exactly - new-project, sub-project, part of ecdtools). How can we get the initial review without CQ:
 https://github.com/eclipse/che/issues/16321#issuecomment-608559780  (Ilya)
