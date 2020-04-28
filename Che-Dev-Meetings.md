@@ -6,8 +6,22 @@ It's open to anyone interested. You don't need to have a long history with Che t
 ## When and Where ##
 These meetings take place every [Monday, 7:00 AM PST](https://www.wolframalpha.com/input/?i=Monday+7%3A00+AM+PST). You can be part of the meeting (mic + chat + video cam) with [BlueJeans](https://bluejeans.com/2488406763). Chat link updated 18-Mar-19. Calendar [link](https://calendar.google.com/event?action=TEMPLATE&tmeid=NzBzajBjOWtjNG82Y2I5azYwcjMwYjlrNnNxMzhiYjFjY3A2OGI5bzc1Z21jcGhwY2NyamlkcjNjOF8yMDE5MDcwOFQxNTAwMDBaIHN1dGFuQHJlZGhhdC5jb20&tmsrc=sutan%40redhat.com).
 
-# Next meeting 27-April-2020
-The next Che dev meeting will take place on Monday April 27th 2020. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+# Next meeting 4-May-2020
+The next Che dev meeting will take place on Monday May 4th 2020. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+
+# 27-April-2020
+## Agenda:
+1. Improve ease of build / speed of release of Che Server and dependencies (Nick, Mykhailo, Sergii K)
+2. Z-stream release cadence (Nick, Anatoli)
+3. There will be a 7.12.1 release this week, please add any blockers you have to the issue. (Eric)
+4. Sprint Release Theme Proposal (Eric)
+5. Java 11 for Che server (Sergii Kabashniuk)
+
+Recording:
+https://youtu.be/5JNiuQ-vg-A
+
+Minutes: [Google Doc](https://docs.google.com/document/d/e/2PACX-1vTVHtnOe3zJUrhBAGQkPBKc92Nc79RdZYWDJLUQmtNichxGw_-mdi3-ubVtEn698DLLI2Kyk2ulb6P4/pub)
+
 
 # 6-April-2020
 ## Agenda:
