@@ -39,7 +39,7 @@ The curator changes every day and we are currently doing a bi-weekly rotation by
 - Tuesday: Editors
 - Wednesday: Devex
 - Thursday: QE
-- Friday: TBD
+- Friday: Documentation
 
 To be part of the list committers can request it on [Eclipse Che mattermost channel](https://mattermost.eclipse.org/eclipse/channels/eclipse-che) or with an email at che-dev@eclipse.org mailing list.
 
