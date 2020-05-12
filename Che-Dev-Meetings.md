@@ -17,7 +17,7 @@ The next Che dev meeting will take place on Monday May 18th 2020. You are welcom
 4. Codewind performance monitoring demo (Toby Corbin)
 
 Recording:
-https://youtu.be/
+https://youtu.be/GJ7fFsfBfbo
 
 Minutes: [Google Doc](https://docs.google.com/document/d/e/2PACX-1vTl7sz4Hk5fppyu88FQj_Lz2Tk1ECc-3Tf6_PEwpimFq7YI3J1nA54-Ut1WcqHmzTfttYq0StMvYgxF/pub)
 
