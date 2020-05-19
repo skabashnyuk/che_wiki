@@ -8,6 +8,16 @@ These meetings take place every [Monday, 7:00 AM PST](https://www.wolframalpha.c
 
 # Next meeting 18-May-2020
 The next Che dev meeting will take place on Monday May 18th 2020. You are welcome to add the topics you would like to discuss or propose a demo during the call: [Google Doc](https://docs.google.com/document/d/1duuavOXVAJNbzU8nIltraDKx5YH2Z34Qwx7AeLnhhzU/edit?usp=sharing)
+# 18-May-2020
+## Agenda:
+1. User Devfiles (Sergii Kabashniuk)
+2. Che6 factories and workspace deprecation. (Sergii Kabashniuk)
+3. Deprecating organization functionality at least until it's not reviewed and adapted (Sergii Leshchenko)
+
+Recording
+https://youtu.be/tqhz39I5y8M 
+
+Minutes: [Google Doc](https://docs.google.com/document/u/2/d/e/2PACX-1vRNNoDanjwoZYhtspP3P290ASZG-E2NpXDl39AnU7WiNBwD9xn4Yc6c1s3zIAeO9o-D0Sd_fTBXQzDE/pub)
 
 # 11-May-2020
 ## Agenda:
