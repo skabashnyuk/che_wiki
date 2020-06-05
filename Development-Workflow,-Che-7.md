@@ -1,15 +1,13 @@
-The best way to understand how a project works or to debug an issue is to get the source, built it, and run it locally. We document the best practices for developing improvements to the product. Eclipse Che has three major subsystems: the Che server, the agents running within a workspace, and the user dashboard (a JavaScript app). The workflow for each can be slightly different.
+The best way to understand how a project works or to debug an issue is to get the source, build it, and run it locally. We document the best practices for developing improvements to the product. Eclipse Che has several subsystems: the Che server, editors and plugins, and the user dashboard (a JavaScript app). The workflow for each can be slightly different.
 
 ## Build and Run From Source
 ### Dependencies
 * Docker 18+
 * Maven 3.5+
 * Oracle or OpenJDK Java 1.8
-* Go 1.10+
 
-The M2_HOME and M2 variables should be set correctly. OpenJDK Java 1.8 on Debian/Ubuntu linux requires "openjdk-8-jdk-headless" package. 
 
-To build the Che core, you will need the maven-patch-plugin. Windows [does not support this plugin](http://maven.apache.org/plugins/maven-patch-plugin/faq.html#Why_doesnt_this_work_on_Windows), and we give instructions on how to skip this plugin when building. You can also optionally modify your build to [download the patch tool](http://gnuwin32.sourceforge.net/packages/patch.htm) and then add the patch tool to your `PATH`.
+The M2_HOME and M2 variables should be set correctly. OpenJDK Java 1.8 on Debian/Ubuntu linux requires "openjdk-8-jdk-headless" package.
 
 To build the user dashboard submodule, you will need npm, bower, gulp, and python.
 - Python `v2.7.x`(`v3.x.x`currently not supported)
@@ -18,9 +16,9 @@ To build the user dashboard submodule, you will need npm, bower, gulp, and pytho
   - yarn 1.16+
   - typings
 
-Learn more about how to [build the dashboard submodule here](https://github.com/eclipse/che/tree/master/dashboard).
+Learn more about how to [build the dashboard here](https://github.com/eclipse/che-dashboard/blob/master/README.md).
+Learn more about how to [build the Che Theia here](https://github.com/eclipse/che-theia/blob/master/CONTRIBUTING.md).
 
-To [build the exec agent submodule](https://github.com/eclipse/che/tree/master/agents/exec), you will also need Go 1.10+. The exec agent submodule is a way to execute commands and stream process output logs with a websocket terminal. We use it as a replacement for "docker exec" CLI, as this gives us more fine-grained control over interacting with Docker containers.
 
 ### Clone
 If you haven't done so already, please clone the Che repository
@@ -43,23 +41,12 @@ mvn clean install
 cd che/assembly/assembly-main/target/eclipse-che-<version>/eclipse-che-<version>
 ```
 
-You can then run this with the CLI (complete reference can be found [here](https://www.eclipse.org/che/docs/docker-cli.html)):
-```sh
-docker run <DOCKER_OPTIONS> -v <path-to-repo>:/repo \
-                            -v <local-path>:/data \
-                            -v /var/run/docker.sock:/var/run/docker.sock \
-                            eclipse/che start
-```
 
 ```sh
 # You can build Che and all submodules in the root directory.
 cd che/
 mvn clean install
 
-# Each submodule may require additional software to build properly.
-# You can skip a submodule to avoid installing additional software.
-# For example, to skip building the dashboard:
-mvn -pl '!dashboard' clean install
 
 # There is additional software that you need to run unit tests and license checks.
 # Build faster by skipping unit tests and other enforcement features:
@@ -79,67 +66,29 @@ mvn -DskipTests=true \
 mvn clean install -Pfast
 ```
 
-### Build Submodules
-Building `/assembly` pulls already-built libraries for `/core`, `/plugins`, and `/dashboard` from our Nexus repository. You can build these submodules individually.
-
-To build the core:
-```sh
-# Install maven-patch-plugin as an additional dependency.
-cd che/core
-
-# Windows: maven-patch-plugin does not work, so skip tests when building:
-mvn -DskipTests=true -Dfindbugs.skip=true clean install
-```
-
-To build the user dashboard:
-```sh
-# You need npm, yarn, typings installed.
-# See setup instructions in /dashboard
-cd che/dashboard
-mvn clean install
-```
-Note: On windows with Docker Toolbox there are issues with symlinks
 
 ### Build Che Using Docker
-If you want to avoid setting up the dependencies to build Che and its submodules, we provide a Docker image that has the dependencies necessary to build Che. You can mount Che source code from your host to the container and then compile the code within the container. 
+If you want to avoid setting up the dependencies to build Che, we provide a Docker image that has the dependencies necessary to build Che. You can mount Che source code from your host to the container and then compile the code within the container. 
 ```sh
 # For Mac + Linux - replace $PWD with the root path to build:
-docker run -it --rm --name build-che 
-           -v "$HOME/.m2:/home/user/.m2" 
-           -v "$PWD":/home/user/che-build 
-           -w /home/user/che-build 
-           eclipse/che-dev 
-           mvn -DskipTests=true 
-               -Dfindbugs.skip=true
-               -T 1C 
-               -Dmdep.analyze.skip=true 
-               -Dlicense.skip=true
-               -Pnative
-               clean install
+docker run -it --rm  --name build-che \
+      -v $HOME/.m2:/home/user/.m2:z \
+      -v $PWD:/projects/che:z \
+      -w /projects/che \
+      quay.io/eclipse/che-java8-maven:nightly \
+       mvn clean install -Pfast
                
 # For Windows, replace $HOME with maven repo directory.
 # For Windows, replace $PWD with Che source code directory.
 ```
 
-### Developers on Windows
-The dashboard requires OS-specific libraries to complete compilation. This may fail on Windows. You can use the `eclipse/che-dev` Docker image to compile the code which contains all of the dependencies. 
-
-Alternatively, you can skip building submodules by using `-pl '!dashboard'` with the maven command line.
-
 ## Validate Your Changes
-We have integrated findbugs into the maven build system to generate warnings during the build. If your code generates new warnings or errors from findbugs, you must eliminate those issues before submitting the pull request. You can skip these checks by passing `-Dfindbugs.skip=true` to the maven build.
-
 We have integrated [Error Prone](https://github.com/google/error-prone) to check the state of code when you execute a maven build. Error prone verification is required to pass for all code submissions.
 
 License checks for submitted files are done within a maven build. You can skip these license checks with `-Dlicense.skip` maven option.
  
 ## IDE Setup
-You can build (and run) Che from within another IDE. Our engineers use Eclipse, IntelliJ, VSCode, and Che itself for development. See https://github.com/eclipse/che/blob/master/devfile.yaml if you want to build Che from within Che.
-
-### Eclipse IDE - Yatta Installer
-Yatta is great and they [maintain an Oomph installer](https://profiles.yatta.de/iQBd) for Eclipse Che. It will install Eclipse, some additional Eclipse plugins, and checkout the Che source code. If you are using OpenJDK on your system, you will need to install OpenJFX first.
-
-We recommend that you deactivate automatic builds in Eclipse to disable running maven in places you do not want it to. 
+You can build (and run) Che from within another IDE. Our engineers use Eclipse, IntelliJ, VSCode, and Che itself for development. See https://github.com/eclipse/che/blob/master/devfile.yaml if you want to build Che from within Che. 
 
 ### Eclipse IDE - Classic Installer
 You can use the standard Eclipse installer. Make sure you are using the [Eclipse IDE for Java](https://www.eclipse.org/downloads/eclipse-packages/) configured with the maven plugin.
@@ -174,37 +123,8 @@ CHE_ENVIRONMENT="development"
 
 Start Che in development mode which is activated by passing `--debug` to any command on the CLI.
 
-### Debugging Workspace Agent
-The workspace agent deployed by Che into your workspace is always using Tomcat, which starts with JPDA mode by default. You can identify the address and port of the debugger: 
-```
-Dashboard -> Workspaces -> Runtime tab -> Servers
-
-# Find the server with the `wsagent.debug` reference
-wsagent.debug 4403 http	http://172.17.0.1:40037
-```
-
-## Profiling
-The Che server and the primary workspace agent deployed within a workspace have JVM runtimes. We use JProfiler as the primary performance profiling utility for the JVMs that are running within each of these notes. Our servers are running within Docker containers for each of these nodes. JProfiler needs to be added, configured, and exposed within the Dockerfiles used to run Che or a workspace. JProfiler will need an additional port exposed and you will have to find the ephemeral port mapping of the container when it is running.
-
-```
-# Dockerfile configuration for a workspace stack recipe with JProfiler
-FROM eclipse/ubuntu_jdk8
-
-RUN wget -q http://download-aws.ej-technologies.com/jprofiler/jprofiler_linux_8_1_2.tar.gz -P /tmp/ &&\
-  sudo tar -xzf /tmp/jprofiler_linux_8_1_2.tar.gz -C /usr/local &&\
-  rm /tmp/jprofiler_linux_8_1_2.tar.gz
-
-ENV CATALINA_OPTS=" $CATALINA_OPTS -Dcom.sun.management.jmxremote.ssl=false \
-                   -Dcom.sun.management.jmxremote.authenticate=false \
-                   -agentpath:/usr/local/jprofiler8/bin/linux-x64/libjprofilerti.so=8849"
-
-EXPOSE 8849
-```
-You then start a workspace that uses this recipe. Once started, you can use the Che workspace REST APIs to find the ephemeral port for `8849` or you can run `docker inspect <ws-container-id` which will provide the same info. Use the ephemeral port when making a profiler connection.
 ## Logging
 We use SLF4J for logging within the IDE and [Logback](http://logback.qos.ch/manual/configuration.html) within server-side extensions.
-
-For client-side logging, import `org.eclipse.che.ide.util.loging.Log` and then [register log messages](https://github.com/eclipse/che/blob/master/plugins/plugin-machine/che-plugin-machine-ext-client/src/main/java/org/eclipse/che/ide/extension/machine/client/perspective/terminal/TerminalPresenter.java#L136-136). These messages are only logged on the client-side and can be viewed and filtered from the browser console.
 
 For server-side logging, add [Logback as a maven dependency](https://github.com/eclipse/che/blob/master/core/commons/che-core-commons-schedule/pom.xml#L48-L55) and then make [logging calls to your code](https://github.com/eclipse/che/blob/master/core/commons/che-core-commons-schedule/src/test/java/org/eclipse/che/commons/schedule/executor/CronExpressionTest.java#L159). To change the level of log messages that are displayed, add a [Logback configuration file to the module](https://github.com/eclipse/che/blob/master/core/commons/che-core-commons-schedule/src/test/resources/logback-test.xml).
 
@@ -299,24 +219,13 @@ In order to keep the conversation clear and transparent, please limit discussion
 Our repository is broken in a variety of independently buildable submodules.
 ```
 /che
-/che/agents                            # Software deployed into workspaces
-/che/agents/exec                       # Embedded web terminal
-/che/agents/ls-csharp                  # C# intellisense
-/che/agents/ls-json                    # JSON intellisense
-/che/agents/ls-python                  # Python intellisense
-/che/agents/ls-php                     # PHP intellisense
-/che/agents/ls-typescript              # TypeScript intellisense
-/che/agents/unison                     # Unison file synchronizer
-/che/agents/ssh                        # SSH server
 /che/assembly                          # Generates binary assemblies of Che
 /che/assembly/assembly-main            # Final packaging phase
 /che/assembly/assembly-ide-war         # Creates the IDE.war from plug-ins & core
 /che/assembly/assembly-machine-war     # Creates the agent WAR from plug-ins & core
 /che/assembly/assembly-machine-server  # Creates the agent server that goes into ws
 /che/core                              # Shared libraries for server, agents, and plugins
-/che/dashboard                         # JavaScript app user management
 /che/dockerfiles                       # Docker images to run Che, CLI, & utilities
-/che/ide                               # The browser-based IDE
 /che/samples                           # Code templates injected into new workspaces
 ```
 
@@ -324,8 +233,8 @@ Our repository is broken in a variety of independently buildable submodules.
 Some dependencies are managed in separate repositories as part of the `http://github.com/eclipse` organization. These dependencies are forks of other important projects, contain shared libraries that need to be managed on a different tagging lifecycle than Che, or have very large files within them (such as docs).
 ```
 https://github.com/eclipse/che-parent
-https://github.com/eclipse/che-lib
-https://github.com/eclipse/che-dev
+https://github.com/eclipse/che-dashboard
+https://github.com/eclipse/che-workspace-loader
 
 https://github.com/eclipse/che-dockerfiles
 https://github.com/eclipse/che-docs
@@ -455,4 +364,3 @@ HOW TO of usage:
     Analyse tests results:
         ./selenium-tests.sh --compare-with-ci [CI job number]
 ```
-
